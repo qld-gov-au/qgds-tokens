@@ -1,0 +1,13 @@
+{
+  "name": "qgds-designers",
+  "version": "1.0.0",
+  "description": "This repository is configured to sync tokens via Figma.",
+  "main": "index.js",
+  "scripts": {
+    "sync": "node util/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
