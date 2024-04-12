@@ -4,13 +4,14 @@
   "description": "This repository is configured to sync tokens via Figma.",
   "main": "index.js",
   "scripts": {
-    "sync": "node util/main.js",
+    "build-tokens": "style-dictionary build",
     "test": "jest tests/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "style-dictionary": "^3.9.2"
   }
 }
