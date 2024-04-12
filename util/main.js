@@ -19,10 +19,14 @@ function convertToScss(tokensJson) {
         if (themeData.color) {
             for (const category in themeData.color) {
                 const categoryData = themeData.color[category];
-                for (const color in categoryData) {
-                    const colorData = categoryData[color];
-                    const scssVariableName = `--QLD-color-${category}-${color}`;
-                    scssOutput += `${scssVariableName}: ${colorData.value};\n`;
+                if (typeof categoryData === 'object') {
+                    for (const color in categoryData) {
+                        const colorData = categoryData[color];
+                        if (colorData.value) {
+                            const scssVariableName = `--QLD-color-${category}-${color}`;
+                            scssOutput += `${scssVariableName}: ${colorData.value};\n`;
+                        }
+                    }
                 }
             }
         }
@@ -43,7 +47,7 @@ async function main() {
         console.log(scssOutput);
         
         // Optionally, save to a file
-        fs.writeFile('./dist/output.scss', scssOutput, (err) => {
+        fs.writeFile('./dist/qld-variables.scss', scssOutput, (err) => {
             if (err) throw err;
             console.log('The SCSS has been saved!');
         });
