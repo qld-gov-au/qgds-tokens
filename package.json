@@ -1,6 +1,6 @@
 {
   "name": "@qgds/qgds-tokens",
-  "version": "0.0.1-alpha",
+  "version": "0.0.1",
   "description": "This repository is configured to sync tokens via Figma.",
   "main": "index.js",
   "scripts": {

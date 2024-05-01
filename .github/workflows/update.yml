@@ -1,8 +1,9 @@
-name: Auto Update
+## See https://github.com/marella/material-symbols/blob/main/.github/workflows/update.yml where inspiration for this script came from
+name: Version Increment
 
 on:
   schedule:
-    - cron: '23 1 * * *' # Runs at 01:23 UTC every day
+    - cron: '23 1 * * MON' # Runs at 01:23 UTC on Monday
   workflow_dispatch:
     inputs:
       force:
@@ -22,7 +23,10 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    env:
+      HAVE_GIT_DEPLOY_KEY: ${{ secrets.DEPLOY_KEY != '' }}
     steps:
+
       - uses: actions/checkout@v4
         with:
           ssh-key: ${{ secrets.DEPLOY_KEY }}
@@ -55,6 +59,7 @@ jobs:
 
 
       - run: npm ci
+
       - name: Update
         run: |
           force="${{ github.event.inputs.force }}"
@@ -64,28 +69,25 @@ jobs:
             bump="patch"
           fi
 
-          # Check for Updates
-          status=0
-          npm run check || status=$?
-          if [ $status -eq 0 ] || [ $status -eq 4 ]; then
-            if [ "$force" != "1" ]; then
-              exit 0 # exit if there are no changes or if icons are only removed
-            fi
-          fi
-          if [ $status -ge 4 ]; then
-            bump="minor" # icons are removed from metadata API
-          fi
-
-          # Update
-          npm run update
-          git add --all # Use 'git add --ignore-removal .' to keep deleted SVGs
-          git commit -m 'Auto Update' || [ "$force" = "1" ] || exit 1
-
           # Bump Version
-          npm run version "$bump"
+          npm version "$bump"
 
+
+      - name: Push git tags
+        if: ${{ env.HAVE_GIT_DEPLOY_KEY == 'true' }}
+        run: |
+          dry="${{ github.event.inputs.dry }}"
           # Push
           if [ "$dry" = "1" ]; then
             exit 0
           fi
           git push --follow-tags
+
+      - name: Git Commit - Is Skipped
+        if: ${{ env.HAVE_GIT_DEPLOY_KEY != 'true' }}
+        run: |
+          echo "### Deployment config not configured" >> $GITHUB_STEP_SUMMARY
+          echo "secrets.DEPLOY_KEY not existing, npm version can't be pushed" >> $GITHUB_STEP_SUMMARY
+          echo "If this is a fork, please setup your own personal service account to publish to your own repo" >> $GITHUB_STEP_SUMMARY
+          echo "## We recommend using a service account with the least permissions necessary."  >> $GITHUB_STEP_SUMMARY
+          echo "[Learn more about creating and using encrypted secrets](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets)"  >> $GITHUB_STEP_SUMMARY
