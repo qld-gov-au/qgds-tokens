@@ -117,8 +117,9 @@ jobs:
         run: |
           echo "replacing npm scope to repo owner GITHUB_REPOSITORY_OWNER = $GITHUB_REPOSITORY_OWNER"
           temp_file=$(mktemp)
-          awk -v scope="$GITHUB_REPOSITORY_OWNER" '{
-                if (tolower($0) ~ /"name": "@[a-zA-Z0-9_-]+\//) {
+          package=${GITHUB_REPOSITORY_OWNER,,}
+          awk -v scope="$package" '{
+                if ($0 ~ /"name": "@[a-zA-Z0-9_-]+\//) {
                     sub(/@[a-zA-Z0-9_-]+\//, "@" scope "/")
               }
                 print
