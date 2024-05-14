@@ -11,7 +11,7 @@ describe('SCSS Properties Count', () => {
     const regex = /\$[a-zA-Z0-9-]+:/g;
     const match = fileContent.match(regex);
 
-    const expectedPropertyCount = 90; // Example expected count. Adjust this as necessary.
+    const expectedPropertyCount = 96; // Example expected count. Adjust this as necessary.
     expect(match).toHaveLength(expectedPropertyCount);
   });
 });
