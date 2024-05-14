@@ -8,6 +8,8 @@ changelog:
         labels:
           - Semver-Major
           - breaking-change
+          - Major---Name-Change
+          - "Major - Name Change"
     - title: 🏕 Features
       labels:
         - '*'
