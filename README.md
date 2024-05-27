@@ -9,11 +9,26 @@
 ### Using this repository:
 1. Figma variables are exported to ./figma/tokens.json 
 2. Run:
-```javascript 
+```bash 
     npm run build-tokens
 ``` 
 
 ### Verify outputs
-```javascript
+```bash
    npm run test
 ```
+
+### CI
+```bash
+   npm run ci
+```
+
+## Publish system
+
+There is two publish subsystems, one is to npmjs and the other is to github repo package
+
+### Github package repository
+
+ Still work in progress:
+ * currently missing cleanup prior to publishing latest tag
+ * needs to publish when a version is cut (including incrementing package.json version if not same)
