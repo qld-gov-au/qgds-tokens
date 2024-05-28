@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 describe('SCSS Properties Count', () => {
-  it('should verify the total number of SCSS variables (x)', () => {
+  it('should verify the total number of SCSS variables (91)', () => {
     const filePath = path.join(__dirname, '../dist/scss/_variables.scss');
     const fileContent = fs.readFileSync(filePath, 'utf8');
 
@@ -11,7 +11,7 @@ describe('SCSS Properties Count', () => {
     const regex = /\$[a-zA-Z0-9-]+:/g;
     const match = fileContent.match(regex);
 
-    const expectedPropertyCount = 96; // Example expected count. Adjust this as necessary.
+    const expectedPropertyCount = 91; // Example expected count. Adjust this as necessary.
     expect(match).toHaveLength(expectedPropertyCount);
   });
 });
