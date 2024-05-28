@@ -5,11 +5,11 @@
 changelog:
   categories:
     - title: Breaking Changes 🛠
-        labels:
-          - Semver-Major
-          - breaking-change
-          - Major---Name-Change
-          - "Major - Name Change"
+      labels:
+        - Semver-Major
+        - breaking-change
+        - Major---Name-Change
+        - "Major - Name Change"
     - title: 🏕 Features
       labels:
         - '*'
