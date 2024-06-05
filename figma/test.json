@@ -315,13 +315,13 @@
             "description": "Darker shade of the light background. Used as fills for elements such as accordions and call outs on top of light backgrounds."
           },
           "alt": {
-            "value": "#e8e8e8",
+            "value": "#f4f4f4",
             "type": "color",
             "parent": "Color/Value",
             "description": "Primary background colour when using light palette"
           },
           "alt-shade": {
-            "value": "#e0e0e0",
+            "value": "#d6eff4",
             "type": "color",
             "parent": "Color/Value",
             "description": "Darker shade of the Alt background. Used to slightly shade elements such as accordions and call outs on top of the Alt background."
@@ -339,7 +339,7 @@
             "description": "Decorative border colour used on light backgrounds"
           },
           "alt": {
-            "value": "#7a7a7a",
+            "value": "#6F8690",
             "type": "color",
             "parent": "Color/Value",
             "description": "Border colour for form borders on all light backgrounds. Must meet contrast ratio of 3:1 across all light backgrounds"
@@ -347,25 +347,25 @@
         },
         "action": {
           "primary": {
-            "value": "#09549f",
+            "value": "#06658A",
             "type": "color",
             "parent": "Color/Value",
             "description": "Colour of primary actions / buttons used on a light themed container"
           },
           "primary-hover": {
-            "value": "#003e7d",
+            "value": "#161616",
             "type": "color",
             "parent": "Color/Value",
             "description": "Hover colour for primary actions / buttons"
           },
           "secondary": {
-            "value": "#005b23",
+            "value": "#009BAD",
             "type": "color",
             "parent": "Color/Value",
             "description": "Colour for secondary actions. Button border for secondary action buttons. Icon colour for icon actions."
           },
           "secondary-hover": {
-            "value": "#005b23",
+            "value": "#161616",
             "type": "color",
             "parent": "Color/Value",
             "description": "Hover colour for secondary actions"
@@ -373,19 +373,19 @@
         },
         "link": {
           "on-action": {
-            "value": "#ffffff",
+            "value": "#06658A",
             "type": "color",
             "parent": "Color/Value",
             "description": "Colour for text/icons on a primary action button"
           },
           "default": {
-            "value": "#09549f",
+            "value": "#046994",
             "type": "color",
             "parent": "Color/Value",
             "description": "Default underline colour for underlining links to assist with accessibility and readability."
           },
           "visited": {
-            "value": "#551a8b",
+            "value": "#551A8B",
             "type": "color",
             "parent": "Color/Value",
             "description": "Colour for visited links"
@@ -393,7 +393,7 @@
         },
         "accent": {
           "design-accent": {
-            "value": "#6BBE27",
+            "value": "#FFD559",
             "type": "color",
             "parent": "Color/Value",
             "description": "Brand accent colour, used for key highlights and content dividers. Purely decorative and do not require an accessibility check."
@@ -401,7 +401,7 @@
         },
         "focus": {
           "default": {
-            "value": "#0085B3",
+            "value": "#02A2B5",
             "type": "color",
             "parent": "Color/Value",
             "description": "Focus colour should be as consistent as possible and ideally not the same as any action colour. Focus colours must meet a contrast ratio of 3:1."
@@ -409,7 +409,7 @@
         },
         "underline": {
           "default": {
-            "value": "#3f7ab4",
+            "value": "#1B88B7",
             "type": "color",
             "parent": "Color/Value",
             "description": "Default underline colour for underlining links to assist with accessibility and readability."
@@ -435,7 +435,7 @@
         },
         "text": {
           "default": {
-            "value": "#414141",
+            "value": "#333333",
             "type": "color",
             "parent": "Color/Value",
             "description": "Text colours are indicated by the text icon. All text contrast must meet WCAG 2.0 Level AA conformance which means a contrast ration of 4.5:1"
@@ -447,45 +447,45 @@
             "description": "Lighter text used for inactive states, captions, and secondary information."
           },
           "heading": {
-            "value": "#04284c",
+            "value": "#003549",
             "type": "color",
             "parent": "Color/Value",
             "description": "Heading colours within text. These should be shades of your brand colour and if posisble different from primary action and link colours so the user does not interpret them as clickable."
           }
         },
         "site-title": {
-          "value": "#022a50",
+          "value": "#022A50",
           "type": "color",
           "parent": "Color/Value",
           "description": "Colour for title of site in header component"
         },
         "crest-fill": {
-          "value": "#1D1D1D",
+          "value": "#022A50",
           "type": "color"
         }
       },
       "dark": {
         "background": {
           "default": {
-            "value": "#09549F",
+            "value": "#046994",
             "type": "color",
             "parent": "Color/Value",
             "description": "Primary background colour when using Dark palette"
           },
           "default-shade": {
-            "value": "#04498f",
+            "value": "#005C84",
             "type": "color",
             "parent": "Color/Value",
             "description": "Darker shade of the Primary Dark background. Used as fills for elements such as accordions and call outs on top of dark backgrounds."
           },
           "alt": {
-            "value": "#05325F",
+            "value": "#080707",
             "type": "color",
             "parent": "Color/Value",
             "description": "Secondary background colour when using Dark palette"
           },
           "alt-shade": {
-            "value": "#052c53",
+            "value": "#161616",
             "type": "color",
             "parent": "Color/Value",
             "description": "Darker shade of the Secondary Dark background. Used as fills for elements such as accordions and call outs on top of dark backgrounds."
@@ -493,13 +493,13 @@
         },
         "border": {
           "default": {
-            "value": "#1d9ac6",
+            "value": "#4A93B3",
             "type": "color",
             "parent": "Color/Value",
             "description": "Decorative border colour used on dark primary backgrounds"
           },
           "alt": {
-            "value": "#09acfe",
+            "value": "#09ACFE",
             "type": "color",
             "parent": "Color/Value",
             "description": "Border colour for form borders on all dark backgrounds. Must meet contrast ratio of 3:1 across all dark backgrounds"
@@ -507,25 +507,25 @@
         },
         "action": {
           "primary": {
-            "value": "#78ba00",
+            "value": "#FFE03D",
             "type": "color",
             "parent": "Color/Value",
             "description": "Colour of primary actions / buttons used on a dark themed container"
           },
           "primary-hover": {
-            "value": "#add33f",
+            "value": "#FFFFFF",
             "type": "color",
             "parent": "Color/Value",
             "description": "Hover colour for primary actions / buttons"
           },
           "secondary": {
-            "value": "#FFE500",
+            "value": "#FFD559",
             "type": "color",
             "parent": "Color/Value",
             "description": "Colour for secondary actions. Button border for secondary action buttons. Icon colour for icon actions."
           },
           "secondary-hover": {
-            "value": "#ffef60",
+            "value": "#FFFFFF",
             "type": "color",
             "parent": "Color/Value",
             "description": "Hover colour for secondary actions"
@@ -533,19 +533,19 @@
         },
         "link": {
           "default": {
-            "value": "#ffffff",
+            "value": "#B8EDFE",
             "type": "color",
             "parent": "Color/Value",
             "description": "Colour for hyperlink text when using dark palette"
           },
           "visited": {
-            "value": "#e1bbee",
+            "value": "#E1BBEE",
             "type": "color",
             "parent": "Color/Value",
             "description": "Colour for visited links when using dark palettes"
           },
           "on-action": {
-            "value": "#121940",
+            "value": "#005C83",
             "type": "color",
             "parent": "Color/Value",
             "description": "Colour for text/icons on a primary action button"
@@ -553,7 +553,7 @@
         },
         "accent": {
           "design-accent": {
-            "value": "#6BBE27",
+            "value": "#FFFFFF",
             "type": "color",
             "parent": "Color/Value",
             "description": "Brand accent colour, used for key highlights and content dividers. Purely decorative and do not require an accessibility check."
@@ -561,7 +561,7 @@
         },
         "focus": {
           "default": {
-            "value": "#01b0e5",
+            "value": "#EDF5F9",
             "type": "color",
             "parent": "Color/Value",
             "description": "Focus colour should be as consistent as possible and ideally not the same as any action colour. Focus colours must meet a contrast ratio of 3:1."
@@ -569,7 +569,7 @@
         },
         "underline": {
           "default": {
-            "value": "#b5cce2",
+            "value": "#83BED8",
             "type": "color",
             "parent": "Color/Value",
             "description": "Default underline colour for underlining links to assist with accessibility and readability."
@@ -581,7 +581,7 @@
             "description": "Hover colour for link underline."
           },
           "visited": {
-            "value": "#e1c2ff",
+            "value": "#E1C2FF",
             "type": "color",
             "parent": "Color/Value",
             "description": "Visited link underline colour for underlining links to assist with accessibility and readability."
@@ -595,13 +595,13 @@
         },
         "text": {
           "default": {
-            "value": "#ffffff",
+            "value": "#F4F4F4",
             "type": "color",
             "parent": "Color/Value",
             "description": "Heading colours within text. These should be shades of your brand colour and if possible different from primary action and link colours so the user does not interpret them as clickable."
           },
           "lighter": {
-            "value": "#deebf9",
+            "value": "#E9EAEA",
             "type": "color",
             "parent": "Color/Value",
             "description": "Lighter text used for inactive states, captions, and secondary information."
