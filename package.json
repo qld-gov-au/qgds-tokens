@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build-tokens": "style-dictionary build",
-    "build": "npm run build-tokens",
+    "build": "node build.js",
     "ci": "npm-run-all build test",
     "test": "jest tests/"
   },
