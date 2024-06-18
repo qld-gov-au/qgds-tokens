@@ -2,9 +2,8 @@
   "source": ["figma/*.json"],
   "platforms": {
     "scss": {
-      "transformGroup": "scss",
+      "transformGroup": "scss-with-static",
       "buildPath": "dist/scss/",
-      "transforms": ["attribute/cti", "name/cti/kebab", "merge-static-variables"],
       "files": [
         {
           "destination": "_variables.scss",

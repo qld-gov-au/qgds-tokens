@@ -1,29 +1,33 @@
 const StyleDictionary = require('style-dictionary');
 
-// Register a custom format for SCSS variables
+const PREFIX = 'qld';
+
+// Register a custom format for SCSS variables with renaming
 StyleDictionary.registerFormat({
   name: 'scss/variables-with-renaming',
   formatter: function({ dictionary }) {
     return dictionary.allProperties.map(prop => {
       // Rename the variable
-      const name = prop.name.replace(/^core-default-color|color-default-color/, 'qld');
+      const name = prop.name.replace(/^core-default-color|color-default-color/, PREFIX);
       return `$${name}: ${prop.value};`;
     }).join('\n');
   }
 });
 
-// Register a custom format for SCSS map
+// Register a custom format for SCSS map with renaming
 StyleDictionary.registerFormat({
   name: 'scss/map-flat-with-renaming',
   formatter: function({ dictionary, options }) {
-    return `$${options.mapName}: (\n${dictionary.allProperties.map(prop => {
+    const mapName = options.mapName || 'qld-tokens';
+    return `$${mapName}: (\n${dictionary.allProperties.map(prop => {
       // Rename the variable
-      const name = prop.name.replace(/^core-default-color|color-default-color/, 'qld');
+      const name = prop.name.replace(/^core-default-color|color-default-color/, PREFIX);
       return `  '${name}': ${prop.value}`;
     }).join(',\n')}\n);`;
   }
 });
 
+// Static variables to be included
 const staticVariables = {
   "core-default-color-status-caution-default": "#ffcc2c",
   "core-default-color-status-caution-darker": "#B38800",
@@ -55,29 +59,11 @@ StyleDictionary.registerTransform({
   }
 });
 
-// Register the custom transformGroup to include our transform
+// Register a custom transform group that includes the merge-static-variables transform
 StyleDictionary.registerTransformGroup({
   name: 'scss-with-static',
-  transforms: StyleDictionary.transformGroup['scss'].concat(['merge-static-variables'])
+  transforms: ['attribute/cti', 'name/cti/kebab', 'merge-static-variables']
 });
 
-StyleDictionary.extend({
-  source: ["figma/*.json"],
-  platforms: {
-    scss: {
-      transformGroup: "scss-with-static",
-      buildPath: "dist/scss/",
-      files: [
-        {
-          destination: "_variables.scss",
-          format: "scss/variables-with-renaming"
-        },
-        {
-          destination: "_map.scss",
-          format: "scss/map-flat-with-renaming",
-          mapName: "qld-tokens"
-        }
-      ]
-    }
-  }
-}).buildAllPlatforms();
+// Extend Style Dictionary configuration and build all platforms
+StyleDictionary.extend('style-dictionary.config.json').buildAllPlatforms();
