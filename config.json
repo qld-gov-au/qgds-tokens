@@ -1,20 +1,20 @@
 {
-    "source": ["figma/*.json"],
-    "platforms": {
-      "scss": {
-        "transformGroup": "scss",
-        "buildPath": "dist/scss/",
-        "files": [
-          {
-            "destination": "_variables.scss",
-            "format": "scss/variables"
-          },
-          {
-            "destination": "_map.scss",
-            "format": "scss/map-flat",
-            "mapName": "qld-tokens"
-          }
-        ]
-      }
+  "source": ["figma/*.json"],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss-with-static",
+      "buildPath": "dist/scss/",
+      "files": [
+        {
+          "destination": "_variables.scss",
+          "format": "scss/variables-with-renaming"
+        },
+        {
+          "destination": "_map.scss",
+          "format": "scss/map-flat-with-renaming",
+          "mapName": "qld-tokens"
+        }
+      ]
     }
   }
+}

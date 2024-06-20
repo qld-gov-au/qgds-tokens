@@ -6,6 +6,7 @@
   "scripts": {
     "build-tokens": "style-dictionary build",
     "build": "node build.js",
+    "format-icons": "cd lib && node formatter.js",
     "ci": "npm-run-all build test",
     "test": "jest tests/"
   },
@@ -14,7 +15,8 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0",
-    "style-dictionary": "^3.9.2",
-    "npm-run-all2": "^6.1.2"
+    "jsdom": "^24.1.0",
+    "npm-run-all2": "^6.1.2",
+    "style-dictionary": "^3.9.2"
   }
 }

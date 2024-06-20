@@ -53,6 +53,7 @@ const staticVariables = {
 StyleDictionary.registerTransform({
   name: 'merge-static-variables',
   type: 'value',
+  transitive: true,
   transformer: (prop) => {
     const key = prop.path.join('-');
     return staticVariables[key] || prop.value;
@@ -66,4 +67,23 @@ StyleDictionary.registerTransformGroup({
 });
 
 // Extend Style Dictionary configuration and build all platforms
-StyleDictionary.extend('style-dictionary.config.json').buildAllPlatforms();
+StyleDictionary.extend({
+  source: ["figma/*.json"],
+  platforms: {
+    scss: {
+      transformGroup: "scss-with-static",
+      buildPath: "dist/scss/",
+      files: [
+        {
+          destination: "_variables.scss",
+          format: "scss/variables-with-renaming"
+        },
+        {
+          destination: "_map.scss",
+          format: "scss/map-flat-with-renaming",
+          mapName: "qld-tokens"
+        }
+      ]
+    }
+  }
+}).buildAllPlatforms();
