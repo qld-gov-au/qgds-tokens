@@ -2,6 +2,28 @@ const StyleDictionary = require('style-dictionary');
 
 const PREFIX = 'qld';
 
+// Static variables to be included
+const staticVariables = {
+  "core-default-color-status-caution-default": "#ffcc2c",
+  "core-default-color-status-caution-darker": "#B38800",
+  "core-default-color-status-caution-lighter": "#fff2c9",
+  "core-default-color-status-caution-lightest": "#fffaea",
+  "core-default-color-status-info-default": "#0085b3",
+  "core-default-color-status-info-darker": "#006a8f",
+  "core-default-color-status-info-lighter": "#e5eef5",
+  "core-default-color-status-info-lightest": "#eff4f9",
+  "core-default-color-status-error-default": "#e22339",
+  "core-default-color-status-error-darker": "#8a1220",
+  "core-default-color-status-error-lighter": "#fdf0f0",
+  "core-default-color-status-error-lightest": "#fff6f6",
+  "core-default-color-status-success-default": "#339d37",
+  "core-default-color-status-success-darker": "#0a690d",
+  "core-default-color-status-success-lighter": "#f2faf4",
+  "core-default-color-status-success-lightest": "#f7fbf8",
+  "core-default-color-status-underline-light": "#ffffffb8",
+  "core-default-color-status-underline-dark": "#03213fb8"
+};
+
 // Register a custom format for SCSS variables with renaming
 StyleDictionary.registerFormat({
   name: 'scss/variables-with-renaming',
@@ -27,28 +49,6 @@ StyleDictionary.registerFormat({
   }
 });
 
-// Static variables to be included
-const staticVariables = {
-  "core-default-color-status-caution-default": "#ffcc2c",
-  "core-default-color-status-caution-darker": "#B38800",
-  "core-default-color-status-caution-lighter": "#fff2c9",
-  "core-default-color-status-caution-lightest": "#fffaea",
-  "core-default-color-status-info-default": "#0085b3",
-  "core-default-color-status-info-darker": "#006a8f",
-  "core-default-color-status-info-lighter": "#e5eef5",
-  "core-default-color-status-info-lightest": "#eff4f9",
-  "core-default-color-status-error-default": "#e22339",
-  "core-default-color-status-error-darker": "#8a1220",
-  "core-default-color-status-error-lighter": "#fdf0f0",
-  "core-default-color-status-error-lightest": "#fff6f6",
-  "core-default-color-status-success-default": "#339d37",
-  "core-default-color-status-success-darker": "#0a690d",
-  "core-default-color-status-success-lighter": "#f2faf4",
-  "core-default-color-status-success-lightest": "#f7fbf8",
-  "core-default-color-status-underline-light": "#ffffffb8",
-  "core-default-color-status-underline-dark": "#03213fb8"
-};
-
 // Merge static variables into the dictionary
 StyleDictionary.registerTransform({
   name: 'merge-static-variables',
@@ -56,6 +56,9 @@ StyleDictionary.registerTransform({
   transitive: true,
   transformer: (prop) => {
     const key = prop.path.join('-');
+    if (staticVariables[key]) {
+      console.log(`Replacing ${key}: ${prop.value} with ${staticVariables[key]}`);
+    }
     return staticVariables[key] || prop.value;
   }
 });
