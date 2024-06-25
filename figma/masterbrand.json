@@ -289,6 +289,130 @@
       }
     }
   },
+  "Core/Status": {
+    "color": {
+      "status": {
+        "caution": {
+          "default": {
+            "value": "#ffcc2c",
+            "type": "color",
+            "parent": "Core/Mode 1",
+            "description": "Caution colour for Status and Alerts. This colour is reserved only for Status/Alerts and cannot be modified."
+          },
+          "darker": {
+            "value": "#B38800",
+            "type": "color",
+            "parent": "Core/Mode 1",
+            "description": "General information colour for Status and Alerts. This colour is reserved only for Status/Alerts and cannot be modified."
+          },
+          "lighter": {
+            "value": "#fff2c9",
+            "type": "color",
+            "parent": "Core/Mode 1",
+            "description": "Caution colour for Status and Alerts. This colour is reserved only for Status/Alerts and cannot be modified."
+          },
+          "lightest": {
+            "value": "#fffaea",
+            "type": "color",
+            "parent": "Core/Mode 1",
+            "description": "Caution colour for Status and Alerts. This colour is reserved only for Status/Alerts and cannot be modified."
+          }
+        },
+        "info": {
+          "default": {
+            "value": "#0085b3",
+            "type": "color",
+            "parent": "Core/Mode 1",
+            "description": "General information colour for Status and Alerts. This colour is reserved only for Status/Alerts and cannot be modified."
+          },
+          "darker": {
+            "value": "#006a8f",
+            "type": "color",
+            "parent": "Core/Mode 1",
+            "description": "General information colour for Status and Alerts. This colour is reserved only for Status/Alerts and cannot be modified."
+          },
+          "lighter": {
+            "value": "#e5eef5",
+            "type": "color",
+            "parent": "Core/Mode 1",
+            "description": "General information colour for Status and Alerts. This colour is reserved only for Status/Alerts and cannot be modified."
+          },
+          "lightest": {
+            "value": "#eff4f9",
+            "type": "color",
+            "parent": "Core/Mode 1",
+            "description": "General information colour for Status and Alerts. This colour is reserved only for Status/Alerts and cannot be modified."
+          }
+        },
+        "error": {
+          "default": {
+            "value": "#e22339",
+            "type": "color",
+            "parent": "Core/Mode 1",
+            "description": "Error colour for Status and warnings / Error alerts. This colour is Core and cannot be modified."
+          },
+          "darker": {
+            "value": "#8a1220",
+            "type": "color",
+            "parent": "Core/Mode 1",
+            "description": "Error colour for Status and Warning / Error alerts. This colour is reserved only for Status/Alerts and cannot be modified."
+          },
+          "lighter": {
+            "value": "#fdf0f0",
+            "type": "color",
+            "parent": "Core/Mode 1",
+            "description": "Error colour for Status and warnings / Error alerts. This colour is reserved only for Status/Alerts and cannot be modified."
+          },
+          "lightest": {
+            "value": "#fff6f6",
+            "type": "color",
+            "parent": "Core/Mode 1",
+            "description": "Error colour for Status and Warning / Error alerts. This colour is reserved only for Status/Alerts and cannot be modified."
+          }
+        },
+        "success": {
+          "default": {
+            "value": "#339d37",
+            "type": "color",
+            "parent": "Core/Mode 1",
+            "description": "Success colour for Status and Alerts. This colour is reserved only for Status/Alerts and cannot be modified."
+          },
+          "darker": {
+            "value": "#0a690d",
+            "type": "color",
+            "parent": "Core/Mode 1",
+            "description": "Success colour for Status and Alerts. This colour is reserved only for Status/Alerts and cannot be modified."
+          },
+          "lighter": {
+            "value": "#f2faf4",
+            "type": "color",
+            "parent": "Core/Mode 1",
+            "description": "Success colour for Status and Alerts. This colour is reserved only for Status/Alerts and cannot be modified."
+          },
+          "lightest": {
+            "value": "#f7fbf8",
+            "type": "color",
+            "parent": "Core/Mode 1",
+            "description": "Success colour for Status and Alerts"
+          }
+        },
+        "underline": {
+          "light": {
+            "value": "#ffffffb8",
+            "type": "color",
+            "parent": "Core/Mode 1",
+            "description": "Light coloured underline colour used for text links in Alerts messaging. This colour is reserved only for Status/Alerts and cannot be modified."
+          },
+          "dark": {
+            "value": "#03213fb8",
+            "type": "color",
+            "parent": "Core/Mode 1",
+            "description": "Dark coloured underline colour used for text links in Alerts messaging. This colour is reserved only for Status/Alerts and cannot be modified."
+          }
+        }
+      }
+    }
+  },
   "Color/Default": {
     "color": {
       "light": {
@@ -630,6 +754,7 @@
   "$metadata": {
     "tokenSetOrder": [
       "Core/Default",
+      "Core/Status",
       "Color/Default"
     ]
   }
