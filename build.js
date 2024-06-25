@@ -25,7 +25,7 @@ StyleDictionary.registerFormat({
     const mapName = options.mapName || 'qld-tokens';
     return `$${mapName}: (\n${dictionary.allProperties.map(prop => {
       // Rename the variable
-      const name = prop.name.replace(/^core-default-color|color-default-color/, PREFIX);
+      const name = prop.name.replace(/^core-default-color|color-default-color|core-status-color/, PREFIX);
       return `  '${name}': ${prop.value}`;
     }).join(',\n')}\n);`;
   }
