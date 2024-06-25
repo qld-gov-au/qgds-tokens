@@ -2,3 +2,4 @@
 /node
 *.idea
 *.iml
+.DS_Store
