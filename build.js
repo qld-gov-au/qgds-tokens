@@ -1,4 +1,8 @@
 const StyleDictionary = require('style-dictionary');
+const fs = require('fs');
+const path = require('path');
+
+// Register custom formats and transform groups as before
 
 const PREFIX = 'qld';
 
@@ -54,3 +58,26 @@ StyleDictionary.extend({
     }
   }
 }).buildAllPlatforms();
+
+// Function to copy files recursively
+function copyFiles(srcDir, destDir) {
+  fs.mkdirSync(destDir, { recursive: true });
+  const items = fs.readdirSync(srcDir);
+
+  items.forEach(item => {
+    const srcPath = path.join(srcDir, item);
+    const destPath = path.join(destDir, item);
+    const stat = fs.statSync(srcPath);
+
+    if (stat.isFile()) {
+      fs.copyFileSync(srcPath, destPath);
+    } else if (stat.isDirectory()) {
+      copyFiles(srcPath, destPath);
+    }
+  });
+
+  console.log(`Copied files from ${srcDir} to ${destDir}`);
+}
+
+// Copy resources to dist/assets after build
+copyFiles('./resources', './dist/assets');
