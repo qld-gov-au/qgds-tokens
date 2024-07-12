@@ -1,0 +1,16 @@
+{
+  "tokenSetOrder": [
+    "core.tokens",
+    "qld-default.tokens",
+    "qld-maroon.tokens",
+    "qld-neon.tokens",
+    "partner-resources.tokens",
+    "campaing-savers.tokens",
+    "button.tokens",
+    "card.tokens",
+    "light.tokens",
+    "dark.tokens",
+    "high-contrast.tokens",
+    "typography.tokens"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "button": {
+    "primary": {
+      "background": {
+        "value": "{accent.default}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{accent.onAccent}",
+        "type": "color"
+      }
+    },
+    "borderRadius": {
+      "value": "{borderRadius.lg}",
+      "type": "borderRadius"
+    },
+    "borderWidth": {
+      "value": "{dimension.sm}",
+      "type": "borderWidth"
+    }
+  }
+}

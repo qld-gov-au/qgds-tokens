@@ -1,0 +1,98 @@
+[
+  {
+    "name": "qld-default",
+    "selectedTokenSets": {
+      "core": "source",
+      "button": "source",
+      "card": "source",
+      "qgds": "source",
+      "typography": "source",
+      "qld-default": "enabled"
+    },
+    "group": "brand"
+  },
+  {
+    "name": "qld-maroon",
+    "selectedTokenSets": {
+      "core": "source",
+      "button": "source",
+      "card": "source",
+      "qgds": "source",
+      "typography": "source",
+      "qld-maroon": "enabled"
+    },
+    "group": "brand"
+  },
+  {
+    "name": "qld-neon",
+    "selectedTokenSets": {
+      "core": "source",
+      "button": "source",
+      "card": "source",
+      "qgds": "source",
+      "typography": "source",
+      "qld-neon": "enabled"
+    },
+    "group": "brand"
+  },
+  {
+    "name": "partner-resources",
+    "selectedTokenSets": {
+      "core": "source",
+      "button": "source",
+      "card": "source",
+      "qgds": "source",
+      "typography": "source",
+      "partner-resources": "enabled"
+    },
+    "group": "brand"
+  },
+  {
+    "name": "campaing-savers",
+    "selectedTokenSets": {
+      "core": "source",
+      "button": "source",
+      "card": "source",
+      "qgds": "source",
+      "typography": "source",
+      "campaing-savers": "enabled"
+    },
+    "group": "brand"
+  },
+  {
+    "name": "light",
+    "selectedTokenSets": {
+      "core": "source",
+      "button": "source",
+      "card": "source",
+      "qgds": "source",
+      "typography": "source",
+      "light": "enabled"
+    },
+    "group": "theme"
+  },
+  {
+    "name": "dark",
+    "selectedTokenSets": {
+      "core": "source",
+      "button": "source",
+      "card": "source",
+      "qgds": "source",
+      "typography": "source",
+      "dark": "enabled"
+    },
+    "group": "theme"
+  },
+  {
+    "name": "high-contrast",
+    "selectedTokenSets": {
+      "core": "source",
+      "button": "source",
+      "card": "source",
+      "qgds": "source",
+      "typography": "source",
+      "high-contrast": "enabled"
+    },
+    "group": "theme"
+  }
+]
