@@ -1,26 +1,40 @@
 import { semanticFilter, componentFilter } from "./sd-filters.js";
 
 const commonFileOptions = {
-  format: "css/variables",
-  options: {
-    selector: ":host",
+  android: {
+    format: "android/resources",
   },
+  js: {
+    format: "javascript/es6",
+  },
+  scss: {
+    format: "scss/variables",
+    options: {
+      selector: ":host",
+    },
+  },
+  css: {
+    format: "css/variables",
+    options: {
+      selector: ":host",
+    },
+  }
 };
 
-export const generateSemanticFiles = (components, theme, platform) => {
+export const generateSemanticFiles = (components, theme, platform, fileExtension) => {
   const filesArr = [];
   // theme-specific outputs
   filesArr.push({
-    ...commonFileOptions,
+    ...commonFileOptions[platform],
     filter: semanticFilter(components, true),
-    destination: `src/${platform}/styles/qgds-${theme.toLowerCase()}.${platform}`,
+    destination: `src/${platform}/styles/qgds-${theme.toLowerCase()}.${fileExtension}`,
   });
 
   // not theme-specific outputs
   filesArr.push({
-    ...commonFileOptions,
+    ...commonFileOptions[platform],
     filter: semanticFilter(components, false),
-    destination: `src/${platform}/styles/qgds.${platform}`,
+    destination: `src/${platform}/styles/qgds.${fileExtension}`,
   });
 
   return filesArr;
@@ -28,22 +42,22 @@ export const generateSemanticFiles = (components, theme, platform) => {
 
 // for each component (currently only button), filter those specific component tokens and output them
 // to the component folder where the component source code will live
-export const generateComponentFiles = (components, theme, platform) => {
+export const generateComponentFiles = (components, theme, platform, fileExtension) => {
   const filesArr = [];
 
   for (const comp of components) {
     // theme-specific outputs
     filesArr.push({
-      ...commonFileOptions,
+      ...commonFileOptions[platform],
       filter: componentFilter(comp, true),
-      destination: `src/${platform}/${comp}/${comp}-${theme.toLowerCase()}.${platform}`,
+      destination: `src/${platform}/${comp}/${comp}-${theme.toLowerCase()}.${fileExtension}`,
     });
 
     // not theme-specific outputs
     filesArr.push({
-      ...commonFileOptions,
+      ...commonFileOptions[platform],
       filter: componentFilter(comp, false),
-      destination: `src/${platform}/${comp}/${comp}.${platform}`,
+      destination: `src/${platform}/${comp}/${comp}.${fileExtension}`,
     });
   }
   return filesArr;

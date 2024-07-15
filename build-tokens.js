@@ -35,6 +35,90 @@ async function run() {
   const configs = Object.entries(themes).map(([theme, sets]) => ({
     source: sets.map((tokenset) => `tokens/${tokenset}.tokens.json`),
     platforms: {
+      android: {
+        transformGroup: 'tokens-studio',
+        transforms: [
+          'ts/descriptionToComment',
+          'ts/size/px',
+          'ts/opacity',
+          'ts/size/lineheight',
+          'ts/resolveMath',
+          'ts/color/modifiers',
+          'ts/typography/compose/shorthand',
+          'ts/typography/fontWeight',
+          'ts/size/css/letterspacing',
+          'ts/color/css/hexrgba',
+          'ts/color/modifiers',
+          'attribute/themeable'
+        ],
+        files: [
+          // core tokens, e.g. for application developer
+          {
+            destination: "src/android/styles/core.xml",
+            format: "android/resources",
+            filter: coreFilter,
+          },
+          // semantic tokens, e.g. for application developer
+          ...generateSemanticFiles(components, theme, 'android', 'xml'),
+          // component tokens, e.g. for design system developer
+          ...generateComponentFiles(components, theme, 'android', 'xml'),
+        ],
+      },
+      js: {
+        transformGroup: 'tokens-studio',
+        transforms: [
+          'ts/descriptionToComment',
+          'ts/size/px',
+          'ts/opacity',
+          'ts/size/lineheight',
+          'ts/typography/fontWeight',
+          'ts/resolveMath',
+          'ts/size/css/letterspacing',
+          'ts/color/css/hexrgba',
+          'ts/color/modifiers',
+          'attribute/themeable'
+        ],
+        files: [
+          // core tokens, e.g. for application developer
+          {
+            destination: "src/js/styles/core.js",
+            format: "javascript/es6",
+            filter: coreFilter,
+          },
+          // semantic tokens, e.g. for application developer
+          ...generateSemanticFiles(components, theme, 'js', 'js'),
+          // component tokens, e.g. for design system developer
+          ...generateComponentFiles(components, theme, 'js', 'js'),
+        ],
+      },
+      scss: {
+        transformGroup: 'tokens-studio',
+        transforms: [
+          'ts/descriptionToComment',
+          'ts/size/px',
+          'ts/opacity',
+          'ts/size/lineheight',
+          'ts/typography/fontWeight',
+          'ts/resolveMath',
+          'ts/size/css/letterspacing',
+          'ts/color/css/hexrgba',
+          'ts/color/modifiers',
+          'attribute/themeable'
+        ],
+        files: [
+          // core tokens, e.g. for application developer
+          {
+            destination: "src/scss/styles/core.scss",
+            format: "scss/variables",
+            filter: coreFilter,
+          },
+          // semantic tokens, e.g. for application developer
+          ...generateSemanticFiles(components, theme, 'scss', 'scss'),
+          // component tokens, e.g. for design system developer
+          ...generateComponentFiles(components, theme, 'scss', 'scss'),
+        ],
+      },
+
       css: {
         transformGroup: "tokens-studio",
         // transforms: ["attribute/themeable", "name/kebab"],
@@ -59,9 +143,9 @@ async function run() {
             filter: coreFilter,
           },
           // semantic tokens, e.g. for application developer
-          ...generateSemanticFiles(components, theme, 'css'),
+          ...generateSemanticFiles(components, theme, 'css', 'css'),
           // component tokens, e.g. for design system developer
-          ...generateComponentFiles(components, theme, 'css'),
+          ...generateComponentFiles(components, theme, 'css', 'css'),
         ],
       },
     },
