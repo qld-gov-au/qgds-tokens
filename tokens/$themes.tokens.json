@@ -1,98 +1,80 @@
 [
   {
-    "name": "qld-default",
+    "name": "qld-default-light",
     "selectedTokenSets": {
       "core": "source",
+      "qld-default": "enabled",
+      "qld-default-light": "enabled",
       "button": "source",
       "card": "source",
       "qgds": "source",
-      "typography": "source",
-      "qld-default": "enabled"
+      "typography": "source"
     },
     "group": "brand"
   },
   {
-    "name": "qld-maroon",
+    "name": "qld-default-dark",
     "selectedTokenSets": {
       "core": "source",
+      "qld-default": "enabled",
+      "qld-default-dark": "enabled",
       "button": "source",
       "card": "source",
       "qgds": "source",
-      "typography": "source",
-      "qld-maroon": "enabled"
+      "typography": "source"
     },
     "group": "brand"
   },
   {
-    "name": "qld-neon",
+    "name": "qld-default-high-contrast",
     "selectedTokenSets": {
       "core": "source",
+      "qld-default": "enabled",
+      "qld-default-high-contrast": "enabled",
       "button": "source",
       "card": "source",
       "qgds": "source",
-      "typography": "source",
-      "qld-neon": "enabled"
+      "typography": "source"
+    },
+    "group": "brand"
+  },
+{
+    "name": "qld-maroon-light",
+    "selectedTokenSets": {
+      "core": "source",
+      "qld-maroon": "enabled",
+      "qld-maroon-light": "enabled",
+      "button": "source",
+      "card": "source",
+      "qgds": "source",
+      "typography": "source"
     },
     "group": "brand"
   },
   {
-    "name": "partner-resources",
+    "name": "qld-maroon-dark",
     "selectedTokenSets": {
       "core": "source",
+      "qld-maroon": "enabled",
+      "qld-maroon-dark": "enabled",
       "button": "source",
       "card": "source",
       "qgds": "source",
-      "typography": "source",
-      "partner-resources": "enabled"
+      "typography": "source"
     },
     "group": "brand"
   },
   {
-    "name": "campaing-savers",
+    "name": "qld-maroon-high-contrast",
     "selectedTokenSets": {
       "core": "source",
+      "qld-maroon": "enabled",
+      "qld-maroon-high-contrast": "enabled",
       "button": "source",
       "card": "source",
       "qgds": "source",
-      "typography": "source",
-      "campaing-savers": "enabled"
+      "typography": "source"
     },
     "group": "brand"
-  },
-  {
-    "name": "light",
-    "selectedTokenSets": {
-      "core": "source",
-      "button": "source",
-      "card": "source",
-      "qgds": "source",
-      "typography": "source",
-      "light": "enabled"
-    },
-    "group": "theme"
-  },
-  {
-    "name": "dark",
-    "selectedTokenSets": {
-      "core": "source",
-      "button": "source",
-      "card": "source",
-      "qgds": "source",
-      "typography": "source",
-      "dark": "enabled"
-    },
-    "group": "theme"
-  },
-  {
-    "name": "high-contrast",
-    "selectedTokenSets": {
-      "core": "source",
-      "button": "source",
-      "card": "source",
-      "qgds": "source",
-      "typography": "source",
-      "high-contrast": "enabled"
-    },
-    "group": "theme"
   }
 ]

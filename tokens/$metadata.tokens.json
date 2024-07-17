@@ -1,16 +1,34 @@
 {
   "tokenSetOrder": [
     "core.tokens",
+
     "qld-default.tokens",
+    "qld-default-light.tokens",
+    "qld-default-dark.tokens",
+    "qld-default-high-contrast.tokens",
+
     "qld-maroon.tokens",
+    "qld-maroon-light.tokens",
+    "qld-maroon-dark.tokens",
+    "qld-maroon-high-contrast.tokens",
+
     "qld-neon.tokens",
+    "qld-neon-light.tokens",
+    "qld-neon-dark.tokens",
+    "qld-neon-high-contrast.tokens",
+
     "partner-resources.tokens",
+    "partner-resources-light.tokens",
+    "partner-resources-dark.tokens",
+    "partner-resources-high-contrast.tokens",
+
     "campaing-savers.tokens",
+    "campaing-savers-light.tokens",
+    "campaing-savers-dark.tokens",
+    "campaing-savers-high-contrast.tokens",
+
     "button.tokens",
     "card.tokens",
-    "light.tokens",
-    "dark.tokens",
-    "high-contrast.tokens",
     "typography.tokens"
   ]
 }
