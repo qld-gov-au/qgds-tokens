@@ -3,7 +3,7 @@
  */
 
 export const textSecondaryColor = "#cbd5e0";
-export const customTokenNameDefault = "#7b341e";
+export const customMaroonTokenNameDefault = "#feebc8";
 export const fgDefault = "#cf2e2e";
 export const fgMuted = "#4a5568";
 export const fgSubtle = "#a0aec0";

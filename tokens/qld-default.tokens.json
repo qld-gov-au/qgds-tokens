@@ -7,9 +7,9 @@
       }
     }
   },
-  "customTokenName": {
+  "customQldDefaultTokenName": {
     "default": {
-      "value": "{colors.orange.900}",
+      "value": "{colors.orange.600}",
       "type": "color"
     }
   }

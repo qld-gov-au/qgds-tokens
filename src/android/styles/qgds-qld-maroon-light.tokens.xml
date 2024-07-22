@@ -5,7 +5,7 @@
 -->
 <resources>
   <color name="textSecondaryColor">#cbd5e0</color>
-  <color name="customTokenNameDefault">#7b341e</color>
+  <color name="customMaroonTokenNameDefault">#feebc8</color>
   <color name="fgDefault">#cf2e2e</color>
   <color name="fgMuted">#4a5568</color>
   <color name="fgSubtle">#a0aec0</color>

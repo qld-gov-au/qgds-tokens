@@ -5,7 +5,7 @@
 -->
 <resources>
   <color name="textSecondaryColor">#e2e8f0</color>
-  <color name="customTokenNameDefault">#7b341e</color>
+  <color name="customQldDefaultTokenNameDefault">#dd6b20</color>
   <color name="fgDefault">#1a202c</color>
   <color name="fgMuted">#4a5568</color>
   <color name="fgSubtle">#a0aec0</color>

@@ -7,9 +7,9 @@
       }
     }
   },
-  "customTokenName": {
+  "customNeonTokenName": {
     "default": {
-      "value": "{colors.orange.900}",
+      "value": "{colors.orange.400}",
       "type": "color"
     }
   }

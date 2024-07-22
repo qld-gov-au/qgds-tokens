@@ -7,9 +7,9 @@
       }
     }
   },
-  "customTokenName": {
+  "customMaroonTokenName": {
     "default": {
-      "value": "{colors.orange.900}",
+      "value": "{colors.orange.200}",
       "type": "color"
     }
   }

@@ -4,7 +4,7 @@
 
 :host {
   --text-secondary-color: #718096;
-  --custom-token-name-default: #7b341e;
+  --custom-neon-token-name-default: #f6ad55;
   --fg-default: #1a202c;
   --fg-muted: #4a5568;
   --fg-subtle: #a0aec0;
