@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly, this file was auto-generated.
+-->
+<resources>
+  <color name="buttonPrimaryBackground">#3182ce</color>
+  <color name="buttonPrimaryText">#ffffff</color>
+</resources>

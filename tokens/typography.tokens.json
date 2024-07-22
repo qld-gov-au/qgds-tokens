@@ -1,7 +1,7 @@
 {
   "typography": {
-    "H1": {
-      "Bold": {
+    "h1": {
+      "bold": {
         "type": "typography",
         "value": {
           "fontFamily": "{fontFamilies.heading}",
@@ -12,7 +12,7 @@
           "letterSpacing": "{letterSpacing.decreased}"
         }
       },
-      "Regular": {
+      "regular": {
         "type": "typography",
         "value": {
           "fontFamily": "{fontFamilies.heading}",
@@ -24,8 +24,8 @@
         }
       }
     },
-    "H2": {
-      "Bold": {
+    "h2": {
+      "bold": {
         "type": "typography",
         "value": {
           "fontFamily": "{fontFamilies.heading}",
@@ -36,7 +36,7 @@
           "letterSpacing": "{letterSpacing.decreased}"
         }
       },
-      "Regular": {
+      "regular": {
         "type": "typography",
         "value": {
           "fontFamily": "{fontFamilies.heading}",
@@ -48,7 +48,7 @@
         }
       }
     },
-    "Body": {
+    "body": {
       "type": "typography",
       "value": {
         "fontFamily": "{fontFamilies.body}",

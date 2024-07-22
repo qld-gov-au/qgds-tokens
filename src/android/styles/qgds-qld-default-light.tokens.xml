@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly, this file was auto-generated.
+-->
+<resources>
+  <color name="textSecondaryColor">#e2e8f0</color>
+  <color name="customTokenNameDefault">#7b341e</color>
+  <color name="fgDefault">#1a202c</color>
+  <color name="fgMuted">#4a5568</color>
+  <color name="fgSubtle">#a0aec0</color>
+  <color name="bgDefault">#ffffff</color>
+  <color name="bgMuted">#cbd5e0</color>
+  <color name="bgSubtle">#a0aec0</color>
+  <color name="accentDefault">#3182ce</color>
+  <color name="accentOnAccent">#ffffff</color>
+  <color name="accentBg">#a3bffa</color>
+  <color name="shadowsDefault">#1a202c</color>
+  <color name="customNameDefault">#4299e1</color>
+  <color name="myGroupTwoDefault">#553c9a</color>
+</resources>

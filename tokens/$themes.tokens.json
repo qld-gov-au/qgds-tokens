@@ -52,24 +52,11 @@
     "group": "brand"
   },
   {
-    "name": "qld-maroon-dark",
+    "name": "campaign-neon-light",
     "selectedTokenSets": {
       "core": "source",
-      "qld-maroon": "enabled",
-      "qld-maroon-dark": "enabled",
-      "button": "source",
-      "card": "source",
-      "qgds": "source",
-      "typography": "source"
-    },
-    "group": "brand"
-  },
-  {
-    "name": "qld-maroon-high-contrast",
-    "selectedTokenSets": {
-      "core": "source",
-      "qld-maroon": "enabled",
-      "qld-maroon-high-contrast": "enabled",
+      "campaign-neon": "enabled",
+      "campaign-neon-light": "enabled",
       "button": "source",
       "card": "source",
       "qgds": "source",

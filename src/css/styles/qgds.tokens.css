@@ -1,0 +1,36 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:host {
+  --text-primary-color: #ffffff;
+  --typography-h1-bold-font-family: inter;
+  --typography-h1-bold-font-weight: 700;
+  --typography-h1-bold-line-height: 110%;
+  --typography-h1-bold-font-size: 48.8281px;
+  --typography-h1-bold-paragraph-spacing: 32;
+  --typography-h1-bold-letter-spacing: -0.05em;
+  --typography-h1-regular-font-family: inter;
+  --typography-h1-regular-font-weight: 400;
+  --typography-h1-regular-line-height: 110%;
+  --typography-h1-regular-font-size: 48.8281px;
+  --typography-h1-regular-paragraph-spacing: 32;
+  --typography-h1-regular-letter-spacing: -0.05em;
+  --typography-h2-bold-font-family: inter;
+  --typography-h2-bold-font-weight: 700;
+  --typography-h2-bold-line-height: 110%;
+  --typography-h2-bold-font-size: 39.0625px;
+  --typography-h2-bold-paragraph-spacing: 26;
+  --typography-h2-bold-letter-spacing: -0.05em;
+  --typography-h2-regular-font-family: inter;
+  --typography-h2-regular-font-weight: 400;
+  --typography-h2-regular-line-height: 110%;
+  --typography-h2-regular-font-size: 39.0625px;
+  --typography-h2-regular-paragraph-spacing: 26;
+  --typography-h2-regular-letter-spacing: -0.05em;
+  --typography-body-font-family: roboto;
+  --typography-body-font-weight: 400;
+  --typography-body-line-height: 110%;
+  --typography-body-font-size: 16px;
+  --typography-body-paragraph-spacing: 26;
+}

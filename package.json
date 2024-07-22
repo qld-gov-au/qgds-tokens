@@ -6,7 +6,6 @@
   "main": "dist/index.js",
   "scripts": {
     "prepare": "npm run build:tokens",
-    "build-tokens": "style-dictionary build",
     "build:tokens": "node build-tokens.js",
     "format-icons": "cd lib && node formatter.js",
     "ci": "npm-run-all build test",

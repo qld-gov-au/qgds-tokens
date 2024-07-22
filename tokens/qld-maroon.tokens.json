@@ -1,8 +1,8 @@
 {
   "text": {
-    "primary": {
+    "secondary": {
       "color": {
-        "value": "{colors.white}",
+        "value": "{colors.gray.400}",
         "type": "color"
       }
     }

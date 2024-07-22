@@ -48,8 +48,7 @@
     },
     "multi-value": {
       "value": "{dimension.sm} {dimension.xl}",
-      "type": "spacing",
-      "description": "You can have multiple values in a single spacing token. Read more on these: https://docs.tokens.studio/available-tokens/spacing-tokens#multi-value-spacing-tokens"
+      "type": "spacing"
     }
   },
   "borderRadius": {
@@ -67,8 +66,7 @@
     },
     "multi-value": {
       "value": "{borderRadius.sm} {borderRadius.lg}",
-      "type": "borderRadius",
-      "description": "You can have multiple values in a single radius token. Read more on these: https://docs.tokens.studio/available-tokens/border-radius-tokens#single--multiple-values"
+      "type": "borderRadius"
     }
   },
   "colors": {
@@ -115,6 +113,44 @@
       },
       "900": {
         "value": "#1a202c",
+        "type": "color"
+      }
+    },
+    "maroon": {
+      "100": {
+        "value": "#fff5f5",
+        "type": "color"
+      },
+      "200": {
+        "value": "#fed7d7",
+        "type": "color"
+      },
+      "300": {
+        "value": "#feb2b2",
+        "type": "color"
+      },
+      "400": {
+        "value": "#fc8181",
+        "type": "color"
+      },
+      "500": {
+        "value": "#cf2e2e",
+        "type": "color"
+      },
+      "600": {
+        "value": "#e53e3e",
+        "type": "color"
+      },
+      "700": {
+        "value": "#c53030",
+        "type": "color"
+      },
+      "800": {
+        "value": "#9b2c2c",
+        "type": "color"
+      },
+      "900": {
+        "value": "#742a2a",
         "type": "color"
       }
     },
@@ -477,11 +513,11 @@
   },
   "fontFamilies": {
     "heading": {
-      "value": "Inter",
+      "value": "inter",
       "type": "fontFamilies"
     },
     "body": {
-      "value": "Roboto",
+      "value": "roboto",
       "type": "fontFamilies"
     }
   },
@@ -521,19 +557,19 @@
   },
   "fontWeights": {
     "headingRegular": {
-      "value": "Regular",
+      "value": "regular",
       "type": "fontWeights"
     },
     "headingBold": {
-      "value": "Bold",
+      "value": "bold",
       "type": "fontWeights"
     },
     "bodyRegular": {
-      "value": "Regular",
+      "value": "regular",
       "type": "fontWeights"
     },
     "bodyBold": {
-      "value": "Bold",
+      "value": "bold",
       "type": "fontWeights"
     }
   },

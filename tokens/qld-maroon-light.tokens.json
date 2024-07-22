@@ -1,7 +1,7 @@
 {
   "fg": {
     "default": {
-      "value": "{colors.gray.900}",
+      "value": "{colors.maroon.500}",
       "type": "color"
     },
     "muted": {

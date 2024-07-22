@@ -1,0 +1,20 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:host {
+  --text-secondary-color: #e2e8f0;
+  --custom-token-name-default: #7b341e;
+  --fg-default: #1a202c;
+  --fg-muted: #4a5568;
+  --fg-subtle: #a0aec0;
+  --bg-default: #ffffff;
+  --bg-muted: #cbd5e0;
+  --bg-subtle: #a0aec0;
+  --accent-default: #3182ce;
+  --accent-on-accent: #ffffff;
+  --accent-bg: #a3bffa;
+  --shadows-default: #1a202c;
+  --custom-name-default: #4299e1;
+  --my-group-two-default: #553c9a;
+}

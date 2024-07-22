@@ -34,6 +34,14 @@ async function run() {
 
   const configs = Object.entries(themes).map(([theme, sets]) => ({
     source: sets.map((tokenset) => `tokens/${tokenset}.tokens.json`),
+    // these are the defaults
+    log: {
+      warnings: 'error', // 'warn' | 'error' | 'disabled'
+      verbosity: 'default', // 'default' | 'silent' | 'verbose'
+      errors: {
+        brokenReferences: 'throw', // 'throw' | 'console'
+      },
+    },
     platforms: {
       android: {
         transformGroup: 'tokens-studio',
@@ -51,10 +59,11 @@ async function run() {
           'ts/color/modifiers',
           'attribute/themeable'
         ],
+        expand: true,
         files: [
           // core tokens, e.g. for application developer
           {
-            destination: "src/android/styles/core.xml",
+            destination: "src/android/styles/core.tokens.xml",
             format: "android/resources",
             filter: coreFilter,
           },
@@ -78,10 +87,11 @@ async function run() {
           'ts/color/modifiers',
           'attribute/themeable'
         ],
+        expand: true,
         files: [
           // core tokens, e.g. for application developer
           {
-            destination: "src/js/styles/core.js",
+            destination: "src/js/styles/core.tokens.js",
             format: "javascript/es6",
             filter: coreFilter,
           },
@@ -105,10 +115,11 @@ async function run() {
           'ts/color/modifiers',
           'attribute/themeable'
         ],
+        expand: true,
         files: [
           // core tokens, e.g. for application developer
           {
-            destination: "src/scss/styles/core.scss",
+            destination: "src/scss/styles/core.tokens.scss",
             format: "scss/variables",
             filter: coreFilter,
           },
@@ -118,7 +129,6 @@ async function run() {
           ...generateComponentFiles(components, theme, 'scss', 'scss'),
         ],
       },
-
       css: {
         transformGroup: "tokens-studio",
         // transforms: ["attribute/themeable", "name/kebab"],
@@ -135,10 +145,11 @@ async function run() {
           'attribute/themeable',
           'name/kebab',
         ],
+        expand: true,
         files: [
           // core tokens, e.g. for application developer
           {
-            destination: "src/css/styles/core.css",
+            destination: "src/css/styles/core.tokens.css",
             format: "css/variables",
             filter: coreFilter,
           },
