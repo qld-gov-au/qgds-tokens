@@ -2,17 +2,17 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-export const textSecondaryColor = "#718096";
-export const customNeonTokenNameDefault = "#f6ad55";
-export const fgDefault = "#1a202c";
-export const fgMuted = "#4a5568";
-export const fgSubtle = "#a0aec0";
+export const textSecondaryColor = "#434343";
+export const customNeonTokenNameDefault = "#ffd141";
+export const fgDefault = "#2c2c2c";
+export const fgMuted = "#3b3b3b";
+export const fgSubtle = "#4a4a4a";
 export const bgDefault = "#ffffff";
-export const bgMuted = "#cbd5e0";
-export const bgSubtle = "#a0aec0";
-export const accentDefault = "#3182ce";
+export const bgMuted = "#5c5c5c";
+export const bgSubtle = "#4a4a4a";
+export const accentDefault = "#ff0284";
 export const accentOnAccent = "#ffffff";
-export const accentBg = "#a3bffa";
-export const shadowsDefault = "#1a202c";
-export const customNameDefault = "#4299e1";
+export const accentBg = "#434343";
+export const shadowsDefault = "#2c2c2c";
+export const customNameDefault = "#0000ff";
 export const myGroupTwoDefault = "#553c9a";

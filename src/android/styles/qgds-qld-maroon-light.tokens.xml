@@ -4,18 +4,18 @@
   Do not edit directly, this file was auto-generated.
 -->
 <resources>
-  <color name="textSecondaryColor">#cbd5e0</color>
-  <color name="customMaroonTokenNameDefault">#feebc8</color>
-  <color name="fgDefault">#cf2e2e</color>
-  <color name="fgMuted">#4a5568</color>
-  <color name="fgSubtle">#a0aec0</color>
+  <color name="textSecondaryColor">#5c5c5c</color>
+  <color name="customMaroonTokenNameDefault">#ffdb6b</color>
+  <color name="fgDefault">#b80b4d</color>
+  <color name="fgMuted">#3b3b3b</color>
+  <color name="fgSubtle">#4a4a4a</color>
   <color name="bgDefault">#ffffff</color>
-  <color name="bgMuted">#cbd5e0</color>
-  <color name="bgSubtle">#a0aec0</color>
-  <color name="accentDefault">#3182ce</color>
+  <color name="bgMuted">#5c5c5c</color>
+  <color name="bgSubtle">#4a4a4a</color>
+  <color name="accentDefault">#f2e6d0</color>
   <color name="accentOnAccent">#ffffff</color>
-  <color name="accentBg">#a3bffa</color>
-  <color name="shadowsDefault">#1a202c</color>
-  <color name="customNameDefault">#4299e1</color>
+  <color name="accentBg">#f7f0e3</color>
+  <color name="shadowsDefault">#2c2c2c</color>
+  <color name="customNameDefault">#0000ff</color>
   <color name="myGroupTwoDefault">#553c9a</color>
 </resources>

@@ -2,7 +2,8 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-export const textPrimaryColor = "#ffffff";
+export const coreDefaultColorNeutralBlack = "#131212";
+export const textPrimaryColor = "#131212";
 export const typographyH1BoldFontFamily = "inter";
 export const typographyH1BoldFontWeight = 700;
 export const typographyH1BoldLineHeight = "110%";

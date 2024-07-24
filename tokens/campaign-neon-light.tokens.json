@@ -29,7 +29,7 @@
   },
   "accent": {
     "default": {
-      "value": "{colors.blue.600}",
+      "value": "{colors.pink.500}",
       "type": "color"
     },
     "onAccent": {
@@ -37,7 +37,7 @@
       "type": "color"
     },
     "bg": {
-      "value": "{colors.indigo.300}",
+      "value": "{colors.gray.600}",
       "type": "color"
     }
   },

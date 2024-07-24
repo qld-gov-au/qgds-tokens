@@ -3,18 +3,18 @@
  */
 
 :host {
-  --text-secondary-color: #e2e8f0;
-  --custom-qld-default-token-name-default: #dd6b20;
-  --fg-default: #1a202c;
-  --fg-muted: #4a5568;
-  --fg-subtle: #a0aec0;
-  --bg-default: #ffffff;
-  --bg-muted: #cbd5e0;
-  --bg-subtle: #a0aec0;
-  --accent-default: #3182ce;
+  --text-secondary-color: #6e6e6e;
+  --custom-qld-default-token-name-default: #e6b828;
+  --fg-default: #ffffff;
+  --fg-muted: #6e6e6e;
+  --fg-subtle: #4a4a4a;
+  --bg-default: #2c2c2c;
+  --bg-muted: #3b3b3b;
+  --bg-subtle: #434343;
+  --accent-default: #ffe500;
   --accent-on-accent: #ffffff;
-  --accent-bg: #a3bffa;
-  --shadows-default: #1a202c;
-  --custom-name-default: #4299e1;
-  --my-group-two-default: #553c9a;
+  --accent-bg: #998900;
+  --shadows-default: rgba(19, 18, 18, 0.3);
+  --custom-name-default: #407217;
+  --my-group-two-default: #e84f61;
 }
