@@ -53,9 +53,9 @@
       "type": "color"
     }
   },
-  "myGroupTwo": {
+  "myGroupTwoTestName": {
     "default": {
-      "value": "{colors.purple.800}",
+      "value": "{colors.orient.500}",
       "type": "color"
     }
   }
