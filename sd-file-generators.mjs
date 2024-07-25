@@ -1,4 +1,4 @@
-import { semanticFilter, componentFilter } from "./sd-filters.js";
+import { semanticFilter, componentFilter } from "./sd-filters.mjs";
 
 const commonFileOptions = {
   android: {

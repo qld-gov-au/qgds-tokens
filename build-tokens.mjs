@@ -5,11 +5,11 @@ import {
   permutateThemes,
 } from "@tokens-studio/sd-transforms";
 import { promises } from "node:fs";
-import { coreFilter } from "./sd-filters.js";
+import { coreFilter } from "./sd-filters.mjs";
 import {
   generateSemanticFiles,
   generateComponentFiles,
-} from "./sd-file-generators.js";
+} from "./sd-file-generators.mjs";
 
 register(StyleDictionary);
 
