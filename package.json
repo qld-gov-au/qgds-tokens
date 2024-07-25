@@ -7,7 +7,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "prepare": "npm run build:tokens",
-    "build:tokens": "node build-tokens.mjs",
+    "build": "node build-tokens.mjs",
     "build:package": "tsc --build && copyfiles -u 1 src/android/**/*.tokens.xml src/css/**/*.tokens.css src/js/**/*.tokens.js src/scss/**/*.tokens.scss dist",
     "ci": "npm-run-all build test",
     "test": "jest"
