@@ -1,4 +1,4 @@
-# Queensland Government Design System Tokens 
+# Queensland Government Design System - Tokens 
 ## (qgds-tokens)
 *Style once, use everywhere.*
 >

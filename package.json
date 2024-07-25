@@ -2,21 +2,18 @@
   "name": "@qld-gov-au/qgds-tokens",
   "version": "2.0.0",
   "description": "This repository is configured to sync tokens via Figma.",
-  "type": "module",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "prepare": "npm run build:tokens",
     "build:tokens": "node build-tokens.js",
-    "format-icons": "cd lib && node formatter.js",
+    "build:package": "tsc --build && copyfiles -u 1 src/android/**/*.tokens.xml src/css/**/*.tokens.css src/js/**/*.tokens.js src/scss/**/*.tokens.scss dist",
     "ci": "npm-run-all build test",
-    "test": "jest tests/"
+    "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@tokens-studio/sd-transforms": "^1.0.1",
-    "style-dictionary": "^4.0.0"
+    "@tokens-studio/sd-transforms": "^1.2.0",
+    "style-dictionary": "^4.0.1"
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.24.7",
@@ -34,5 +31,25 @@
     "ts-jest": "^29.1.5",
     "typescript": "^5.5.3",
     "typescript-plugin-css-modules": "^5.1.0"
+  },
+  "keywords": [
+    "queensland government",
+    "design system",
+    "tokens"
+  ],
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qld-gov-au/qgds-tokens.git"
+  },
+  "author": "QGDS-Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qld-gov-au/qgds-tokens/issues"
   }
 }

@@ -15,4 +15,4 @@ export const accentOnAccent = "#ffffff";
 export const accentBg = "#f7f0e3";
 export const shadowsDefault = "#2c2c2c";
 export const customNameDefault = "#0000ff";
-export const myGroupTwoDefault = "#553c9a";
+export const myGroupTwoTestNameDefault = "#005e85";
