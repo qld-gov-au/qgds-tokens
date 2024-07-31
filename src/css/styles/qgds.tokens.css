@@ -3,8 +3,7 @@
  */
 
 :host {
-  --core-default-color-neutral-black: #131212;
-  --text-primary-color: #131212;
+  --qgds-tokens-color-neutral-black: #131212;
   --typography-h1-bold-font-family: inter;
   --typography-h1-bold-font-weight: 700;
   --typography-h1-bold-line-height: 110%;

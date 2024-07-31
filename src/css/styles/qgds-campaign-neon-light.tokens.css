@@ -3,17 +3,25 @@
  */
 
 :host {
-  --text-secondary-color: #434343;
-  --custom-neon-token-name-default: #ffd141;
-  --fg-default: #2c2c2c;
-  --fg-muted: #3b3b3b;
-  --fg-subtle: #4a4a4a;
+  --campaing-neon-reserved-color-error: #e22339;
+  --campaing-neon-reserved-color-information: #0085b3;
+  --campaing-neon-reserved-color-success: #339d37;
+  --campaing-neon-reserved-color-alert: #ffcc2c;
+  --fg-default: #09549f;
+  --fg-muted: #07437f;
+  --fg-subtle: #05325f;
   --bg-default: #ffffff;
-  --bg-muted: #5c5c5c;
-  --bg-subtle: #4a4a4a;
-  --accent-default: #ff0284;
-  --accent-on-accent: #ffffff;
-  --accent-bg: #434343;
+  --bg-muted: #f5f5f5;
+  --bg-subtle: #e8e8e8;
+  --accent-bg-default: #09549f;
+  --accent-bg-on-accent: #ffffff;
+  --accent-bg-alt: #008635;
+  --accent-bg-on-alt-accent: #09549f;
+  --accent-fg-default: #77ba02;
+  --accent-fg-on-accent: #121940;
+  --accent-fg-alt: #ffe503;
+  --accent-fg-on-alt-accent: #ffffff;
+  --accent-highlight: #121940;
   --shadows-default: #2c2c2c;
   --custom-name-default: #0000ff;
   --my-group-two-default: #553c9a;

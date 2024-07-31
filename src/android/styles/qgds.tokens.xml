@@ -4,8 +4,7 @@
   Do not edit directly, this file was auto-generated.
 -->
 <resources>
-  <color name="coreDefaultColorNeutralBlack">#131212</color>
-  <color name="textPrimaryColor">#131212</color>
+  <color name="qgdsTokensColorNeutralBlack">#131212</color>
   <string name="typographyH1BoldFontFamily">inter</string>
   <string name="typographyH1BoldFontWeight">700</string>
   <integer name="typographyH1BoldLineHeight">110%</integer>

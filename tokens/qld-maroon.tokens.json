@@ -1,16 +1,24 @@
 {
-  "text": {
-    "secondary": {
+  "qldMaroon": {
+    "reserved": {
       "color": {
-        "value": "{colors.gray.400}",
-        "type": "color"
+        "error": {
+          "value": "{colors.red.500}",
+          "type": "color"
+        },
+        "information": {
+          "value": "{colors.bondiBlue.500}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{colors.green.500}",
+          "type": "color"
+        },
+        "alert": {
+          "value": "{colors.orange.500}",
+          "type": "color"
+        }
       }
-    }
-  },
-  "customMaroonTokenName": {
-    "default": {
-      "value": "{colors.orange.200}",
-      "type": "color"
     }
   }
 }

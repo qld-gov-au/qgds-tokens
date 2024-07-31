@@ -1,19 +1,11 @@
 {
-  "Core/Default": {
+  "qgdsTokens": {
     "color": {
       "neutral": {
         "black": {
           "value": "{colors.black}",
           "type": "color"
         }
-      }
-    }
-  },
-  "text": {
-    "primary": {
-      "color": {
-        "value": "{colors.black}",
-        "type": "color"
       }
     }
   }

@@ -3,18 +3,26 @@
  */
 
 :host {
-  --text-secondary-color: #6e6e6e;
-  --custom-qld-default-token-name-default: #e6b828;
-  --fg-default: #ffffff;
-  --fg-muted: #6e6e6e;
-  --fg-subtle: #4a4a4a;
-  --bg-default: #2c2c2c;
-  --bg-muted: #3b3b3b;
-  --bg-subtle: #434343;
-  --accent-default: #ffe500;
-  --accent-on-accent: #ffffff;
-  --accent-bg: #998900;
-  --shadows-default: rgba(19, 18, 18, 0.3);
-  --custom-name-default: #407217;
-  --my-group-two-default: #e84f61;
+  --qld-default-reserved-color-error: #e22339;
+  --qld-default-reserved-color-information: #0085b3;
+  --qld-default-reserved-color-success: #339d37;
+  --qld-default-reserved-color-alert: #ffcc2c;
+  --fg-default: #09549f;
+  --fg-muted: #07437f;
+  --fg-subtle: #05325f;
+  --bg-default: #ffffff;
+  --bg-muted: #f5f5f5;
+  --bg-subtle: #e8e8e8;
+  --accent-bg-default: #09549f;
+  --accent-bg-on-accent: #ffffff;
+  --accent-bg-alt: #008635;
+  --accent-bg-on-alt-accent: #09549f;
+  --accent-fg-default: #77ba02;
+  --accent-fg-on-accent: #121940;
+  --accent-fg-alt: #ffe503;
+  --accent-fg-on-alt-accent: #ffffff;
+  --accent-highlight: #121940;
+  --shadows-default: #2c2c2c;
+  --custom-name-default: #0000ff;
+  --my-group-two-default: #553c9a;
 }

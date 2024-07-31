@@ -1,16 +1,24 @@
 {
-  "text": {
-    "secondary": {
+  "qldDefault": {
+    "reserved": {
       "color": {
-        "value": "{colors.gray.300}",
-        "type": "color"
+        "error": {
+          "value": "{colors.red.500}",
+          "type": "color"
+        },
+        "information": {
+          "value": "{colors.bondiBlue.500}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{colors.green.500}",
+          "type": "color"
+        },
+        "alert": {
+          "value": "{colors.orange.500}",
+          "type": "color"
+        }
       }
-    }
-  },
-  "customQldDefaultTokenName": {
-    "default": {
-      "value": "{colors.orange.600}",
-      "type": "color"
     }
   }
 }

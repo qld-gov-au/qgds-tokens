@@ -4,17 +4,25 @@
   Do not edit directly, this file was auto-generated.
 -->
 <resources>
-  <color name="textSecondaryColor">#6e6e6e</color>
-  <color name="customQldDefaultTokenNameDefault">#e6b828</color>
-  <color name="fgDefault">#2c2c2c</color>
-  <color name="fgMuted">#3b3b3b</color>
-  <color name="fgSubtle">#4a4a4a</color>
+  <color name="qldDefaultReservedColorError">#e22339</color>
+  <color name="qldDefaultReservedColorInformation">#0085b3</color>
+  <color name="qldDefaultReservedColorSuccess">#339d37</color>
+  <color name="qldDefaultReservedColorAlert">#ffcc2c</color>
+  <color name="fgDefault">#09549f</color>
+  <color name="fgMuted">#07437f</color>
+  <color name="fgSubtle">#05325f</color>
   <color name="bgDefault">#ffffff</color>
-  <color name="bgMuted">#5c5c5c</color>
-  <color name="bgSubtle">#4a4a4a</color>
-  <color name="accentDefault">#0000e6</color>
-  <color name="accentOnAccent">#ffffff</color>
-  <color name="accentBg">#6666ff</color>
+  <color name="bgMuted">#f5f5f5</color>
+  <color name="bgSubtle">#e8e8e8</color>
+  <color name="accentBgDefault">#09549f</color>
+  <color name="accentBgOnAccent">#ffffff</color>
+  <color name="accentBgAlt">#008635</color>
+  <color name="accentBgOnAltAccent">#09549f</color>
+  <color name="accentFgDefault">#77ba02</color>
+  <color name="accentFgOnAccent">#121940</color>
+  <color name="accentFgAlt">#ffe503</color>
+  <color name="accentFgOnAltAccent">#ffffff</color>
+  <color name="accentHighlight">#121940</color>
   <color name="shadowsDefault">#2c2c2c</color>
   <color name="customNameDefault">#0000ff</color>
   <color name="myGroupTwoDefault">#553c9a</color>

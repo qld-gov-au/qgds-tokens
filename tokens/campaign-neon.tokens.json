@@ -1,16 +1,24 @@
 {
-  "text": {
-    "secondary": {
+  "campaingNeon": {
+    "reserved": {
       "color": {
-        "value": "{colors.gray.600}",
-        "type": "color"
+        "error": {
+          "value": "{colors.red.500}",
+          "type": "color"
+        },
+        "information": {
+          "value": "{colors.bondiBlue.500}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{colors.green.500}",
+          "type": "color"
+        },
+        "alert": {
+          "value": "{colors.orange.500}",
+          "type": "color"
+        }
       }
-    }
-  },
-  "customNeonTokenName": {
-    "default": {
-      "value": "{colors.orange.400}",
-      "type": "color"
     }
   }
 }

@@ -3,6 +3,8 @@
  */
 
 :host {
-  --button-primary-background: #ffe500;
+  --button-primary-background: #09549f;
   --button-primary-text: #ffffff;
+  --button-secondary-border-color: #77ba02;
+  --button-secondary-text: #121940;
 }

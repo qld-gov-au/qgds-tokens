@@ -1,15 +1,15 @@
 {
   "fg": {
     "default": {
-      "value": "{colors.maroon.500}",
+      "value": "{colors.veniceBlue.500}",
       "type": "color"
     },
     "muted": {
-      "value": "{colors.gray.700}",
+      "value": "{colors.veniceBlue.700}",
       "type": "color"
     },
     "subtle": {
-      "value": "{colors.gray.500}",
+      "value": "{colors.veniceBlue.900}",
       "type": "color"
     }
   },
@@ -19,25 +19,53 @@
       "type": "color"
     },
     "muted": {
-      "value": "{colors.gray.400}",
+      "value": "{colors.silver.100}",
       "type": "color"
     },
     "subtle": {
-      "value": "{colors.gray.500}",
+      "value": "{colors.silver.200}",
       "type": "color"
     }
   },
   "accent": {
-    "default": {
-      "value": "{colors.janna.500}",
-      "type": "color"
-    },
-    "onAccent": {
-      "value": "{colors.white}",
-      "type": "color"
-    },
     "bg": {
-      "value": "{colors.janna.100}",
+      "default": {
+        "value": "{colors.veniceBlue.500}",
+        "type": "color"
+      },
+      "onAccent": {
+        "value": "{colors.white}",
+        "type": "color"
+      },
+      "alt": {
+        "value": "{colors.funGreen.500}",
+        "type": "color"
+      },
+      "onAltAccent": {
+        "value": "{colors.veniceBlue.500}",
+        "type": "color"
+      }
+    },
+    "fg": {
+      "default": {
+        "value": "{colors.limeade.500}",
+        "type": "color"
+      },
+      "onAccent": {
+        "value": "{colors.bunting.900}",
+        "type": "color"
+      },
+      "alt": {
+        "value": "{colors.turbo.500}",
+        "type": "color"
+      },
+      "onAltAccent": {
+        "value": "{colors.white}",
+        "type": "color"
+      }
+    },
+    "highlight": {
+      "value": "{colors.bunting.900}",
       "type": "color"
     }
   },
@@ -53,9 +81,9 @@
       "type": "color"
     }
   },
-  "myGroupTwoTestName": {
+  "myGroupTwo": {
     "default": {
-      "value": "{colors.orient.500}",
+      "value": "{colors.purple.800}",
       "type": "color"
     }
   }

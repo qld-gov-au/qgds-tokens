@@ -4,6 +4,8 @@
   Do not edit directly, this file was auto-generated.
 -->
 <resources>
-  <color name="buttonPrimaryBackground">#0000e6</color>
+  <color name="buttonPrimaryBackground">#09549f</color>
   <color name="buttonPrimaryText">#ffffff</color>
+  <color name="buttonSecondaryBorderColor">#77ba02</color>
+  <color name="buttonSecondaryText">#121940</color>
 </resources>

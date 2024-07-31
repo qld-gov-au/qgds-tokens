@@ -2,11 +2,21 @@
   "button": {
     "primary": {
       "background": {
-        "value": "{accent.default}",
+        "value": "{accent.bg.default}",
         "type": "color"
       },
       "text": {
-        "value": "{accent.onAccent}",
+        "value": "{accent.bg.onAccent}",
+        "type": "color"
+      }
+    },
+    "secondary": {
+      "borderColor": {
+        "value": "{accent.fg.default}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{accent.fg.onAccent}",
         "type": "color"
       }
     },
