@@ -19,6 +19,16 @@
           "type": "color"
         }
       }
+    },
+    "focus": {
+      "outlineWidth": {
+        "value": "{focus.outlineWidth}",
+        "type": "outlineWidth"
+      },
+      "outlineStyle": {
+        "value": "{focus.outlineStyle}",
+        "type": "outlineStyle"
+      }
     }
   }
 }

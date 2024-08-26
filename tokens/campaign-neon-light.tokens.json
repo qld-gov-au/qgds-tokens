@@ -11,6 +11,20 @@
     "subtle": {
       "value": "{colors.veniceBlue.900}",
       "type": "color"
+    },
+    "separator": {
+      "value": "{colors.bondiBlue.400}",
+      "type": "color"
+    },
+    "borderColor": {
+      "value": "{colors.veniceBlue.900}",
+      "type": "color"
+    },
+    "focus": {
+      "outlineColor": {
+        "value": "{colors.bondiBlue.100}",
+        "type": "outlineColor"
+      }
     }
   },
   "bg": {
@@ -25,6 +39,20 @@
     "subtle": {
       "value": "{colors.silver.200}",
       "type": "color"
+    },
+    "separator": {
+      "value": "{colors.silver.300}",
+      "type": "color"
+    },
+    "borderColor": {
+      "value": "{colors.silver.200}",
+      "type": "color"
+    },
+    "focus": {
+      "outlineColor": {
+        "value": "{colors.bondiBlue.500}",
+        "type": "outlineColor"
+      }
     }
   },
   "accent": {
@@ -65,25 +93,13 @@
       }
     },
     "highlight": {
-      "value": "{colors.bunting.900}",
+      "value": "{colors.lime.500}",
       "type": "color"
     }
   },
   "shadows": {
     "default": {
       "value": "{colors.gray.900}",
-      "type": "color"
-    }
-  },
-  "customName": {
-    "default": {
-      "value": "{colors.blue.500}",
-      "type": "color"
-    }
-  },
-  "myGroupTwo": {
-    "default": {
-      "value": "{colors.purple.800}",
       "type": "color"
     }
   }
