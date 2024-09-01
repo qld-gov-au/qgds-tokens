@@ -25,6 +25,62 @@
         "value": "{colors.bondiBlue.100}",
         "type": "outlineColor"
       }
+    },
+    "typography": {
+      "h1": {
+        "default": {
+          "value": "{colors.white}",
+          "type": "color"
+        }
+      },
+      "h2": {
+        "default": {
+          "value": "{colors.white}",
+          "type": "color"
+        }
+      },
+      "h3": {
+        "default": {
+          "value": "{colors.white}",
+          "type": "color"
+        }
+      },
+      "h4": {
+        "default": {
+          "value": "{colors.white}",
+          "type": "color"
+        }
+      },
+      "h5": {
+        "default": {
+          "value": "{colors.white}",
+          "type": "color"
+        }
+      },
+      "h6": {
+        "default": {
+          "value": "{colors.white}",
+          "type": "color"
+        }
+      },
+      "body": {
+        "default": {
+          "value": "{colors.white}",
+          "type": "color"
+        }
+      },
+      "sm": {
+        "default": {
+          "value": "{colors.white}",
+          "type": "color"
+        }
+      },
+      "xs": {
+        "default": {
+          "value": "{colors.white}",
+          "type": "color"
+        }
+      }
     }
   },
   "bg": {
@@ -53,27 +109,65 @@
         "value": "{colors.bondiBlue.500}",
         "type": "outlineColor"
       }
+    },
+    "typography": {
+      "h1": {
+        "default": {
+          "value": "{colors.tangaroa.500}",
+          "type": "color"
+        }
+      },
+      "h2": {
+        "default": {
+          "value": "{colors.tangaroa.500}",
+          "type": "color"
+        }
+      },
+      "h3": {
+        "default": {
+          "value": "{colors.tangaroa.500}",
+          "type": "color"
+        }
+      },
+      "h4": {
+        "default": {
+          "value": "{colors.tangaroa.500}",
+          "type": "color"
+        }
+      },
+      "h5": {
+        "default": {
+          "value": "{colors.tangaroa.500}",
+          "type": "color"
+        }
+      },
+      "h6": {
+        "default": {
+          "value": "{colors.tangaroa.500}",
+          "type": "color"
+        }
+      },
+      "body": {
+        "default": {
+          "value": "{colors.tundora.500}",
+          "type": "color"
+        }
+      },
+      "sm": {
+        "default": {
+          "value": "{colors.tundora.500}",
+          "type": "color"
+        }
+      },
+      "xs": {
+        "default": {
+          "value": "{colors.tundora.500}",
+          "type": "color"
+        }
+      }
     }
   },
   "accent": {
-    "bg": {
-      "default": {
-        "value": "{colors.veniceBlue.500}",
-        "type": "color"
-      },
-      "onAccent": {
-        "value": "{colors.white}",
-        "type": "color"
-      },
-      "alt": {
-        "value": "{colors.funGreen.500}",
-        "type": "color"
-      },
-      "onAltAccent": {
-        "value": "{colors.veniceBlue.500}",
-        "type": "color"
-      }
-    },
     "fg": {
       "default": {
         "value": "{colors.limeade.500}",
@@ -90,11 +184,79 @@
       "onAltAccent": {
         "value": "{colors.white}",
         "type": "color"
+      },
+      "action": {
+        "button": {
+          "primary": {
+            "textDecoration": {
+              "value": "{textDecorations.none.default}",
+              "type": "textDecoration"
+            }
+          },
+          "secondary": {
+            "textDecoration": {
+              "value": "{textDecorations.none.default}",
+              "type": "textDecoration"
+            }
+          },
+          "tertiary": {
+            "textDecoration": {
+              "value": "{textDecorations.underline.default}",
+              "type": "textDecoration"
+            }
+          }
+        }
+      }
+    },
+    "bg": {
+      "default": {
+        "value": "{colors.veniceBlue.500}",
+        "type": "color"
+      },
+      "onAccent": {
+        "value": "{colors.white}",
+        "type": "color"
+      },
+      "alt": {
+        "value": "{colors.funGreen.500}",
+        "type": "color"
+      },
+      "onAltAccent": {
+        "value": "{colors.veniceBlue.500}",
+        "type": "color"
+      },
+      "action": {
+        "button": {
+          "primary": {
+            "textDecoration": {
+              "value": "{textDecorations.none.default}",
+              "type": "textDecoration"
+            }
+          },
+          "secondary": {
+            "textDecoration": {
+              "value": "{textDecorations.none.default}",
+              "type": "textDecoration"
+            }
+          },
+          "tertiary": {
+            "textDecoration": {
+              "value": "{textDecorations.underline.default}",
+              "type": "textDecoration"
+            }
+          }
+        }
       }
     },
     "highlight": {
-      "value": "{colors.lime.500}",
-      "type": "color"
+      "default": {
+        "value": "{colors.lime.500}",
+        "type": "color"
+      },
+      "onAccent": {
+        "value": "{colors.regalBlue.500}",
+        "type": "color"
+      }
     }
   },
   "shadows": {

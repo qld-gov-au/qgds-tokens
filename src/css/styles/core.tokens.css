@@ -249,14 +249,13 @@
   --opacity-low: 0.1;
   --opacity-md: 0.5;
   --opacity-high: 0.9;
-  --transparency-black-low: rgba(#131212, 0.1);
-  --transparency-black-md: rgba(#131212, 0.5);
-  --transparency-black-high: rgba(#131212, 0.9);
-  --transparency-black-total: rgba(#131212, 1);
-  --transparency-white-low: rgba(#ffffff, 0.1);
-  --transparency-white-md: rgba(#ffffff, 0.5);
-  --transparency-white-high: rgba(#ffffff, 0.9);
-  --transparency-white-total: rgba(#ffffff, 1);
+  --transparency-total: rgba(0, 0, 0, 0);
+  --transparency-black-low: rgba(19, 18, 18, 0.1);
+  --transparency-black-md: rgba(19, 18, 18, 0.5);
+  --transparency-black-high: rgba(19, 18, 18, 0.9);
+  --transparency-white-low: rgba(255, 255, 255, 0.1);
+  --transparency-white-md: rgba(255, 255, 255, 0.5);
+  --transparency-white-high: rgba(255, 255, 255, 0.9);
   --focus-outline-width: 4px;
   --focus-outline-style: solid;
   --focus-outline-color: currentcolor;
@@ -282,4 +281,7 @@
   --font-sizes-body: 16;
   --font-sizes-sm: 13.6;
   --font-sizes-xs: 10.4;
+  --text-decorations-none-default: none;
+  --text-decorations-underline-default: underline;
+  --text-decorations-overline-default: overline;
 }

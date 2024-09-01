@@ -168,24 +168,6 @@
     }
   },
   "accent": {
-    "bg": {
-      "default": {
-        "value": "{colors.veniceBlue.500}",
-        "type": "color"
-      },
-      "onAccent": {
-        "value": "{colors.white}",
-        "type": "color"
-      },
-      "alt": {
-        "value": "{colors.funGreen.500}",
-        "type": "color"
-      },
-      "onAltAccent": {
-        "value": "{colors.veniceBlue.500}",
-        "type": "color"
-      }
-    },
     "fg": {
       "default": {
         "value": "{colors.limeade.500}",
@@ -202,6 +184,84 @@
       "onAltAccent": {
         "value": "{colors.white}",
         "type": "color"
+      },
+      "action": {
+        "button": {
+          "primary": {
+            "textDecoration": {
+              "value": "{textDecorations.none.default}",
+              "type": "textDecoration"
+            }
+          },
+          "secondary": {
+            "background": {
+              "value": "{transparency.total}",
+              "type": "color"
+            },
+            "textDecoration": {
+              "value": "{textDecorations.none.default}",
+              "type": "textDecoration"
+            }
+          },
+          "tertiary": {
+            "background": {
+              "value": "{transparency.total}",
+              "type": "color"
+            },
+            "textDecoration": {
+              "value": "{textDecorations.underline.default}",
+              "type": "textDecoration"
+            }
+          }
+        }
+      }
+    },
+    "bg": {
+      "default": {
+        "value": "{colors.veniceBlue.500}",
+        "type": "color"
+      },
+      "onAccent": {
+        "value": "{colors.white}",
+        "type": "color"
+      },
+      "alt": {
+        "value": "{colors.funGreen.500}",
+        "type": "color"
+      },
+      "onAltAccent": {
+        "value": "{colors.veniceBlue.500}",
+        "type": "color"
+      },
+      "action": {
+        "button": {
+          "primary": {
+            "textDecoration": {
+              "value": "{textDecorations.none.default}",
+              "type": "textDecoration"
+            }
+          },
+          "secondary": {
+            "background": {
+              "value": "{transparency.total}",
+              "type": "color"
+            },
+            "textDecoration": {
+              "value": "{textDecorations.none.default}",
+              "type": "textDecoration"
+            }
+          },
+          "tertiary": {
+            "background": {
+              "value": "{transparency.total}",
+              "type": "color"
+            },
+            "textDecoration": {
+              "value": "{textDecorations.underline.default}",
+              "type": "textDecoration"
+            }
+          }
+        }
       }
     },
     "highlight": {

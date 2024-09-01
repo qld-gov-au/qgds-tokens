@@ -43,7 +43,7 @@ async function run() {
       },
     },
     platforms: {
-      android: {
+      /*android: {
         transformGroup: 'tokens-studio',
         transforms: [
           'ts/descriptionToComment',
@@ -129,6 +129,7 @@ async function run() {
           ...generateComponentFiles(components, theme, 'scss', 'scss'),
         ],
       },
+      */
       css: {
         transformGroup: "tokens-studio",
         // transforms: ["attribute/themeable", "name/kebab"],
