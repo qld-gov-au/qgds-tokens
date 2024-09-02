@@ -5,7 +5,7 @@ import {
   permutateThemes,
 } from "@tokens-studio/sd-transforms";
 import { promises } from "node:fs";
-import { coreFilter } from "./sd-filters.mjs";
+import { primitiveFilter } from "./sd-filters.mjs";
 import {
   generateSemanticFiles,
   generateComponentFiles,
@@ -61,11 +61,11 @@ async function run() {
         ],
         expand: true,
         files: [
-          // core tokens, e.g. for application developer
+          // primitive tokens, e.g. for application developer
           {
-            destination: "src/android/styles/core.tokens.xml",
+            destination: "src/android/styles/primitive.tokens.xml",
             format: "android/resources",
-            filter: coreFilter,
+            filter: primitiveFilter,
           },
           // semantic tokens, e.g. for application developer
           ...generateSemanticFiles(components, theme, 'android', 'xml'),
@@ -89,11 +89,11 @@ async function run() {
         ],
         expand: true,
         files: [
-          // core tokens, e.g. for application developer
+          // primitive tokens, e.g. for application developer
           {
-            destination: "src/js/styles/core.tokens.js",
+            destination: "src/js/styles/primitive.tokens.js",
             format: "javascript/es6",
-            filter: coreFilter,
+            filter: primitiveFilter,
           },
           // semantic tokens, e.g. for application developer
           ...generateSemanticFiles(components, theme, 'js', 'js'),
@@ -117,11 +117,11 @@ async function run() {
         ],
         expand: true,
         files: [
-          // core tokens, e.g. for application developer
+          // primitive tokens, e.g. for application developer
           {
-            destination: "src/scss/styles/core.tokens.scss",
+            destination: "src/scss/styles/primitive.tokens.scss",
             format: "scss/variables",
-            filter: coreFilter,
+            filter: primitiveFilter,
           },
           // semantic tokens, e.g. for application developer
           ...generateSemanticFiles(components, theme, 'scss', 'scss'),
@@ -148,11 +148,11 @@ async function run() {
         ],
         expand: true,
         files: [
-          // core tokens, e.g. for application developer
+          // primitive tokens, e.g. for application developer
           {
-            destination: "src/css/styles/core.tokens.css",
+            destination: "src/css/styles/primitive.tokens.css",
             format: "css/variables",
-            filter: coreFilter,
+            filter: primitiveFilter,
           },
           // semantic tokens, e.g. for application developer
           ...generateSemanticFiles(components, theme, 'css', 'css'),

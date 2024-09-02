@@ -1,14 +1,14 @@
-// filters only tokens originating from core.json
-export const coreFilter = (token) => token.filePath.endsWith("core.tokens.json");
+// filters only tokens originating from primitive.json
+export const primitiveFilter = (token) => token.filePath.endsWith("primitive.tokens.json");
 
-// filters only tokens originating from semantic sets (not core, not components) and also check themeable or not
+// filters only tokens originating from semantic sets (not primitive, not components) and also check themeable or not
 export const semanticFilter =
   (components, themeable = false) =>
   (token) => {
     const tokenThemable = Boolean(token.attributes.themeable);
     return (
       themeable === tokenThemable &&
-      ["core", ...components].every(
+      ["primitive", ...components].every(
         (cat) => !token.filePath.endsWith(`${cat}.tokens.json`)
       )
     );

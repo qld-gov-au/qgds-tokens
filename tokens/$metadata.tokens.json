@@ -1,6 +1,6 @@
 {
   "tokenSetOrder": [
-    "core.tokens",
+    "primitive.tokens",
 
     "qld-default-light.tokens",
     "qld-default-dark.tokens",

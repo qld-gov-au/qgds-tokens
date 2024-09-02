@@ -2,7 +2,7 @@
   {
     "name": "qld-default-light",
     "selectedTokenSets": {
-      "core": "source",
+      "primitive": "source",
       "qld-default": "enabled",
       "qld-default-light": "enabled",
       "button": "source",
@@ -15,7 +15,7 @@
   {
     "name": "qld-default-dark",
     "selectedTokenSets": {
-      "core": "source",
+      "primitive": "source",
       "qld-default": "enabled",
       "qld-default-dark": "enabled",
       "button": "source",
@@ -28,7 +28,7 @@
   {
     "name": "qld-default-high-contrast",
     "selectedTokenSets": {
-      "core": "source",
+      "primitive": "source",
       "qld-default": "enabled",
       "qld-default-high-contrast": "enabled",
       "button": "source",
@@ -41,7 +41,7 @@
 {
     "name": "qld-maroon-light",
     "selectedTokenSets": {
-      "core": "source",
+      "primitive": "source",
       "qld-maroon": "enabled",
       "qld-maroon-light": "enabled",
       "button": "source",
@@ -54,7 +54,7 @@
   {
     "name": "campaign-neon-light",
     "selectedTokenSets": {
-      "core": "source",
+      "primitive": "source",
       "campaign-neon": "enabled",
       "campaign-neon-light": "enabled",
       "button": "source",
