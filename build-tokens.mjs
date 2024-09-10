@@ -43,7 +43,8 @@ async function run() {
       },
     },
     platforms: {
-      /*android: {
+      /*
+      android: {
         transformGroup: 'tokens-studio',
         transforms: [
           'ts/descriptionToComment',

@@ -78,41 +78,117 @@
       "value": "#ffffff",
       "type": "color"
     },
-    "silver": {
+    "silverGallery": {
       "100": {
-        "value": "#f5f5f5",
+        "value": "#f3f3f3",
         "type": "color"
       },
       "200": {
-        "value": "#e8e8e8",
+        "value": "#f1f1f1",
         "type": "color"
       },
       "300": {
-        "value": "#eae9e8",
+        "value": "#efefef",
         "type": "color"
       },
       "400": {
-        "value": "#e8e7e5",
+        "value": "#ededed",
         "type": "color"
       },
       "500": {
-        "value": "#e5e4e2",
+        "value": "#ebebeb",
         "type": "color"
       },
       "600": {
-        "value": "#cecdcb",
+        "value": "#d4d4d4",
         "type": "color"
       },
       "700": {
-        "value": "#b7b6b5",
+        "value": "#bcbcbc",
         "type": "color"
       },
       "800": {
-        "value": "#a0a09e",
+        "value": "#a5a5a5",
         "type": "color"
       },
       "900": {
-        "value": "#898988",
+        "value": "#8d8d8d",
+        "type": "color"
+      }
+    },
+    "silverWildSand": {
+      "100": {
+        "value": "#f9f9f9",
+        "type": "color"
+      },
+      "200": {
+        "value": "#f8f8f8",
+        "type": "color"
+      },
+      "300": {
+        "value": "#f7f7f7",
+        "type": "color"
+      },
+      "400": {
+        "value": "#f6f6f6",
+        "type": "color"
+      },
+      "500": {
+        "value": "#f5f5f5",
+        "type": "color"
+      },
+      "600": {
+        "value": "#dddddd",
+        "type": "color"
+      },
+      "700": {
+        "value": "#c4c4c4",
+        "type": "color"
+      },
+      "800": {
+        "value": "#acacac",
+        "type": "color"
+      },
+      "900": {
+        "value": "#939393",
+        "type": "color"
+      }
+    },
+    "silverMercury": {
+      "100": {
+        "value": "#f1f1f1",
+        "type": "color"
+      },
+      "200": {
+        "value": "#efefef",
+        "type": "color"
+      },
+      "300": {
+        "value": "#ededed",
+        "type": "color"
+      },
+      "400": {
+        "value": "#eaeaea",
+        "type": "color"
+      },
+      "500": {
+        "value": "#e8e8e8",
+        "type": "color"
+      },
+      "600": {
+        "value": "#d1d1d1",
+        "type": "color"
+      },
+      "700": {
+        "value": "#bababa",
+        "type": "color"
+      },
+      "800": {
+        "value": "#a2a2a2",
+        "type": "color"
+      },
+      "900": {
+        "value": "#8b8b8b",
         "type": "color"
       }
     },
@@ -610,6 +686,44 @@
         "type": "color"
       }
     },
+    "atlantis": {
+      "100": {
+        "value": "#a6d87e",
+        "type": "color"
+      },
+      "200": {
+        "value": "#97d269",
+        "type": "color"
+      },
+      "300": {
+        "value": "#89cb53",
+        "type": "color"
+      },
+      "400": {
+        "value": "#7ac53e",
+        "type": "color"
+      },
+      "500": {
+        "value": "#6bbe28",
+        "type": "color"
+      },
+      "600": {
+        "value": "#60ab24",
+        "type": "color"
+      },
+      "700": {
+        "value": "#569820",
+        "type": "color"
+      },
+      "800": {
+        "value": "#4b851c",
+        "type": "color"
+      },
+      "900": {
+        "value": "#407218",
+        "type": "color"
+      }
+    },
     "blue": {
       "100": {
         "value": "#6666ff",
@@ -759,6 +873,44 @@
       },
       "900": {
         "value": "#00506b",
+        "type": "color"
+      }
+    },
+    "congressBlue": {
+      "100": {
+        "value": "#668bb2",
+        "type": "color"
+      },
+      "200": {
+        "value": "#4d78a5",
+        "type": "color"
+      },
+      "300": {
+        "value": "#336598",
+        "type": "color"
+      },
+      "400": {
+        "value": "#1a518b",
+        "type": "color"
+      },
+      "500": {
+        "value": "#003e7e",
+        "type": "color"
+      },
+      "600": {
+        "value": "#003871",
+        "type": "color"
+      },
+      "700": {
+        "value": "#003265",
+        "type": "color"
+      },
+      "800": {
+        "value": "#002b58",
+        "type": "color"
+      },
+      "900": {
+        "value": "#00254c",
         "type": "color"
       }
     },
@@ -1093,11 +1245,11 @@
   },
   "fontFamilies": {
     "heading": {
-      "value": "inter",
+      "value": "Noto Sans",
       "type": "fontFamilies"
     },
     "body": {
-      "value": "roboto",
+      "value": "Font Awesome 6 Free",
       "type": "fontFamilies"
     }
   },
