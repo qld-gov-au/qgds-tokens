@@ -3,6 +3,7 @@
  */
 
 :host {
+  --button-bg-secondary-background: accent.bg.action.button.secondary.background};
   --button-border-radius: 8;
   --button-border-width: 8px;
 }

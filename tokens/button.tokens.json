@@ -3,11 +3,11 @@
     "fg": {
       "primary": {
         "background": {
-          "value": "{accent.fg.default}",
+          "value": "{accent.fg.action.button.primary.background}",
           "type": "color"
         },
         "text": {
-          "value": "{accent.fg.onAccent}",
+          "value": "{accent.fg.action.button.primary.text}",
           "type": "color"
         },
         "textDecoration": {
@@ -15,17 +15,17 @@
           "type": "textDecoration"
         },
         "borderColor": {
-          "value": "{accent.fg.default}",
+          "value": "{accent.fg.action.button.primary.borderColor}",
           "type": "color"
         }
       },
       "secondary": {
         "background": {
-          "value": "{fg.default}",
+          "value": "{accent.fg.action.button.secondary.background}",
           "type": "color"
         },
         "text": {
-          "value": "{accent.fg.onAltAccent}",
+          "value": "{accent.fg.action.button.secondary.text}",
           "type": "color"
         },
         "textDecoration": {
@@ -33,17 +33,17 @@
           "type": "textDecoration"
         },
         "borderColor": {
-          "value": "{accent.fg.alt}",
+          "value": "{accent.fg.action.button.secondary.borderColor}",
           "type": "color"
         }
       },
       "tertiary": {
         "background": {
-          "value": "{fg.default}",
+          "value": "{accent.fg.action.button.tertiary.background}",
           "type": "color"
         },
         "text": {
-          "value": "{accent.fg.onAltAccent}",
+          "value": "{accent.fg.action.button.tertiary.text}",
           "type": "color"
         },
         "textDecoration": {
@@ -51,7 +51,7 @@
           "type": "textDecoration"
         },
         "borderColor": {
-          "value": "{fg.default}",
+          "value": "{accent.fg.action.button.tertiary.borderColor}",
           "type": "color"
         }
       }
@@ -59,11 +59,11 @@
     "bg": {
       "primary": {
         "background": {
-          "value": "{accent.bg.default}",
+          "value": "{accent.bg.action.button.primary.background}",
           "type": "color"
         },
         "text": {
-          "value": "{accent.bg.onAccent}",
+          "value": "{accent.bg.action.button.primary.text}",
           "type": "color"
         },
         "textDecoration": {
@@ -71,17 +71,17 @@
           "type": "textDecoration"
         },
         "borderColor": {
-          "value": "{accent.bg.default}",
+          "value": "{accent.bg.action.button.primary.borderColor}",
           "type": "color"
         }
       },
       "secondary": {
         "background": {
-          "value": "{bg.default}",
+          "value": "accent.bg.action.button.secondary.background}",
           "type": "color"
         },
         "text": {
-          "value": "{accent.bg.onAltAccent}",
+          "value": "{accent.bg.action.button.secondary.text}",
           "type": "color"
         },
         "textDecoration": {
@@ -89,17 +89,17 @@
           "type": "textDecoration"
         },
         "borderColor": {
-          "value": "{accent.bg.alt}",
+          "value": "{accent.bg.action.button.secondary.borderColor}",
           "type": "color"
         }
       },
       "tertiary": {
         "background": {
-          "value": "{bg.default}",
+          "value": "{accent.bg.action.button.tertiary.background}",
           "type": "color"
         },
         "text": {
-          "value": "{accent.bg.onAltAccent}",
+          "value": "{accent.bg.action.button.tertiary.text}",
           "type": "color"
         },
         "textDecoration": {
@@ -107,7 +107,7 @@
           "type": "textDecoration"
         },
         "borderColor": {
-          "value": "{bg.default}",
+          "value": "{accent.bg.action.button.tertiary.borderColor}",
           "type": "color"
         }
       }
