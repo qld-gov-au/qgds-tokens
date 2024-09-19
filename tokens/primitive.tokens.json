@@ -1323,6 +1323,14 @@
     "h2": {
       "value": "26",
       "type": "paragraphSpacing"
+    },
+    "h3": {
+      "value": "23",
+      "type": "paragraphSpacing"
+    },
+    "body": {
+      "value": "22",
+      "type": "paragraphSpacing"
     }
   },
   "fontWeights": {
@@ -1343,41 +1351,79 @@
       "type": "fontWeights"
     }
   },
+  "typeScale": {
+    "1": {
+      "value": "14",
+      "type": "typeScale"
+    },
+    "2": {
+      "value": "16",
+      "type": "typeScale"
+    },
+    "3": {
+      "value": "20",
+      "type": "typeScale"
+    },
+    "4": {
+      "value": "24",
+      "type": "typeScale"
+    },
+    "5": {
+      "value": "28",
+      "type": "typeScale"
+    },
+    "6": {
+      "value": "32",
+      "type": "typeScale"
+    },
+    "7": {
+      "value": "36",
+      "type": "typeScale"
+    },
+    "8": {
+      "value": "40",
+      "type": "typeScale"
+    },
+    "9": {
+      "value": "48",
+      "type": "typeScale"
+    }
+  },
   "fontSizes": {
     "h1": {
-      "value": "{fontSizes.h2} * 1.25",
+      "value": "{typeScale.9}",
       "type": "fontSizes"
     },
     "h2": {
-      "value": "{fontSizes.h3} * 1.25",
+      "value": "{typeScale.8}",
       "type": "fontSizes"
     },
     "h3": {
-      "value": "{fontSizes.h4} * 1.25",
+      "value": "{typeScale.7}",
       "type": "fontSizes"
     },
     "h4": {
-      "value": "{fontSizes.h5} * 1.25",
+      "value": "{typeScale.6}",
       "type": "fontSizes"
     },
     "h5": {
-      "value": "{fontSizes.h6} * 1.25",
+      "value": "{typeScale.5}",
       "type": "fontSizes"
     },
     "h6": {
-      "value": "{fontSizes.body} * 1",
+      "value": "{typeScale.2}",
       "type": "fontSizes"
     },
     "body": {
-      "value": "16",
+      "value": "{typeScale.2}",
       "type": "fontSizes"
     },
     "sm": {
-      "value": "{fontSizes.body} * 0.85",
+      "value": "{typeScale.1}",
       "type": "fontSizes"
     },
     "xs": {
-      "value": "{fontSizes.body} * 0.65",
+      "value": "{typeScale.1}",
       "type": "fontSizes"
     }
   },
