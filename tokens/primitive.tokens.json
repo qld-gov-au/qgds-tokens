@@ -78,6 +78,44 @@
       "value": "#ffffff",
       "type": "color"
     },
+    "silver": {
+      "100": {
+        "value": "#d7d7d7",
+        "type": "color"
+      },
+      "200": {
+        "value": "#d0d0d0",
+        "type": "color"
+      },
+      "300": {
+        "value": "#c9c9c9",
+        "type": "color"
+      },
+      "400": {
+        "value": "#c3c3c3",
+        "type": "color"
+      },
+      "500": {
+        "value": "#bcbcbc",
+        "type": "color"
+      },
+      "600": {
+        "value": "#a9a9a9",
+        "type": "color"
+      },
+      "700": {
+        "value": "#969696",
+        "type": "color"
+      },
+      "800": {
+        "value": "#848484",
+        "type": "color"
+      },
+      "900": {
+        "value": "#717171",
+        "type": "color"
+      }
+    },
     "silverGallery": {
       "100": {
         "value": "#f3f3f3",

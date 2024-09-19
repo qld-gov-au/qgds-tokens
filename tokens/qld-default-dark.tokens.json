@@ -16,16 +16,20 @@
       "value": "{colors.veniceBlue.900}",
       "type": "color"
     },
-    "separatorInner": {
+    "boundary": {
+      "value": "{colors.silver.500}",
+      "type": "color"
+    },
+    "partition": {
       "value": "{colors.silverGallery.500}",
       "type": "color"
     },
-    "separatorOuter": {
+    "separator": {
       "value": "{colors.tundora.200}",
       "type": "color"
     },
-    "borderColor": {
-      "value": "{colors.veniceBlue.900}",
+    "border": {
+      "value": "{colors.silverMercury.500}",
       "type": "color"
     },
     "focus": {
@@ -108,15 +112,19 @@
       "value": "{colors.silverGallery.500}",
       "type": "color"
     },
-    "separatorInner": {
+    "boundary": {
+      "value": "{colors.silver.500}",
+      "type": "color"
+    },
+    "partition": {
       "value": "{colors.silverGallery.500}",
       "type": "color"
     },
-    "separatorOuter": {
+    "separator": {
       "value": "{colors.tundora.200}",
       "type": "color"
     },
-    "borderColor": {
+    "border": {
       "value": "{colors.silverMercury.500}",
       "type": "color"
     },

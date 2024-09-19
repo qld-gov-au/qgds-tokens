@@ -21,6 +21,15 @@
   --border-radius-multi-value: 4 8;
   --colors-black: #131212;
   --colors-white: #ffffff;
+  --colors-silver-100: #d7d7d7;
+  --colors-silver-200: #d0d0d0;
+  --colors-silver-300: #c9c9c9;
+  --colors-silver-400: #c3c3c3;
+  --colors-silver-500: #bcbcbc;
+  --colors-silver-600: #a9a9a9;
+  --colors-silver-700: #969696;
+  --colors-silver-800: #848484;
+  --colors-silver-900: #717171;
   --colors-silver-gallery-100: #f3f3f3;
   --colors-silver-gallery-200: #f1f1f1;
   --colors-silver-gallery-300: #efefef;
