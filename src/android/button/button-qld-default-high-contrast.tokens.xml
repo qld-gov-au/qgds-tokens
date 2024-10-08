@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly, this file was auto-generated.
+-->
+<resources>
+  <color name="buttonFgPrimaryBackground">#77ba02</color>
+  <color name="buttonFgPrimaryText">#121940</color>
+  <string name="buttonFgPrimaryTextDecoration">none</string>
+  <color name="buttonFgPrimaryBorderColor">#77ba02</color>
+  <color name="buttonFgSecondaryBackground">#0a549f</color>
+  <color name="buttonFgSecondaryText">#ffffff</color>
+  <string name="buttonFgSecondaryTextDecoration">none</string>
+  <color name="buttonFgSecondaryBorderColor">#ffe503</color>
+  <color name="buttonFgTertiaryBackground">#0a549f</color>
+  <color name="buttonFgTertiaryText">#ffffff</color>
+  <string name="buttonFgTertiaryTextDecoration">underline</string>
+  <color name="buttonFgTertiaryBorderColor">#0a549f</color>
+  <color name="buttonBgPrimaryBackground">#0a549f</color>
+  <color name="buttonBgPrimaryText">#ffffff</color>
+  <string name="buttonBgPrimaryTextDecoration">none</string>
+  <color name="buttonBgPrimaryBorderColor">#0a549f</color>
+  <color name="buttonBgSecondaryText">#0a549f</color>
+  <string name="buttonBgSecondaryTextDecoration">none</string>
+  <color name="buttonBgSecondaryBorderColor">#008635</color>
+  <color name="buttonBgTertiaryBackground">#ffffff</color>
+  <color name="buttonBgTertiaryText">#0a549f</color>
+  <string name="buttonBgTertiaryTextDecoration">underline</string>
+  <color name="buttonBgTertiaryBorderColor">#ffffff</color>
+</resources>

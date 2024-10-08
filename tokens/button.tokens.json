@@ -1,172 +1,58 @@
 {
   "button": {
-    "light": {
-      "default": {
-        "primary": {
-          "background": {
-            "value": "{accent.fg.action.button.primary.background}",
-            "type": "color"
-          },
-          "text": {
-            "value": "{accent.fg.action.button.primary.text}",
-            "type": "color"
-          },
-          "textDecoration": {
-            "value": "{accent.fg.action.button.primary.textDecoration}",
-            "type": "textDecoration"
-          },
-          "borderColor": {
-            "value": "{accent.fg.action.button.primary.borderColor}",
-            "type": "color"
-          }
+    "fg": {
+      "primary": {
+        "background": {
+          "value": "{accent.fg.action.button.primary.background}",
+          "type": "color"
         },
-        "secondary": {
-          "background": {
-            "value": "{accent.fg.action.button.secondary.background}",
-            "type": "color"
-          },
-          "text": {
-            "value": "{accent.fg.action.button.secondary.text}",
-            "type": "color"
-          },
-          "textDecoration": {
-            "value": "{accent.fg.action.button.secondary.textDecoration}",
-            "type": "textDecoration"
-          },
-          "borderColor": {
-            "value": "{accent.fg.action.button.secondary.borderColor}",
-            "type": "color"
-          }
+        "text": {
+          "value": "{accent.fg.action.button.primary.text}",
+          "type": "color"
         },
-        "tertiary": {
-          "background": {
-            "value": "{accent.fg.action.button.tertiary.background}",
-            "type": "color"
-          },
-          "text": {
-            "value": "{accent.fg.action.button.tertiary.text}",
-            "type": "color"
-          },
-          "textDecoration": {
-            "value": "{accent.fg.action.button.tertiary.textDecoration}",
-            "type": "textDecoration"
-          },
-          "borderColor": {
-            "value": "{accent.fg.action.button.tertiary.borderColor}",
-            "type": "color"
-          }
+        "textDecoration": {
+          "value": "{accent.fg.action.button.primary.textDecoration}",
+          "type": "textDecoration"
+        },
+        "borderColor": {
+          "value": "{accent.fg.action.button.primary.borderColor}",
+          "type": "color"
         }
       },
-      "mid": {
-        "primary": {
-          "background": {
-            "value": "{palette.light.mid.action.button.primary.background}",
-            "type": "color"
-          },
-          "text": {
-            "value": "{accent.fg.action.button.primary.text}",
-            "type": "color"
-          },
-          "textDecoration": {
-            "value": "{accent.fg.action.button.primary.textDecoration}",
-            "type": "textDecoration"
-          },
-          "borderColor": {
-            "value": "{accent.fg.action.button.primary.borderColor}",
-            "type": "color"
-          }
+      "secondary": {
+        "background": {
+          "value": "{accent.fg.action.button.secondary.background}",
+          "type": "color"
         },
-        "secondary": {
-          "background": {
-            "value": "{accent.fg.action.button.secondary.background}",
-            "type": "color"
-          },
-          "text": {
-            "value": "{accent.fg.action.button.secondary.text}",
-            "type": "color"
-          },
-          "textDecoration": {
-            "value": "{accent.fg.action.button.secondary.textDecoration}",
-            "type": "textDecoration"
-          },
-          "borderColor": {
-            "value": "{accent.fg.action.button.secondary.borderColor}",
-            "type": "color"
-          }
+        "text": {
+          "value": "{accent.fg.action.button.secondary.text}",
+          "type": "color"
         },
-        "tertiary": {
-          "background": {
-            "value": "{accent.fg.action.button.tertiary.background}",
-            "type": "color"
-          },
-          "text": {
-            "value": "{accent.fg.action.button.tertiary.text}",
-            "type": "color"
-          },
-          "textDecoration": {
-            "value": "{accent.fg.action.button.tertiary.textDecoration}",
-            "type": "textDecoration"
-          },
-          "borderColor": {
-            "value": "{accent.fg.action.button.tertiary.borderColor}",
-            "type": "color"
-          }
+        "textDecoration": {
+          "value": "{accent.fg.action.button.secondary.textDecoration}",
+          "type": "textDecoration"
+        },
+        "borderColor": {
+          "value": "{accent.fg.action.button.secondary.borderColor}",
+          "type": "color"
         }
       },
-      "alt": {
-        "primary": {
-          "background": {
-            "value": "{accent.fg.action.button.primary.background}",
-            "type": "color"
-          },
-          "text": {
-            "value": "{accent.fg.action.button.primary.text}",
-            "type": "color"
-          },
-          "textDecoration": {
-            "value": "{accent.fg.action.button.primary.textDecoration}",
-            "type": "textDecoration"
-          },
-          "borderColor": {
-            "value": "{accent.fg.action.button.primary.borderColor}",
-            "type": "color"
-          }
+      "tertiary": {
+        "background": {
+          "value": "{accent.fg.action.button.tertiary.background}",
+          "type": "color"
         },
-        "secondary": {
-          "background": {
-            "value": "{accent.fg.action.button.secondary.background}",
-            "type": "color"
-          },
-          "text": {
-            "value": "{accent.fg.action.button.secondary.text}",
-            "type": "color"
-          },
-          "textDecoration": {
-            "value": "{accent.fg.action.button.secondary.textDecoration}",
-            "type": "textDecoration"
-          },
-          "borderColor": {
-            "value": "{accent.fg.action.button.secondary.borderColor}",
-            "type": "color"
-          }
+        "text": {
+          "value": "{accent.fg.action.button.tertiary.text}",
+          "type": "color"
         },
-        "tertiary": {
-          "background": {
-            "value": "{accent.fg.action.button.tertiary.background}",
-            "type": "color"
-          },
-          "text": {
-            "value": "{accent.fg.action.button.tertiary.text}",
-            "type": "color"
-          },
-          "textDecoration": {
-            "value": "{accent.fg.action.button.tertiary.textDecoration}",
-            "type": "textDecoration"
-          },
-          "borderColor": {
-            "value": "{accent.fg.action.button.tertiary.borderColor}",
-            "type": "color"
-          }
+        "textDecoration": {
+          "value": "{accent.fg.action.button.tertiary.textDecoration}",
+          "type": "textDecoration"
+        },
+        "borderColor": {
+          "value": "{accent.fg.action.button.tertiary.borderColor}",
+          "type": "color"
         }
       }
     },

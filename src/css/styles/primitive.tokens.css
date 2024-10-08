@@ -296,10 +296,10 @@
   --opacity-high: 0.9;
   --transparency-total: rgba(0, 0, 0, 0);
   --transparency-black-low: rgba(19, 18, 18, 0.1);
-  --transparency-black-md: rgba(19, 18, 18, 0.5);
+  --transparency-black-md: rgba(19, 18, 18, 0.72);
   --transparency-black-high: rgba(19, 18, 18, 0.9);
   --transparency-white-low: rgba(255, 255, 255, 0.1);
-  --transparency-white-md: rgba(255, 255, 255, 0.5);
+  --transparency-white-md: rgba(255, 255, 255, 0.72);
   --transparency-white-high: rgba(255, 255, 255, 0.9);
   --focus-outline-width: 4px;
   --focus-outline-style: solid;

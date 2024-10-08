@@ -1244,7 +1244,7 @@
         "type": "color"
       },
       "md": {
-        "value": "rgba({colors.black}, 0.5)",
+        "value": "rgba({colors.black}, 0.72)",
         "type": "color"
       },
       "high": {
@@ -1258,7 +1258,7 @@
         "type": "color"
       },
       "md": {
-        "value": "rgba({colors.white}, 0.5)",
+        "value": "rgba({colors.white}, 0.72)",
         "type": "color"
       },
       "high": {

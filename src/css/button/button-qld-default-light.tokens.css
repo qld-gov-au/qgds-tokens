@@ -3,7 +3,7 @@
  */
 
 :host {
-  --button-light-default-primary-background: #77ba02;
+  --button-fg-primary-background: #77ba02;
   --button-fg-primary-text: #121940;
   --button-fg-primary-text-decoration: none;
   --button-fg-primary-border-color: #77ba02;
