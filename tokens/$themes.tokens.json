@@ -1,10 +1,10 @@
 [
   {
-    "name": "qld-default-light",
+    "name": "qld-default-bright",
     "selectedTokenSets": {
       "primitive": "source",
       "qld-default": "enabled",
-      "qld-default-light": "enabled",
+      "qld-default-bright": "enabled",
       "button": "source",
       "card": "source",
       "qgds": "source",
@@ -13,11 +13,11 @@
     "group": "brand"
   },
   {
-    "name": "qld-default-dark",
+    "name": "qld-default-bold",
     "selectedTokenSets": {
       "primitive": "source",
       "qld-default": "enabled",
-      "qld-default-dark": "enabled",
+      "qld-default-bold": "enabled",
       "button": "source",
       "card": "source",
       "qgds": "source",
@@ -26,24 +26,11 @@
     "group": "brand"
   },
   {
-    "name": "qld-default-high-contrast",
-    "selectedTokenSets": {
-      "primitive": "source",
-      "qld-default": "enabled",
-      "qld-default-high-contrast": "enabled",
-      "button": "source",
-      "card": "source",
-      "qgds": "source",
-      "typography": "source"
-    },
-    "group": "brand"
-  },
-{
-    "name": "qld-maroon-light",
+    "name": "qld-maroon-bright",
     "selectedTokenSets": {
       "primitive": "source",
       "qld-maroon": "enabled",
-      "qld-maroon-light": "enabled",
+      "qld-maroon-bright": "enabled",
       "button": "source",
       "card": "source",
       "qgds": "source",
@@ -52,11 +39,63 @@
     "group": "brand"
   },
   {
-    "name": "campaign-neon-light",
+    "name": "qld-maroon-bold",
+    "selectedTokenSets": {
+      "primitive": "source",
+      "qld-maroon": "enabled",
+      "qld-maroon-bold": "enabled",
+      "button": "source",
+      "card": "source",
+      "qgds": "source",
+      "typography": "source"
+    },
+    "group": "brand"
+  },
+  {
+    "name": "qld-high-contrast-bright",
+    "selectedTokenSets": {
+      "primitive": "source",
+      "qld-default": "enabled",
+      "qld-high-contrast-bright": "enabled",
+      "button": "source",
+      "card": "source",
+      "qgds": "source",
+      "typography": "source"
+    },
+    "group": "brand"
+  },
+  {
+    "name": "qld-high-contrast-string",
+    "selectedTokenSets": {
+      "primitive": "source",
+      "qld-default": "enabled",
+      "qld-high-contrast-strong": "enabled",
+      "button": "source",
+      "card": "source",
+      "qgds": "source",
+      "typography": "source"
+    },
+    "group": "brand"
+  },
+  {
+    "name": "campaign-neon-bright",
     "selectedTokenSets": {
       "primitive": "source",
       "campaign-neon": "enabled",
-      "campaign-neon-light": "enabled",
+      "campaign-neon-bright": "enabled",
+      "button": "source",
+      "card": "source",
+      "qgds": "source",
+      "typography": "source"
+    },
+    "group": "brand"
+  },
+  {
+    "name": "campaign-neon-strong",
+    "selectedTokenSets": {
+      "primitive": "source",
+      "campaign-neon": "enabled",
+      "campaign-neon-strong": "enabled",
       "button": "source",
       "card": "source",
       "qgds": "source",
