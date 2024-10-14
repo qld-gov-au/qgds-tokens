@@ -3,27 +3,5 @@
  */
 
 :host {
-  --button-fg-primary-background: #77ba02;
-  --button-fg-primary-text: #121940;
-  --button-fg-primary-text-decoration: none;
-  --button-fg-primary-border-color: #77ba02;
-  --button-fg-secondary-background: #0a549f;
-  --button-fg-secondary-text: #ffffff;
-  --button-fg-secondary-text-decoration: none;
-  --button-fg-secondary-border-color: #ffe503;
-  --button-fg-tertiary-background: #0a549f;
-  --button-fg-tertiary-text: #ffffff;
-  --button-fg-tertiary-text-decoration: underline;
-  --button-fg-tertiary-border-color: #0a549f;
-  --button-bg-primary-background: #0a549f;
-  --button-bg-primary-text: #ffffff;
-  --button-bg-primary-text-decoration: none;
-  --button-bg-primary-border-color: #0a549f;
-  --button-bg-secondary-text: #0a549f;
-  --button-bg-secondary-text-decoration: none;
-  --button-bg-secondary-border-color: #008635;
-  --button-bg-tertiary-background: #ffffff;
-  --button-bg-tertiary-text: #0a549f;
-  --button-bg-tertiary-text-decoration: underline;
-  --button-bg-tertiary-border-color: #ffffff;
+  --button-palette-bright-background: #03203f;
 }

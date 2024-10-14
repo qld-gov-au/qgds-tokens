@@ -1,7 +1,99 @@
 {
-  "campaingNeon": {
-    "reserved": {
-      "color": {
+  "aaa": {
+    "themeColors": {
+      "brand": {
+        "first": {
+          "value": "{colors.victoriaBlue.500}",
+          "type": "color"
+        },
+        "second": {
+          "value": "{colors.marineBlue.500}",
+          "type": "color"
+        },
+        "third": {
+          "value": "{colors.zundaGreen.500}",
+          "type": "color"
+        },
+        "fourth": {
+          "value": "{colors.starYellow.500}",
+          "type": "color"
+        }
+      },
+      "background": {
+        "bright": {
+          "value": "{colors.white}",
+          "type": "color"
+        },
+        "tint": {
+          "value": "{colors.victoriaBlue.25}",
+          "type": "color"
+        },
+        "alt": {
+          "value": "{colors.christimasSilver.300}",
+          "type": "color"
+        },
+        "bold": {
+          "value": "{colors.victoriaBlue.500}",
+          "type": "color"
+        },
+        "strong": {
+          "value": "{colors.marineBlue.500}",
+          "type": "color"
+        }
+      },
+      "action": {
+        "onBrights": {
+          "primary": {
+            "value": "{colors.bondiBlue.500}",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "{colors.bondiBlue.500}",
+            "type": "color"
+          },
+          "tertiary": {
+            "value": "{colors.bondiBlue.500}",
+            "type": "color"
+          }
+        },
+        "onBolds": {
+          "primary": {
+            "value": "{colors.bondiBlue.500}",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "{colors.bondiBlue.500}",
+            "type": "color"
+          },
+          "tertiary": {
+            "value": "{colors.bondiBlue.500}",
+            "type": "color"
+          }
+        }
+      },
+      "wording": {
+        "onBrights": {
+          "text": {
+            "value": "{colors.bondiBlue.500}",
+            "type": "color"
+          },
+          "heading": {
+            "value": "{colors.bondiBlue.500}",
+            "type": "color"
+          }
+        },
+        "onBolds": {
+          "text": {
+            "value": "{colors.bondiBlue.500}",
+            "type": "color"
+          },
+          "heading": {
+            "value": "{colors.bondiBlue.500}",
+            "type": "color"
+          }
+        }
+      },
+      "reserved": {
         "error": {
           "value": "{colors.red.500}",
           "type": "color"
@@ -18,6 +110,16 @@
           "value": "{colors.orange.500}",
           "type": "color"
         }
+      }
+    },
+    "focus": {
+      "outlineWidth": {
+        "value": "{focus.outlineWidth}",
+        "type": "outlineWidth"
+      },
+      "outlineStyle": {
+        "value": "{focus.outlineStyle}",
+        "type": "outlineStyle"
       }
     }
   }
