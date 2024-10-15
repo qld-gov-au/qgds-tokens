@@ -3,7 +3,7 @@
     "palette": {
       "bright": {
         "background": {
-          "value": "{palette.bright.action.button.primary.default.background}",
+          "value": "{palettes.bright.action.button.primary.default.background}",
           "type": "color"
         }
       }

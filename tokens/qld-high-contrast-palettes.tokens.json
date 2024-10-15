@@ -1,100 +1,100 @@
 {
-  "palette": {
+  "palettes": {
     "bright": {
       "background": {
         "value": "{colors.white}",
         "type": "color"
       },
       "shade": {
-        "value": "{colors.silverMercury.500}",
+        "value": "{colors.goshawkGrey.500}",
         "type": "color"
       },
       "focus": {
         "outlineColor": {
-          "value": "{colors.bondiBlue.500}",
+          "value": "{colors.danubeBlue.500}",
           "type": "outlineColor"
         }
       },
       "border": {
         "default": {
-          "value": "{colors.tangaroa.500}",
+          "value": "{colors.goshawkGrey.500}",
           "type": "color"
         },
         "variant": {
-          "value": "{colors.tangaroa.500}",
+          "value": "{colors.goshawkGrey.500}",
           "type": "color"
         }
       },
       "boundary": {
-        "value": "{colors.silver.500}",
+        "value": "{colors.goshawkGrey.500}",
         "type": "color"
       },
       "partition": {
-        "value": "{colors.silverGallery.500}",
+        "value": "{colors.goshawkGrey.500}",
         "type": "color"
       },
       "separator": {
-        "value": "{colors.tundora.200}",
+        "value": "{colors.goshawkGrey.200}",
         "type": "color"
       },
       "divider": {
-        "value": "{colors.tundora.200}",
+        "value": "{colors.goshawkGrey.200}",
         "type": "color"
       },
       "fence": {
-        "value": "{colors.tundora.200}",
+        "value": "{colors.goshawkGrey.200}",
         "type": "color"
       },
       "line": {
-        "value": "{colors.tundora.200}",
+        "value": "{colors.goshawkGrey.200}",
         "type": "color"
       },
       "muted": {
-        "value": "{colors.silverWildSand.500}",
+        "value": "{colors.goshawkGrey.500}",
         "type": "color"
       },
       "subtle": {
-        "value": "{colors.silverGallery.500}",
+        "value": "{colors.goshawkGrey.500}",
         "type": "color"
       },
       "accent": {
         "default": {
-          "value": "{colors.tangaroa.500}",
+          "value": "{colors.goshawkGrey.500}",
           "type": "color"
         },
         "onAccent": {
-          "value": "{colors.tangaroa.500}",
+          "value": "{colors.goshawkGrey.500}",
           "type": "color"
         }
       },
       "typography": {
         "siteTitle": {
           "default": {
-            "value": "{colors.tangaroa.500}",
+            "value": "{colors.goshawkGrey.500}",
             "type": "color"
           },
           "lighter": {
-            "value": "{colors.tangaroa.500}",
+            "value": "{colors.goshawkGrey.500}",
             "type": "color"
           }
         },
         "heading": {
           "default": {
-            "value": "{colors.tangaroa.500}",
+            "value": "{colors.goshawkGrey.500}",
             "type": "color"
           },
           "lighter": {
-            "value": "{colors.tangaroa.500}",
+            "value": "{colors.goshawkGrey.500}",
             "type": "color"
           }
         },
         "body": {
           "default": {
-            "value": "{colors.tundora.500}",
+            "value": "{colors.goshawkGrey.500}",
             "type": "color"
           },
           "lighter": {
-            "value": "{colors.tangaroa.500}",
+            "value": "{colors.goshawkGrey.500}",
             "type": "color"
           }
         }
@@ -104,11 +104,11 @@
           "primary": {
             "default": {
               "background": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               },
               "text": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -116,17 +116,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               },
               "text": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -134,17 +134,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               },
               "text": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -152,7 +152,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               }
             }
@@ -160,11 +160,11 @@
           "secondary": {
             "default": {
               "background": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               },
               "text": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -172,17 +172,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               },
               "text": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -190,17 +190,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               },
               "text": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -208,7 +208,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               }
             }
@@ -216,11 +216,11 @@
           "tertiary": {
             "default": {
               "background": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               },
               "text": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -228,17 +228,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               },
               "text": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -246,17 +246,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               },
               "text": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -264,7 +264,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{colors.tangaroa.500}",
+                "value": "{colors.goshawkGrey.500}",
                 "type": "color"
               }
             }
@@ -276,11 +276,11 @@
             "type": "color"
           },
           "hover": {
-            "value": "{colors.tangaroa.500}",
+            "value": "{colors.goshawkGrey.500}",
             "type": "color"
           },
           "active": {
-            "value": "{colors.tangaroa.500}",
+            "value": "{colors.goshawkGrey.500}",
             "type": "color"
           },
           "visited": {
@@ -291,68 +291,62 @@
         "pagination": {
           "default": {
             "background": {
-              "value": "{colors.tangaroa.500}",
+              "value": "{colors.goshawkGrey.500}",
               "type": "color"
             },
             "text": {
-              "value": "{colors.tangaroa.500}",
+              "value": "{colors.goshawkGrey.500}",
               "type": "color"
             },
             "border": {
-              "value": "{colors.tangaroa.500}",
+              "value": "{colors.goshawkGrey.500}",
               "type": "color"
             }
           },
           "active": {
             "background": {
-              "value": "{colors.tangaroa.500}",
+              "value": "{colors.goshawkGrey.500}",
               "type": "color"
             },
             "text": {
-              "value": "{colors.tangaroa.500}",
+              "value": "{colors.goshawkGrey.500}",
               "type": "color"
             },
             "border": {
-              "value": "{colors.tangaroa.500}",
+              "value": "{colors.goshawkGrey.500}",
               "type": "color"
             }
           },
           "hover": {
             "background": {
-              "value": "{colors.tangaroa.500}",
+              "value": "{colors.goshawkGrey.500}",
               "type": "color"
             },
             "text": {
-              "value": "{colors.tangaroa.500}",
+              "value": "{colors.goshawkGrey.500}",
               "type": "color"
             },
             "border": {
-              "value": "{colors.tangaroa.500}",
+              "value": "{colors.goshawkGrey.500}",
               "type": "color"
             }
           },
           "visited": {
             "background": {
-              "value": "{colors.tangaroa.500}",
+              "value": "{colors.goshawkGrey.500}",
               "type": "color"
             },
             "text": {
-              "value": "{colors.tangaroa.500}",
+              "value": "{colors.goshawkGrey.500}",
               "type": "color"
             },
             "border": {
-              "value": "{colors.tangaroa.500}",
+              "value": "{colors.goshawkGrey.500}",
               "type": "color"
             }
           }
         }
       }
-    }
-  },
-  "shadows": {
-    "default": {
-      "value": "{colors.gray.900}",
-      "type": "color"
     }
   }
 }

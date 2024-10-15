@@ -5,7 +5,7 @@
       "type": "borderRadius"
     },
     "background": {
-      "value": "{palette.bright.background}",
+      "value": "{palettes.bright.background}",
       "type": "color"
     },
     "padding": {

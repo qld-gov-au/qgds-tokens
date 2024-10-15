@@ -2,17 +2,10 @@
   "tokenSetOrder": [
     "primitive.tokens",
 
-    "qld-default-bright.tokens",
-    "qld-default-bold.tokens",
-
-    "qld-maroon-bright.tokens",
-    "qld-maroon-bold.tokens",
-
-    "qld-high-constrast-bright.tokens",
-    "qld-high-constrast-strong.tokens",
-
-    "campaign-neon-bright.tokens",
-    "campaign-neon-strong.tokens",
+    "qld-default-palettes.tokens",
+    "qld-maroon-palettes.tokens",
+    "qld-high-constrast-palettes.tokens",
+    "campaign-neon-palettes.tokens",
 
     "button.tokens",
     "card.tokens",
