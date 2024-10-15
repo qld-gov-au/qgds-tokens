@@ -1,0 +1,20 @@
+{
+  "button": {
+    "palette": {
+      "bright": {
+        "background": {
+          "$type": "color",
+          "$value": "{palettes.bright.action.button.primary.default.background}"
+        }
+      }
+    },
+    "borderRadius": {
+      "$type": "borderRadius",
+      "$value": "{borderRadius.lg}"
+    },
+    "borderWidth": {
+      "$type": "borderWidth",
+      "$value": "{dimension.sm}"
+    }
+  }
+}

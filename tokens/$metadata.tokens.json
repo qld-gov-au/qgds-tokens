@@ -1,0 +1,36 @@
+{
+  "tokenSetOrder": {
+    "0": {
+      "$type": "other",
+      "$value": "primitive.tokens"
+    },
+    "1": {
+      "$type": "other",
+      "$value": "qld-default-palettes.tokens"
+    },
+    "2": {
+      "$type": "other",
+      "$value": "qld-maroon-palettes.tokens"
+    },
+    "3": {
+      "$type": "other",
+      "$value": "qld-high-constrast-palettes.tokens"
+    },
+    "4": {
+      "$type": "other",
+      "$value": "campaign-neon-palettes.tokens"
+    },
+    "5": {
+      "$type": "other",
+      "$value": "button.tokens"
+    },
+    "6": {
+      "$type": "other",
+      "$value": "card.tokens"
+    },
+    "7": {
+      "$type": "other",
+      "$value": "typography.tokens"
+    }
+  }
+}

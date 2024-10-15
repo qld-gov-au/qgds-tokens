@@ -1,0 +1,12 @@
+{
+  "qgdsTokens": {
+    "color": {
+      "neutral": {
+        "black": {
+          "$type": "color",
+          "$value": "{colors.black}"
+        }
+      }
+    }
+  }
+}

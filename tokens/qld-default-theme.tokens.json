@@ -1,0 +1,154 @@
+{
+  "theme": {
+    "colors": {
+      "brand": {
+        "first": {
+          "$type": "color",
+          "$value": "{colors.victoriaBlue.500}"
+        },
+        "second": {
+          "$type": "color",
+          "$value": "{colors.marineBlue.500}"
+        },
+        "third": {
+          "$type": "color",
+          "$value": "{colors.zundaGreen.500}"
+        },
+        "fourth": {
+          "$type": "color",
+          "$value": "{colors.starYellow.500}"
+        }
+      },
+      "background": {
+        "bright": {
+          "$type": "color",
+          "$value": "{colors.white}"
+        },
+        "tint": {
+          "$type": "color",
+          "$value": "{colors.victoriaBlue.25}"
+        },
+        "alt": {
+          "$type": "color",
+          "$value": "{colors.christimasSilver.300}"
+        },
+        "bold": {
+          "$type": "color",
+          "$value": "{colors.victoriaBlue.500}"
+        },
+        "strong": {
+          "$type": "color",
+          "$value": "{colors.marineBlue.500}"
+        }
+      },
+      "action": {
+        "onBrights": {
+          "primary": {
+            "$type": "color",
+            "$value": "{colors.victoriaBlue.500}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{colors.zundaGreen.500}"
+          },
+          "tertiary": {
+            "$type": "color",
+            "$value": "{transparency.total}"
+          }
+        },
+        "onBolds": {
+          "primary": {
+            "$type": "color",
+            "$value": "{colors.zundaGreen.500}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{colors.starYellow.500}"
+          },
+          "tertiary": {
+            "$type": "color",
+            "$value": "{transparency.total}"
+          }
+        }
+      },
+      "wording": {
+        "onBrights": {
+          "body": {
+            "$type": "color",
+            "$value": "{colors.goshawkGrey.700}"
+          },
+          "heading": {
+            "$type": "color",
+            "$value": "{colors.victoriaBlue.800}"
+          }
+        },
+        "onBolds": {
+          "heading": {
+            "$type": "color",
+            "$value": "{colors.white}"
+          },
+          "body": {
+            "$type": "color",
+            "$value": "{colors.white}"
+          }
+        }
+      },
+      "reserved": {
+        "error": {
+          "$type": "color",
+          "$value": "{colors.crimsonRed.500}"
+        },
+        "information": {
+          "$type": "color",
+          "$value": "{colors.goshawkGrey.500}"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{colors.zundaGreen.500}"
+        },
+        "alert": {
+          "$type": "color",
+          "$value": "{colors.starYellow.500}"
+        }
+      },
+      "syntax": {
+        "background": {
+          "$type": "color",
+          "$value": "{colors.goshawkGrey.700}"
+        },
+        "values": {
+          "$type": "color",
+          "$value": "{colors.zundaGreen.500}"
+        },
+        "elements": {
+          "$type": "color",
+          "$value": "{colors.freshAirBlue.500}"
+        },
+        "properties": {
+          "$type": "color",
+          "$value": "{colors.zeusPurple.500}"
+        },
+        "comments": {
+          "$type": "color",
+          "$value": "{colors.veilBlue.500}"
+        }
+      }
+    },
+    "focus": {
+      "outlineWidth": {
+        "$type": "outlineWidth",
+        "$value": "{focus.outlineWidth}"
+      },
+      "outlineStyle": {
+        "$type": "outlineStyle",
+        "$value": "{focus.outlineStyle}"
+      }
+    },
+    "shadows": {
+      "default": {
+        "$type": "color",
+        "$value": "{colors.goshawkGrey.900}"
+      }
+    }
+  }
+}
