@@ -70,31 +70,31 @@
       "typography": {
         "siteTitle": {
           "default": {
-            "value": "{colors.goshawkGrey.500}",
+            "value": "{theme.colors.wording.onBrights.siteTitle.default}",
             "type": "color"
           },
-          "lighter": {
-            "value": "{colors.goshawkGrey.500}",
+          "variant": {
+            "value": "{theme.colors.wording.onBrights.siteTitle.variant}",
             "type": "color"
           }
         },
         "heading": {
           "default": {
-            "value": "{colors.goshawkGrey.500}",
+            "value": "{theme.colors.wording.onBrights.heading.default}",
             "type": "color"
           },
-          "lighter": {
-            "value": "{colors.goshawkGrey.500}",
+          "variant": {
+            "value": "{theme.colors.wording.onBrights.heading.variant}",
             "type": "color"
           }
         },
         "body": {
           "default": {
-            "value": "{colors.goshawkGrey.500}",
+            "value": "{theme.colors.wording.onBrights.body.default}",
             "type": "color"
           },
-          "lighter": {
-            "value": "{colors.goshawkGrey.500}",
+          "variant": {
+            "value": "{theme.colors.wording.onBrights.body.variant}",
             "type": "color"
           }
         }
@@ -104,11 +104,11 @@
           "primary": {
             "default": {
               "background": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{colors.victoriaBlue.500}",
                 "type": "color"
               },
               "text": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{colors.white}",
                 "type": "color"
               },
               "textDecoration": {
@@ -116,17 +116,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{colors.victoriaBlue.500}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{colors.victoriaBlue.600}",
                 "type": "color"
               },
               "text": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{colors.white}",
                 "type": "color"
               },
               "textDecoration": {
@@ -134,25 +134,25 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{colors.victoriaBlue.600}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{colors.victoriaBlue.600}",
                 "type": "color"
               },
               "text": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{colors.white}",
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.none.default}",
+                "value": "{textDecorations.underline.default}",
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{colors.victoriaBlue.600}",
                 "type": "color"
               }
             }
@@ -160,11 +160,11 @@
           "secondary": {
             "default": {
               "background": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{palettes.bright.background}",
                 "type": "color"
               },
               "text": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{colors.victoriaBlue.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -172,17 +172,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{colors.zundaGreen.500}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{palettes.bright.background}",
                 "type": "color"
               },
               "text": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{colors.victoriaBlue.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -190,25 +190,25 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{colors.zundaGreen.500}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{palettes.bright.background}",
                 "type": "color"
               },
               "text": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{colors.victoriaBlue.500}",
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.none.default}",
+                "value": "{textDecorations.underline.default}",
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{colors.zundaGreen.500}",
                 "type": "color"
               }
             }
@@ -216,11 +216,11 @@
           "tertiary": {
             "default": {
               "background": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{palettes.bright.background}",
                 "type": "color"
               },
               "text": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{colors.victoriaBlue.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -228,17 +228,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{palettes.bright.background}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{palettes.bright.background}",
                 "type": "color"
               },
               "text": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{colors.victoriaBlue.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -246,25 +246,25 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{palettes.bright.background}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{palettes.bright.background}",
                 "type": "color"
               },
               "text": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{colors.victoriaBlue.500}",
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.none.default}",
+                "value": "{textDecorations.underline.default}",
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{colors.goshawkGrey.500}",
+                "value": "{palettes.bright.background}",
                 "type": "color"
               }
             }

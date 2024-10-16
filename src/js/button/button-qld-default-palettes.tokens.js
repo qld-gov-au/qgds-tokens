@@ -2,6 +2,4 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-:host {
-  --button-palette-bright-background: #09549f;
-}
+export const buttonPaletteBrightBackground = "#09549f";

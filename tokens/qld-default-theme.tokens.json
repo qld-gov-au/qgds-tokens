@@ -73,23 +73,67 @@
       },
       "wording": {
         "onBrights": {
-          "body": {
-            "value": "{colors.goshawkGrey.700}",
-            "type": "color"
+          "siteTitle": {
+            "default": {
+              "value": "{colors.goshawkGrey.700}",
+              "type": "color"
+            },
+            "variant": {
+              "value": "{colors.goshawkGrey.500}",
+              "type": "color"
+            }
           },
           "heading": {
-            "value": "{colors.victoriaBlue.800}",
-            "type": "color"
+            "default": {
+              "value": "{colors.goshawkGrey.700}",
+              "type": "color"
+            },
+            "variant": {
+              "value": "{colors.goshawkGrey.500}",
+              "type": "color"
+            }
+          },
+          "body": {
+            "default": {
+              "value": "{colors.goshawkGrey.700}",
+              "type": "color"
+            },
+            "variant": {
+              "value": "{colors.goshawkGrey.500}",
+              "type": "color"
+            }
           }
         },
         "onBolds": {
+          "siteTitle": {
+            "default": {
+              "value": "{colors.white}",
+              "type": "color"
+            },
+            "variant": {
+              "value": "{colors.christimasSilver.50}",
+              "type": "color"
+            }
+          },
           "heading": {
-            "value": "{colors.white}",
-            "type": "color"
+            "default": {
+              "value": "{colors.white}",
+              "type": "color"
+            },
+            "variant": {
+              "value": "{colors.christimasSilver.50}",
+              "type": "color"
+            }
           },
           "body": {
-            "value": "{colors.white}",
-            "type": "color"
+            "default": {
+              "value": "{colors.white}",
+              "type": "color"
+            },
+            "variant": {
+              "value": "{colors.christimasSilver.50}",
+              "type": "color"
+            }
           }
         }
       },

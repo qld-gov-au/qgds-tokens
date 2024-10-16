@@ -73,7 +73,7 @@
             "value": "{colors.goshawkGrey.500}",
             "type": "color"
           },
-          "lighter": {
+          "variant": {
             "value": "{colors.goshawkGrey.500}",
             "type": "color"
           }
@@ -83,7 +83,7 @@
             "value": "{colors.goshawkGrey.500}",
             "type": "color"
           },
-          "lighter": {
+          "variant": {
             "value": "{colors.goshawkGrey.500}",
             "type": "color"
           }
@@ -93,7 +93,7 @@
             "value": "{colors.goshawkGrey.500}",
             "type": "color"
           },
-          "lighter": {
+          "variant": {
             "value": "{colors.goshawkGrey.500}",
             "type": "color"
           }
