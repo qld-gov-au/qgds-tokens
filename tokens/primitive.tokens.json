@@ -1705,6 +1705,16 @@
         "value": "overline",
         "type": "textDecoration"
       }
-    }
+    },
+    "thickness": {
+      "thin": {
+        "value": "0.5px",
+        "type": "underline"
+      },
+      "thick": {
+        "value": "2px",
+        "type": "underline"
+      }
+    },
   }
 }

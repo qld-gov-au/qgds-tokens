@@ -406,4 +406,6 @@
   --text-decorations-none-default: none;
   --text-decorations-underline-default: underline;
   --text-decorations-overline-default: overline;
+  --text-decorations-thickness-thin: 0.5px;
+  --text-decorations-thickness-thick: 2px;
 }
