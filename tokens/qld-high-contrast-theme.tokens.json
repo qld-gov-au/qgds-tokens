@@ -44,52 +44,96 @@
       "action": {
         "onBrights": {
           "primary": {
-            "value": "{colors.goshawkGrey.500}",
+            "value": "{colors.victoriaBlue.500}",
             "type": "color"
           },
           "secondary": {
-            "value": "{colors.goshawkGrey.500}",
+            "value": "{colors.zundaGreen.500}",
             "type": "color"
           },
           "tertiary": {
-            "value": "{colors.goshawkGrey.500}",
+            "value": "{transparency.total}",
             "type": "color"
           }
         },
         "onBolds": {
           "primary": {
-            "value": "{colors.goshawkGrey.500}",
+            "value": "{colors.zundaGreen.500}",
             "type": "color"
           },
           "secondary": {
-            "value": "{colors.goshawkGrey.500}",
+            "value": "{colors.starYellow.500}",
             "type": "color"
           },
           "tertiary": {
-            "value": "{colors.goshawkGrey.500}",
+            "value": "{transparency.total}",
             "type": "color"
           }
         }
       },
       "wording": {
         "onBrights": {
-          "body": {
-            "value": "{colors.goshawkGrey.500}",
-            "type": "color"
+          "siteTitle": {
+            "default": {
+              "value": "{colors.goshawkGrey.700}",
+              "type": "color"
+            },
+            "variant": {
+              "value": "{colors.goshawkGrey.500}",
+              "type": "color"
+            }
           },
           "heading": {
-            "value": "{colors.goshawkGrey.500}",
-            "type": "color"
+            "default": {
+              "value": "{colors.goshawkGrey.700}",
+              "type": "color"
+            },
+            "variant": {
+              "value": "{colors.goshawkGrey.500}",
+              "type": "color"
+            }
+          },
+          "body": {
+            "default": {
+              "value": "{colors.goshawkGrey.700}",
+              "type": "color"
+            },
+            "variant": {
+              "value": "{colors.goshawkGrey.500}",
+              "type": "color"
+            }
           }
         },
         "onBolds": {
-          "body": {
-            "value": "{colors.goshawkGrey.500}",
-            "type": "color"
+          "siteTitle": {
+            "default": {
+              "value": "{colors.white}",
+              "type": "color"
+            },
+            "variant": {
+              "value": "{colors.christimasSilver.50}",
+              "type": "color"
+            }
           },
           "heading": {
-            "value": "{colors.goshawkGrey.500}",
-            "type": "color"
+            "default": {
+              "value": "{colors.white}",
+              "type": "color"
+            },
+            "variant": {
+              "value": "{colors.christimasSilver.50}",
+              "type": "color"
+            }
+          },
+          "body": {
+            "default": {
+              "value": "{colors.white}",
+              "type": "color"
+            },
+            "variant": {
+              "value": "{colors.christimasSilver.50}",
+              "type": "color"
+            }
           }
         }
       },
@@ -108,6 +152,28 @@
         },
         "alert": {
           "value": "{colors.starYellow.500}",
+          "type": "color"
+        }
+      },
+      "syntax": {
+        "background": {
+          "value": "{colors.goshawkGrey.700}",
+          "type": "color"
+        },
+        "values": {
+          "value": "{colors.zundaGreen.500}",
+          "type": "color"
+        },
+        "elements": {
+          "value": "{colors.freshAirBlue.500}",
+          "type": "color"
+        },
+        "properties": {
+          "value": "{colors.zeusPurple.500}",
+          "type": "color"
+        },
+        "comments": {
+          "value": "{colors.veilBlue.500}",
           "type": "color"
         }
       }
