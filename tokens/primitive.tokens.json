@@ -1645,7 +1645,7 @@
       "type": "fontSizes"
     },
     "h6": {
-      "value": "{fontSizes.body} * 1",
+      "value": "{fontSizes.body} * 1.2",
       "type": "fontSizes"
     },
     "body": {
@@ -1657,7 +1657,7 @@
       "type": "fontSizes"
     },
     "xs": {
-      "value": "{fontSizes.body} * 0.6",
+      "value": "{fontSizes.body} * 0.7",
       "type": "fontSizes"
     }
   },
