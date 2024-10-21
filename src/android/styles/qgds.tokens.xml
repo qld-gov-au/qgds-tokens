@@ -4,7 +4,7 @@
   Do not edit directly, this file was auto-generated.
 -->
 <resources>
-  <color name="qgdsTokensColorNeutralBlack">#000000</color>
+  <color name="qgdsColorsNeutralBlack">#131212</color>
   <string name="typographyH1BoldFontFamily">'Noto Sans'</string>
   <string name="typographyH1BoldFontWeight">700</string>
   <integer name="typographyH1BoldLineHeight">110%</integer>

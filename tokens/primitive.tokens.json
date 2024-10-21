@@ -228,6 +228,56 @@
         "type": "color"
       }
     },
+    "stellarExplorerGrey": {
+      "25": {
+        "value": "#E2E5E7",
+        "type": "color"
+      },
+      "50": {
+        "value": "#D0D5D8",
+        "type": "color"
+      },
+      "100": {
+        "value": "#A2ACB2",
+        "type": "color"
+      },
+      "200": {
+        "value": "#76858E",
+        "type": "color"
+      },
+      "300": {
+        "value": "#4D606B",
+        "type": "color"
+      },
+      "400": {
+        "value": "#263C49",
+        "type": "color"
+      },
+      "500": {
+        "value": "#011C2A",
+        "type": "color"
+      },
+      "600": {
+        "value": "#001421",
+        "type": "color"
+      },
+      "700": {
+        "value": "#000C19",
+        "type": "color"
+      },
+      "800": {
+        "value": "#000510",
+        "type": "color"
+      },
+      "900": {
+        "value": "#000108",
+        "type": "color"
+      },
+      "950": {
+        "value": "#000003",
+        "type": "color"
+      }
+    },
     "veilBlue": {
       "25": {
         "value": "#F9FBFD",
@@ -325,56 +375,6 @@
       },
       "950": {
         "value": "#000E21",
-        "type": "color"
-      }
-    },
-    "stellarExplorerGrey": {
-      "25": {
-        "value": "#E2E5E7",
-        "type": "color"
-      },
-      "50": {
-        "value": "#D0D5D8",
-        "type": "color"
-      },
-      "100": {
-        "value": "#A2ACB2",
-        "type": "color"
-      },
-      "200": {
-        "value": "#76858E",
-        "type": "color"
-      },
-      "300": {
-        "value": "#4D606B",
-        "type": "color"
-      },
-      "400": {
-        "value": "#263C49",
-        "type": "color"
-      },
-      "500": {
-        "value": "#011C2A",
-        "type": "color"
-      },
-      "600": {
-        "value": "#001421",
-        "type": "color"
-      },
-      "700": {
-        "value": "#000C19",
-        "type": "color"
-      },
-      "800": {
-        "value": "#000510",
-        "type": "color"
-      },
-      "900": {
-        "value": "#000108",
-        "type": "color"
-      },
-      "950": {
-        "value": "#000003",
         "type": "color"
       }
     },
@@ -525,6 +525,56 @@
       },
       "950": {
         "value": "#000024",
+        "type": "color"
+      }
+    },
+    "iridiumBlue": {
+      "25": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "50": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "100": {
+        "value": "#A1C3FF",
+        "type": "color"
+      },
+      "200": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "300": {
+        "value": "#4780FF",
+        "type": "color"
+      },
+      "400": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "500": {
+        "value": "#0000FF",
+        "type": "color"
+      },
+      "600": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "700": {
+        "value": "#1D00C8",
+        "type": "color"
+      },
+      "800": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "900": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "950": {
+        "value": "#000000",
         "type": "color"
       }
     },
@@ -1225,6 +1275,56 @@
       },
       "950": {
         "value": "#300000",
+        "type": "color"
+      }
+    },
+    "sixteenMillionPink": {
+      "25": {
+        "value": "#FFEEFF",
+        "type": "color"
+      },
+      "50": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "100": {
+        "value": "#FFC4FF",
+        "type": "color"
+      },
+      "200": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "300": {
+        "value": "#FF83FF",
+        "type": "color"
+      },
+      "400": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "500": {
+        "value": "#FA00FF",
+        "type": "color"
+      },
+      "600": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "700": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "800": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "900": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "950": {
+        "value": "#000000",
         "type": "color"
       }
     },

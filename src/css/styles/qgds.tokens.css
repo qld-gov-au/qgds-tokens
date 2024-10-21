@@ -3,7 +3,7 @@
  */
 
 :host {
-  --qgds-tokens-color-neutral-black: #000000;
+  --qgds-colors-neutral-black: #131212;
   --typography-h1-bold-font-family: 'Noto Sans';
   --typography-h1-bold-font-weight: 700;
   --typography-h1-bold-line-height: 110%;

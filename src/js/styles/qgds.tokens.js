@@ -2,7 +2,7 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-export const qgdsTokensColorNeutralBlack = "#000000";
+export const qgdsColorsNeutralBlack = "#131212";
 export const typographyH1BoldFontFamily = "'Noto Sans'";
 export const typographyH1BoldFontWeight = 700;
 export const typographyH1BoldLineHeight = "110%";
