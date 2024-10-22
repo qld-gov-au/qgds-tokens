@@ -57,7 +57,7 @@
   --palettes-bright-subtle: #ffffff; /* Navigation hover */
   --palettes-bright-nav-text: #131212; /* Navigation text */
   --palettes-bright-accent-default: #131212; /* Navigation accent background */
-  --palettes-bright-accent-on-accent: #000000; /* Navigation accent hover */
+  --palettes-bright-accent-on-accent: #1000e4; /* Navigation accent hover */
   --palettes-bright-typography-site-title-default: #131212;
   --palettes-bright-typography-site-title-variant: #606060;
   --palettes-bright-typography-heading-default: #131212;
@@ -68,14 +68,14 @@
   --palettes-bright-action-button-primary-default-text: #ffffff;
   --palettes-bright-action-button-primary-default-text-decoration: none;
   --palettes-bright-action-button-primary-default-border: #0000ff;
-  --palettes-bright-action-button-primary-active-background: #000000;
+  --palettes-bright-action-button-primary-active-background: #1000e4;
   --palettes-bright-action-button-primary-active-text: #ffffff;
   --palettes-bright-action-button-primary-active-text-decoration: none;
-  --palettes-bright-action-button-primary-active-border: #000000;
-  --palettes-bright-action-button-primary-hover-background: #000000;
+  --palettes-bright-action-button-primary-active-border: #1000e4;
+  --palettes-bright-action-button-primary-hover-background: #1000e4;
   --palettes-bright-action-button-primary-hover-text: #ffffff;
   --palettes-bright-action-button-primary-hover-text-decoration: underline;
-  --palettes-bright-action-button-primary-hover-border: #000000;
+  --palettes-bright-action-button-primary-hover-border: #1000e4;
   --palettes-bright-action-button-secondary-default-background: #ffffff;
   --palettes-bright-action-button-secondary-default-text: #0000ff;
   --palettes-bright-action-button-secondary-default-text-decoration: none;
@@ -143,7 +143,7 @@
   --palettes-tint-subtle: #eaeaea; /* Navigation hover */
   --palettes-tint-nav-text: #444444; /* Navigation text */
   --palettes-tint-accent-default: #ffe500; /* Navigation accent background */
-  --palettes-tint-accent-on-accent: #000000; /* Navigation accent hover */
+  --palettes-tint-accent-on-accent: #1000e4; /* Navigation accent hover */
   --palettes-tint-typography-site-title-default: #131212;
   --palettes-tint-typography-site-title-variant: #606060;
   --palettes-tint-typography-heading-default: #131212;
@@ -154,14 +154,14 @@
   --palettes-tint-action-button-primary-default-text: #ffffff;
   --palettes-tint-action-button-primary-default-text-decoration: none;
   --palettes-tint-action-button-primary-default-border: #0000ff;
-  --palettes-tint-action-button-primary-active-background: #000000;
+  --palettes-tint-action-button-primary-active-background: #1000e4;
   --palettes-tint-action-button-primary-active-text: #ffffff;
   --palettes-tint-action-button-primary-active-text-decoration: none;
-  --palettes-tint-action-button-primary-active-border: #000000;
-  --palettes-tint-action-button-primary-hover-background: #000000;
+  --palettes-tint-action-button-primary-active-border: #1000e4;
+  --palettes-tint-action-button-primary-hover-background: #1000e4;
   --palettes-tint-action-button-primary-hover-text: #ffffff;
   --palettes-tint-action-button-primary-hover-text-decoration: underline;
-  --palettes-tint-action-button-primary-hover-border: #000000;
+  --palettes-tint-action-button-primary-hover-border: #1000e4;
   --palettes-tint-action-button-secondary-default-background: #ffffff;
   --palettes-tint-action-button-secondary-default-text: #0000ff;
   --palettes-tint-action-button-secondary-default-text-decoration: none;
@@ -229,7 +229,7 @@
   --palettes-alt-subtle: #eaeaea; /* Navigation hover */
   --palettes-alt-nav-text: #444444; /* Navigation text */
   --palettes-alt-accent-default: #ffe500; /* Navigation accent background */
-  --palettes-alt-accent-on-accent: #000000; /* Navigation accent hover */
+  --palettes-alt-accent-on-accent: #1000e4; /* Navigation accent hover */
   --palettes-alt-typography-site-title-default: #131212;
   --palettes-alt-typography-site-title-variant: #606060;
   --palettes-alt-typography-heading-default: #131212;
@@ -240,14 +240,14 @@
   --palettes-alt-action-button-primary-default-text: #ffffff;
   --palettes-alt-action-button-primary-default-text-decoration: none;
   --palettes-alt-action-button-primary-default-border: #0000ff;
-  --palettes-alt-action-button-primary-active-background: #000000;
+  --palettes-alt-action-button-primary-active-background: #1000e4;
   --palettes-alt-action-button-primary-active-text: #ffffff;
   --palettes-alt-action-button-primary-active-text-decoration: none;
-  --palettes-alt-action-button-primary-active-border: #000000;
-  --palettes-alt-action-button-primary-hover-background: #000000;
+  --palettes-alt-action-button-primary-active-border: #1000e4;
+  --palettes-alt-action-button-primary-hover-background: #1000e4;
   --palettes-alt-action-button-primary-hover-text: #ffffff;
   --palettes-alt-action-button-primary-hover-text-decoration: underline;
-  --palettes-alt-action-button-primary-hover-border: #000000;
+  --palettes-alt-action-button-primary-hover-border: #1000e4;
   --palettes-alt-action-button-secondary-default-background: #ffffff;
   --palettes-alt-action-button-secondary-default-text: #0000ff;
   --palettes-alt-action-button-secondary-default-text-decoration: none;
@@ -311,7 +311,7 @@
   --palettes-bold-divider: #0000ff;
   --palettes-bold-fence: #ffe500;
   --palettes-bold-line: #78b5ce;
-  --palettes-bold-muted: #000000; /* Navigation background */
+  --palettes-bold-muted: #1000e4; /* Navigation background */
   --palettes-bold-subtle: #05325f; /* Navigation hover */
   --palettes-bold-nav-text: #444444; /* Navigation text */
   --palettes-bold-accent-default: #ffe500; /* Navigation accent background */
@@ -323,15 +323,15 @@
   --palettes-bold-typography-body-default: #ffffff;
   --palettes-bold-typography-body-variant: #76858e;
   --palettes-bold-action-button-primary-default-background: #ffe500;
-  --palettes-bold-action-button-primary-default-text: #000000;
+  --palettes-bold-action-button-primary-default-text: #2b0093;
   --palettes-bold-action-button-primary-default-text-decoration: none;
   --palettes-bold-action-button-primary-default-border: #ffe500;
   --palettes-bold-action-button-primary-active-background: #cdb300;
-  --palettes-bold-action-button-primary-active-text: #000000;
+  --palettes-bold-action-button-primary-active-text: #2b0093;
   --palettes-bold-action-button-primary-active-text-decoration: none;
   --palettes-bold-action-button-primary-active-border: #cdb300;
   --palettes-bold-action-button-primary-hover-background: #cdb300;
-  --palettes-bold-action-button-primary-hover-text: #000000;
+  --palettes-bold-action-button-primary-hover-text: #2b0093;
   --palettes-bold-action-button-primary-hover-text-decoration: underline;
   --palettes-bold-action-button-primary-hover-border: #cdb300;
   --palettes-bold-action-button-secondary-default-background: #ffffff;
@@ -397,7 +397,7 @@
   --palettes-strong-divider: #0000ff;
   --palettes-strong-fence: #ffe500;
   --palettes-strong-line: #78b5ce;
-  --palettes-strong-muted: #000000; /* Navigation background */
+  --palettes-strong-muted: #1000e4; /* Navigation background */
   --palettes-strong-subtle: #05325f; /* Navigation hover */
   --palettes-strong-nav-text: #444444; /* Navigation text */
   --palettes-strong-accent-default: #ffe500; /* Navigation accent background */
@@ -409,15 +409,15 @@
   --palettes-strong-typography-body-default: #ffffff;
   --palettes-strong-typography-body-variant: #76858e;
   --palettes-strong-action-button-primary-default-background: #ffe500;
-  --palettes-strong-action-button-primary-default-text: #000000;
+  --palettes-strong-action-button-primary-default-text: #2b0093;
   --palettes-strong-action-button-primary-default-text-decoration: none;
   --palettes-strong-action-button-primary-default-border: #ffe500;
   --palettes-strong-action-button-primary-active-background: #cdb300;
-  --palettes-strong-action-button-primary-active-text: #000000;
+  --palettes-strong-action-button-primary-active-text: #2b0093;
   --palettes-strong-action-button-primary-active-text-decoration: none;
   --palettes-strong-action-button-primary-active-border: #cdb300;
   --palettes-strong-action-button-primary-hover-background: #cdb300;
-  --palettes-strong-action-button-primary-hover-text: #000000;
+  --palettes-strong-action-button-primary-hover-text: #2b0093;
   --palettes-strong-action-button-primary-hover-text-decoration: underline;
   --palettes-strong-action-button-primary-hover-border: #cdb300;
   --palettes-strong-action-button-secondary-default-background: #ffffff;
