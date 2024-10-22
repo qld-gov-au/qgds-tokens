@@ -3,6 +3,7 @@
  */
 
 export const qgdsColorsNeutralBlack = "#131212";
+export const qgdsColorsNeutralWhite = "#ffffff";
 export const typographyH1BoldFontFamily = "'Noto Sans'";
 export const typographyH1BoldFontWeight = 700;
 export const typographyH1BoldLineHeight = "110%";

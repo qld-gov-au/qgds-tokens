@@ -5,6 +5,7 @@
 -->
 <resources>
   <color name="qgdsColorsNeutralBlack">#131212</color>
+  <color name="qgdsColorsNeutralWhite">#ffffff</color>
   <string name="typographyH1BoldFontFamily">'Noto Sans'</string>
   <string name="typographyH1BoldFontWeight">700</string>
   <integer name="typographyH1BoldLineHeight">110%</integer>
