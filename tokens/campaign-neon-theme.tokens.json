@@ -3,19 +3,19 @@
     "colors": {
       "brand": {
         "first": {
-          "value": "{colors.victoriaBlue.500}",
+          "value": "{colors.zeusPurple.500}",
           "type": "color"
         },
         "second": {
-          "value": "{colors.marineBlue.500}",
+          "value": "{colors.tarnishedSilver.800}",
           "type": "color"
         },
         "third": {
-          "value": "{colors.zundaGreen.500}",
+          "value": "{colors.fancyFuchsiaPink.500}",
           "type": "color"
         },
         "fourth": {
-          "value": "{colors.starYellow.500}",
+          "value": "{colors.grilledCheeseYellow.500}",
           "type": "color"
         }
       },
@@ -25,30 +25,30 @@
           "type": "color"
         },
         "tint": {
-          "value": "{colors.victoriaBlue.25}",
+          "value": "{colors.fancyFuchsiaPink.25}",
           "type": "color"
         },
         "alt": {
-          "value": "{colors.christimasSilver.300}",
+          "value": "{colors.goshawkGrey.25}",
           "type": "color"
         },
         "bold": {
-          "value": "{colors.victoriaBlue.500}",
+          "value": "{colors.zeusPurple.500}",
           "type": "color"
         },
         "strong": {
-          "value": "{colors.marineBlue.500}",
+          "value": "{colors.tarnishedSilver.800}",
           "type": "color"
         }
       },
       "action": {
         "onBrights": {
           "primary": {
-            "value": "{colors.victoriaBlue.500}",
+            "value": "{colors.zeusPurple.500}",
             "type": "color"
           },
           "secondary": {
-            "value": "{colors.zundaGreen.500}",
+            "value": "{colors.zeusPurple.500}",
             "type": "color"
           },
           "tertiary": {
@@ -58,11 +58,11 @@
         },
         "onBolds": {
           "primary": {
-            "value": "{colors.zundaGreen.500}",
+            "value": "{colors.white}",
             "type": "color"
           },
           "secondary": {
-            "value": "{colors.starYellow.500}",
+            "value": "{colors.white}",
             "type": "color"
           },
           "tertiary": {
@@ -85,11 +85,11 @@
           },
           "heading": {
             "default": {
-              "value": "{colors.goshawkGrey.700}",
+              "value": "{colors.zeusPurple.800}",
               "type": "color"
             },
             "variant": {
-              "value": "{colors.goshawkGrey.500}",
+              "value": "{colors.goshawkGrey.300}",
               "type": "color"
             }
           },
@@ -131,7 +131,7 @@
               "type": "color"
             },
             "variant": {
-              "value": "{colors.christimasSilver.50}",
+              "value": "{colors.zeusPurple.200}",
               "type": "color"
             }
           }
