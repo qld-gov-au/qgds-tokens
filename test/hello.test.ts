@@ -1,6 +1,6 @@
 
 
-describe('test-test', () => {
+describe('sanity check tests', () => {
   beforeEach(async () => {
     console.log('beforeEach')
   });
@@ -9,7 +9,7 @@ describe('test-test', () => {
     console.log('afterEach')
   });
 
-  it('testy', async () => {
+  it('test hello', async () => {
     expect("hello").toEqual("hello");
   });
 
