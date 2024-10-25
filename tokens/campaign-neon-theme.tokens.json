@@ -1,0 +1,198 @@
+{
+  "theme": {
+    "colors": {
+      "brand": {
+        "first": {
+          "value": "{colors.zeusPurple.500}",
+          "type": "color"
+        },
+        "second": {
+          "value": "{colors.tarnishedSilver.800}",
+          "type": "color"
+        },
+        "third": {
+          "value": "{colors.fancyFuchsiaPink.500}",
+          "type": "color"
+        },
+        "fourth": {
+          "value": "{colors.grilledCheeseYellow.500}",
+          "type": "color"
+        }
+      },
+      "background": {
+        "bright": {
+          "value": "{colors.white}",
+          "type": "color"
+        },
+        "tint": {
+          "value": "{colors.fancyFuchsiaPink.25}",
+          "type": "color"
+        },
+        "alt": {
+          "value": "{colors.goshawkGrey.25}",
+          "type": "color"
+        },
+        "bold": {
+          "value": "{colors.zeusPurple.500}",
+          "type": "color"
+        },
+        "strong": {
+          "value": "{colors.tarnishedSilver.800}",
+          "type": "color"
+        }
+      },
+      "action": {
+        "onBrights": {
+          "primary": {
+            "value": "{colors.zeusPurple.500}",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "{colors.zeusPurple.500}",
+            "type": "color"
+          },
+          "tertiary": {
+            "value": "{transparency.total}",
+            "type": "color"
+          }
+        },
+        "onBolds": {
+          "primary": {
+            "value": "{colors.white}",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "{colors.white}",
+            "type": "color"
+          },
+          "tertiary": {
+            "value": "{transparency.total}",
+            "type": "color"
+          }
+        }
+      },
+      "wording": {
+        "onBrights": {
+          "siteTitle": {
+            "default": {
+              "value": "{colors.goshawkGrey.700}",
+              "type": "color"
+            },
+            "variant": {
+              "value": "{colors.goshawkGrey.500}",
+              "type": "color"
+            }
+          },
+          "heading": {
+            "default": {
+              "value": "{colors.zeusPurple.800}",
+              "type": "color"
+            },
+            "variant": {
+              "value": "{colors.goshawkGrey.300}",
+              "type": "color"
+            }
+          },
+          "body": {
+            "default": {
+              "value": "{colors.goshawkGrey.700}",
+              "type": "color"
+            },
+            "variant": {
+              "value": "{colors.goshawkGrey.500}",
+              "type": "color"
+            }
+          }
+        },
+        "onBolds": {
+          "siteTitle": {
+            "default": {
+              "value": "{colors.white}",
+              "type": "color"
+            },
+            "variant": {
+              "value": "{colors.christimasSilver.50}",
+              "type": "color"
+            }
+          },
+          "heading": {
+            "default": {
+              "value": "{colors.white}",
+              "type": "color"
+            },
+            "variant": {
+              "value": "{colors.christimasSilver.50}",
+              "type": "color"
+            }
+          },
+          "body": {
+            "default": {
+              "value": "{colors.white}",
+              "type": "color"
+            },
+            "variant": {
+              "value": "{colors.zeusPurple.200}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "reserved": {
+        "error": {
+          "value": "{colors.crimsonRed.500}",
+          "type": "color"
+        },
+        "information": {
+          "value": "{colors.goshawkGrey.500}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{colors.zundaGreen.500}",
+          "type": "color"
+        },
+        "alert": {
+          "value": "{colors.starYellow.500}",
+          "type": "color"
+        }
+      },
+      "syntax": {
+        "background": {
+          "value": "{colors.goshawkGrey.700}",
+          "type": "color"
+        },
+        "values": {
+          "value": "{colors.zundaGreen.500}",
+          "type": "color"
+        },
+        "elements": {
+          "value": "{colors.freshAirBlue.500}",
+          "type": "color"
+        },
+        "properties": {
+          "value": "{colors.zeusPurple.500}",
+          "type": "color"
+        },
+        "comments": {
+          "value": "{colors.veilBlue.500}",
+          "type": "color"
+        }
+      }
+    },
+    "focus": {
+      "outlineWidth": {
+        "value": "{focus.outlineWidth}",
+        "type": "outlineWidth"
+      },
+      "outlineStyle": {
+        "value": "{focus.outlineStyle}",
+        "type": "outlineStyle"
+      }
+    },
+    "shadows": {
+      "default": {
+        "value": "{colors.goshawkGrey.900}",
+        "type": "color"
+      }
+    }
+  }
+}

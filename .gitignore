@@ -2,3 +2,5 @@
 /node
 *.idea
 *.iml
+.DS_Store
+*.tokens.json.original

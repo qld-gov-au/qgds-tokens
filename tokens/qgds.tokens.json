@@ -1,0 +1,16 @@
+{
+  "qgds": {
+    "colors": {
+      "neutral": {
+        "black": {
+          "value": "#131212",
+          "type": "color"
+        },
+        "white": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      }
+    }
+  }
+}
