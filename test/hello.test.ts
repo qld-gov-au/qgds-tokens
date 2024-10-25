@@ -1,5 +1,3 @@
-
-
 describe('sanity check tests', () => {
   beforeEach(async () => {
     console.log('beforeEach')

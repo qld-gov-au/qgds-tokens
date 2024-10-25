@@ -60,7 +60,7 @@ describe('qgds tests', () => {
     const file = await promises.readFile(cssOutputFilePath, 'utf-8');
     // qgds tokens
     expect(file).toContain(tokenTestObject.qgds.colors.css);
-    // palettes tokens
+    // typography tokens
     expect(file).toContain(tokenTestObject.typography.h1.css);
     expect(file).toContain(tokenTestObject.typography.h2.css);
     expect(file).toContain(tokenTestObject.typography.h3.css);

@@ -10,11 +10,26 @@ import {
   generateSemanticFiles,
   generateComponentFiles,
 } from "./sd-file-generators.mjs";
+import { copyOriginalFile, emptyDir } from "./dir-and-files.mjs";
 
 register(StyleDictionary);
 
 // list of components that we have tokens for, assume the tokenset path for it is tokens/${comp}.tokens.json
 const components = ["button", "card"];
+
+const directory = "src";
+const originalSrc = "original/index.ts"
+const finalDest = "src/index.ts"
+
+async function beforeRun() {
+  // clear
+  emptyDir(directory);
+}
+
+async function afterRun() {
+  // copy index.ts for dist
+  copyOriginalFile(originalSrc, finalDest);
+}
 
 async function run() {
   const $themes = JSON.parse(await promises.readFile("tokens/$themes.tokens.json"));
@@ -214,4 +229,6 @@ async function run() {
     await sd.buildAllPlatforms();
   }
 }
+beforeRun();
 run();
+afterRun();

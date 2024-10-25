@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@tokens-studio/sd-transforms": "^1.2.0",
+    "copy-file": "^11.0.0",
     "style-dictionary": "^4.0.1"
   },
   "devDependencies": {

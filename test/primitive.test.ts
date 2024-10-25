@@ -30,7 +30,7 @@ const tokenTestObject = {
 
 describe('primitive tests', () => {
 
-  it('sanity - contains at least one: primitive high key value in JSON file', async () => {
+  it('sanity - contains all primitive high key values in JSON file', async () => {
     const file = await promises.readFile(jsonOutputFilePath, 'utf-8');
     expect(file).toContain(tokenTestObject.dimension.json);
     expect(file).toContain(tokenTestObject.spacing.json);
@@ -47,7 +47,7 @@ describe('primitive tests', () => {
     expect(file).toContain(tokenTestObject.textDecorations.json);
   });
 
-  it('sanity - contains at least one: primitive high key value in CSS file', async () => {
+  it('sanity - contains at least one primitive high key values in CSS file', async () => {
     const file = await promises.readFile(cssOutputFilePath, 'utf-8');
     expect(file).toContain(tokenTestObject.dimension.css);
     expect(file).toContain(tokenTestObject.spacing.css);
