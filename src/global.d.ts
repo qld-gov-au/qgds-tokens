@@ -1,3 +1,5 @@
+// Please edit original file located in .build/original/global.d.ts
+
 declare module '*.tokens.css' {
   const classes: { [key: string]: string };
   export default classes;

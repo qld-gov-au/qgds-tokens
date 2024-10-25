@@ -5,7 +5,7 @@
     "src/**/**/*.tokens.scss",
     "src/**/**/*.tokens.js",
     "src/**/**/*.tokens.xml",
-    "global.d.ts"
+    "src/global.d.ts"
   ],
   "compilerOptions": {
     "target": "ES6",

@@ -18,8 +18,10 @@ register(StyleDictionary);
 const components = ["button", "card"];
 
 const directory = "src";
-const originalSrc = "original/index.ts"
-const finalDest = "src/index.ts"
+const originalSrcIndex = ".build/original/index.ts"
+const finalDestIndex = "src/index.ts"
+const originalSrcGlobal = ".build/original/global.d.ts"
+const finalDestGlobal = "src/global.d.ts"
 
 async function beforeRun() {
   // clear
@@ -28,7 +30,8 @@ async function beforeRun() {
 
 async function afterRun() {
   // copy index.ts for dist
-  copyOriginalFile(originalSrc, finalDest);
+  copyOriginalFile(originalSrcIndex, finalDestIndex);
+  copyOriginalFile(originalSrcGlobal, finalDestGlobal);
 }
 
 async function run() {
