@@ -22,15 +22,28 @@ const tokenTestObject = {
     "colors": {"json": `colors`, "css": `--qgds-colors`},
   },
   "typography": {
-    "h1": {"json": `h1`, "css": `--typography-h1`},
-    "h2": {"json": `h2`, "css": `--typography-h2`},
-    "h3": {"json": `h3`, "css": `--typography-h3`},
-    "h4": {"json": `h4`, "css": `--typography-h4`},
-    "h5": {"json": `h5`, "css": `--typography-h5`},
-    "h6": {"json": `h6`, "css": `--typography-h6`},
-    "body": {"json": `body`, "css": `--typography-body`},
-    "sm": {"json": `sm`, "css": `--typography-sm`},
-    "xs": {"json": `xs`, "css": `--typography-xs`},
+    "phone": {
+      "h1": {"json": `h1`, "css": `--typography-phone-h1`},
+      "h2": {"json": `h2`, "css": `--typography-phone-h2`},
+      "h3": {"json": `h3`, "css": `--typography-phone-h3`},
+      "h4": {"json": `h4`, "css": `--typography-phone-h4`},
+      "h5": {"json": `h5`, "css": `--typography-phone-h5`},
+      "h6": {"json": `h6`, "css": `--typography-phone-h6`},
+      "body": {"json": `body`, "css": `--typography-phone-body`},
+      "sm": {"json": `sm`, "css": `--typography-phone-sm`},
+      "xs": {"json": `xs`, "css": `--typography-phone-xs`},
+    },
+    "computer": {
+      "h1": {"json": `h1`, "css": `--typography-computer-h1`},
+      "h2": {"json": `h2`, "css": `--typography-computer-h2`},
+      "h3": {"json": `h3`, "css": `--typography-computer-h3`},
+      "h4": {"json": `h4`, "css": `--typography-computer-h4`},
+      "h5": {"json": `h5`, "css": `--typography-computer-h5`},
+      "h6": {"json": `h6`, "css": `--typography-computer-h6`},
+      "body": {"json": `body`, "css": `--typography-computer-body`},
+      "sm": {"json": `sm`, "css": `--typography-computer-sm`},
+      "xs": {"json": `xs`, "css": `--typography-computer-xs`},
+    }
   }
 };
 
@@ -45,15 +58,24 @@ describe('qgds tests', () => {
   it('sanity - contains at least one: typography in JSON file', async () => {
     const file = await promises.readFile(jsonTypographyOutputFilePath, 'utf-8');
     expect(file).toContain(`typography`);
-    expect(file).toContain(tokenTestObject.typography.h1.json);
-    expect(file).toContain(tokenTestObject.typography.h2.json);
-    expect(file).toContain(tokenTestObject.typography.h3.json);
-    expect(file).toContain(tokenTestObject.typography.h4.json);
-    expect(file).toContain(tokenTestObject.typography.h5.json);
-    expect(file).toContain(tokenTestObject.typography.h6.json);
-    expect(file).toContain(tokenTestObject.typography.body.json);
-    expect(file).toContain(tokenTestObject.typography.sm.json);
-    expect(file).toContain(tokenTestObject.typography.xs.json);
+    expect(file).toContain(tokenTestObject.typography.phone.h1.json);
+    expect(file).toContain(tokenTestObject.typography.phone.h2.json);
+    expect(file).toContain(tokenTestObject.typography.phone.h3.json);
+    expect(file).toContain(tokenTestObject.typography.phone.h4.json);
+    expect(file).toContain(tokenTestObject.typography.phone.h5.json);
+    expect(file).toContain(tokenTestObject.typography.phone.h6.json);
+    expect(file).toContain(tokenTestObject.typography.phone.body.json);
+    expect(file).toContain(tokenTestObject.typography.phone.sm.json);
+    expect(file).toContain(tokenTestObject.typography.phone.xs.json);
+    expect(file).toContain(tokenTestObject.typography.computer.h1.json);
+    expect(file).toContain(tokenTestObject.typography.computer.h2.json);
+    expect(file).toContain(tokenTestObject.typography.computer.h3.json);
+    expect(file).toContain(tokenTestObject.typography.computer.h4.json);
+    expect(file).toContain(tokenTestObject.typography.computer.h5.json);
+    expect(file).toContain(tokenTestObject.typography.computer.h6.json);
+    expect(file).toContain(tokenTestObject.typography.computer.body.json);
+    expect(file).toContain(tokenTestObject.typography.computer.sm.json);
+    expect(file).toContain(tokenTestObject.typography.computer.xs.json);
   });
 
   it('sanity - contains at least one: qgds + typography in CSS file', async () => {
@@ -61,15 +83,24 @@ describe('qgds tests', () => {
     // qgds tokens
     expect(file).toContain(tokenTestObject.qgds.colors.css);
     // typography tokens
-    expect(file).toContain(tokenTestObject.typography.h1.css);
-    expect(file).toContain(tokenTestObject.typography.h2.css);
-    expect(file).toContain(tokenTestObject.typography.h3.css);
-    expect(file).toContain(tokenTestObject.typography.h4.css);
-    expect(file).toContain(tokenTestObject.typography.h5.css);
-    expect(file).toContain(tokenTestObject.typography.h6.css);
-    expect(file).toContain(tokenTestObject.typography.body.css);
-    expect(file).toContain(tokenTestObject.typography.sm.css);
-    expect(file).toContain(tokenTestObject.typography.xs.css);
+    expect(file).toContain(tokenTestObject.typography.phone.h1.json);
+    expect(file).toContain(tokenTestObject.typography.phone.h2.json);
+    expect(file).toContain(tokenTestObject.typography.phone.h3.json);
+    expect(file).toContain(tokenTestObject.typography.phone.h4.json);
+    expect(file).toContain(tokenTestObject.typography.phone.h5.json);
+    expect(file).toContain(tokenTestObject.typography.phone.h6.json);
+    expect(file).toContain(tokenTestObject.typography.phone.body.json);
+    expect(file).toContain(tokenTestObject.typography.phone.sm.json);
+    expect(file).toContain(tokenTestObject.typography.phone.xs.json);
+    expect(file).toContain(tokenTestObject.typography.computer.h1.json);
+    expect(file).toContain(tokenTestObject.typography.computer.h2.json);
+    expect(file).toContain(tokenTestObject.typography.computer.h3.json);
+    expect(file).toContain(tokenTestObject.typography.computer.h4.json);
+    expect(file).toContain(tokenTestObject.typography.computer.h5.json);
+    expect(file).toContain(tokenTestObject.typography.computer.h6.json);
+    expect(file).toContain(tokenTestObject.typography.computer.body.json);
+    expect(file).toContain(tokenTestObject.typography.computer.sm.json);
+    expect(file).toContain(tokenTestObject.typography.computer.xs.json);
   });
 
 });
