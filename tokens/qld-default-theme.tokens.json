@@ -39,6 +39,10 @@
         "strong": {
           "value": "{colors.marineBlue.500}",
           "type": "color"
+        },
+        "dark": {
+          "value": "{colors.goshawkGrey.600}",
+          "type": "color"
         }
       },
       "action": {

@@ -10,13 +10,13 @@ const commonFileOptions = {
   scss: {
     format: "scss/variables",
     options: {
-      selector: ":host",
+      selector: ":root",
     },
   },
   css: {
     format: "css/variables",
     options: {
-      selector: ":host",
+      selector: ":root",
     },
   }
 };

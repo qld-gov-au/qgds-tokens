@@ -17,24 +17,24 @@
       },
       "border": {
         "default": {
-          "value": "{qgds.colors.neutral.black}",
+          "value": "{qgds.colors.neutral.black.default}",
           "type": "color"
         },
         "variant": {
-          "value": "{qgds.colors.neutral.black}",
+          "value": "{qgds.colors.neutral.black.default}",
           "type": "color"
         }
       },
       "boundary": {
-        "value": "{qgds.colors.neutral.black}",
+        "value": "{qgds.colors.neutral.black.default}",
         "type": "color"
       },
       "partition": {
-        "value": "{qgds.colors.neutral.black}",
+        "value": "{qgds.colors.neutral.black.default}",
         "type": "color"
       },
       "separator": {
-        "value": "{qgds.colors.neutral.black}",
+        "value": "{qgds.colors.neutral.black.default}",
         "type": "color"
       },
       "divider": {
@@ -42,11 +42,11 @@
         "type": "color"
       },
       "fence": {
-        "value": "{qgds.colors.neutral.black}",
+        "value": "{qgds.colors.neutral.black.default}",
         "type": "color"
       },
       "line": {
-        "value": "{qgds.colors.neutral.black}",
+        "value": "{qgds.colors.neutral.black.default}",
         "type": "color"
       },
       "muted": {
@@ -60,13 +60,13 @@
         "description": "Navigation hover"
       },
       "navText": {
-        "value": "{qgds.colors.neutral.black}",
+        "value": "{qgds.colors.neutral.black.default}",
         "type": "color",
         "description": "Navigation text"
       },
       "accent": {
         "default": {
-          "value": "{qgds.colors.neutral.black}",
+          "value": "{qgds.colors.neutral.black.default}",
           "type": "color",
           "description": "Navigation accent background"
         },
@@ -430,7 +430,7 @@
       },
       "border": {
         "default": {
-          "value": "{qgds.colors.neutral.black}",
+          "value": "{qgds.colors.neutral.black.default}",
           "type": "color"
         },
         "variant": {
@@ -843,7 +843,7 @@
       },
       "border": {
         "default": {
-          "value": "{qgds.colors.neutral.black}",
+          "value": "{qgds.colors.neutral.black.default}",
           "type": "color"
         },
         "variant": {
@@ -1256,7 +1256,7 @@
       },
       "border": {
         "default": {
-          "value": "{qgds.colors.neutral.white}",
+          "value": "{qgds.colors.neutral.white.default}",
           "type": "color"
         },
         "variant": {
@@ -1669,7 +1669,7 @@
       },
       "border": {
         "default": {
-          "value": "{qgds.colors.neutral.white}",
+          "value": "{qgds.colors.neutral.white.default}",
           "type": "color"
         },
         "variant": {

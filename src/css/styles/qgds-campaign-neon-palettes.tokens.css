@@ -2,7 +2,7 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-:host {
+:root {
   --theme-colors-brand-first: #710074;
   --theme-colors-brand-second: #2a2b2f;
   --theme-colors-brand-third: #ff0084;
@@ -30,10 +30,22 @@
   --theme-colors-wording-on-bolds-heading-variant: #fafafa;
   --theme-colors-wording-on-bolds-body-default: #ffffff;
   --theme-colors-wording-on-bolds-body-variant: #ba89ba;
-  --theme-colors-reserved-error: #e22339;
-  --theme-colors-reserved-information: #444444;
-  --theme-colors-reserved-success: #6bbe27;
-  --theme-colors-reserved-alert: #ffe500;
+  --theme-colors-reserved-error-default: #e22339;
+  --theme-colors-reserved-error-lightest: #ffeceb;
+  --theme-colors-reserved-error-lighter: #ffe0dd;
+  --theme-colors-reserved-error-darker: #770000;
+  --theme-colors-reserved-information-default: #444444;
+  --theme-colors-reserved-information-lightest: #ebebeb;
+  --theme-colors-reserved-information-lighter: #dddddd;
+  --theme-colors-reserved-information-darker: #141414;
+  --theme-colors-reserved-success-default: #6bbe27;
+  --theme-colors-reserved-success-lightest: #f0f9ec;
+  --theme-colors-reserved-success-lighter: #e7f5df;
+  --theme-colors-reserved-success-darker: #004f00;
+  --theme-colors-reserved-alert-default: #ffe500;
+  --theme-colors-reserved-alert-lightest: #fffdee;
+  --theme-colors-reserved-alert-lighter: #fffce3;
+  --theme-colors-reserved-alert-darker: #705500;
   --theme-colors-syntax-background: #232323;
   --theme-colors-syntax-values: #6bbe27;
   --theme-colors-syntax-elements: #a7e5ff;

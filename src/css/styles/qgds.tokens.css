@@ -2,9 +2,23 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-:host {
-  --qgds-colors-neutral-black: #131212;
-  --qgds-colors-neutral-white: #ffffff;
+:root {
+  --qgds-colors-neutral-black-default: #131212;
+  --qgds-colors-neutral-black-opacity-low: rgba(19, 18, 18, 0.1);
+  --qgds-colors-neutral-darkest-default: #222020;
+  --qgds-colors-neutral-darkest-opacity-low: rgba(34, 32, 32, 0.1);
+  --qgds-colors-neutral-darker-default: #444444;
+  --qgds-colors-neutral-darker-opacity-low: rgba(68, 68, 68, 0.1);
+  --qgds-colors-neutral-dark-default: #78797e;
+  --qgds-colors-neutral-dark-opacity-low: rgba(120, 121, 126, 0.1);
+  --qgds-colors-neutral-light-default: #e0e0e0;
+  --qgds-colors-neutral-light-opacity-low: rgba(224, 224, 224, 0.1);
+  --qgds-colors-neutral-lighter-default: #ebebeb;
+  --qgds-colors-neutral-lighter-opacity-low: rgba(235, 235, 235, 0.1);
+  --qgds-colors-neutral-lightest-default: #f5f5f5;
+  --qgds-colors-neutral-lightest-opacity-low: rgba(245, 245, 245, 0.1);
+  --qgds-colors-neutral-white-default: #ffffff;
+  --qgds-colors-neutral-white-opacity-low: rgba(255, 255, 255, 0.1);
   --typography-h1-bold-font-family: 'Noto Sans';
   --typography-h1-bold-font-weight: 700;
   --typography-h1-bold-line-height: 110%;

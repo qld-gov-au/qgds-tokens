@@ -2,7 +2,7 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-:host {
+:root {
   --theme-colors-brand-first: #09549f;
   --theme-colors-brand-second: #05325f;
   --theme-colors-brand-third: #6bbe27;
@@ -12,6 +12,7 @@
   --theme-colors-background-alt: #eaeaea;
   --theme-colors-background-bold: #09549f;
   --theme-colors-background-strong: #05325f;
+  --theme-colors-background-dark: #333333;
   --theme-colors-action-on-brights-primary: #09549f;
   --theme-colors-action-on-brights-secondary: #6bbe27;
   --theme-colors-action-on-brights-tertiary: rgba(0, 0, 0, 0);

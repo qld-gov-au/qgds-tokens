@@ -2,7 +2,7 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-:host {
+:root {
   --theme-colors-brand-first: #ffffff;
   --theme-colors-brand-second: #000510;
   --theme-colors-brand-third: #0000ff;
@@ -18,11 +18,11 @@
   --theme-colors-action-on-bolds-primary: #ffe500;
   --theme-colors-action-on-bolds-secondary: #ffe500;
   --theme-colors-action-on-bolds-tertiary: rgba(0, 0, 0, 0);
-  --theme-colors-wording-on-brights-site-title-default: #131212;
+  --theme-colors-wording-on-brights-site-title-default: #ffffff;
   --theme-colors-wording-on-brights-site-title-variant: #606060;
-  --theme-colors-wording-on-brights-heading-default: #131212;
+  --theme-colors-wording-on-brights-heading-default: #ffffff;
   --theme-colors-wording-on-brights-heading-variant: #606060;
-  --theme-colors-wording-on-brights-body-default: #131212;
+  --theme-colors-wording-on-brights-body-default: #ffffff;
   --theme-colors-wording-on-brights-body-variant: #606060;
   --theme-colors-wording-on-bolds-site-title-default: #ffffff;
   --theme-colors-wording-on-bolds-site-title-variant: #76858e;
@@ -30,10 +30,22 @@
   --theme-colors-wording-on-bolds-heading-variant: #76858e;
   --theme-colors-wording-on-bolds-body-default: #ffffff;
   --theme-colors-wording-on-bolds-body-variant: #76858e;
-  --theme-colors-reserved-error: #e22339;
-  --theme-colors-reserved-information: #444444;
-  --theme-colors-reserved-success: #6bbe27;
-  --theme-colors-reserved-alert: #ffe500;
+  --theme-colors-reserved-error-default: #e22339;
+  --theme-colors-reserved-error-lightest: #ffeceb;
+  --theme-colors-reserved-error-lighter: #ffe0dd;
+  --theme-colors-reserved-error-darker: #770000;
+  --theme-colors-reserved-information-default: #444444;
+  --theme-colors-reserved-information-lightest: #ebebeb;
+  --theme-colors-reserved-information-lighter: #dddddd;
+  --theme-colors-reserved-information-darker: #141414;
+  --theme-colors-reserved-success-default: #6bbe27;
+  --theme-colors-reserved-success-lightest: #f0f9ec;
+  --theme-colors-reserved-success-lighter: #e7f5df;
+  --theme-colors-reserved-success-darker: #004f00;
+  --theme-colors-reserved-alert-default: #ffe500;
+  --theme-colors-reserved-alert-lightest: #fffdee;
+  --theme-colors-reserved-alert-lighter: #fffce3;
+  --theme-colors-reserved-alert-darker: #705500;
   --theme-colors-syntax-background: #232323;
   --theme-colors-syntax-values: #6bbe27;
   --theme-colors-syntax-elements: #a7e5ff;
@@ -58,11 +70,11 @@
   --palettes-bright-nav-text: #131212; /* Navigation text */
   --palettes-bright-accent-default: #131212; /* Navigation accent background */
   --palettes-bright-accent-on-accent: #1000e4; /* Navigation accent hover */
-  --palettes-bright-typography-site-title-default: #131212;
+  --palettes-bright-typography-site-title-default: #ffffff;
   --palettes-bright-typography-site-title-variant: #606060;
-  --palettes-bright-typography-heading-default: #131212;
+  --palettes-bright-typography-heading-default: #ffffff;
   --palettes-bright-typography-heading-variant: #606060;
-  --palettes-bright-typography-body-default: #131212;
+  --palettes-bright-typography-body-default: #ffffff;
   --palettes-bright-typography-body-variant: #606060;
   --palettes-bright-action-button-primary-default-background: #0000ff;
   --palettes-bright-action-button-primary-default-text: #ffffff;
@@ -144,11 +156,11 @@
   --palettes-tint-nav-text: #444444; /* Navigation text */
   --palettes-tint-accent-default: #ffe500; /* Navigation accent background */
   --palettes-tint-accent-on-accent: #1000e4; /* Navigation accent hover */
-  --palettes-tint-typography-site-title-default: #131212;
+  --palettes-tint-typography-site-title-default: #ffffff;
   --palettes-tint-typography-site-title-variant: #606060;
-  --palettes-tint-typography-heading-default: #131212;
+  --palettes-tint-typography-heading-default: #ffffff;
   --palettes-tint-typography-heading-variant: #606060;
-  --palettes-tint-typography-body-default: #131212;
+  --palettes-tint-typography-body-default: #ffffff;
   --palettes-tint-typography-body-variant: #606060;
   --palettes-tint-action-button-primary-default-background: #0000ff;
   --palettes-tint-action-button-primary-default-text: #ffffff;
@@ -230,11 +242,11 @@
   --palettes-alt-nav-text: #444444; /* Navigation text */
   --palettes-alt-accent-default: #ffe500; /* Navigation accent background */
   --palettes-alt-accent-on-accent: #1000e4; /* Navigation accent hover */
-  --palettes-alt-typography-site-title-default: #131212;
+  --palettes-alt-typography-site-title-default: #ffffff;
   --palettes-alt-typography-site-title-variant: #606060;
-  --palettes-alt-typography-heading-default: #131212;
+  --palettes-alt-typography-heading-default: #ffffff;
   --palettes-alt-typography-heading-variant: #606060;
-  --palettes-alt-typography-body-default: #131212;
+  --palettes-alt-typography-body-default: #ffffff;
   --palettes-alt-typography-body-variant: #606060;
   --palettes-alt-action-button-primary-default-background: #0000ff;
   --palettes-alt-action-button-primary-default-text: #ffffff;
