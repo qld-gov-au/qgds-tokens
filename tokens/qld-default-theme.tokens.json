@@ -41,7 +41,7 @@
           "type": "color"
         },
         "dark": {
-          "value": "{colors.goshawkGrey.600}",
+          "value": "{colors.goshawkGrey.700}",
           "type": "color"
         }
       },

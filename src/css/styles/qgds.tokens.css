@@ -3,10 +3,10 @@
  */
 
 :root {
-  --qgds-colors-neutral-black-default: #131212;
-  --qgds-colors-neutral-black-opacity-low: rgba(19, 18, 18, 0.1);
-  --qgds-colors-neutral-darkest-default: #222020;
-  --qgds-colors-neutral-darkest-opacity-low: rgba(34, 32, 32, 0.1);
+  --qgds-colors-neutral-black-default: #141414;
+  --qgds-colors-neutral-black-opacity-low: rgba(20, 20, 20, 0.1);
+  --qgds-colors-neutral-darkest-default: #232323;
+  --qgds-colors-neutral-darkest-opacity-low: rgba(35, 35, 35, 0.1);
   --qgds-colors-neutral-darker-default: #444444;
   --qgds-colors-neutral-darker-opacity-low: rgba(68, 68, 68, 0.1);
   --qgds-colors-neutral-dark-default: #78797e;

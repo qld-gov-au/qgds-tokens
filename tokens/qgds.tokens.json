@@ -4,7 +4,7 @@
       "neutral": {
         "black": {
           "default": {
-            "value": "#131212",
+            "value": "{colors.goshawkGrey.800}",
             "type": "color"
           },
           "opacity": {
@@ -16,7 +16,7 @@
         },
         "darkest": {
           "default": {
-            "value": "#222020",
+            "value": "{colors.goshawkGrey.700}",
             "type": "color"
           },
           "opacity": {
