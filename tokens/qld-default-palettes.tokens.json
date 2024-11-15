@@ -1433,7 +1433,7 @@
               "type": "color"
             },
             "text": {
-              "value": "{qgds.colors.neutral.white.default}",
+              "value": "{colors.white}",
               "type": "color"
             },
             "textDecoration": {
@@ -1451,7 +1451,7 @@
               "type": "color"
             },
             "text": {
-              "value": "{qgds.colors.neutral.white.default}",
+              "value": "{colors.white}",
               "type": "color"
             },
             "textDecoration": {
@@ -1875,7 +1875,7 @@
               "type": "color"
             },
             "text": {
-              "value": "{qgds.colors.neutral.white.default}",
+              "value": "{colors.white}",
               "type": "color"
             },
             "textDecoration": {
@@ -1893,7 +1893,7 @@
               "type": "color"
             },
             "text": {
-              "value": "{qgds.colors.neutral.white.default}",
+              "value": "{colors.white}",
               "type": "color"
             },
             "textDecoration": {

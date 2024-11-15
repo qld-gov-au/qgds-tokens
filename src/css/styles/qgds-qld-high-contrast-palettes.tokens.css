@@ -65,17 +65,24 @@
   --palettes-bright-divider: #0000ff;
   --palettes-bright-fence: #141414;
   --palettes-bright-line: #141414;
-  --palettes-bright-muted: #fafafa; /* Navigation background */
-  --palettes-bright-subtle: #ffffff; /* Navigation hover */
-  --palettes-bright-nav-text: #141414; /* Navigation text */
-  --palettes-bright-accent-default: #141414; /* Navigation accent background */
-  --palettes-bright-accent-on-accent: #1000e4; /* Navigation accent hover */
+  --palettes-bright-muted: #fafafa;
+  --palettes-bright-subtle: #ffffff;
+  --palettes-bright-accent-default: #141414;
+  --palettes-bright-accent-on-accent: #1000e4;
   --palettes-bright-typography-site-title-default: #ffffff;
   --palettes-bright-typography-site-title-variant: #606060;
   --palettes-bright-typography-heading-default: #ffffff;
   --palettes-bright-typography-heading-variant: #606060;
   --palettes-bright-typography-body-default: #ffffff;
   --palettes-bright-typography-body-variant: #606060;
+  --palettes-bright-action-nav-main-default-background: #fafafa;
+  --palettes-bright-action-nav-main-default-text: #141414;
+  --palettes-bright-action-nav-main-default-text-decoration: none;
+  --palettes-bright-action-nav-main-default-accent: #141414;
+  --palettes-bright-action-nav-main-hover-background: #ffffff;
+  --palettes-bright-action-nav-main-hover-text: #0000ff;
+  --palettes-bright-action-nav-main-hover-text-decoration: underline;
+  --palettes-bright-action-nav-main-hover-accent: #1000e4;
   --palettes-bright-action-button-primary-default-background: #0000ff;
   --palettes-bright-action-button-primary-default-text: #ffffff;
   --palettes-bright-action-button-primary-default-text-decoration: none;
@@ -151,17 +158,24 @@
   --palettes-tint-divider: #0000ff;
   --palettes-tint-fence: #ffe500;
   --palettes-tint-line: #dddddd;
-  --palettes-tint-muted: #f5f5f5; /* Navigation background */
+  --palettes-tint-muted: #f5f5f5;
   --palettes-tint-subtle: #eaeaea; /* Navigation hover */
-  --palettes-tint-nav-text: #444444; /* Navigation text */
-  --palettes-tint-accent-default: #ffe500; /* Navigation accent background */
-  --palettes-tint-accent-on-accent: #1000e4; /* Navigation accent hover */
+  --palettes-tint-accent-default: #ffe500;
+  --palettes-tint-accent-on-accent: #1000e4;
   --palettes-tint-typography-site-title-default: #ffffff;
   --palettes-tint-typography-site-title-variant: #606060;
   --palettes-tint-typography-heading-default: #ffffff;
   --palettes-tint-typography-heading-variant: #606060;
   --palettes-tint-typography-body-default: #ffffff;
   --palettes-tint-typography-body-variant: #606060;
+  --palettes-tint-action-nav-main-default-background: #fafafa;
+  --palettes-tint-action-nav-main-default-text: #141414;
+  --palettes-tint-action-nav-main-default-text-decoration: none;
+  --palettes-tint-action-nav-main-default-accent: #141414;
+  --palettes-tint-action-nav-main-hover-background: #ffffff;
+  --palettes-tint-action-nav-main-hover-text: #0000ff;
+  --palettes-tint-action-nav-main-hover-text-decoration: underline;
+  --palettes-tint-action-nav-main-hover-accent: #1000e4;
   --palettes-tint-action-button-primary-default-background: #0000ff;
   --palettes-tint-action-button-primary-default-text: #ffffff;
   --palettes-tint-action-button-primary-default-text-decoration: none;
@@ -237,17 +251,24 @@
   --palettes-alt-divider: #0000ff;
   --palettes-alt-fence: #ffe500;
   --palettes-alt-line: #dddddd;
-  --palettes-alt-muted: #f5f5f5; /* Navigation background */
-  --palettes-alt-subtle: #eaeaea; /* Navigation hover */
-  --palettes-alt-nav-text: #444444; /* Navigation text */
-  --palettes-alt-accent-default: #ffe500; /* Navigation accent background */
-  --palettes-alt-accent-on-accent: #1000e4; /* Navigation accent hover */
+  --palettes-alt-muted: #f5f5f5;
+  --palettes-alt-subtle: #eaeaea;
+  --palettes-alt-accent-default: #ffe500;
+  --palettes-alt-accent-on-accent: #1000e4;
   --palettes-alt-typography-site-title-default: #ffffff;
   --palettes-alt-typography-site-title-variant: #606060;
   --palettes-alt-typography-heading-default: #ffffff;
   --palettes-alt-typography-heading-variant: #606060;
   --palettes-alt-typography-body-default: #ffffff;
   --palettes-alt-typography-body-variant: #606060;
+  --palettes-alt-action-nav-main-default-background: #f5f5f5;
+  --palettes-alt-action-nav-main-default-text: #141414;
+  --palettes-alt-action-nav-main-default-text-decoration: none;
+  --palettes-alt-action-nav-main-default-accent: #ffe500;
+  --palettes-alt-action-nav-main-hover-background: #eaeaea;
+  --palettes-alt-action-nav-main-hover-text: #0000ff;
+  --palettes-alt-action-nav-main-hover-text-decoration: underline;
+  --palettes-alt-action-nav-main-hover-accent: #1000e4;
   --palettes-alt-action-button-primary-default-background: #0000ff;
   --palettes-alt-action-button-primary-default-text: #ffffff;
   --palettes-alt-action-button-primary-default-text-decoration: none;
@@ -324,16 +345,23 @@
   --palettes-bold-fence: #ffe500;
   --palettes-bold-line: #78b5ce;
   --palettes-bold-muted: #1000e4; /* Navigation background */
-  --palettes-bold-subtle: #05325f; /* Navigation hover */
-  --palettes-bold-nav-text: #444444; /* Navigation text */
-  --palettes-bold-accent-default: #ffe500; /* Navigation accent background */
-  --palettes-bold-accent-on-accent: #ffef86; /* Navigation accent hover */
+  --palettes-bold-subtle: #05325f;
+  --palettes-bold-accent-default: #ffe500;
+  --palettes-bold-accent-on-accent: #ffef86;
   --palettes-bold-typography-site-title-default: #ffffff;
   --palettes-bold-typography-site-title-variant: #76858e;
   --palettes-bold-typography-heading-default: #ffffff;
   --palettes-bold-typography-heading-variant: #76858e;
   --palettes-bold-typography-body-default: #ffffff;
   --palettes-bold-typography-body-variant: #76858e;
+  --palettes-bold-action-nav-main-default-background: #1000e4;
+  --palettes-bold-action-nav-main-default-text: #ffffff;
+  --palettes-bold-action-nav-main-default-text-decoration: none;
+  --palettes-bold-action-nav-main-default-accent: #ffe500;
+  --palettes-bold-action-nav-main-hover-background: #05325f;
+  --palettes-bold-action-nav-main-hover-text: #ffffff;
+  --palettes-bold-action-nav-main-hover-text-decoration: underline;
+  --palettes-bold-action-nav-main-hover-accent: #ffef86;
   --palettes-bold-action-button-primary-default-background: #ffe500;
   --palettes-bold-action-button-primary-default-text: #2b0093;
   --palettes-bold-action-button-primary-default-text-decoration: none;
@@ -409,17 +437,24 @@
   --palettes-strong-divider: #0000ff;
   --palettes-strong-fence: #ffe500;
   --palettes-strong-line: #78b5ce;
-  --palettes-strong-muted: #1000e4; /* Navigation background */
-  --palettes-strong-subtle: #05325f; /* Navigation hover */
-  --palettes-strong-nav-text: #444444; /* Navigation text */
-  --palettes-strong-accent-default: #ffe500; /* Navigation accent background */
-  --palettes-strong-accent-on-accent: #ffef86; /* Navigation accent hover */
+  --palettes-strong-muted: #1000e4;
+  --palettes-strong-subtle: #05325f;
+  --palettes-strong-accent-default: #ffe500;
+  --palettes-strong-accent-on-accent: #ffef86;
   --palettes-strong-typography-site-title-default: #ffffff;
   --palettes-strong-typography-site-title-variant: #76858e;
   --palettes-strong-typography-heading-default: #ffffff;
   --palettes-strong-typography-heading-variant: #76858e;
   --palettes-strong-typography-body-default: #ffffff;
   --palettes-strong-typography-body-variant: #76858e;
+  --palettes-strong-action-nav-main-default-background: #1000e4;
+  --palettes-strong-action-nav-main-default-text: #ffffff;
+  --palettes-strong-action-nav-main-default-text-decoration: none;
+  --palettes-strong-action-nav-main-default-accent: #ffe500;
+  --palettes-strong-action-nav-main-hover-background: #05325f;
+  --palettes-strong-action-nav-main-hover-text: #ffffff;
+  --palettes-strong-action-nav-main-hover-text-decoration: underline;
+  --palettes-strong-action-nav-main-hover-accent: #ffef86;
   --palettes-strong-action-button-primary-default-background: #ffe500;
   --palettes-strong-action-button-primary-default-text: #2b0093;
   --palettes-strong-action-button-primary-default-text-decoration: none;

@@ -65,17 +65,24 @@
   --palettes-bright-divider: #b80b4d;
   --palettes-bright-fence: #b80b4d;
   --palettes-bright-line: #dddddd;
-  --palettes-bright-muted: #f5f5f5; /* Navigation background */
-  --palettes-bright-subtle: #eaeaea; /* Navigation hover */
-  --palettes-bright-nav-text: #444444; /* Navigation text */
-  --palettes-bright-accent-default: #b80b4d; /* Navigation accent background */
-  --palettes-bright-accent-on-accent: #9a0037; /* Navigation accent hover */
+  --palettes-bright-muted: #f5f5f5;
+  --palettes-bright-subtle: #eaeaea;
+  --palettes-bright-accent-default: #b80b4d;
+  --palettes-bright-accent-on-accent: #9a0037;
   --palettes-bright-typography-site-title-default: #430001;
   --palettes-bright-typography-site-title-variant: #141414;
   --palettes-bright-typography-heading-default: #430001;
   --palettes-bright-typography-heading-variant: #141414;
   --palettes-bright-typography-body-default: #232323;
   --palettes-bright-typography-body-variant: #444444;
+  --palettes-bright-action-main-nav-default-background: #f5f5f5;
+  --palettes-bright-action-main-nav-default-text: #444444;
+  --palettes-bright-action-main-nav-default-text-decoration: none;
+  --palettes-bright-action-main-nav-default-accent: #b80b4d;
+  --palettes-bright-action-main-nav-hover-background: #eaeaea;
+  --palettes-bright-action-main-nav-hover-text: #09549f;
+  --palettes-bright-action-main-nav-hover-text-decoration: underline;
+  --palettes-bright-action-main-nav-hover-accent: #9a0037;
   --palettes-bright-action-button-primary-default-background: #b80b4d;
   --palettes-bright-action-button-primary-default-text: #ffffff;
   --palettes-bright-action-button-primary-default-text-decoration: none;
@@ -151,17 +158,24 @@
   --palettes-tint-divider: #b80b4d;
   --palettes-tint-fence: #b80b4d;
   --palettes-tint-line: #dddddd;
-  --palettes-tint-muted: #f5f5f5; /* Navigation background */
-  --palettes-tint-subtle: #eaeaea; /* Navigation hover */
-  --palettes-tint-nav-text: #444444; /* Navigation text */
-  --palettes-tint-accent-default: #b80b4d; /* Navigation accent background */
-  --palettes-tint-accent-on-accent: #9a0037; /* Navigation accent hover */
+  --palettes-tint-muted: #f5f5f5;
+  --palettes-tint-subtle: #eaeaea;
+  --palettes-tint-accent-default: #b80b4d;
+  --palettes-tint-accent-on-accent: #9a0037;
   --palettes-tint-typography-site-title-default: #430001;
   --palettes-tint-typography-site-title-variant: #141414;
   --palettes-tint-typography-heading-default: #430001;
   --palettes-tint-typography-heading-variant: #141414;
   --palettes-tint-typography-body-default: #232323;
   --palettes-tint-typography-body-variant: #444444;
+  --palettes-tint-action-main-nav-default-background: #f5f5f5;
+  --palettes-tint-action-main-nav-default-text: #444444;
+  --palettes-tint-action-main-nav-default-text-decoration: none;
+  --palettes-tint-action-main-nav-default-accent: #b80b4d;
+  --palettes-tint-action-main-nav-hover-background: #eaeaea;
+  --palettes-tint-action-main-nav-hover-text: #09549f;
+  --palettes-tint-action-main-nav-hover-text-decoration: underline;
+  --palettes-tint-action-main-nav-hover-accent: #9a0037;
   --palettes-tint-action-button-primary-default-background: #b80b4d;
   --palettes-tint-action-button-primary-default-text: #ffffff;
   --palettes-tint-action-button-primary-default-text-decoration: none;
@@ -237,17 +251,24 @@
   --palettes-alt-divider: #b80b4d;
   --palettes-alt-fence: #b80b4d;
   --palettes-alt-line: #dddddd;
-  --palettes-alt-muted: #f5f5f5; /* Navigation background */
-  --palettes-alt-subtle: #eaeaea; /* Navigation hover */
-  --palettes-alt-nav-text: #444444; /* Navigation text */
-  --palettes-alt-accent-default: #b80b4d; /* Navigation accent background */
-  --palettes-alt-accent-on-accent: #9a0037; /* Navigation accent hover */
+  --palettes-alt-muted: #f5f5f5;
+  --palettes-alt-subtle: #eaeaea;
+  --palettes-alt-accent-default: #b80b4d;
+  --palettes-alt-accent-on-accent: #9a0037;
   --palettes-alt-typography-site-title-default: #430001;
   --palettes-alt-typography-site-title-variant: #141414;
   --palettes-alt-typography-heading-default: #430001;
   --palettes-alt-typography-heading-variant: #141414;
   --palettes-alt-typography-body-default: #232323;
   --palettes-alt-typography-body-variant: #444444;
+  --palettes-alt-action-main-nav-default-background: #f5f5f5;
+  --palettes-alt-action-main-nav-default-text: #444444;
+  --palettes-alt-action-main-nav-default-text-decoration: none;
+  --palettes-alt-action-main-nav-default-accent: #b80b4d;
+  --palettes-alt-action-main-nav-hover-background: #eaeaea;
+  --palettes-alt-action-main-nav-hover-text: #09549f;
+  --palettes-alt-action-main-nav-hover-text-decoration: underline;
+  --palettes-alt-action-main-nav-hover-accent: #9a0037;
   --palettes-alt-action-button-primary-default-background: #b80b4d;
   --palettes-alt-action-button-primary-default-text: #ffffff;
   --palettes-alt-action-button-primary-default-text-decoration: none;
@@ -323,17 +344,24 @@
   --palettes-bold-divider: #b80b4d;
   --palettes-bold-fence: #b80b4d;
   --palettes-bold-line: #f0b8c0;
-  --palettes-bold-muted: #9a0037; /* Navigation background */
-  --palettes-bold-subtle: #b80b4d; /* Navigation hover */
-  --palettes-bold-nav-text: #444444; /* Navigation text */
-  --palettes-bold-accent-default: #b80b4d; /* Navigation accent background */
-  --palettes-bold-accent-on-accent: #d87085; /* Navigation accent hover */
+  --palettes-bold-muted: #9a0037;
+  --palettes-bold-subtle: #b80b4d;
+  --palettes-bold-accent-default: #b80b4d;
+  --palettes-bold-accent-on-accent: #d87085;
   --palettes-bold-typography-site-title-default: #ffffff;
   --palettes-bold-typography-site-title-variant: #fafafa;
   --palettes-bold-typography-heading-default: #ffffff;
   --palettes-bold-typography-heading-variant: #fafafa;
   --palettes-bold-typography-body-default: #ffffff;
   --palettes-bold-typography-body-variant: #fafafa;
+  --palettes-bold-action-nav-main-default-background: #9a0037;
+  --palettes-bold-action-nav-main-default-text: #ffffff;
+  --palettes-bold-action-nav-main-default-text-decoration: none;
+  --palettes-bold-action-nav-main-default-accent: #b80b4d;
+  --palettes-bold-action-nav-main-hover-background: #b80b4d;
+  --palettes-bold-action-nav-main-hover-text: #ffffff;
+  --palettes-bold-action-nav-main-hover-text-decoration: underline;
+  --palettes-bold-action-nav-main-hover-accent: #d87085;
   --palettes-bold-action-button-primary-default-background: #ffffff;
   --palettes-bold-action-button-primary-default-text: #430001;
   --palettes-bold-action-button-primary-default-text-decoration: none;
@@ -409,17 +437,24 @@
   --palettes-strong-divider: #b80b4d;
   --palettes-strong-fence: #b80b4d;
   --palettes-strong-line: #f0b8c0;
-  --palettes-strong-muted: #9a0037; /* Navigation background */
-  --palettes-strong-subtle: #b80b4d; /* Navigation hover */
-  --palettes-strong-nav-text: #444444; /* Navigation text */
-  --palettes-strong-accent-default: #b80b4d; /* Navigation accent background */
-  --palettes-strong-accent-on-accent: #d87085; /* Navigation accent hover */
+  --palettes-strong-muted: #9a0037;
+  --palettes-strong-subtle: #b80b4d;
+  --palettes-strong-accent-default: #b80b4d;
+  --palettes-strong-accent-on-accent: #d87085;
   --palettes-strong-typography-site-title-default: #ffffff;
   --palettes-strong-typography-site-title-variant: #fafafa;
   --palettes-strong-typography-heading-default: #ffffff;
   --palettes-strong-typography-heading-variant: #fafafa;
   --palettes-strong-typography-body-default: #ffffff;
   --palettes-strong-typography-body-variant: #fafafa;
+  --palettes-strong-action-nav-main-default-background: #9a0037;
+  --palettes-strong-action-nav-main-default-text: #ffffff;
+  --palettes-strong-action-nav-main-default-text-decoration: none;
+  --palettes-strong-action-nav-main-default-accent: #b80b4d;
+  --palettes-strong-action-nav-main-hover-background: #b80b4d;
+  --palettes-strong-action-nav-main-hover-text: #ffffff;
+  --palettes-strong-action-nav-main-hover-text-decoration: underline;
+  --palettes-strong-action-nav-main-hover-accent: #d87085;
   --palettes-strong-action-button-primary-default-background: #b80b4d;
   --palettes-strong-action-button-primary-default-text: #430001;
   --palettes-strong-action-button-primary-default-text-decoration: none;

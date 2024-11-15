@@ -51,29 +51,20 @@
       },
       "muted": {
         "value": "{colors.christimasSilver.50}",
-        "type": "color",
-        "description": "Navigation background"
+        "type": "color"
       },
       "subtle": {
         "value": "{colors.white}",
-        "type": "color",
-        "description": "Navigation hover"
-      },
-      "navText": {
-        "value": "{qgds.colors.neutral.black.default}",
-        "type": "color",
-        "description": "Navigation text"
+        "type": "color"
       },
       "accent": {
         "default": {
           "value": "{qgds.colors.neutral.black.default}",
-          "type": "color",
-          "description": "Navigation accent background"
+          "type": "color"
         },
         "onAccent": {
           "value": "{colors.iridiumBlue.600}",
-          "type": "color",
-          "description": "Navigation accent hover"
+          "type": "color"
         }
       },
       "typography": {
@@ -109,6 +100,44 @@
         }
       },
       "action": {
+        "navMain": {
+          "default": {
+            "background": {
+              "value": "{palettes.bright.muted}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{colors.goshawkGrey.800}",
+              "type": "color"
+            },
+            "textDecoration": {
+              "value": "{textDecorations.line.none}",
+              "type": "textDecoration"
+            },
+            "accent": {
+              "value": "{palettes.bright.accent.default}",
+              "type": "textDecoration"
+            }
+          },
+          "hover": {
+            "background": {
+              "value": "{palettes.bright.subtle}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{colors.iridiumBlue.500}",
+              "type": "color"
+            },
+            "textDecoration": {
+              "value": "{textDecorations.line.underline}",
+              "type": "textDecoration"
+            },
+            "accent": {
+              "value": "{palettes.bright.accent.onAccent}",
+              "type": "textDecoration"
+            }
+          }
+        },
         "button": {
           "primary": {
             "default": {
@@ -464,29 +493,21 @@
       },
       "muted": {
         "value": "{colors.christimasSilver.100}",
-        "type": "color",
-        "description": "Navigation background"
+        "type": "color"
       },
       "subtle": {
         "value": "{colors.christimasSilver.300}",
         "type": "color",
         "description": "Navigation hover"
       },
-      "navText": {
-        "value": "{colors.goshawkGrey.500}",
-        "type": "color",
-        "description": "Navigation text"
-      },
       "accent": {
         "default": {
           "value": "{colors.starYellow.500}",
-          "type": "color",
-          "description": "Navigation accent background"
+          "type": "color"
         },
         "onAccent": {
           "value": "{colors.iridiumBlue.600}",
-          "type": "color",
-          "description": "Navigation accent hover"
+          "type": "color"
         }
       },
       "typography": {
@@ -522,6 +543,44 @@
         }
       },
       "action": {
+        "navMain": {
+          "default": {
+            "background": {
+              "value": "{palettes.bright.muted}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{colors.goshawkGrey.800}",
+              "type": "color"
+            },
+            "textDecoration": {
+              "value": "{textDecorations.line.none}",
+              "type": "textDecoration"
+            },
+            "accent": {
+              "value": "{palettes.bright.accent.default}",
+              "type": "textDecoration"
+            }
+          },
+          "hover": {
+            "background": {
+              "value": "{palettes.bright.subtle}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{colors.iridiumBlue.500}",
+              "type": "color"
+            },
+            "textDecoration": {
+              "value": "{textDecorations.line.underline}",
+              "type": "textDecoration"
+            },
+            "accent": {
+              "value": "{palettes.bright.accent.onAccent}",
+              "type": "textDecoration"
+            }
+          }
+        },
         "button": {
           "primary": {
             "default": {
@@ -877,29 +936,20 @@
       },
       "muted": {
         "value": "{colors.christimasSilver.100}",
-        "type": "color",
-        "description": "Navigation background"
+        "type": "color"
       },
       "subtle": {
         "value": "{colors.christimasSilver.300}",
-        "type": "color",
-        "description": "Navigation hover"
-      },
-      "navText": {
-        "value": "{colors.goshawkGrey.500}",
-        "type": "color",
-        "description": "Navigation text"
+        "type": "color"
       },
       "accent": {
         "default": {
           "value": "{colors.starYellow.500}",
-          "type": "color",
-          "description": "Navigation accent background"
+          "type": "color"
         },
         "onAccent": {
           "value": "{colors.iridiumBlue.600}",
-          "type": "color",
-          "description": "Navigation accent hover"
+          "type": "color"
         }
       },
       "typography": {
@@ -935,6 +985,44 @@
         }
       },
       "action": {
+        "navMain": {
+          "default": {
+            "background": {
+              "value": "{palettes.alt.muted}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{colors.goshawkGrey.800}",
+              "type": "color"
+            },
+            "textDecoration": {
+              "value": "{textDecorations.line.none}",
+              "type": "textDecoration"
+            },
+            "accent": {
+              "value": "{palettes.alt.accent.default}",
+              "type": "textDecoration"
+            }
+          },
+          "hover": {
+            "background": {
+              "value": "{palettes.alt.subtle}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{colors.iridiumBlue.500}",
+              "type": "color"
+            },
+            "textDecoration": {
+              "value": "{textDecorations.line.underline}",
+              "type": "textDecoration"
+            },
+            "accent": {
+              "value": "{palettes.alt.accent.onAccent}",
+              "type": "textDecoration"
+            }
+          }
+        },
         "button": {
           "primary": {
             "default": {
@@ -1256,7 +1344,7 @@
       },
       "border": {
         "default": {
-          "value": "{qgds.colors.neutral.white.default}",
+          "value": "{colors.white}",
           "type": "color"
         },
         "variant": {
@@ -1295,24 +1383,16 @@
       },
       "subtle": {
         "value": "{colors.marineBlue.500}",
-        "type": "color",
-        "description": "Navigation hover"
-      },
-      "navText": {
-        "value": "{colors.goshawkGrey.500}",
-        "type": "color",
-        "description": "Navigation text"
+        "type": "color"
       },
       "accent": {
         "default": {
           "value": "{colors.starYellow.500}",
-          "type": "color",
-          "description": "Navigation accent background"
+          "type": "color"
         },
         "onAccent": {
           "value": "{colors.starYellow.300}",
-          "type": "color",
-          "description": "Navigation accent hover"
+          "type": "color"
         }
       },
       "typography": {
@@ -1348,6 +1428,44 @@
         }
       },
       "action": {
+        "navMain": {
+          "default": {
+            "background": {
+              "value": "{palettes.bold.muted}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{colors.white}",
+              "type": "color"
+            },
+            "textDecoration": {
+              "value": "{textDecorations.line.none}",
+              "type": "textDecoration"
+            },
+            "accent": {
+              "value": "{palettes.bold.accent.default}",
+              "type": "textDecoration"
+            }
+          },
+          "hover": {
+            "background": {
+              "value": "{palettes.bold.subtle}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{colors.white}",
+              "type": "color"
+            },
+            "textDecoration": {
+              "value": "{textDecorations.line.underline}",
+              "type": "textDecoration"
+            },
+            "accent": {
+              "value": "{palettes.bold.accent.onAccent}",
+              "type": "textDecoration"
+            }
+          }
+        },
         "button": {
           "primary": {
             "default": {
@@ -1669,7 +1787,7 @@
       },
       "border": {
         "default": {
-          "value": "{qgds.colors.neutral.white.default}",
+          "value": "{colors.white}",
           "type": "color"
         },
         "variant": {
@@ -1703,29 +1821,20 @@
       },
       "muted": {
         "value": "{colors.iridiumBlue.600}",
-        "type": "color",
-        "description": "Navigation background"
+        "type": "color"
       },
       "subtle": {
         "value": "{colors.marineBlue.500}",
-        "type": "color",
-        "description": "Navigation hover"
-      },
-      "navText": {
-        "value": "{colors.goshawkGrey.500}",
-        "type": "color",
-        "description": "Navigation text"
+        "type": "color"
       },
       "accent": {
         "default": {
           "value": "{colors.starYellow.500}",
-          "type": "color",
-          "description": "Navigation accent background"
+          "type": "color"
         },
         "onAccent": {
           "value": "{colors.starYellow.300}",
-          "type": "color",
-          "description": "Navigation accent hover"
+          "type": "color"
         }
       },
       "typography": {
@@ -1761,6 +1870,44 @@
         }
       },
       "action": {
+        "navMain": {
+          "default": {
+            "background": {
+              "value": "{palettes.strong.muted}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{colors.white}",
+              "type": "color"
+            },
+            "textDecoration": {
+              "value": "{textDecorations.line.none}",
+              "type": "textDecoration"
+            },
+            "accent": {
+              "value": "{palettes.strong.accent.default}",
+              "type": "textDecoration"
+            }
+          },
+          "hover": {
+            "background": {
+              "value": "{palettes.strong.subtle}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{colors.white}",
+              "type": "color"
+            },
+            "textDecoration": {
+              "value": "{textDecorations.line.underline}",
+              "type": "textDecoration"
+            },
+            "accent": {
+              "value": "{palettes.strong.accent.onAccent}",
+              "type": "textDecoration"
+            }
+          }
+        },
         "button": {
           "primary": {
             "default": {

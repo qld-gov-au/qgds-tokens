@@ -39,6 +39,10 @@
         "strong": {
           "value": "{colors.tarnishedSilver.800}",
           "type": "color"
+        },
+        "dark": {
+          "value": "{colors.goshawkGrey.700}",
+          "type": "color"
         }
       },
       "action": {
