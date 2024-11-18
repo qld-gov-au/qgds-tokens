@@ -3,17 +3,17 @@ import path from 'node:path';
 
 // test if input token exists
 const jsonThemeOutputDir = 'tokens';
-const jsonThemeOutputFileName = 'qld-default-theme.tokens.json';
+const jsonThemeOutputFileName = 'qld-maroon-theme.tokens.json';
 const jsonThemeOutputFilePath = path.resolve(jsonThemeOutputDir, jsonThemeOutputFileName);
 
 // test if input token exists
 const jsonPalettesOutputDir = 'tokens';
-const jsonPalettesOutputFileName = 'qld-default-palettes.tokens.json';
+const jsonPalettesOutputFileName = 'qld-maroon-palettes.tokens.json';
 const jsonPalettesOutputFilePath = path.resolve(jsonPalettesOutputDir, jsonPalettesOutputFileName);
 
 // test if combined ouput token exists
 const cssOutputDir = 'src/css/styles';
-const cssOutputFileName = 'qgds-qld-default-palettes.tokens.css';
+const cssOutputFileName = 'qgds-qld-maroon-palettes.tokens.css';
 const cssOutputFilePath = path.resolve(cssOutputDir, cssOutputFileName);
 
 // test if input & output transformation is valid
@@ -33,7 +33,7 @@ const tokenTestObject = {
   }
 };
 
-describe('qld-default tests', () => {
+describe('qld-maroon tests', () => {
 
   it('sanity - contains at least one: theme in JSON file', async () => {
     const file = await promises.readFile(jsonThemeOutputFilePath, 'utf-8');
