@@ -1,5 +1,6 @@
-{
-  "qld-default-palettes": {
+[
+  {
+    "name": "qld-default-palettes",
     "selectedTokenSets": {
       "primitive": "source",
       "qld-default-theme": "enabled",
@@ -9,10 +10,10 @@
       "qgds": "source",
       "typography": "source"
     },
-    "group": "brand",
-    "type": "other"
+    "group": "brand"
   },
-  "qld-maroon-palettes": {
+  {
+    "name": "qld-maroon-palettes",
     "selectedTokenSets": {
       "primitive": "source",
       "qld-maroon-theme": "enabled",
@@ -22,10 +23,10 @@
       "qgds": "source",
       "typography": "source"
     },
-    "group": "brand",
-    "type": "other"
+    "group": "brand"
   },
-  "qld-high-contrast-palettes": {
+  {
+    "name": "qld-high-contrast-palettes",
     "selectedTokenSets": {
       "primitive": "source",
       "qld-high-contrast-theme": "enabled",
@@ -35,10 +36,10 @@
       "qgds": "source",
       "typography": "source"
     },
-    "group": "brand",
-    "type": "other"
+    "group": "brand"
   },
-  "campaign-neon-palettes": {
+  {
+    "name": "campaign-neon-palettes",
     "selectedTokenSets": {
       "primitive": "source",
       "campaign-neon-theme": "enabled",
@@ -48,7 +49,6 @@
       "qgds": "source",
       "typography": "source"
     },
-    "group": "brand",
-    "type": "other"
+    "group": "brand"
   }
-}
+]

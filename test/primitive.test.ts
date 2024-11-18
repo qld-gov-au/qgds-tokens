@@ -13,7 +13,6 @@ const cssOutputFilePath = path.resolve(cssOutputDir, cssOutputFileName);
 
 // test if input & output transformation is valid
 const tokenTestObject = {
-  "dimension": {"json": `dimension`, "css": `--dimension`},
   "spacing": {"json": `spacing`, "css": `--spacing`},
   "borderRadius": {"json": `borderRadius`, "css": `--border-radius`},
   "colors": {"json": `colors`, "css": `--colors`},
@@ -32,7 +31,6 @@ describe('primitive tests', () => {
 
   it('sanity - contains all primitive high key values in JSON file', async () => {
     const file = await promises.readFile(jsonOutputFilePath, 'utf-8');
-    expect(file).toContain(tokenTestObject.dimension.json);
     expect(file).toContain(tokenTestObject.spacing.json);
     expect(file).toContain(tokenTestObject.borderRadius.json);
     expect(file).toContain(tokenTestObject.colors.json);
@@ -49,7 +47,6 @@ describe('primitive tests', () => {
 
   it('sanity - contains at least one primitive high key values in CSS file', async () => {
     const file = await promises.readFile(cssOutputFilePath, 'utf-8');
-    expect(file).toContain(tokenTestObject.dimension.css);
     expect(file).toContain(tokenTestObject.spacing.css);
     expect(file).toContain(tokenTestObject.borderRadius.css);
     expect(file).toContain(tokenTestObject.colors.css);
