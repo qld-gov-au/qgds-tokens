@@ -850,6 +850,176 @@
             }
           }
         }
+      },
+      "dark": {
+        "primary": {
+          "default": {
+            "background": {
+              "value": "{palettes.dark.action.button.primary.default.background}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{palettes.dark.action.button.primary.default.text}",
+              "type": "color"
+            },
+            "textDecoration": {
+              "value": "{palettes.dark.action.button.primary.default.textDecoration}",
+              "type": "textDecoration"
+            },
+            "border": {
+              "value": "{palettes.dark.action.button.primary.default.border}",
+              "type": "color"
+            }
+          },
+          "active": {
+            "background": {
+              "value": "{palettes.dark.action.button.primary.active.background}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{palettes.dark.action.button.primary.active.text}",
+              "type": "color"
+            },
+            "textDecoration": {
+              "value": "{palettes.dark.action.button.primary.active.textDecoration}",
+              "type": "textDecoration"
+            },
+            "border": {
+              "value": "{palettes.dark.action.button.primary.active.border}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "background": {
+              "value": "{palettes.dark.action.button.primary.hover.background}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{palettes.dark.action.button.primary.hover.text}",
+              "type": "color"
+            },
+            "textDecoration": {
+              "value": "{palettes.dark.action.button.primary.hover.textDecoration}",
+              "type": "textDecoration"
+            },
+            "border": {
+              "value": "{palettes.dark.action.button.primary.hover.border}",
+              "type": "color"
+            }
+          }
+        },
+        "secondary": {
+          "default": {
+            "background": {
+              "value": "{palettes.dark.action.button.secondary.default.background}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{palettes.dark.action.button.secondary.default.text}",
+              "type": "color"
+            },
+            "textDecoration": {
+              "value": "{palettes.dark.action.button.secondary.default.textDecoration}",
+              "type": "textDecoration"
+            },
+            "border": {
+              "value": "{palettes.dark.action.button.secondary.default.border}",
+              "type": "color"
+            }
+          },
+          "active": {
+            "background": {
+              "value": "{palettes.dark.action.button.secondary.active.background}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{palettes.dark.action.button.secondary.active.text}",
+              "type": "color"
+            },
+            "textDecoration": {
+              "value": "{palettes.dark.action.button.secondary.active.textDecoration}",
+              "type": "textDecoration"
+            },
+            "border": {
+              "value": "{palettes.dark.action.button.secondary.active.border}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "background": {
+              "value": "{palettes.dark.action.button.secondary.hover.background}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{palettes.dark.action.button.secondary.hover.text}",
+              "type": "color"
+            },
+            "textDecoration": {
+              "value": "{palettes.dark.action.button.secondary.hover.textDecoration}",
+              "type": "textDecoration"
+            },
+            "border": {
+              "value": "{palettes.dark.action.button.secondary.hover.border}",
+              "type": "color"
+            }
+          }
+        },
+        "tertiary": {
+          "default": {
+            "background": {
+              "value": "{palettes.dark.action.button.tertiary.default.background}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{palettes.dark.action.button.tertiary.default.text}",
+              "type": "color"
+            },
+            "textDecoration": {
+              "value": "{palettes.dark.action.button.tertiary.default.textDecoration}",
+              "type": "textDecoration"
+            },
+            "border": {
+              "value": "{palettes.dark.action.button.tertiary.default.border}",
+              "type": "color"
+            }
+          },
+          "active": {
+            "background": {
+              "value": "{palettes.dark.action.button.tertiary.active.background}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{palettes.dark.action.button.tertiary.active.text}",
+              "type": "color"
+            },
+            "textDecoration": {
+              "value": "{palettes.dark.action.button.tertiary.active.textDecoration}",
+              "type": "textDecoration"
+            },
+            "border": {
+              "value": "{palettes.dark.action.button.tertiary.active.border}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "background": {
+              "value": "{palettes.dark.action.button.tertiary.hover.background}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{palettes.dark.action.button.tertiary.hover.text}",
+              "type": "color"
+            },
+            "textDecoration": {
+              "value": "{palettes.dark.action.button.tertiary.hover.textDecoration}",
+              "type": "textDecoration"
+            },
+            "border": {
+              "value": "{palettes.dark.action.button.tertiary.hover.border}",
+              "type": "color"
+            }
+          }
+        }
       }
     },
     "borderRadius": {
