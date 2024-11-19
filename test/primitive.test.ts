@@ -19,12 +19,12 @@ const tokenTestObject = {
   "opacity": {"json": `opacity`, "css": `--opacity`},
   "transparency": {"json": `transparency`, "css": `--transparency`},
   "focus": {"json": `focus`, "css": `--focus`},
-  "fontFamilies": {"json": `fontFamilies`, "css": `--font-families`},
-  "lineHeights": {"json": `lineHeights`, "css": `--line-heights`},
+  "fontFamily": {"json": `fontFamily`, "css": `--font-family`},
+  "lineHeight": {"json": `lineHeight`, "css": `--line-height`},
   "letterSpacing": {"json": `letterSpacing`, "css": `--letter-spacing`},
   "paragraphSpacing": {"json": `paragraphSpacing`, "css": `--paragraph-spacing`},
-  "fontSizes": {"json": `fontSizes`, "css": `--font-sizes`},
-  "textDecoration": {"json": `textDecoration`, "css": `--text-decorations`},
+  "fontSize": {"json": `fontSize`, "css": `--font-size`},
+  "textDecoration": {"json": `textDecoration`, "css": `--text-decoration`},
 };
 
 describe('primitive tests', () => {
@@ -37,11 +37,11 @@ describe('primitive tests', () => {
     expect(file).toContain(tokenTestObject.opacity.json);
     expect(file).toContain(tokenTestObject.transparency.json);
     expect(file).toContain(tokenTestObject.focus.json);
-    expect(file).toContain(tokenTestObject.fontFamilies.json);
-    expect(file).toContain(tokenTestObject.lineHeights.json);
+    expect(file).toContain(tokenTestObject.fontFamily.json);
+    expect(file).toContain(tokenTestObject.lineHeight.json);
     expect(file).toContain(tokenTestObject.letterSpacing.json);
     expect(file).toContain(tokenTestObject.paragraphSpacing.json);
-    expect(file).toContain(tokenTestObject.fontSizes.json);
+    expect(file).toContain(tokenTestObject.fontSize.json);
     expect(file).toContain(tokenTestObject.textDecoration.json);
   });
 
@@ -53,11 +53,11 @@ describe('primitive tests', () => {
     expect(file).toContain(tokenTestObject.opacity.css);
     expect(file).toContain(tokenTestObject.transparency.css);
     expect(file).toContain(tokenTestObject.focus.css);
-    expect(file).toContain(tokenTestObject.fontFamilies.css);
-    expect(file).toContain(tokenTestObject.lineHeights.css);
+    expect(file).toContain(tokenTestObject.fontFamily.css);
+    expect(file).toContain(tokenTestObject.lineHeight.css);
     expect(file).toContain(tokenTestObject.letterSpacing.css);
     expect(file).toContain(tokenTestObject.paragraphSpacing.css);
-    expect(file).toContain(tokenTestObject.fontSizes.css);
+    expect(file).toContain(tokenTestObject.fontSize.css);
     expect(file).toContain(tokenTestObject.textDecoration.css);
   });
 
