@@ -447,12 +447,12 @@
   --font-size-mobile-sm: 16px;
   --font-size-mobile-xs: 12.8px;
   --font-size-mobile-xxs: 10.24px;
-  --text-decorations-line-none: none;
-  --text-decorations-line-underline: underline;
-  --text-decorations-line-overline: overline;
-  --text-decorations-thickness-thin: 0.5px;
-  --text-decorations-thickness-thick: 2px;
-  --text-decorations-style-solid: solid;
-  --text-decorations-style-double: double;
-  --text-decorations-style-wavy: wavy;
+  --text-decoration-line-none: none;
+  --text-decoration-line-underline: underline;
+  --text-decoration-line-overline: overline;
+  --text-decoration-thickness-thin: 0.5px;
+  --text-decoration-thickness-thick: 2px;
+  --text-decoration-style-solid: solid;
+  --text-decoration-style-double: double;
+  --text-decoration-style-wavy: wavy;
 }

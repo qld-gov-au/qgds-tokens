@@ -121,7 +121,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -139,7 +139,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -157,7 +157,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.underline}",
+                "value": "{textDecoration.line.underline}",
                 "type": "textDecoration"
               },
               "border": {
@@ -177,7 +177,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -195,7 +195,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -213,7 +213,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.underline}",
+                "value": "{textDecoration.line.underline}",
                 "type": "textDecoration"
               },
               "border": {
@@ -233,7 +233,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -251,7 +251,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -269,7 +269,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.underline}",
+                "value": "{textDecoration.line.underline}",
                 "type": "textDecoration"
               },
               "border": {
@@ -286,15 +286,15 @@
               "type": "color"
             },
             "textDecorationLine": {
-              "value": "{textDecorations.line.underline}",
+              "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
             },
             "textDecorationThickness": {
-              "value": "{textDecorations.thickness.thin}",
+              "value": "{textDecoration.thickness.thin}",
               "type": "textDecorationThickness"
             },
             "textDecorationStyle": {
-              "value": "{textDecorations.style.solid}",
+              "value": "{textDecoration.style.solid}",
               "type": "textDecorationStyle"
             }
           },
@@ -304,15 +304,15 @@
               "type": "color"
             },
             "textDecorationLine": {
-              "value": "{textDecorations.line.underline}",
+              "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
             },
             "textDecorationThickness": {
-              "value": "{textDecorations.thickness.thick}",
+              "value": "{textDecoration.thickness.thick}",
               "type": "textDecorationThickness"
             },
             "textDecorationStyle": {
-              "value": "{textDecorations.style.solid}",
+              "value": "{textDecoration.style.solid}",
               "type": "textDecorationStyle"
             }
           },
@@ -322,15 +322,15 @@
               "type": "color"
             },
             "textDecorationLine": {
-              "value": "{textDecorations.line.underline}",
+              "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
             },
             "textDecorationThickness": {
-              "value": "{textDecorations.thickness.thick}",
+              "value": "{textDecoration.thickness.thick}",
               "type": "textDecorationThickness"
             },
             "textDecorationStyle": {
-              "value": "{textDecorations.style.solid}",
+              "value": "{textDecoration.style.solid}",
               "type": "textDecorationStyle"
             }
           },
@@ -340,15 +340,15 @@
               "type": "color"
             },
             "textDecorationLine": {
-              "value": "{textDecorations.line.underline}",
+              "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
             },
             "textDecorationThickness": {
-              "value": "{textDecorations.thickness.thick}",
+              "value": "{textDecoration.thickness.thick}",
               "type": "textDecorationThickness"
             },
             "textDecorationStyle": {
-              "value": "{textDecorations.style.solid}",
+              "value": "{textDecoration.style.solid}",
               "type": "textDecorationStyle"
             }
           }
@@ -534,7 +534,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -552,7 +552,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -570,7 +570,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.underline}",
+                "value": "{textDecoration.line.underline}",
                 "type": "textDecoration"
               },
               "border": {
@@ -590,7 +590,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -608,7 +608,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -626,7 +626,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.underline}",
+                "value": "{textDecoration.line.underline}",
                 "type": "textDecoration"
               },
               "border": {
@@ -646,7 +646,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -664,7 +664,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -682,7 +682,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.underline}",
+                "value": "{textDecoration.line.underline}",
                 "type": "textDecoration"
               },
               "border": {
@@ -699,15 +699,15 @@
               "type": "color"
             },
             "textDecorationLine": {
-              "value": "{textDecorations.line.underline}",
+              "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
             },
             "textDecorationThickness": {
-              "value": "{textDecorations.thickness.thin}",
+              "value": "{textDecoration.thickness.thin}",
               "type": "textDecorationThickness"
             },
             "textDecorationStyle": {
-              "value": "{textDecorations.style.solid}",
+              "value": "{textDecoration.style.solid}",
               "type": "textDecorationStyle"
             }
           },
@@ -717,15 +717,15 @@
               "type": "color"
             },
             "textDecorationLine": {
-              "value": "{textDecorations.line.underline}",
+              "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
             },
             "textDecorationThickness": {
-              "value": "{textDecorations.thickness.thick}",
+              "value": "{textDecoration.thickness.thick}",
               "type": "textDecorationThickness"
             },
             "textDecorationStyle": {
-              "value": "{textDecorations.style.solid}",
+              "value": "{textDecoration.style.solid}",
               "type": "textDecorationStyle"
             }
           },
@@ -735,15 +735,15 @@
               "type": "color"
             },
             "textDecorationLine": {
-              "value": "{textDecorations.line.underline}",
+              "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
             },
             "textDecorationThickness": {
-              "value": "{textDecorations.thickness.thick}",
+              "value": "{textDecoration.thickness.thick}",
               "type": "textDecorationThickness"
             },
             "textDecorationStyle": {
-              "value": "{textDecorations.style.solid}",
+              "value": "{textDecoration.style.solid}",
               "type": "textDecorationStyle"
             }
           },
@@ -753,15 +753,15 @@
               "type": "color"
             },
             "textDecorationLine": {
-              "value": "{textDecorations.line.underline}",
+              "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
             },
             "textDecorationThickness": {
-              "value": "{textDecorations.thickness.thick}",
+              "value": "{textDecoration.thickness.thick}",
               "type": "textDecorationThickness"
             },
             "textDecorationStyle": {
-              "value": "{textDecorations.style.solid}",
+              "value": "{textDecoration.style.solid}",
               "type": "textDecorationStyle"
             }
           }
@@ -947,7 +947,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -965,7 +965,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -983,7 +983,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.underline}",
+                "value": "{textDecoration.line.underline}",
                 "type": "textDecoration"
               },
               "border": {
@@ -1003,7 +1003,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -1021,7 +1021,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -1039,7 +1039,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.underline}",
+                "value": "{textDecoration.line.underline}",
                 "type": "textDecoration"
               },
               "border": {
@@ -1059,7 +1059,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -1077,7 +1077,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -1095,7 +1095,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.underline}",
+                "value": "{textDecoration.line.underline}",
                 "type": "textDecoration"
               },
               "border": {
@@ -1112,15 +1112,15 @@
               "type": "color"
             },
             "textDecorationLine": {
-              "value": "{textDecorations.line.underline}",
+              "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
             },
             "textDecorationThickness": {
-              "value": "{textDecorations.thickness.thin}",
+              "value": "{textDecoration.thickness.thin}",
               "type": "textDecorationThickness"
             },
             "textDecorationStyle": {
-              "value": "{textDecorations.style.solid}",
+              "value": "{textDecoration.style.solid}",
               "type": "textDecorationStyle"
             }
           },
@@ -1130,15 +1130,15 @@
               "type": "color"
             },
             "textDecorationLine": {
-              "value": "{textDecorations.line.underline}",
+              "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
             },
             "textDecorationThickness": {
-              "value": "{textDecorations.thickness.thick}",
+              "value": "{textDecoration.thickness.thick}",
               "type": "textDecorationThickness"
             },
             "textDecorationStyle": {
-              "value": "{textDecorations.style.solid}",
+              "value": "{textDecoration.style.solid}",
               "type": "textDecorationStyle"
             }
           },
@@ -1148,15 +1148,15 @@
               "type": "color"
             },
             "textDecorationLine": {
-              "value": "{textDecorations.line.underline}",
+              "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
             },
             "textDecorationThickness": {
-              "value": "{textDecorations.thickness.thick}",
+              "value": "{textDecoration.thickness.thick}",
               "type": "textDecorationThickness"
             },
             "textDecorationStyle": {
-              "value": "{textDecorations.style.solid}",
+              "value": "{textDecoration.style.solid}",
               "type": "textDecorationStyle"
             }
           },
@@ -1166,15 +1166,15 @@
               "type": "color"
             },
             "textDecorationLine": {
-              "value": "{textDecorations.line.underline}",
+              "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
             },
             "textDecorationThickness": {
-              "value": "{textDecorations.thickness.thick}",
+              "value": "{textDecoration.thickness.thick}",
               "type": "textDecorationThickness"
             },
             "textDecorationStyle": {
-              "value": "{textDecorations.style.solid}",
+              "value": "{textDecoration.style.solid}",
               "type": "textDecorationStyle"
             }
           }
@@ -1360,7 +1360,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -1378,7 +1378,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -1396,7 +1396,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.underline}",
+                "value": "{textDecoration.line.underline}",
                 "type": "textDecoration"
               },
               "border": {
@@ -1416,7 +1416,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -1434,7 +1434,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -1452,7 +1452,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.underline}",
+                "value": "{textDecoration.line.underline}",
                 "type": "textDecoration"
               },
               "border": {
@@ -1472,7 +1472,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -1490,7 +1490,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -1508,7 +1508,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.underline}",
+                "value": "{textDecoration.line.underline}",
                 "type": "textDecoration"
               },
               "border": {
@@ -1525,15 +1525,15 @@
               "type": "color"
             },
             "textDecorationLine": {
-              "value": "{textDecorations.line.underline}",
+              "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
             },
             "textDecorationThickness": {
-              "value": "{textDecorations.thickness.thin}",
+              "value": "{textDecoration.thickness.thin}",
               "type": "textDecorationThickness"
             },
             "textDecorationStyle": {
-              "value": "{textDecorations.style.solid}",
+              "value": "{textDecoration.style.solid}",
               "type": "textDecorationStyle"
             }
           },
@@ -1543,15 +1543,15 @@
               "type": "color"
             },
             "textDecorationLine": {
-              "value": "{textDecorations.line.underline}",
+              "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
             },
             "textDecorationThickness": {
-              "value": "{textDecorations.thickness.thick}",
+              "value": "{textDecoration.thickness.thick}",
               "type": "textDecorationThickness"
             },
             "textDecorationStyle": {
-              "value": "{textDecorations.style.solid}",
+              "value": "{textDecoration.style.solid}",
               "type": "textDecorationStyle"
             }
           },
@@ -1561,15 +1561,15 @@
               "type": "color"
             },
             "textDecorationLine": {
-              "value": "{textDecorations.line.underline}",
+              "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
             },
             "textDecorationThickness": {
-              "value": "{textDecorations.thickness.thick}",
+              "value": "{textDecoration.thickness.thick}",
               "type": "textDecorationThickness"
             },
             "textDecorationStyle": {
-              "value": "{textDecorations.style.solid}",
+              "value": "{textDecoration.style.solid}",
               "type": "textDecorationStyle"
             }
           },
@@ -1579,15 +1579,15 @@
               "type": "color"
             },
             "textDecorationLine": {
-              "value": "{textDecorations.line.underline}",
+              "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
             },
             "textDecorationThickness": {
-              "value": "{textDecorations.thickness.thick}",
+              "value": "{textDecoration.thickness.thick}",
               "type": "textDecorationThickness"
             },
             "textDecorationStyle": {
-              "value": "{textDecorations.style.solid}",
+              "value": "{textDecoration.style.solid}",
               "type": "textDecorationStyle"
             }
           }
@@ -1773,7 +1773,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -1791,7 +1791,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -1809,7 +1809,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.underline}",
+                "value": "{textDecoration.line.underline}",
                 "type": "textDecoration"
               },
               "border": {
@@ -1829,7 +1829,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -1847,7 +1847,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -1865,7 +1865,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.underline}",
+                "value": "{textDecoration.line.underline}",
                 "type": "textDecoration"
               },
               "border": {
@@ -1885,7 +1885,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -1903,7 +1903,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.none}",
+                "value": "{textDecoration.line.none}",
                 "type": "textDecoration"
               },
               "border": {
@@ -1921,7 +1921,7 @@
                 "type": "color"
               },
               "textDecoration": {
-                "value": "{textDecorations.line.underline}",
+                "value": "{textDecoration.line.underline}",
                 "type": "textDecoration"
               },
               "border": {
@@ -1938,15 +1938,15 @@
               "type": "color"
             },
             "textDecorationLine": {
-              "value": "{textDecorations.line.underline}",
+              "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
             },
             "textDecorationThickness": {
-              "value": "{textDecorations.thickness.thin}",
+              "value": "{textDecoration.thickness.thin}",
               "type": "textDecorationThickness"
             },
             "textDecorationStyle": {
-              "value": "{textDecorations.style.solid}",
+              "value": "{textDecoration.style.solid}",
               "type": "textDecorationStyle"
             }
           },
@@ -1956,15 +1956,15 @@
               "type": "color"
             },
             "textDecorationLine": {
-              "value": "{textDecorations.line.underline}",
+              "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
             },
             "textDecorationThickness": {
-              "value": "{textDecorations.thickness.thick}",
+              "value": "{textDecoration.thickness.thick}",
               "type": "textDecorationThickness"
             },
             "textDecorationStyle": {
-              "value": "{textDecorations.style.solid}",
+              "value": "{textDecoration.style.solid}",
               "type": "textDecorationStyle"
             }
           },
@@ -1974,15 +1974,15 @@
               "type": "color"
             },
             "textDecorationLine": {
-              "value": "{textDecorations.line.underline}",
+              "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
             },
             "textDecorationThickness": {
-              "value": "{textDecorations.thickness.thick}",
+              "value": "{textDecoration.thickness.thick}",
               "type": "textDecorationThickness"
             },
             "textDecorationStyle": {
-              "value": "{textDecorations.style.solid}",
+              "value": "{textDecoration.style.solid}",
               "type": "textDecorationStyle"
             }
           },
@@ -1992,15 +1992,15 @@
               "type": "color"
             },
             "textDecorationLine": {
-              "value": "{textDecorations.line.underline}",
+              "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
             },
             "textDecorationThickness": {
-              "value": "{textDecorations.thickness.thick}",
+              "value": "{textDecoration.thickness.thick}",
               "type": "textDecorationThickness"
             },
             "textDecorationStyle": {
-              "value": "{textDecorations.style.solid}",
+              "value": "{textDecoration.style.solid}",
               "type": "textDecorationStyle"
             }
           }

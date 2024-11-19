@@ -1874,7 +1874,7 @@
       }
     }
   },
-  "textDecorations": {
+  "textDecoration": {
     "line": {
       "none": {
         "value": "none",

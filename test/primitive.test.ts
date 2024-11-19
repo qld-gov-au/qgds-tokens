@@ -24,7 +24,7 @@ const tokenTestObject = {
   "letterSpacing": {"json": `letterSpacing`, "css": `--letter-spacing`},
   "paragraphSpacing": {"json": `paragraphSpacing`, "css": `--paragraph-spacing`},
   "fontSizes": {"json": `fontSizes`, "css": `--font-sizes`},
-  "textDecorations": {"json": `textDecorations`, "css": `--text-decorations`},
+  "textDecoration": {"json": `textDecoration`, "css": `--text-decorations`},
 };
 
 describe('primitive tests', () => {
@@ -42,7 +42,7 @@ describe('primitive tests', () => {
     expect(file).toContain(tokenTestObject.letterSpacing.json);
     expect(file).toContain(tokenTestObject.paragraphSpacing.json);
     expect(file).toContain(tokenTestObject.fontSizes.json);
-    expect(file).toContain(tokenTestObject.textDecorations.json);
+    expect(file).toContain(tokenTestObject.textDecoration.json);
   });
 
   it('sanity - contains at least one primitive high key values in CSS file', async () => {
@@ -58,7 +58,7 @@ describe('primitive tests', () => {
     expect(file).toContain(tokenTestObject.letterSpacing.css);
     expect(file).toContain(tokenTestObject.paragraphSpacing.css);
     expect(file).toContain(tokenTestObject.fontSizes.css);
-    expect(file).toContain(tokenTestObject.textDecorations.css);
+    expect(file).toContain(tokenTestObject.textDecoration.css);
   });
 
 });
