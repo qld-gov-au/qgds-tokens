@@ -3,6 +3,6 @@
  */
 
 :host {
-  --card-border-radius: 4;
+  --card-border-radius: 12;
   --card-padding: 16px;
 }
