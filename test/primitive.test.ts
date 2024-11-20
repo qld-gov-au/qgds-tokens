@@ -15,7 +15,7 @@ const cssOutputFilePath = path.resolve(cssOutputDir, cssOutputFileName);
 const tokenTestObject = {
   "spacing": {"json": `spacing`, "css": `--spacing`},
   "borderRadius": {"json": `borderRadius`, "css": `--border-radius`},
-  "colors": {"json": `colors`, "css": `--colors`},
+  "color": {"json": `color`, "css": `--color`},
   "opacity": {"json": `opacity`, "css": `--opacity`},
   "transparency": {"json": `transparency`, "css": `--transparency`},
   "focus": {"json": `focus`, "css": `--focus`},
@@ -33,7 +33,7 @@ describe('primitive tests', () => {
     const file = await promises.readFile(jsonOutputFilePath, 'utf-8');
     expect(file).toContain(tokenTestObject.spacing.json);
     expect(file).toContain(tokenTestObject.borderRadius.json);
-    expect(file).toContain(tokenTestObject.colors.json);
+    expect(file).toContain(tokenTestObject.color.json);
     expect(file).toContain(tokenTestObject.opacity.json);
     expect(file).toContain(tokenTestObject.transparency.json);
     expect(file).toContain(tokenTestObject.focus.json);
@@ -49,7 +49,7 @@ describe('primitive tests', () => {
     const file = await promises.readFile(cssOutputFilePath, 'utf-8');
     expect(file).toContain(tokenTestObject.spacing.css);
     expect(file).toContain(tokenTestObject.borderRadius.css);
-    expect(file).toContain(tokenTestObject.colors.css);
+    expect(file).toContain(tokenTestObject.color.css);
     expect(file).toContain(tokenTestObject.opacity.css);
     expect(file).toContain(tokenTestObject.transparency.css);
     expect(file).toContain(tokenTestObject.focus.css);

@@ -125,7 +125,7 @@
       "type": "borderRadius"
     }
   },
-  "colors": {
+  "color": {
     "black": {
       "value": "#000000",
       "type": "color"
@@ -1656,29 +1656,29 @@
     },
     "black": {
       "low": {
-        "value": "rgba({colors.black}, 0.1)",
+        "value": "rgba({color.black}, 0.1)",
         "type": "color"
       },
       "md": {
-        "value": "rgba({colors.black}, 0.72)",
+        "value": "rgba({color.black}, 0.72)",
         "type": "color"
       },
       "high": {
-        "value": "rgba({colors.black}, 0.9)",
+        "value": "rgba({color.black}, 0.9)",
         "type": "color"
       }
     },
     "white": {
       "low": {
-        "value": "rgba({colors.white}, 0.1)",
+        "value": "rgba({color.white}, 0.1)",
         "type": "color"
       },
       "md": {
-        "value": "rgba({colors.white}, 0.72)",
+        "value": "rgba({color.white}, 0.72)",
         "type": "color"
       },
       "high": {
-        "value": "rgba({colors.white}, 0.9)",
+        "value": "rgba({color.white}, 0.9)",
         "type": "color"
       }
     }

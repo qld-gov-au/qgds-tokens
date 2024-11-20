@@ -1,58 +1,58 @@
 {
   "theme": {
-    "colors": {
+    "color": {
       "brand": {
         "first": {
-          "value": "{colors.white}",
+          "value": "{color.white}",
           "type": "color"
         },
         "second": {
-          "value": "{colors.stellarExplorerGrey.800}",
+          "value": "{color.stellarExplorerGrey.800}",
           "type": "color"
         },
         "third": {
-          "value": "{colors.iridiumBlue.500}",
+          "value": "{color.iridiumBlue.500}",
           "type": "color"
         },
         "fourth": {
-          "value": "{colors.starYellow.500}",
+          "value": "{color.starYellow.500}",
           "type": "color"
         }
       },
       "background": {
         "bright": {
-          "value": "{colors.white}",
+          "value": "{color.white}",
           "type": "color"
         },
         "tint": {
-          "value": "{colors.white}",
+          "value": "{color.white}",
           "type": "color"
         },
         "alt": {
-          "value": "{colors.white}",
+          "value": "{color.white}",
           "type": "color"
         },
         "bold": {
-          "value": "{colors.stellarExplorerGrey.800}",
+          "value": "{color.stellarExplorerGrey.800}",
           "type": "color"
         },
         "strong": {
-          "value": "{colors.stellarExplorerGrey.800}",
+          "value": "{color.stellarExplorerGrey.800}",
           "type": "color"
         },
         "dark": {
-          "value": "{colors.goshawkGrey.700}",
+          "value": "{color.goshawkGrey.700}",
           "type": "color"
         }
       },
       "action": {
         "onBrights": {
           "primary": {
-            "value": "{colors.iridiumBlue.500}",
+            "value": "{color.iridiumBlue.500}",
             "type": "color"
           },
           "secondary": {
-            "value": "{colors.iridiumBlue.500}",
+            "value": "{color.iridiumBlue.500}",
             "type": "color"
           },
           "tertiary": {
@@ -62,11 +62,11 @@
         },
         "onBolds": {
           "primary": {
-            "value": "{colors.starYellow.500}",
+            "value": "{color.starYellow.500}",
             "type": "color"
           },
           "secondary": {
-            "value": "{colors.starYellow.500}",
+            "value": "{color.starYellow.500}",
             "type": "color"
           },
           "tertiary": {
@@ -79,31 +79,31 @@
         "onBrights": {
           "siteTitle": {
             "default": {
-              "value": "{qgds.colors.neutral.white.default}",
+              "value": "{qgds.color.neutral.white.default}",
               "type": "color"
             },
             "variant": {
-              "value": "{colors.goshawkGrey.400}",
+              "value": "{color.goshawkGrey.400}",
               "type": "color"
             }
           },
           "heading": {
             "default": {
-              "value": "{qgds.colors.neutral.white.default}",
+              "value": "{qgds.color.neutral.white.default}",
               "type": "color"
             },
             "variant": {
-              "value": "{colors.goshawkGrey.400}",
+              "value": "{color.goshawkGrey.400}",
               "type": "color"
             }
           },
           "body": {
             "default": {
-              "value": "{qgds.colors.neutral.white.default}",
+              "value": "{qgds.color.neutral.white.default}",
               "type": "color"
             },
             "variant": {
-              "value": "{colors.goshawkGrey.400}",
+              "value": "{color.goshawkGrey.400}",
               "type": "color"
             }
           }
@@ -111,31 +111,31 @@
         "onBolds": {
           "siteTitle": {
             "default": {
-              "value": "{colors.white}",
+              "value": "{color.white}",
               "type": "color"
             },
             "variant": {
-              "value": "{colors.stellarExplorerGrey.200}",
+              "value": "{color.stellarExplorerGrey.200}",
               "type": "color"
             }
           },
           "heading": {
             "default": {
-              "value": "{colors.white}",
+              "value": "{color.white}",
               "type": "color"
             },
             "variant": {
-              "value": "{colors.stellarExplorerGrey.200}",
+              "value": "{color.stellarExplorerGrey.200}",
               "type": "color"
             }
           },
           "body": {
             "default": {
-              "value": "{colors.white}",
+              "value": "{color.white}",
               "type": "color"
             },
             "variant": {
-              "value": "{colors.stellarExplorerGrey.200}",
+              "value": "{color.stellarExplorerGrey.200}",
               "type": "color"
             }
           }
@@ -144,96 +144,96 @@
       "reserved": {
         "error": {
           "default": {
-            "value": "{colors.crimsonRed.500}",
+            "value": "{color.crimsonRed.500}",
             "type": "color"
           },
           "lightest": {
-            "value": "{colors.crimsonRed.25}",
+            "value": "{color.crimsonRed.25}",
             "type": "color"
           },
           "lighter": {
-            "value": "{colors.crimsonRed.50}",
+            "value": "{color.crimsonRed.50}",
             "type": "color"
           },
           "darker": {
-            "value": "{colors.crimsonRed.800}",
+            "value": "{color.crimsonRed.800}",
             "type": "color"
           }
         },
         "information": {
           "default": {
-            "value": "{colors.goshawkGrey.500}",
+            "value": "{color.goshawkGrey.500}",
             "type": "color"
           },
           "lightest": {
-            "value": "{colors.goshawkGrey.25}",
+            "value": "{color.goshawkGrey.25}",
             "type": "color"
           },
           "lighter": {
-            "value": "{colors.goshawkGrey.50}",
+            "value": "{color.goshawkGrey.50}",
             "type": "color"
           },
           "darker": {
-            "value": "{colors.goshawkGrey.800}",
+            "value": "{color.goshawkGrey.800}",
             "type": "color"
           }
         },
         "success": {
           "default": {
-            "value": "{colors.zundaGreen.500}",
+            "value": "{color.zundaGreen.500}",
             "type": "color"
           },
           "lightest": {
-            "value": "{colors.zundaGreen.25}",
+            "value": "{color.zundaGreen.25}",
             "type": "color"
           },
           "lighter": {
-            "value": "{colors.zundaGreen.50}",
+            "value": "{color.zundaGreen.50}",
             "type": "color"
           },
           "darker": {
-            "value": "{colors.zundaGreen.800}",
+            "value": "{color.zundaGreen.800}",
             "type": "color"
           }
         },
         "alert": {
           "default": {
-            "value": "{colors.starYellow.500}",
+            "value": "{color.starYellow.500}",
             "type": "color"
           },
           "lightest": {
-            "value": "{colors.starYellow.25}",
+            "value": "{color.starYellow.25}",
             "type": "color"
           },
           "lighter": {
-            "value": "{colors.starYellow.50}",
+            "value": "{color.starYellow.50}",
             "type": "color"
           },
           "darker": {
-            "value": "{colors.starYellow.800}",
+            "value": "{color.starYellow.800}",
             "type": "color"
           }
         }
       },
       "syntax": {
         "background": {
-          "value": "{colors.goshawkGrey.700}",
+          "value": "{color.goshawkGrey.700}",
           "type": "color"
         },
         "values": {
-          "value": "{colors.zundaGreen.500}",
+          "value": "{color.zundaGreen.500}",
           "type": "color"
         },
         "elements": {
-          "value": "{colors.freshAirBlue.500}",
+          "value": "{color.freshAirBlue.500}",
           "type": "color"
         },
         "properties": {
-          "value": "{colors.zeusPurple.500}",
+          "value": "{color.zeusPurple.500}",
           "type": "color"
         },
         "comments": {
-          "value": "{colors.veilBlue.500}",
+          "value": "{color.veilBlue.500}",
           "type": "color"
         }
       }
@@ -250,7 +250,7 @@
     },
     "shadows": {
       "default": {
-        "value": "{colors.goshawkGrey.900}",
+        "value": "{color.goshawkGrey.900}",
         "type": "color"
       }
     }

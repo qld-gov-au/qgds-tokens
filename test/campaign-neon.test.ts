@@ -19,7 +19,7 @@ const cssOutputFilePath = path.resolve(cssOutputDir, cssOutputFileName);
 // test if input & output transformation is valid
 const tokenTestObject = {
   "theme": {
-    "colors": {"json": `colors`, "css": `--theme-colors`},
+    "color": {"json": `color`, "css": `--theme-color`},
     "focus": {"json": `focus`, "css": `--theme-focus`},
     "shadows": {"json": `shadows`, "css": `--theme-shadows`},
   },
@@ -38,7 +38,7 @@ describe('campaign-neon tests', () => {
   it('sanity - contains at least one: theme in JSON file', async () => {
     const file = await promises.readFile(jsonThemeOutputFilePath, 'utf-8');
     expect(file).toContain(`theme`);
-    expect(file).toContain(tokenTestObject.theme.colors.json);
+    expect(file).toContain(tokenTestObject.theme.color.json);
     expect(file).toContain(tokenTestObject.theme.focus.json);
     expect(file).toContain(tokenTestObject.theme.shadows.json);
   });
@@ -57,7 +57,7 @@ describe('campaign-neon tests', () => {
   it('sanity - contains at least one: theme + palettes in CSS file', async () => {
     const file = await promises.readFile(cssOutputFilePath, 'utf-8');
     // theme tokens
-    expect(file).toContain(tokenTestObject.theme.colors.css);
+    expect(file).toContain(tokenTestObject.theme.color.css);
     expect(file).toContain(tokenTestObject.theme.focus.css);
     expect(file).toContain(tokenTestObject.theme.shadows.css);
     // palettes tokens

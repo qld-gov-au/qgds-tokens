@@ -1,99 +1,99 @@
 {
   "qgds": {
-    "colors": {
+    "color": {
       "neutral": {
         "black": {
           "default": {
-            "value": "{colors.goshawkGrey.800}",
+            "value": "{color.goshawkGrey.800}",
             "type": "color"
           },
           "opacity": {
             "low": {
-              "value": "rgba({qgds.colors.neutral.black.default}, 0.1)",
+              "value": "rgba({qgds.color.neutral.black.default}, 0.1)",
               "type": "color"
             }
           }
         },
         "darkest": {
           "default": {
-            "value": "{colors.goshawkGrey.700}",
+            "value": "{color.goshawkGrey.700}",
             "type": "color"
           },
           "opacity": {
             "low": {
-              "value": "rgba({qgds.colors.neutral.darkest.default}, 0.1)",
+              "value": "rgba({qgds.color.neutral.darkest.default}, 0.1)",
               "type": "color"
             }
           }
         },
         "darker": {
           "default": {
-            "value": "{colors.goshawkGrey.500}",
+            "value": "{color.goshawkGrey.500}",
             "type": "color"
           },
           "opacity": {
             "low": {
-              "value": "rgba({qgds.colors.neutral.darker.default}, 0.1)",
+              "value": "rgba({qgds.color.neutral.darker.default}, 0.1)",
               "type": "color"
             }
           }
         },
         "dark": {
           "default": {
-            "value": "{colors.tarnishedSilver.500}",
+            "value": "{color.tarnishedSilver.500}",
             "type": "color"
           },
           "opacity": {
             "low": {
-              "value": "rgba({qgds.colors.neutral.dark.default}, 0.1)",
+              "value": "rgba({qgds.color.neutral.dark.default}, 0.1)",
               "type": "color"
             }
           }
         },
         "light": {
           "default": {
-            "value": "{colors.christimasSilver.500}",
+            "value": "{color.christimasSilver.500}",
             "type": "color"
           },
           "opacity": {
             "low": {
-              "value": "rgba({qgds.colors.neutral.light.default}, 0.1)",
+              "value": "rgba({qgds.color.neutral.light.default}, 0.1)",
               "type": "color"
             }
           }
         },
         "lighter": {
           "default": {
-            "value": "{colors.goshawkGrey.25}",
+            "value": "{color.goshawkGrey.25}",
             "type": "color"
           },
           "opacity": {
             "low": {
-              "value": "rgba({qgds.colors.neutral.lighter.default}, 0.1)",
+              "value": "rgba({qgds.color.neutral.lighter.default}, 0.1)",
               "type": "color"
             }
           }
         },
         "lightest": {
           "default": {
-            "value": "{colors.christimasSilver.100}",
+            "value": "{color.christimasSilver.100}",
             "type": "color"
           },
           "opacity": {
             "low": {
-              "value": "rgba({qgds.colors.neutral.lightest.default}, 0.1)",
+              "value": "rgba({qgds.color.neutral.lightest.default}, 0.1)",
               "type": "color"
             }
           }
         },
         "white": {
           "default": {
-            "value": "{colors.white}",
+            "value": "{color.white}",
             "type": "color"
           },
           "opacity": {
             "low": {
-              "value": "rgba({qgds.colors.neutral.white.default}, 0.1)",
+              "value": "rgba({qgds.color.neutral.white.default}, 0.1)",
               "type": "color"
             }
           }

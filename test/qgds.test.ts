@@ -19,7 +19,7 @@ const cssOutputFilePath = path.resolve(cssOutputDir, cssOutputFileName);
 // test if input & output transformation is valid
 const tokenTestObject = {
   "qgds": {
-    "colors": {"json": `colors`, "css": `--qgds-colors`},
+    "color": {"json": `color`, "css": `--qgds-color`},
   },
   "typography": {
     "phone": {
@@ -52,7 +52,7 @@ describe('qgds tests', () => {
   it('sanity - contains at least one: qgds in JSON file', async () => {
     const file = await promises.readFile(jsonQGDSOutputFilePath, 'utf-8');
     expect(file).toContain(`qgds`);
-    expect(file).toContain(tokenTestObject.qgds.colors.json);
+    expect(file).toContain(tokenTestObject.qgds.color.json);
   });
 
   it('sanity - contains at least one: typography in JSON file', async () => {
@@ -81,7 +81,7 @@ describe('qgds tests', () => {
   it('sanity - contains at least one: qgds + typography in CSS file', async () => {
     const file = await promises.readFile(cssOutputFilePath, 'utf-8');
     // qgds tokens
-    expect(file).toContain(tokenTestObject.qgds.colors.css);
+    expect(file).toContain(tokenTestObject.qgds.color.css);
     // typography tokens
     expect(file).toContain(tokenTestObject.typography.phone.h1.json);
     expect(file).toContain(tokenTestObject.typography.phone.h2.json);
