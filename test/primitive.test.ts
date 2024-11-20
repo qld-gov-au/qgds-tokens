@@ -13,55 +13,52 @@ const cssOutputFilePath = path.resolve(cssOutputDir, cssOutputFileName);
 
 // test if input & output transformation is valid
 const tokenTestObject = {
-  "dimension": {"json": `dimension`, "css": `--dimension`},
   "spacing": {"json": `spacing`, "css": `--spacing`},
   "borderRadius": {"json": `borderRadius`, "css": `--border-radius`},
   "colors": {"json": `colors`, "css": `--colors`},
   "opacity": {"json": `opacity`, "css": `--opacity`},
   "transparency": {"json": `transparency`, "css": `--transparency`},
   "focus": {"json": `focus`, "css": `--focus`},
-  "fontFamilies": {"json": `fontFamilies`, "css": `--font-families`},
-  "lineHeights": {"json": `lineHeights`, "css": `--line-heights`},
+  "fontFamily": {"json": `fontFamily`, "css": `--font-family`},
+  "lineHeight": {"json": `lineHeight`, "css": `--line-height`},
   "letterSpacing": {"json": `letterSpacing`, "css": `--letter-spacing`},
   "paragraphSpacing": {"json": `paragraphSpacing`, "css": `--paragraph-spacing`},
-  "fontSizes": {"json": `fontSizes`, "css": `--font-sizes`},
-  "textDecorations": {"json": `textDecorations`, "css": `--text-decorations`},
+  "fontSize": {"json": `fontSize`, "css": `--font-size`},
+  "textDecoration": {"json": `textDecoration`, "css": `--text-decoration`},
 };
 
 describe('primitive tests', () => {
 
   it('sanity - contains all primitive high key values in JSON file', async () => {
     const file = await promises.readFile(jsonOutputFilePath, 'utf-8');
-    expect(file).toContain(tokenTestObject.dimension.json);
     expect(file).toContain(tokenTestObject.spacing.json);
     expect(file).toContain(tokenTestObject.borderRadius.json);
     expect(file).toContain(tokenTestObject.colors.json);
     expect(file).toContain(tokenTestObject.opacity.json);
     expect(file).toContain(tokenTestObject.transparency.json);
     expect(file).toContain(tokenTestObject.focus.json);
-    expect(file).toContain(tokenTestObject.fontFamilies.json);
-    expect(file).toContain(tokenTestObject.lineHeights.json);
+    expect(file).toContain(tokenTestObject.fontFamily.json);
+    expect(file).toContain(tokenTestObject.lineHeight.json);
     expect(file).toContain(tokenTestObject.letterSpacing.json);
     expect(file).toContain(tokenTestObject.paragraphSpacing.json);
-    expect(file).toContain(tokenTestObject.fontSizes.json);
-    expect(file).toContain(tokenTestObject.textDecorations.json);
+    expect(file).toContain(tokenTestObject.fontSize.json);
+    expect(file).toContain(tokenTestObject.textDecoration.json);
   });
 
   it('sanity - contains at least one primitive high key values in CSS file', async () => {
     const file = await promises.readFile(cssOutputFilePath, 'utf-8');
-    expect(file).toContain(tokenTestObject.dimension.css);
     expect(file).toContain(tokenTestObject.spacing.css);
     expect(file).toContain(tokenTestObject.borderRadius.css);
     expect(file).toContain(tokenTestObject.colors.css);
     expect(file).toContain(tokenTestObject.opacity.css);
     expect(file).toContain(tokenTestObject.transparency.css);
     expect(file).toContain(tokenTestObject.focus.css);
-    expect(file).toContain(tokenTestObject.fontFamilies.css);
-    expect(file).toContain(tokenTestObject.lineHeights.css);
+    expect(file).toContain(tokenTestObject.fontFamily.css);
+    expect(file).toContain(tokenTestObject.lineHeight.css);
     expect(file).toContain(tokenTestObject.letterSpacing.css);
     expect(file).toContain(tokenTestObject.paragraphSpacing.css);
-    expect(file).toContain(tokenTestObject.fontSizes.css);
-    expect(file).toContain(tokenTestObject.textDecorations.css);
+    expect(file).toContain(tokenTestObject.fontSize.css);
+    expect(file).toContain(tokenTestObject.textDecoration.css);
   });
 
 });
