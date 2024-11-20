@@ -162,19 +162,19 @@
         },
         "information": {
           "default": {
-            "value": "{color.goshawkGrey.500}",
+            "value": "{color.danubeBlue.500}",
             "type": "color"
           },
           "lightest": {
-            "value": "{color.goshawkGrey.25}",
+            "value": "{color.danubeBlue.25}",
             "type": "color"
           },
           "lighter": {
-            "value": "{color.goshawkGrey.50}",
+            "value": "{color.danubeBlue.50}",
             "type": "color"
           },
           "darker": {
-            "value": "{color.goshawkGrey.800}",
+            "value": "{color.danubeBlue.800}",
             "type": "color"
           }
         },

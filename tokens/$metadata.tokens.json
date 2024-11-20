@@ -1,16 +1,40 @@
 {
-  "tokenSetOrder": [
-    "primitive.tokens",
-
-    "qld-default-palettes.tokens",
-    "qld-maroon-palettes.tokens",
-    "qld-high-constrast-palettes.tokens",
-    "qld-corporate-palettes.tokens",
-    "campaign-neon-palettes.tokens",
-
-    "button.tokens",
-    "card.tokens",
-
-    "typography.tokens"
-  ]
+  "tokenSetOrder": {
+    "0": {
+      "value": "primitive.tokens",
+      "type": "other"
+    },
+    "1": {
+      "value": "qld-default-palettes.tokens",
+      "type": "other"
+    },
+    "2": {
+      "value": "qld-maroon-palettes.tokens",
+      "type": "other"
+    },
+    "3": {
+      "value": "qld-high-constrast-palettes.tokens",
+      "type": "other"
+    },
+    "4": {
+      "value": "qld-corporate-palettes.tokens",
+      "type": "other"
+    },
+    "5": {
+      "value": "campaign-neon-palettes.tokens",
+      "type": "other"
+    },
+    "6": {
+      "value": "button.tokens",
+      "type": "other"
+    },
+    "7": {
+      "value": "card.tokens",
+      "type": "other"
+    },
+    "8": {
+      "value": "typography.tokens",
+      "type": "other"
+    }
+  }
 }
