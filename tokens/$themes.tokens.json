@@ -39,6 +39,19 @@
     "group": "brand"
   },
   {
+    "name": "qld-corporate-palettes",
+    "selectedTokenSets": {
+      "primitive": "source",
+      "qld-corporate-theme": "enabled",
+      "qld-corporate-palettes": "enabled",
+      "button": "source",
+      "card": "source",
+      "qgds": "source",
+      "typography": "source"
+    },
+    "group": "brand"
+  },
+  {
     "name": "campaign-neon-palettes",
     "selectedTokenSets": {
       "primitive": "source",
