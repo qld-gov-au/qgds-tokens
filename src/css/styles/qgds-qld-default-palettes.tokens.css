@@ -35,10 +35,10 @@
   --theme-color-reserved-error-lightest: #ffeceb;
   --theme-color-reserved-error-lighter: #ffe0dd;
   --theme-color-reserved-error-darker: #770000;
-  --theme-color-reserved-information-default: #444444;
-  --theme-color-reserved-information-lightest: #ebebeb;
-  --theme-color-reserved-information-lighter: #dddddd;
-  --theme-color-reserved-information-darker: #141414;
+  --theme-color-reserved-information-default: #0085b3;
+  --theme-color-reserved-information-lightest: #eaf3f8;
+  --theme-color-reserved-information-lighter: #dcebf3;
+  --theme-color-reserved-information-darker: #00315a;
   --theme-color-reserved-success-default: #6bbe27;
   --theme-color-reserved-success-lightest: #f0f9ec;
   --theme-color-reserved-success-lighter: #e7f5df;
