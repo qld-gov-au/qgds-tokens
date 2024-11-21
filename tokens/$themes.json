@@ -1,31 +1,71 @@
 [
   {
     "name": "qld-default-palettes",
-    "selectedTokenSets": {},
+    "selectedTokenSets": {
+      "primitive": "source",
+      "qld-default-theme": "enabled",
+      "qld-default-palettes": "enabled",
+      "button": "source",
+      "card": "source",
+      "qgds": "source",
+      "typography": "source"
+    },
     "group": "brand",
     "type": "other"
   },
   {
     "name": "qld-maroon-palettes",
-    "selectedTokenSets": {},
+    "selectedTokenSets": {
+      "primitive": "source",
+      "qld-maroon-theme": "enabled",
+      "qld-maroon-palettes": "enabled",
+      "button": "source",
+      "card": "source",
+      "qgds": "source",
+      "typography": "source"
+    },
     "group": "brand",
     "type": "other"
   },
   {
     "name": "qld-high-contrast-palettes",
-    "selectedTokenSets": {},
+    "selectedTokenSets": {
+      "primitive": "source",
+      "qld-high-contrast-theme": "enabled",
+      "qld-high-contrast-palettes": "enabled",
+      "button": "source",
+      "card": "source",
+      "qgds": "source",
+      "typography": "source"
+    },
     "group": "brand",
     "type": "other"
   },
   {
     "name": "qld-corporate-palettes",
-    "selectedTokenSets": {},
+    "selectedTokenSets": {
+      "primitive": "source",
+      "qld-corporate-theme": "enabled",
+      "qld-corporate-palettes": "enabled",
+      "button": "source",
+      "card": "source",
+      "qgds": "source",
+      "typography": "source"
+    },
     "group": "brand",
     "type": "other"
   },
   {
     "name": "campaign-neon-palettes",
-    "selectedTokenSets": {},
+    "selectedTokenSets": {
+        "primitive": "source",
+        "campaign-neon-theme": "enabled",
+        "campaign-neon-palettes": "enabled",
+        "button": "source",
+        "card": "source",
+        "qgds": "source",
+        "typography": "source"
+    },
     "group": "brand",
     "type": "other"
   }
