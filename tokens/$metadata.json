@@ -1,40 +1,19 @@
 {
-  "tokenSetOrder": {
-    "0": {
-      "value": "primitive.tokens",
-      "type": "other"
-    },
-    "1": {
-      "value": "qld-default-palettes.tokens",
-      "type": "other"
-    },
-    "2": {
-      "value": "qld-maroon-palettes.tokens",
-      "type": "other"
-    },
-    "3": {
-      "value": "qld-high-constrast-palettes.tokens",
-      "type": "other"
-    },
-    "4": {
-      "value": "qld-corporate-palettes.tokens",
-      "type": "other"
-    },
-    "5": {
-      "value": "campaign-neon-palettes.tokens",
-      "type": "other"
-    },
-    "6": {
-      "value": "button.tokens",
-      "type": "other"
-    },
-    "7": {
-      "value": "card.tokens",
-      "type": "other"
-    },
-    "8": {
-      "value": "typography.tokens",
-      "type": "other"
-    }
-  }
+  "tokenSetOrder": [
+    "button.tokens",
+    "campaign-neon-palettes.tokens",
+    "campaign-neon-theme.tokens",
+    "card.tokens",
+    "primitive.tokens",
+    "qgds.tokens",
+    "qld-corporate-palettes.tokens",
+    "qld-corporate-theme.tokens",
+    "qld-default-palettes.tokens",
+    "qld-default-theme.tokens",
+    "qld-high-contrast-palettes.tokens",
+    "qld-high-contrast-theme.tokens",
+    "qld-maroon-palettes.tokens",
+    "qld-maroon-theme.tokens",
+    "typography.tokens"
+  ]
 }
