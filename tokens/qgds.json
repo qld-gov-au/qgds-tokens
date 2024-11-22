@@ -1,5 +1,9 @@
 {
   "qgds": {
+    "myTestToken": {
+      "value": "{color.white}",
+      "type": "color"
+    },
     "color": {
       "neutral": {
         "black": {
