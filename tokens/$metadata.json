@@ -1,39 +1,39 @@
 {
   "tokenSetOrder": {
     "0": {
-      "value": "primitive.tokens",
+      "value": "primitive",
       "type": "other"
     },
     "1": {
-      "value": "qld-default-palettes.tokens",
+      "value": "qld-default-palettes",
       "type": "other"
     },
     "2": {
-      "value": "qld-maroon-palettes.tokens",
+      "value": "qld-maroon-palettes",
       "type": "other"
     },
     "3": {
-      "value": "qld-high-constrast-palettes.tokens",
+      "value": "qld-high-constrast-palettes",
       "type": "other"
     },
     "4": {
-      "value": "qld-corporate-palettes.tokens",
+      "value": "qld-corporate-palettes",
       "type": "other"
     },
     "5": {
-      "value": "campaign-neon-palettes.tokens",
+      "value": "campaign-neon-palettes",
       "type": "other"
     },
     "6": {
-      "value": "button.tokens",
+      "value": "button",
       "type": "other"
     },
     "7": {
-      "value": "card.tokens",
+      "value": "card",
       "type": "other"
     },
     "8": {
-      "value": "typography.tokens",
+      "value": "typography",
       "type": "other"
     }
   }

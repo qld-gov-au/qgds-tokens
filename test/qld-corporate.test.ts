@@ -3,17 +3,17 @@ import path from 'node:path';
 
 // test if input token exists
 const jsonThemeOutputDir = 'tokens';
-const jsonThemeOutputFileName = 'qld-corporate-theme.tokens.json';
+const jsonThemeOutputFileName = 'qld-corporate-theme.json';
 const jsonThemeOutputFilePath = path.resolve(jsonThemeOutputDir, jsonThemeOutputFileName);
 
 // test if input token exists
 const jsonPalettesOutputDir = 'tokens';
-const jsonPalettesOutputFileName = 'qld-corporate-palettes.tokens.json';
+const jsonPalettesOutputFileName = 'qld-corporate-palettes.json';
 const jsonPalettesOutputFilePath = path.resolve(jsonPalettesOutputDir, jsonPalettesOutputFileName);
 
 // test if combined ouput token exists
 const cssOutputDir = 'src/css/styles';
-const cssOutputFileName = 'qgds-qld-corporate-palettes.tokens.css';
+const cssOutputFileName = 'qgds-qld-corporate-palettes.css';
 const cssOutputFilePath = path.resolve(cssOutputDir, cssOutputFileName);
 
 // test if input & output transformation is valid

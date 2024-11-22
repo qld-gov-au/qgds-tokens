@@ -1,18 +1,18 @@
 // Please edit original file located in .build/original/global.d.ts
 
-declare module '*.tokens.css' {
+declare module '*.css' {
   const classes: { [key: string]: string };
   export default classes;
 }
-declare module '*.tokens.scss' {
+declare module '*.scss' {
   const classes: { [key: string]: string };
   export default classes;
 }
-declare module '*.tokens.js' {
+declare module '*.js' {
   const classes: { [key: string]: string };
   export default classes;
 }
-declare module '*.tokens.xml' {
+declare module '*.xml' {
   const classes: { [key: string]: string };
   export default classes;
 }

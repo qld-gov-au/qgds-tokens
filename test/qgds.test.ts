@@ -3,17 +3,17 @@ import path from 'node:path';
 
 // test if input token exists
 const jsonQGDSOutputDir = 'tokens';
-const jsonQGDSOutputFileName = 'qgds.tokens.json';
+const jsonQGDSOutputFileName = 'qgds.json';
 const jsonQGDSOutputFilePath = path.resolve(jsonQGDSOutputDir, jsonQGDSOutputFileName);
 
 // test if input token exists
 const jsonTypographyOutputDir = 'tokens';
-const jsonTypographyOutputFileName = 'typography.tokens.json';
+const jsonTypographyOutputFileName = 'typography.json';
 const jsonTypographyOutputFilePath = path.resolve(jsonTypographyOutputDir, jsonTypographyOutputFileName);
 
 // test if combined ouput token exists
 const cssOutputDir = 'src/css/styles';
-const cssOutputFileName = 'qgds.tokens.css';
+const cssOutputFileName = 'qgds.css';
 const cssOutputFilePath = path.resolve(cssOutputDir, cssOutputFileName);
 
 // test if input & output transformation is valid

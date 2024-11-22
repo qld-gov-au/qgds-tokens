@@ -3,17 +3,17 @@ import path from 'node:path';
 
 // test if input token exists
 const jsonThemeOutputDir = 'tokens';
-const jsonThemeOutputFileName = 'campaign-neon-theme.tokens.json';
+const jsonThemeOutputFileName = 'campaign-neon-theme.json';
 const jsonThemeOutputFilePath = path.resolve(jsonThemeOutputDir, jsonThemeOutputFileName);
 
 // test if input token exists
 const jsonPalettesOutputDir = 'tokens';
-const jsonPalettesOutputFileName = 'campaign-neon-palettes.tokens.json';
+const jsonPalettesOutputFileName = 'campaign-neon-palettes.json';
 const jsonPalettesOutputFilePath = path.resolve(jsonPalettesOutputDir, jsonPalettesOutputFileName);
 
 // test if combined ouput token exists
 const cssOutputDir = 'src/css/styles';
-const cssOutputFileName = 'qgds-campaign-neon-palettes.tokens.css';
+const cssOutputFileName = 'qgds-campaign-neon-palettes.css';
 const cssOutputFilePath = path.resolve(cssOutputDir, cssOutputFileName);
 
 // test if input & output transformation is valid

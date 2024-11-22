@@ -3,12 +3,12 @@ import path from 'node:path';
 
 // test if input token exists
 const jsonOutputDir = 'tokens';
-const jsonOutputFileName = 'primitive.tokens.json';
+const jsonOutputFileName = 'primitive.json';
 const jsonOutputFilePath = path.resolve(jsonOutputDir, jsonOutputFileName);
 
 // test if ouput token exists
 const cssOutputDir = 'src/css/styles';
-const cssOutputFileName = 'primitive.tokens.css';
+const cssOutputFileName = 'primitive.css';
 const cssOutputFilePath = path.resolve(cssOutputDir, cssOutputFileName);
 
 // test if input & output transformation is valid

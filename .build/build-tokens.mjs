@@ -36,10 +36,12 @@ async function afterRun() {
 
 async function run() {
   const $themes = JSON.parse(await promises.readFile("tokens/$themes.json"));
-  //console.log('$themes: ', $themes);
+  console.log(' ');
+  console.log('$themes: ', $themes);
 
   const themes = permutateThemes($themes);
-  //console.log('themes: ', themes);
+  console.log(' ');
+  console.log('themes: ', themes);
 
   // collect all tokensets for all themes and dedupe
   const tokensets = [
@@ -47,7 +49,8 @@ async function run() {
       Object.values(themes).reduce((acc, sets) => [...acc, ...sets], [])
     ),
   ];
-  //console.log('tokensets: ', tokensets);
+  console.log(' ');
+  console.log('tokensets: ', tokensets);
 
   // figure out which tokensets are theme-specific
   // this is determined by checking if a certain tokenset is used for EVERY theme dimension variant
@@ -55,10 +58,11 @@ async function run() {
   const themeableSets = tokensets.filter((set) => {
     return !Object.values(themes).every((sets) => sets.includes(set));
   });
-  //console.log('themeableSets: ', themeableSets);
+  console.log(' ');
+  console.log('themeableSets: ', themeableSets);
 
   const configs = Object.entries(themes).map(([theme, sets]) => ({
-    source: sets.map((tokenset) => `tokens/${tokenset}.tokens.json`),
+    source: sets.map((tokenset) => `tokens/${tokenset}.json`),
     // these are the defaults
     log: {
       warnings: 'error', // 'warn' | 'error' | 'disabled'
@@ -89,7 +93,7 @@ async function run() {
         files: [
           // primitive tokens, e.g. for application developer
           {
-            destination: "src/android/styles/primitive.tokens.xml",
+            destination: "src/android/styles/primitive.xml",
             format: "android/resources",
             filter: primitiveFilter,
           },
@@ -117,7 +121,7 @@ async function run() {
         files: [
           // primitive tokens, e.g. for application developer
           {
-            destination: "src/js/styles/primitive.tokens.js",
+            destination: "src/js/styles/primitive.js",
             format: "javascript/es6",
             filter: primitiveFilter,
           },
@@ -145,7 +149,7 @@ async function run() {
         files: [
           // primitive tokens, e.g. for application developer
           {
-            destination: "src/scss/styles/primitive.tokens.scss",
+            destination: "src/scss/styles/primitive.scss",
             format: "scss/variables",
             filter: primitiveFilter,
           },
@@ -176,7 +180,7 @@ async function run() {
         files: [
           // primitive tokens, e.g. for application developer
           {
-            destination: "src/css/styles/primitive.tokens.css",
+            destination: "src/css/styles/primitive.css",
             format: "css/variables",
             filter: primitiveFilter,
           },
@@ -211,7 +215,7 @@ async function run() {
         function isPartOfEnabledSet(token) {
           const set = token.filePath
             .replace(/^tokens\//g, "")
-            .replace(/.tokens.json$/g, "");
+            .replace(/.json$/g, "");
           return themeableSets.includes(set);
         }
 
