@@ -1,8 +1,9 @@
 {
   "qgds": {
     "myTestToken": {
-      "value": "{color.puttingGreen.500}",
-      "type": "color"
+      "value": "{color.sixteenMillionPink.500}",
+      "type": "color",
+      "description": "My description"
     },
     "color": {
       "neutral": {
