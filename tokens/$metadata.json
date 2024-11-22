@@ -1,19 +1,19 @@
 {
   "tokenSetOrder": [
-    "button",
-    "campaign-neon-palettes",
-    "campaign-neon-theme",
-    "card",
     "primitive",
     "qgds",
+    "typography",
+    "button",
+    "card",
+    "campaign-neon-palettes",
+    "campaign-neon-theme",
     "qld-corporate-palettes",
     "qld-corporate-theme",
-    "qld-default-palettes",
-    "qld-default-theme",
     "qld-high-contrast-palettes",
     "qld-high-contrast-theme",
     "qld-maroon-palettes",
     "qld-maroon-theme",
-    "typography"
+    "qld-default-palettes",
+    "qld-default-theme"
   ]
 }
