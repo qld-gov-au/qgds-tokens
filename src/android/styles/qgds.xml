@@ -4,7 +4,7 @@
   Do not edit directly, this file was auto-generated.
 -->
 <resources>
-  <color name="qgdsMyTestToken">#fa00ff</color><!-- My description -->
+  <color name="qgdsMyTestToken">#a17000</color><!-- My second description -->
   <color name="qgdsColorNeutralBlackDefault">#141414</color>
   <color name="qgdsColorNeutralBlackOpacityLow">rgba(20, 20, 20, 0.1)</color>
   <color name="qgdsColorNeutralDarkestDefault">#232323</color>
