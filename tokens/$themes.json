@@ -58,13 +58,13 @@
   {
     "name": "campaign-neon-palettes",
     "selectedTokenSets": {
-        "primitive": "source",
-        "button": "source",
-        "card": "source",
-        "qgds": "source",
-        "typography": "source",
-        "campaign-neon-theme": "enabled",
-        "campaign-neon-palettes": "enabled"
+      "primitive": "source",
+      "button": "source",
+      "card": "source",
+      "qgds": "source",
+      "typography": "source",
+      "campaign-neon-theme": "enabled",
+      "campaign-neon-palettes": "enabled"
     },
     "group": "brand",
     "type": "other"

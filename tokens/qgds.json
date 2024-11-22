@@ -1,7 +1,7 @@
 {
   "qgds": {
     "myTestToken": {
-      "value": "{color.white}",
+      "value": "{color.americanViolet.500}",
       "type": "color"
     },
     "color": {
