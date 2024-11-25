@@ -2,8 +2,9 @@
   "qgds": {
     "color": {
       "becNewTestColor": {
-        "value": "{color.christimasSilver.800}",
-        "type": "color"
+        "value": "{color.fancyFuchsiaPink.300}",
+        "type": "color",
+        "description": "My description so ppl understand"
       },
       "neutral": {
         "black": {
