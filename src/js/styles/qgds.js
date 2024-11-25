@@ -2,7 +2,7 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-export const qgdsColorBecNewTestColor = "#8a3b8b";
+export const qgdsColorBecNewTestColor = "#565656";
 export const qgdsColorNeutralBlackDefault = "#141414";
 export const qgdsColorNeutralBlackOpacityLow = "rgba(20, 20, 20, 0.1)";
 export const qgdsColorNeutralDarkestDefault = "#232323";
