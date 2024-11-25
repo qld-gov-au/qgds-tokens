@@ -2,7 +2,6 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-export const qgdsMyTestToken = "#fa00ff"; // My second description
 export const qgdsColorNeutralBlackDefault = "#141414";
 export const qgdsColorNeutralBlackOpacityLow = "rgba(20, 20, 20, 0.1)";
 export const qgdsColorNeutralDarkestDefault = "#232323";
