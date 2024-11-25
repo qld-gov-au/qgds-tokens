@@ -6,7 +6,7 @@
         "type": "color"
       },
       "shade": {
-        "value": "{color.christimasSilver.100}",
+        "value": "{color.christmasSilver.100}",
         "type": "color"
       },
       "focus": {
@@ -17,11 +17,11 @@
       },
       "border": {
         "default": {
-          "value": "{color.christimasSilver.400}",
+          "value": "{color.christmasSilver.400}",
           "type": "color"
         },
         "variant": {
-          "value": "{color.christimasSilver.700}",
+          "value": "{color.christmasSilver.700}",
           "type": "color"
         }
       },
@@ -30,11 +30,11 @@
         "type": "color"
       },
       "partition": {
-        "value": "{color.christimasSilver.700}",
+        "value": "{color.christmasSilver.700}",
         "type": "color"
       },
       "separator": {
-        "value": "{color.christimasSilver.400}",
+        "value": "{color.christmasSilver.400}",
         "type": "color"
       },
       "divider": {
@@ -46,11 +46,11 @@
         "type": "color"
       },
       "line": {
-        "value": "{color.christimasSilver.400}",
+        "value": "{color.christmasSilver.400}",
         "type": "color"
       },
       "muted": {
-        "value": "{color.christimasSilver.100}",
+        "value": "{color.christmasSilver.100}",
         "type": "color"
       },
       "subtle": {
@@ -472,7 +472,7 @@
         "type": "color"
       },
       "partition": {
-        "value": "{color.christimasSilver.700}",
+        "value": "{color.christmasSilver.700}",
         "type": "color"
       },
       "separator": {
@@ -492,7 +492,7 @@
         "type": "color"
       },
       "muted": {
-        "value": "{color.christimasSilver.100}",
+        "value": "{color.christmasSilver.100}",
         "type": "color"
       },
       "subtle": {
@@ -901,11 +901,11 @@
       },
       "border": {
         "default": {
-          "value": "{color.christimasSilver.700}",
+          "value": "{color.christmasSilver.700}",
           "type": "color"
         },
         "variant": {
-          "value": "{color.christimasSilver.700}",
+          "value": "{color.christmasSilver.700}",
           "type": "color"
         }
       },
@@ -914,7 +914,7 @@
         "type": "color"
       },
       "partition": {
-        "value": "{color.christimasSilver.700}",
+        "value": "{color.christmasSilver.700}",
         "type": "color"
       },
       "separator": {
@@ -934,7 +934,7 @@
         "type": "color"
       },
       "muted": {
-        "value": "{color.christimasSilver.100}",
+        "value": "{color.christmasSilver.100}",
         "type": "color"
       },
       "subtle": {
