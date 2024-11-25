@@ -1,6 +1,10 @@
 {
   "qgds": {
     "color": {
+      "becNewTestColor": {
+        "value": "{color.zeusPurple.400}",
+        "type": "color"
+      },
       "neutral": {
         "black": {
           "default": {

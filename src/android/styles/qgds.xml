@@ -4,6 +4,7 @@
   Do not edit directly, this file was auto-generated.
 -->
 <resources>
+  <color name="qgdsColorBecNewTestColor">#8a3b8b</color>
   <color name="qgdsColorNeutralBlackDefault">#141414</color>
   <color name="qgdsColorNeutralBlackOpacityLow">rgba(20, 20, 20, 0.1)</color>
   <color name="qgdsColorNeutralDarkestDefault">#232323</color>
