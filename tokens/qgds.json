@@ -57,7 +57,7 @@
         },
         "light": {
           "default": {
-            "value": "{color.christimasSilver.500}",
+            "value": "{color.christmasSilver.500}",
             "type": "color"
           },
           "opacity": {
@@ -81,7 +81,7 @@
         },
         "lightest": {
           "default": {
-            "value": "{color.christimasSilver.100}",
+            "value": "{color.christmasSilver.100}",
             "type": "color"
           },
           "opacity": {

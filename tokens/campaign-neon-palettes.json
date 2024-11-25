@@ -6,7 +6,7 @@
         "type": "color"
       },
       "shade": {
-        "value": "{color.christimasSilver.100}",
+        "value": "{color.christmasSilver.100}",
         "type": "color"
       },
       "focus": {
@@ -50,11 +50,11 @@
         "type": "color"
       },
       "muted": {
-        "value": "{color.christimasSilver.100}",
+        "value": "{color.christmasSilver.100}",
         "type": "color"
       },
       "subtle": {
-        "value": "{color.christimasSilver.300}",
+        "value": "{color.christmasSilver.300}",
         "type": "color"
       },
       "accent": {
@@ -492,11 +492,11 @@
         "type": "color"
       },
       "muted": {
-        "value": "{color.christimasSilver.100}",
+        "value": "{color.christmasSilver.100}",
         "type": "color"
       },
       "subtle": {
-        "value": "{color.christimasSilver.300}",
+        "value": "{color.christmasSilver.300}",
         "type": "color"
       },
       "accent": {
@@ -886,7 +886,7 @@
     },
     "alt": {
       "background": {
-        "value": "{color.christimasSilver.300}",
+        "value": "{color.christmasSilver.300}",
         "type": "color"
       },
       "shade": {
@@ -934,11 +934,11 @@
         "type": "color"
       },
       "muted": {
-        "value": "{color.christimasSilver.100}",
+        "value": "{color.christmasSilver.100}",
         "type": "color"
       },
       "subtle": {
-        "value": "{color.christimasSilver.300}",
+        "value": "{color.christmasSilver.300}",
         "type": "color"
       },
       "accent": {
