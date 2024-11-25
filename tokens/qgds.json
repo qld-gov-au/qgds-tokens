@@ -2,7 +2,7 @@
   "qgds": {
     "color": {
       "epinderTest": {
-            "value": "{color.fancyFuchsiaPink.800}",
+            "value": "{color.fancyFuchsiaPink.200}",
             "type": "color"
       },
       "neutral": {
