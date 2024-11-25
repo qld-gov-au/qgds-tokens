@@ -1,5 +1,5 @@
 // filters only tokens originating from primitive.json
-export const primitiveFilter = (token) => token.filePath.endsWith("primitive.tokens.json");
+export const primitiveFilter = (token) => token.filePath.endsWith("primitive.json");
 
 // filters only tokens originating from semantic sets (not primitive, not components) and also check themeable or not
 export const semanticFilter =
@@ -9,7 +9,7 @@ export const semanticFilter =
     return (
       themeable === tokenThemable &&
       ["primitive", ...components].every(
-        (cat) => !token.filePath.endsWith(`${cat}.tokens.json`)
+        (cat) => !token.filePath.endsWith(`${cat}.json`)
       )
     );
   };
@@ -20,6 +20,6 @@ export const componentFilter =
   (token) => {
     const tokenThemable = Boolean(token.attributes.themeable);
     return (
-      themeable === tokenThemable && token.filePath.endsWith(`${cat}.tokens.json`)
+      themeable === tokenThemable && token.filePath.endsWith(`${cat}.json`)
     );
   };

@@ -3,23 +3,23 @@ import path from 'node:path';
 
 // test if input token exists
 const jsonThemeOutputDir = 'tokens';
-const jsonThemeOutputFileName = 'qld-default-theme.tokens.json';
+const jsonThemeOutputFileName = 'qld-default-theme.json';
 const jsonThemeOutputFilePath = path.resolve(jsonThemeOutputDir, jsonThemeOutputFileName);
 
 // test if input token exists
 const jsonPalettesOutputDir = 'tokens';
-const jsonPalettesOutputFileName = 'qld-default-palettes.tokens.json';
+const jsonPalettesOutputFileName = 'qld-default-palettes.json';
 const jsonPalettesOutputFilePath = path.resolve(jsonPalettesOutputDir, jsonPalettesOutputFileName);
 
 // test if combined ouput token exists
 const cssOutputDir = 'src/css/styles';
-const cssOutputFileName = 'qgds-qld-default-palettes.tokens.css';
+const cssOutputFileName = 'qgds-qld-default-palettes.css';
 const cssOutputFilePath = path.resolve(cssOutputDir, cssOutputFileName);
 
 // test if input & output transformation is valid
 const tokenTestObject = {
   "theme": {
-    "colors": {"json": `colors`, "css": `--theme-colors`},
+    "color": {"json": `color`, "css": `--theme-color`},
     "focus": {"json": `focus`, "css": `--theme-focus`},
     "shadows": {"json": `shadows`, "css": `--theme-shadows`},
   },
@@ -29,6 +29,7 @@ const tokenTestObject = {
     "alt": {"json": `alt`, "css": `--palettes-alt`},
     "bold": {"json": `bold`, "css": `--palettes-bold`},
     "strong": {"json": `strong`, "css": `--palettes-strong`},
+    "dark": {"json": `dark`, "css": `--palettes-dark`},
   }
 };
 
@@ -37,7 +38,7 @@ describe('qld-default tests', () => {
   it('sanity - contains at least one: theme in JSON file', async () => {
     const file = await promises.readFile(jsonThemeOutputFilePath, 'utf-8');
     expect(file).toContain(`theme`);
-    expect(file).toContain(tokenTestObject.theme.colors.json);
+    expect(file).toContain(tokenTestObject.theme.color.json);
     expect(file).toContain(tokenTestObject.theme.focus.json);
     expect(file).toContain(tokenTestObject.theme.shadows.json);
   });
@@ -50,12 +51,13 @@ describe('qld-default tests', () => {
     expect(file).toContain(tokenTestObject.palettes.alt.json);
     expect(file).toContain(tokenTestObject.palettes.bold.json);
     expect(file).toContain(tokenTestObject.palettes.strong.json);
+    expect(file).toContain(tokenTestObject.palettes.dark.json);
   });
 
   it('sanity - contains at least one: theme + palettes in CSS file', async () => {
     const file = await promises.readFile(cssOutputFilePath, 'utf-8');
     // theme tokens
-    expect(file).toContain(tokenTestObject.theme.colors.css);
+    expect(file).toContain(tokenTestObject.theme.color.css);
     expect(file).toContain(tokenTestObject.theme.focus.css);
     expect(file).toContain(tokenTestObject.theme.shadows.css);
     // palettes tokens
@@ -64,6 +66,7 @@ describe('qld-default tests', () => {
     expect(file).toContain(tokenTestObject.palettes.alt.css);
     expect(file).toContain(tokenTestObject.palettes.bold.css);
     expect(file).toContain(tokenTestObject.palettes.strong.css);
+    expect(file).toContain(tokenTestObject.palettes.dark.css);
   });
 
 });

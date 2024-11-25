@@ -10,13 +10,13 @@ const commonFileOptions = {
   scss: {
     format: "scss/variables",
     options: {
-      selector: ":host",
+      selector: ":root",
     },
   },
   css: {
     format: "css/variables",
     options: {
-      selector: ":host",
+      selector: ":root",
     },
   }
 };
@@ -27,14 +27,14 @@ export const generateSemanticFiles = (components, theme, platform, fileExtension
   filesArr.push({
     ...commonFileOptions[platform],
     filter: semanticFilter(components, true),
-    destination: `src/${platform}/styles/qgds-${theme.toLowerCase()}.tokens.${fileExtension}`,
+    destination: `src/${platform}/styles/qgds-${theme.toLowerCase()}.${fileExtension}`,
   });
 
   // not theme-specific outputs
   filesArr.push({
     ...commonFileOptions[platform],
     filter: semanticFilter(components, false),
-    destination: `src/${platform}/styles/qgds.tokens.${fileExtension}`,
+    destination: `src/${platform}/styles/qgds.${fileExtension}`,
   });
 
   return filesArr;
@@ -50,14 +50,14 @@ export const generateComponentFiles = (components, theme, platform, fileExtensio
     filesArr.push({
       ...commonFileOptions[platform],
       filter: componentFilter(comp, true),
-      destination: `src/${platform}/${comp}/${comp}-${theme.toLowerCase()}.tokens.${fileExtension}`,
+      destination: `src/${platform}/${comp}/${comp}-${theme.toLowerCase()}.${fileExtension}`,
     });
 
     // not theme-specific outputs
     filesArr.push({
       ...commonFileOptions[platform],
       filter: componentFilter(comp, false),
-      destination: `src/${platform}/${comp}/${comp}.tokens.${fileExtension}`,
+      destination: `src/${platform}/${comp}/${comp}.${fileExtension}`,
     });
   }
   return filesArr;

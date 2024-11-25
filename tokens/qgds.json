@@ -1,0 +1,104 @@
+{
+  "qgds": {
+    "color": {
+      "neutral": {
+        "black": {
+          "default": {
+            "value": "{color.goshawkGrey.800}",
+            "type": "color"
+          },
+          "opacity": {
+            "low": {
+              "value": "rgba({qgds.color.neutral.black.default}, 0.1)",
+              "type": "color"
+            }
+          }
+        },
+        "darkest": {
+          "default": {
+            "value": "{color.goshawkGrey.700}",
+            "type": "color"
+          },
+          "opacity": {
+            "low": {
+              "value": "rgba({qgds.color.neutral.darkest.default}, 0.1)",
+              "type": "color"
+            }
+          }
+        },
+        "darker": {
+          "default": {
+            "value": "{color.goshawkGrey.500}",
+            "type": "color"
+          },
+          "opacity": {
+            "low": {
+              "value": "rgba({qgds.color.neutral.darker.default}, 0.1)",
+              "type": "color"
+            }
+          }
+        },
+        "dark": {
+          "default": {
+            "value": "{color.tarnishedSilver.500}",
+            "type": "color"
+          },
+          "opacity": {
+            "low": {
+              "value": "rgba({qgds.color.neutral.dark.default}, 0.1)",
+              "type": "color"
+            }
+          }
+        },
+        "light": {
+          "default": {
+            "value": "{color.christmasSilver.500}",
+            "type": "color"
+          },
+          "opacity": {
+            "low": {
+              "value": "rgba({qgds.color.neutral.light.default}, 0.1)",
+              "type": "color"
+            }
+          }
+        },
+        "lighter": {
+          "default": {
+            "value": "{color.goshawkGrey.25}",
+            "type": "color"
+          },
+          "opacity": {
+            "low": {
+              "value": "rgba({qgds.color.neutral.lighter.default}, 0.1)",
+              "type": "color"
+            }
+          }
+        },
+        "lightest": {
+          "default": {
+            "value": "{color.christmasSilver.100}",
+            "type": "color"
+          },
+          "opacity": {
+            "low": {
+              "value": "rgba({qgds.color.neutral.lightest.default}, 0.1)",
+              "type": "color"
+            }
+          }
+        },
+        "white": {
+          "default": {
+            "value": "{color.white}",
+            "type": "color"
+          },
+          "opacity": {
+            "low": {
+              "value": "rgba({qgds.color.neutral.white.default}, 0.1)",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -5,7 +5,8 @@ import { copyFile } from 'copy-file';
 export const copyOriginalFile = async (originalSrc, finalDest) => {
   try {
     await copyFile(originalSrc, finalDest);
-    console.log('file copied');
+    console.log(' ');
+    console.log('file copied: ', finalDest);
   } catch (err) {
     console.log(err);
   }

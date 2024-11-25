@@ -1,0 +1,258 @@
+{
+  "theme": {
+    "color": {
+      "brand": {
+        "first": {
+          "value": "{color.white}",
+          "type": "color"
+        },
+        "second": {
+          "value": "{color.stellarExplorerGrey.800}",
+          "type": "color"
+        },
+        "third": {
+          "value": "{color.iridiumBlue.500}",
+          "type": "color"
+        },
+        "fourth": {
+          "value": "{color.starYellow.500}",
+          "type": "color"
+        }
+      },
+      "background": {
+        "bright": {
+          "value": "{color.white}",
+          "type": "color"
+        },
+        "tint": {
+          "value": "{color.white}",
+          "type": "color"
+        },
+        "alt": {
+          "value": "{color.white}",
+          "type": "color"
+        },
+        "bold": {
+          "value": "{color.stellarExplorerGrey.800}",
+          "type": "color"
+        },
+        "strong": {
+          "value": "{color.stellarExplorerGrey.800}",
+          "type": "color"
+        },
+        "dark": {
+          "value": "{color.goshawkGrey.700}",
+          "type": "color"
+        }
+      },
+      "action": {
+        "onBrights": {
+          "primary": {
+            "value": "{color.iridiumBlue.500}",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "{color.iridiumBlue.500}",
+            "type": "color"
+          },
+          "tertiary": {
+            "value": "{transparency.total}",
+            "type": "color"
+          }
+        },
+        "onBolds": {
+          "primary": {
+            "value": "{color.starYellow.500}",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "{color.starYellow.500}",
+            "type": "color"
+          },
+          "tertiary": {
+            "value": "{transparency.total}",
+            "type": "color"
+          }
+        }
+      },
+      "wording": {
+        "onBrights": {
+          "siteTitle": {
+            "default": {
+              "value": "{qgds.color.neutral.white.default}",
+              "type": "color"
+            },
+            "variant": {
+              "value": "{color.goshawkGrey.400}",
+              "type": "color"
+            }
+          },
+          "heading": {
+            "default": {
+              "value": "{qgds.color.neutral.white.default}",
+              "type": "color"
+            },
+            "variant": {
+              "value": "{color.goshawkGrey.400}",
+              "type": "color"
+            }
+          },
+          "body": {
+            "default": {
+              "value": "{qgds.color.neutral.white.default}",
+              "type": "color"
+            },
+            "variant": {
+              "value": "{color.goshawkGrey.400}",
+              "type": "color"
+            }
+          }
+        },
+        "onBolds": {
+          "siteTitle": {
+            "default": {
+              "value": "{color.white}",
+              "type": "color"
+            },
+            "variant": {
+              "value": "{color.stellarExplorerGrey.200}",
+              "type": "color"
+            }
+          },
+          "heading": {
+            "default": {
+              "value": "{color.white}",
+              "type": "color"
+            },
+            "variant": {
+              "value": "{color.stellarExplorerGrey.200}",
+              "type": "color"
+            }
+          },
+          "body": {
+            "default": {
+              "value": "{color.white}",
+              "type": "color"
+            },
+            "variant": {
+              "value": "{color.stellarExplorerGrey.200}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "reserved": {
+        "error": {
+          "default": {
+            "value": "{color.crimsonRed.500}",
+            "type": "color"
+          },
+          "lightest": {
+            "value": "{color.crimsonRed.25}",
+            "type": "color"
+          },
+          "lighter": {
+            "value": "{color.crimsonRed.50}",
+            "type": "color"
+          },
+          "darker": {
+            "value": "{color.crimsonRed.800}",
+            "type": "color"
+          }
+        },
+        "information": {
+          "default": {
+            "value": "{color.danubeBlue.500}",
+            "type": "color"
+          },
+          "lightest": {
+            "value": "{color.danubeBlue.25}",
+            "type": "color"
+          },
+          "lighter": {
+            "value": "{color.danubeBlue.50}",
+            "type": "color"
+          },
+          "darker": {
+            "value": "{color.danubeBlue.800}",
+            "type": "color"
+          }
+        },
+        "success": {
+          "default": {
+            "value": "{color.zundaGreen.500}",
+            "type": "color"
+          },
+          "lightest": {
+            "value": "{color.zundaGreen.25}",
+            "type": "color"
+          },
+          "lighter": {
+            "value": "{color.zundaGreen.50}",
+            "type": "color"
+          },
+          "darker": {
+            "value": "{color.zundaGreen.800}",
+            "type": "color"
+          }
+        },
+        "alert": {
+          "default": {
+            "value": "{color.starYellow.500}",
+            "type": "color"
+          },
+          "lightest": {
+            "value": "{color.starYellow.25}",
+            "type": "color"
+          },
+          "lighter": {
+            "value": "{color.starYellow.50}",
+            "type": "color"
+          },
+          "darker": {
+            "value": "{color.starYellow.800}",
+            "type": "color"
+          }
+        }
+      },
+      "syntax": {
+        "background": {
+          "value": "{color.goshawkGrey.700}",
+          "type": "color"
+        },
+        "values": {
+          "value": "{color.zundaGreen.500}",
+          "type": "color"
+        },
+        "elements": {
+          "value": "{color.freshAirBlue.500}",
+          "type": "color"
+        },
+        "properties": {
+          "value": "{color.zeusPurple.500}",
+          "type": "color"
+        },
+        "comments": {
+          "value": "{color.veilBlue.500}",
+          "type": "color"
+        }
+      }
+    },
+    "focus": {
+      "outlineWidth": {
+        "value": "{focus.outlineWidth}",
+        "type": "outlineWidth"
+      },
+      "outlineStyle": {
+        "value": "{focus.outlineStyle}",
+        "type": "outlineStyle"
+      }
+    },
+    "shadows": {
+      "default": {
+        "value": "{color.goshawkGrey.900}",
+        "type": "color"
+      }
+    }
+  }
+}
