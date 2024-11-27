@@ -1,5 +1,5 @@
 {
-  "palettes": {
+  "palette": {
     "bright": {
       "background": {
         "value": "{color.white}",
@@ -17,7 +17,7 @@
       },
       "border": {
         "default": {
-          "value": "{color.christmasSilver.500}",
+          "value": "{color.goshawkGrey.50}",
           "type": "color"
         },
         "variant": {
@@ -26,7 +26,7 @@
         }
       },
       "boundary": {
-        "value": "{color.zundaGreen.500}",
+        "value": "{color.purplishRed.500}",
         "type": "color"
       },
       "partition": {
@@ -38,11 +38,11 @@
         "type": "color"
       },
       "divider": {
-        "value": "{color.victoriaBlue.500}",
+        "value": "{color.purplishRed.500}",
         "type": "color"
       },
       "fence": {
-        "value": "{color.zundaGreen.500}",
+        "value": "{color.purplishRed.500}",
         "type": "color"
       },
       "line": {
@@ -59,11 +59,11 @@
       },
       "accent": {
         "default": {
-          "value": "{color.zundaGreen.500}",
+          "value": "{color.purplishRed.500}",
           "type": "color"
         },
         "onAccent": {
-          "value": "{color.victoriaBlue.600}",
+          "value": "{color.purplishRed.600}",
           "type": "color"
         }
       },
@@ -100,10 +100,10 @@
         }
       },
       "action": {
-        "navMain": {
+        "mainNav": {
           "default": {
             "background": {
-              "value": "{palettes.bright.muted}",
+              "value": "{palette.bright.muted}",
               "type": "color"
             },
             "text": {
@@ -115,13 +115,13 @@
               "type": "textDecoration"
             },
             "accent": {
-              "value": "{palettes.bright.accent.default}",
+              "value": "{palette.bright.accent.default}",
               "type": "textDecoration"
             }
           },
           "hover": {
             "background": {
-              "value": "{palettes.bright.subtle}",
+              "value": "{palette.bright.subtle}",
               "type": "color"
             },
             "text": {
@@ -133,7 +133,7 @@
               "type": "textDecoration"
             },
             "accent": {
-              "value": "{palettes.bright.accent.onAccent}",
+              "value": "{palette.bright.accent.onAccent}",
               "type": "textDecoration"
             }
           }
@@ -142,7 +142,7 @@
           "primary": {
             "default": {
               "background": {
-                "value": "{color.victoriaBlue.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               },
               "text": {
@@ -154,13 +154,13 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.victoriaBlue.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{color.victoriaBlue.600}",
+                "value": "{color.purplishRed.600}",
                 "type": "color"
               },
               "text": {
@@ -172,13 +172,13 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.victoriaBlue.600}",
+                "value": "{color.purplishRed.600}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{color.victoriaBlue.600}",
+                "value": "{color.purplishRed.600}",
                 "type": "color"
               },
               "text": {
@@ -190,7 +190,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.victoriaBlue.600}",
+                "value": "{color.purplishRed.600}",
                 "type": "color"
               }
             }
@@ -198,11 +198,11 @@
           "secondary": {
             "default": {
               "background": {
-                "value": "{palettes.bright.background}",
+                "value": "{palette.bright.background}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -210,17 +210,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.zundaGreen.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{palettes.bright.background}",
+                "value": "{palette.bright.background}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -228,17 +228,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.zundaGreen.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{palettes.bright.background}",
+                "value": "{palette.bright.background}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -246,7 +246,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.zundaGreen.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               }
             }
@@ -254,11 +254,11 @@
           "tertiary": {
             "default": {
               "background": {
-                "value": "{palettes.bright.background}",
+                "value": "{palette.bright.background}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -266,17 +266,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{palettes.bright.background}",
+                "value": "{palette.bright.background}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{palettes.bright.background}",
+                "value": "{palette.bright.background}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -284,17 +284,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{palettes.bright.background}",
+                "value": "{palette.bright.background}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{palettes.bright.background}",
+                "value": "{palette.bright.background}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -302,7 +302,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{palettes.bright.background}",
+                "value": "{palette.bright.background}",
                 "type": "color"
               }
             }
@@ -311,7 +311,7 @@
         "link": {
           "default": {
             "color": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             },
             "textDecorationLine": {
@@ -329,7 +329,7 @@
           },
           "hover": {
             "color": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             },
             "textDecorationLine": {
@@ -347,7 +347,7 @@
           },
           "active": {
             "color": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             },
             "textDecorationLine": {
@@ -385,11 +385,11 @@
         "pagination": {
           "default": {
             "background": {
-              "value": "{palettes.bright.background}",
+              "value": "{palette.bright.background}",
               "type": "color"
             },
             "text": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             },
             "border": {
@@ -399,7 +399,7 @@
           },
           "active": {
             "background": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             },
             "text": {
@@ -407,27 +407,27 @@
               "type": "color"
             },
             "border": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             }
           },
           "hover": {
             "background": {
-              "value": "{palettes.bright.background}",
+              "value": "{palette.bright.background}",
               "type": "color"
             },
             "text": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             },
             "border": {
-              "value": "{color.zundaGreen.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             }
           },
           "visited": {
             "background": {
-              "value": "{palettes.bright.background}",
+              "value": "{palette.bright.background}",
               "type": "color"
             },
             "text": {
@@ -444,11 +444,11 @@
     },
     "tint": {
       "background": {
-        "value": "{color.victoriaBlue.25}",
+        "value": "{color.purplishRed.25}",
         "type": "color"
       },
       "shade": {
-        "value": "{color.victoriaBlue.50}",
+        "value": "{color.purplishRed.50}",
         "type": "color"
       },
       "focus": {
@@ -459,7 +459,7 @@
       },
       "border": {
         "default": {
-          "value": "{color.victoriaBlue.100}",
+          "value": "{color.purplishRed.100}",
           "type": "color"
         },
         "variant": {
@@ -468,7 +468,7 @@
         }
       },
       "boundary": {
-        "value": "{color.zundaGreen.500}",
+        "value": "{color.purplishRed.500}",
         "type": "color"
       },
       "partition": {
@@ -480,11 +480,11 @@
         "type": "color"
       },
       "divider": {
-        "value": "{color.victoriaBlue.500}",
+        "value": "{color.purplishRed.500}",
         "type": "color"
       },
       "fence": {
-        "value": "{color.zundaGreen.500}",
+        "value": "{color.purplishRed.500}",
         "type": "color"
       },
       "line": {
@@ -501,11 +501,11 @@
       },
       "accent": {
         "default": {
-          "value": "{color.zundaGreen.500}",
+          "value": "{color.purplishRed.500}",
           "type": "color"
         },
         "onAccent": {
-          "value": "{color.victoriaBlue.600}",
+          "value": "{color.purplishRed.600}",
           "type": "color"
         }
       },
@@ -542,10 +542,10 @@
         }
       },
       "action": {
-        "navMain": {
+        "mainNav": {
           "default": {
             "background": {
-              "value": "{palettes.tint.muted}",
+              "value": "{palette.tint.muted}",
               "type": "color"
             },
             "text": {
@@ -557,13 +557,13 @@
               "type": "textDecoration"
             },
             "accent": {
-              "value": "{palettes.tint.accent.default}",
+              "value": "{palette.tint.accent.default}",
               "type": "textDecoration"
             }
           },
           "hover": {
             "background": {
-              "value": "{palettes.tint.subtle}",
+              "value": "{palette.tint.subtle}",
               "type": "color"
             },
             "text": {
@@ -575,7 +575,7 @@
               "type": "textDecoration"
             },
             "accent": {
-              "value": "{palettes.tint.accent.onAccent}",
+              "value": "{palette.tint.accent.onAccent}",
               "type": "textDecoration"
             }
           }
@@ -584,7 +584,7 @@
           "primary": {
             "default": {
               "background": {
-                "value": "{color.victoriaBlue.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               },
               "text": {
@@ -596,13 +596,13 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.victoriaBlue.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{color.victoriaBlue.600}",
+                "value": "{color.purplishRed.600}",
                 "type": "color"
               },
               "text": {
@@ -614,13 +614,13 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.victoriaBlue.600}",
+                "value": "{color.purplishRed.600}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{color.victoriaBlue.600}",
+                "value": "{color.purplishRed.600}",
                 "type": "color"
               },
               "text": {
@@ -632,7 +632,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.victoriaBlue.600}",
+                "value": "{color.purplishRed.600}",
                 "type": "color"
               }
             }
@@ -640,11 +640,11 @@
           "secondary": {
             "default": {
               "background": {
-                "value": "{palettes.tint.background}",
+                "value": "{palette.tint.background}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -652,17 +652,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.zundaGreen.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{palettes.tint.background}",
+                "value": "{palette.tint.background}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -670,17 +670,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.zundaGreen.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{palettes.tint.background}",
+                "value": "{palette.tint.background}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -688,7 +688,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.zundaGreen.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               }
             }
@@ -696,11 +696,11 @@
           "tertiary": {
             "default": {
               "background": {
-                "value": "{palettes.tint.background}",
+                "value": "{palette.tint.background}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -708,17 +708,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{palettes.tint.background}",
+                "value": "{palette.tint.background}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{palettes.tint.background}",
+                "value": "{palette.tint.background}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -726,17 +726,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{palettes.tint.background}",
+                "value": "{palette.tint.background}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{palettes.tint.background}",
+                "value": "{palette.tint.background}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -744,7 +744,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{palettes.tint.background}",
+                "value": "{palette.tint.background}",
                 "type": "color"
               }
             }
@@ -753,7 +753,7 @@
         "link": {
           "default": {
             "color": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             },
             "textDecorationLine": {
@@ -771,7 +771,7 @@
           },
           "hover": {
             "color": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             },
             "textDecorationLine": {
@@ -789,7 +789,7 @@
           },
           "active": {
             "color": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             },
             "textDecorationLine": {
@@ -827,11 +827,11 @@
         "pagination": {
           "default": {
             "background": {
-              "value": "{palettes.tint.background}",
+              "value": "{palette.tint.background}",
               "type": "color"
             },
             "text": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             },
             "border": {
@@ -841,7 +841,7 @@
           },
           "active": {
             "background": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             },
             "text": {
@@ -849,27 +849,27 @@
               "type": "color"
             },
             "border": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             }
           },
           "hover": {
             "background": {
-              "value": "{palettes.tint.background}",
+              "value": "{palette.tint.background}",
               "type": "color"
             },
             "text": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             },
             "border": {
-              "value": "{color.zundaGreen.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             }
           },
           "visited": {
             "background": {
-              "value": "{palettes.tint.background}",
+              "value": "{palette.tint.background}",
               "type": "color"
             },
             "text": {
@@ -886,7 +886,7 @@
     },
     "alt": {
       "background": {
-        "value": "{color.christmasSilver.300}",
+        "value": "{color.goshawkGrey.25}",
         "type": "color"
       },
       "shade": {
@@ -910,7 +910,7 @@
         }
       },
       "boundary": {
-        "value": "{color.zundaGreen.500}",
+        "value": "{color.purplishRed.500}",
         "type": "color"
       },
       "partition": {
@@ -922,11 +922,11 @@
         "type": "color"
       },
       "divider": {
-        "value": "{color.victoriaBlue.500}",
+        "value": "{color.purplishRed.500}",
         "type": "color"
       },
       "fence": {
-        "value": "{color.zundaGreen.500}",
+        "value": "{color.purplishRed.500}",
         "type": "color"
       },
       "line": {
@@ -943,11 +943,11 @@
       },
       "accent": {
         "default": {
-          "value": "{color.zundaGreen.500}",
+          "value": "{color.purplishRed.500}",
           "type": "color"
         },
         "onAccent": {
-          "value": "{color.victoriaBlue.600}",
+          "value": "{color.purplishRed.600}",
           "type": "color"
         }
       },
@@ -984,10 +984,10 @@
         }
       },
       "action": {
-        "navMain": {
+        "mainNav": {
           "default": {
             "background": {
-              "value": "{palettes.alt.muted}",
+              "value": "{palette.alt.muted}",
               "type": "color"
             },
             "text": {
@@ -999,13 +999,13 @@
               "type": "textDecoration"
             },
             "accent": {
-              "value": "{palettes.alt.accent.default}",
+              "value": "{palette.alt.accent.default}",
               "type": "textDecoration"
             }
           },
           "hover": {
             "background": {
-              "value": "{palettes.alt.subtle}",
+              "value": "{palette.alt.subtle}",
               "type": "color"
             },
             "text": {
@@ -1017,7 +1017,7 @@
               "type": "textDecoration"
             },
             "accent": {
-              "value": "{palettes.alt.accent.onAccent}",
+              "value": "{palette.alt.accent.onAccent}",
               "type": "textDecoration"
             }
           }
@@ -1026,7 +1026,7 @@
           "primary": {
             "default": {
               "background": {
-                "value": "{color.victoriaBlue.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               },
               "text": {
@@ -1038,13 +1038,13 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.victoriaBlue.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{color.victoriaBlue.600}",
+                "value": "{color.purplishRed.600}",
                 "type": "color"
               },
               "text": {
@@ -1056,13 +1056,13 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.victoriaBlue.600}",
+                "value": "{color.purplishRed.600}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{color.victoriaBlue.600}",
+                "value": "{color.purplishRed.600}",
                 "type": "color"
               },
               "text": {
@@ -1074,7 +1074,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.victoriaBlue.600}",
+                "value": "{color.purplishRed.600}",
                 "type": "color"
               }
             }
@@ -1082,11 +1082,11 @@
           "secondary": {
             "default": {
               "background": {
-                "value": "{palettes.alt.background}",
+                "value": "{palette.bright.background}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -1094,17 +1094,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.zundaGreen.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{palettes.alt.background}",
+                "value": "{palette.bright.background}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -1112,17 +1112,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.zundaGreen.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{palettes.alt.background}",
+                "value": "{palette.bright.background}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -1130,7 +1130,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.zundaGreen.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               }
             }
@@ -1138,11 +1138,11 @@
           "tertiary": {
             "default": {
               "background": {
-                "value": "{palettes.alt.background}",
+                "value": "{palette.alt.background}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -1150,17 +1150,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{palettes.alt.background}",
+                "value": "{palette.alt.background}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{palettes.alt.background}",
+                "value": "{palette.alt.background}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -1168,17 +1168,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{palettes.alt.background}",
+                "value": "{palette.alt.background}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{palettes.alt.background}",
+                "value": "{palette.alt.background}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               },
               "textDecoration": {
@@ -1186,7 +1186,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{palettes.alt.background}",
+                "value": "{palette.alt.background}",
                 "type": "color"
               }
             }
@@ -1195,7 +1195,7 @@
         "link": {
           "default": {
             "color": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             },
             "textDecorationLine": {
@@ -1213,7 +1213,7 @@
           },
           "hover": {
             "color": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             },
             "textDecorationLine": {
@@ -1231,7 +1231,7 @@
           },
           "active": {
             "color": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             },
             "textDecorationLine": {
@@ -1269,11 +1269,11 @@
         "pagination": {
           "default": {
             "background": {
-              "value": "{palettes.alt.background}",
+              "value": "{palette.alt.background}",
               "type": "color"
             },
             "text": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             },
             "border": {
@@ -1283,7 +1283,7 @@
           },
           "active": {
             "background": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             },
             "text": {
@@ -1291,27 +1291,27 @@
               "type": "color"
             },
             "border": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             }
           },
           "hover": {
             "background": {
-              "value": "{palettes.alt.background}",
+              "value": "{palette.alt.background}",
               "type": "color"
             },
             "text": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             },
             "border": {
-              "value": "{color.zundaGreen.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             }
           },
           "visited": {
             "background": {
-              "value": "{palettes.alt.background}",
+              "value": "{palette.alt.background}",
               "type": "color"
             },
             "text": {
@@ -1328,11 +1328,11 @@
     },
     "bold": {
       "background": {
-        "value": "{color.victoriaBlue.500}",
+        "value": "{color.purplishRed.500}",
         "type": "color"
       },
       "shade": {
-        "value": "{color.victoriaBlue.600}",
+        "value": "{color.purplishRed.600}",
         "type": "color"
       },
       "focus": {
@@ -1343,7 +1343,7 @@
       },
       "border": {
         "default": {
-          "value": "{color.freshAirBlue.600}",
+          "value": "{color.goshawkGrey.400}",
           "type": "color"
         },
         "variant": {
@@ -1352,44 +1352,44 @@
         }
       },
       "boundary": {
-        "value": "{color.zundaGreen.500}",
+        "value": "{color.purplishRed.500}",
         "type": "color"
       },
       "partition": {
-        "value": "{color.freshAirBlue.600}",
+        "value": "{color.purplishRed.100}",
         "type": "color"
       },
       "separator": {
-        "value": "{color.freshAirBlue.600}",
+        "value": "{color.purplishRed.100}",
         "type": "color"
       },
       "divider": {
-        "value": "{color.victoriaBlue.500}",
+        "value": "{color.purplishRed.500}",
         "type": "color"
       },
       "fence": {
-        "value": "{color.zundaGreen.500}",
+        "value": "{color.purplishRed.500}",
         "type": "color"
       },
       "line": {
-        "value": "{color.freshAirBlue.600}",
+        "value": "{color.purplishRed.100}",
         "type": "color"
       },
       "muted": {
-        "value": "{color.victoriaBlue.600}",
+        "value": "{color.purplishRed.600}",
         "type": "color"
       },
       "subtle": {
-        "value": "{color.marineBlue.500}",
+        "value": "{color.purplishRed.500}",
         "type": "color"
       },
       "accent": {
         "default": {
-          "value": "{color.zundaGreen.500}",
+          "value": "{color.purplishRed.500}",
           "type": "color"
         },
         "onAccent": {
-          "value": "{color.zundaGreen.300}",
+          "value": "{color.purplishRed.300}",
           "type": "color"
         }
       },
@@ -1429,7 +1429,7 @@
         "navMain": {
           "default": {
             "background": {
-              "value": "{palettes.bold.muted}",
+              "value": "{palette.bold.muted}",
               "type": "color"
             },
             "text": {
@@ -1441,13 +1441,13 @@
               "type": "textDecoration"
             },
             "accent": {
-              "value": "{palettes.bold.accent.default}",
+              "value": "{palette.bold.accent.default}",
               "type": "textDecoration"
             }
           },
           "hover": {
             "background": {
-              "value": "{palettes.bold.subtle}",
+              "value": "{palette.bold.subtle}",
               "type": "color"
             },
             "text": {
@@ -1459,7 +1459,7 @@
               "type": "textDecoration"
             },
             "accent": {
-              "value": "{palettes.bold.accent.onAccent}",
+              "value": "{palette.bold.accent.onAccent}",
               "type": "textDecoration"
             }
           }
@@ -1468,11 +1468,11 @@
           "primary": {
             "default": {
               "background": {
-                "value": "{color.zundaGreen.500}",
+                "value": "{qgds.color.neutral.white.default}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.900}",
+                "value": "{color.purplishRed.900}",
                 "type": "color"
               },
               "textDecoration": {
@@ -1480,17 +1480,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.zundaGreen.500}",
+                "value": "{qgds.color.neutral.white.default}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{color.zundaGreen.600}",
+                "value": "{qgds.color.neutral.white.default}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.900}",
+                "value": "{color.purplishRed.900}",
                 "type": "color"
               },
               "textDecoration": {
@@ -1498,17 +1498,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.zundaGreen.600}",
+                "value": "{qgds.color.neutral.white.default}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{color.zundaGreen.600}",
+                "value": "{qgds.color.neutral.white.default}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.900}",
+                "value": "{color.purplishRed.900}",
                 "type": "color"
               },
               "textDecoration": {
@@ -1516,7 +1516,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.zundaGreen.600}",
+                "value": "{qgds.color.neutral.white.default}",
                 "type": "color"
               }
             }
@@ -1524,7 +1524,7 @@
           "secondary": {
             "default": {
               "background": {
-                "value": "{palettes.bold.background}",
+                "value": "{palette.bold.background}",
                 "type": "color"
               },
               "text": {
@@ -1536,13 +1536,13 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.starYellow.500}",
+                "value": "{color.white}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{palettes.bold.background}",
+                "value": "{palette.bold.background}",
                 "type": "color"
               },
               "text": {
@@ -1554,13 +1554,13 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.starYellow.500}",
+                "value": "{color.white}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{palettes.bold.background}",
+                "value": "{palette.bold.background}",
                 "type": "color"
               },
               "text": {
@@ -1572,7 +1572,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.starYellow.500}",
+                "value": "{color.white}",
                 "type": "color"
               }
             }
@@ -1580,7 +1580,7 @@
           "tertiary": {
             "default": {
               "background": {
-                "value": "{palettes.bold.background}",
+                "value": "{palette.bold.background}",
                 "type": "color"
               },
               "text": {
@@ -1592,13 +1592,13 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{palettes.bold.background}",
+                "value": "{palette.bold.background}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{palettes.bold.background}",
+                "value": "{palette.bold.background}",
                 "type": "color"
               },
               "text": {
@@ -1610,13 +1610,13 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{palettes.bold.background}",
+                "value": "{palette.bold.background}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{palettes.bold.background}",
+                "value": "{palette.bold.background}",
                 "type": "color"
               },
               "text": {
@@ -1628,7 +1628,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{palettes.bold.background}",
+                "value": "{palette.bold.background}",
                 "type": "color"
               }
             }
@@ -1711,7 +1711,7 @@
         "pagination": {
           "default": {
             "background": {
-              "value": "{palettes.bold.background}",
+              "value": "{palette.bold.background}",
               "type": "color"
             },
             "text": {
@@ -1719,7 +1719,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{color.freshAirBlue.600}",
+              "value": "{color.purplishRed.100}",
               "type": "color"
             }
           },
@@ -1739,7 +1739,7 @@
           },
           "hover": {
             "background": {
-              "value": "{palettes.bold.background}",
+              "value": "{palette.bold.background}",
               "type": "color"
             },
             "text": {
@@ -1747,13 +1747,13 @@
               "type": "color"
             },
             "border": {
-              "value": "{color.zundaGreen.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             }
           },
           "visited": {
             "background": {
-              "value": "{palettes.bold.background}",
+              "value": "{palette.bold.background}",
               "type": "color"
             },
             "text": {
@@ -1761,7 +1761,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{color.freshAirBlue.600}",
+              "value": "{color.purplishRed.100}",
               "type": "color"
             }
           }
@@ -1770,11 +1770,11 @@
     },
     "strong": {
       "background": {
-        "value": "{color.marineBlue.500}",
+        "value": "{color.stellarExplorerGrey.700}",
         "type": "color"
       },
       "shade": {
-        "value": "{color.marineBlue.600}",
+        "value": "{color.stellarExplorerGrey.800}",
         "type": "color"
       },
       "focus": {
@@ -1785,7 +1785,7 @@
       },
       "border": {
         "default": {
-          "value": "{color.freshAirBlue.600}",
+          "value": "{color.goshawkGrey.400}",
           "type": "color"
         },
         "variant": {
@@ -1794,44 +1794,44 @@
         }
       },
       "boundary": {
-        "value": "{color.zundaGreen.500}",
+        "value": "{color.purplishRed.500}",
         "type": "color"
       },
       "partition": {
-        "value": "{color.freshAirBlue.600}",
+        "value": "{color.purplishRed.100}",
         "type": "color"
       },
       "separator": {
-        "value": "{color.freshAirBlue.600}",
+        "value": "{color.purplishRed.100}",
         "type": "color"
       },
       "divider": {
-        "value": "{color.victoriaBlue.500}",
+        "value": "{color.purplishRed.500}",
         "type": "color"
       },
       "fence": {
-        "value": "{color.zundaGreen.500}",
+        "value": "{color.purplishRed.500}",
         "type": "color"
       },
       "line": {
-        "value": "{color.freshAirBlue.600}",
+        "value": "{color.purplishRed.100}",
         "type": "color"
       },
       "muted": {
-        "value": "{color.victoriaBlue.600}",
+        "value": "{color.purplishRed.600}",
         "type": "color"
       },
       "subtle": {
-        "value": "{color.marineBlue.500}",
+        "value": "{color.purplishRed.500}",
         "type": "color"
       },
       "accent": {
         "default": {
-          "value": "{color.zundaGreen.500}",
+          "value": "{color.purplishRed.500}",
           "type": "color"
         },
         "onAccent": {
-          "value": "{color.zundaGreen.300}",
+          "value": "{color.purplishRed.300}",
           "type": "color"
         }
       },
@@ -1871,7 +1871,7 @@
         "navMain": {
           "default": {
             "background": {
-              "value": "{palettes.strong.muted}",
+              "value": "{palette.strong.muted}",
               "type": "color"
             },
             "text": {
@@ -1883,13 +1883,13 @@
               "type": "textDecoration"
             },
             "accent": {
-              "value": "{palettes.strong.accent.default}",
+              "value": "{palette.strong.accent.default}",
               "type": "textDecoration"
             }
           },
           "hover": {
             "background": {
-              "value": "{palettes.strong.subtle}",
+              "value": "{palette.strong.subtle}",
               "type": "color"
             },
             "text": {
@@ -1901,7 +1901,7 @@
               "type": "textDecoration"
             },
             "accent": {
-              "value": "{palettes.strong.accent.onAccent}",
+              "value": "{palette.strong.accent.onAccent}",
               "type": "textDecoration"
             }
           }
@@ -1910,11 +1910,11 @@
           "primary": {
             "default": {
               "background": {
-                "value": "{color.zundaGreen.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.900}",
+                "value": "{color.purplishRed.900}",
                 "type": "color"
               },
               "textDecoration": {
@@ -1922,17 +1922,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.zundaGreen.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{color.zundaGreen.600}",
+                "value": "{color.purplishRed.600}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.900}",
+                "value": "{color.purplishRed.900}",
                 "type": "color"
               },
               "textDecoration": {
@@ -1940,17 +1940,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.zundaGreen.600}",
+                "value": "{color.purplishRed.600}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{color.zundaGreen.600}",
+                "value": "{color.purplishRed.600}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.900}",
+                "value": "{color.purplishRed.900}",
                 "type": "color"
               },
               "textDecoration": {
@@ -1958,7 +1958,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.zundaGreen.600}",
+                "value": "{color.purplishRed.600}",
                 "type": "color"
               }
             }
@@ -1966,7 +1966,7 @@
           "secondary": {
             "default": {
               "background": {
-                "value": "{palettes.strong.background}",
+                "value": "{palette.strong.background}",
                 "type": "color"
               },
               "text": {
@@ -1978,13 +1978,13 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.starYellow.500}",
+                "value": "{color.white}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{palettes.strong.background}",
+                "value": "{palette.strong.background}",
                 "type": "color"
               },
               "text": {
@@ -1996,13 +1996,13 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.starYellow.500}",
+                "value": "{color.white}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{palettes.strong.background}",
+                "value": "{palette.strong.background}",
                 "type": "color"
               },
               "text": {
@@ -2014,7 +2014,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.starYellow.500}",
+                "value": "{color.white}",
                 "type": "color"
               }
             }
@@ -2022,7 +2022,7 @@
           "tertiary": {
             "default": {
               "background": {
-                "value": "{palettes.strong.background}",
+                "value": "{palette.strong.background}",
                 "type": "color"
               },
               "text": {
@@ -2034,13 +2034,13 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{palettes.strong.background}",
+                "value": "{palette.strong.background}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{palettes.strong.background}",
+                "value": "{palette.strong.background}",
                 "type": "color"
               },
               "text": {
@@ -2052,13 +2052,13 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{palettes.strong.background}",
+                "value": "{palette.strong.background}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{palettes.strong.background}",
+                "value": "{palette.strong.background}",
                 "type": "color"
               },
               "text": {
@@ -2070,7 +2070,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{palettes.strong.background}",
+                "value": "{palette.strong.background}",
                 "type": "color"
               }
             }
@@ -2153,7 +2153,7 @@
         "pagination": {
           "default": {
             "background": {
-              "value": "{palettes.strong.background}",
+              "value": "{palette.bright.background}",
               "type": "color"
             },
             "text": {
@@ -2161,7 +2161,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{color.freshAirBlue.600}",
+              "value": "{color.purplishRed.100}",
               "type": "color"
             }
           },
@@ -2181,7 +2181,7 @@
           },
           "hover": {
             "background": {
-              "value": "{palettes.strong.background}",
+              "value": "{palette.strong.background}",
               "type": "color"
             },
             "text": {
@@ -2189,13 +2189,13 @@
               "type": "color"
             },
             "border": {
-              "value": "{color.zundaGreen.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             }
           },
           "visited": {
             "background": {
-              "value": "{palettes.strong.background}",
+              "value": "{palette.strong.background}",
               "type": "color"
             },
             "text": {
@@ -2203,7 +2203,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{color.freshAirBlue.600}",
+              "value": "{color.purplishRed.100}",
               "type": "color"
             }
           }
@@ -2227,36 +2227,36 @@
       },
       "border": {
         "default": {
-          "value": "{color.danubeBlue.300}",
+          "value": "{color.purplishRed.200}",
           "type": "color"
         },
         "variant": {
-          "value": "{color.danubeBlue.200}",
+          "value": "{color.purplishRed.100}",
           "type": "color"
         }
       },
       "boundary": {
-        "value": "{color.zundaGreen.500}",
+        "value": "{color.white}",
         "type": "color"
       },
       "partition": {
-        "value": "{color.freshAirBlue.600}",
+        "value": "{color.purplishRed.100}",
         "type": "color"
       },
       "separator": {
-        "value": "{color.freshAirBlue.600}",
+        "value": "{color.purplishRed.100}",
         "type": "color"
       },
       "divider": {
-        "value": "{color.victoriaBlue.500}",
+        "value": "{color.purplishRed.500}",
         "type": "color"
       },
       "fence": {
-        "value": "{color.zundaGreen.500}",
+        "value": "{color.purplishRed.500}",
         "type": "color"
       },
       "line": {
-        "value": "{color.freshAirBlue.600}",
+        "value": "{color.purplishRed.100}",
         "type": "color"
       },
       "muted": {
@@ -2264,16 +2264,16 @@
         "type": "color"
       },
       "subtle": {
-        "value": "{color.marineBlue.500}",
+        "value": "{color.goshawkGrey.500}",
         "type": "color"
       },
       "accent": {
         "default": {
-          "value": "{color.zundaGreen.500}",
+          "value": "{color.purplishRed.500}",
           "type": "color"
         },
         "onAccent": {
-          "value": "{color.zundaGreen.300}",
+          "value": "{color.purplishRed.300}",
           "type": "color"
         }
       },
@@ -2313,7 +2313,7 @@
         "navMain": {
           "default": {
             "background": {
-              "value": "{palettes.dark.muted}",
+              "value": "{palette.dark.muted}",
               "type": "color"
             },
             "text": {
@@ -2325,13 +2325,13 @@
               "type": "textDecoration"
             },
             "accent": {
-              "value": "{palettes.dark.accent.default}",
+              "value": "{palette.dark.accent.default}",
               "type": "textDecoration"
             }
           },
           "hover": {
             "background": {
-              "value": "{palettes.dark.subtle}",
+              "value": "{palette.dark.subtle}",
               "type": "color"
             },
             "text": {
@@ -2343,7 +2343,7 @@
               "type": "textDecoration"
             },
             "accent": {
-              "value": "{palettes.dark.accent.onAccent}",
+              "value": "{palette.dark.accent.onAccent}",
               "type": "textDecoration"
             }
           }
@@ -2352,11 +2352,11 @@
           "primary": {
             "default": {
               "background": {
-                "value": "{color.zundaGreen.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.900}",
+                "value": "{color.purplishRed.900}",
                 "type": "color"
               },
               "textDecoration": {
@@ -2364,17 +2364,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.zundaGreen.500}",
+                "value": "{color.purplishRed.500}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{color.zundaGreen.600}",
+                "value": "{color.purplishRed.600}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.900}",
+                "value": "{color.purplishRed.900}",
                 "type": "color"
               },
               "textDecoration": {
@@ -2382,17 +2382,17 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.zundaGreen.600}",
+                "value": "{color.purplishRed.600}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{color.zundaGreen.600}",
+                "value": "{color.purplishRed.600}",
                 "type": "color"
               },
               "text": {
-                "value": "{color.victoriaBlue.900}",
+                "value": "{color.purplishRed.900}",
                 "type": "color"
               },
               "textDecoration": {
@@ -2400,7 +2400,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.zundaGreen.600}",
+                "value": "{color.purplishRed.600}",
                 "type": "color"
               }
             }
@@ -2408,7 +2408,7 @@
           "secondary": {
             "default": {
               "background": {
-                "value": "{palettes.dark.background}",
+                "value": "{palette.dark.background}",
                 "type": "color"
               },
               "text": {
@@ -2420,13 +2420,13 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.starYellow.500}",
+                "value": "{color.white}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{palettes.dark.background}",
+                "value": "{palette.dark.background}",
                 "type": "color"
               },
               "text": {
@@ -2438,13 +2438,13 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.starYellow.500}",
+                "value": "{color.white}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{palettes.dark.background}",
+                "value": "{palette.dark.background}",
                 "type": "color"
               },
               "text": {
@@ -2456,7 +2456,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.starYellow.500}",
+                "value": "{color.white}",
                 "type": "color"
               }
             }
@@ -2464,7 +2464,7 @@
           "tertiary": {
             "default": {
               "background": {
-                "value": "{palettes.dark.background}",
+                "value": "{palette.dark.background}",
                 "type": "color"
               },
               "text": {
@@ -2476,13 +2476,13 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{palettes.dark.background}",
+                "value": "{palette.dark.background}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{palettes.dark.background}",
+                "value": "{palette.dark.background}",
                 "type": "color"
               },
               "text": {
@@ -2494,13 +2494,13 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{palettes.dark.background}",
+                "value": "{palette.dark.background}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{palettes.dark.background}",
+                "value": "{palette.dark.background}",
                 "type": "color"
               },
               "text": {
@@ -2512,7 +2512,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{palettes.dark.background}",
+                "value": "{palette.dark.background}",
                 "type": "color"
               }
             }
@@ -2595,7 +2595,7 @@
         "pagination": {
           "default": {
             "background": {
-              "value": "{palettes.dark.background}",
+              "value": "{palette.dark.background}",
               "type": "color"
             },
             "text": {
@@ -2603,7 +2603,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{color.freshAirBlue.600}",
+              "value": "{color.purplishRed.100}",
               "type": "color"
             }
           },
@@ -2623,7 +2623,7 @@
           },
           "hover": {
             "background": {
-              "value": "{palettes.dark.background}",
+              "value": "{palette.dark.background}",
               "type": "color"
             },
             "text": {
@@ -2631,13 +2631,13 @@
               "type": "color"
             },
             "border": {
-              "value": "{color.zundaGreen.500}",
+              "value": "{color.purplishRed.500}",
               "type": "color"
             }
           },
           "visited": {
             "background": {
-              "value": "{palettes.dark.background}",
+              "value": "{palette.dark.background}",
               "type": "color"
             },
             "text": {
@@ -2645,7 +2645,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{color.freshAirBlue.600}",
+              "value": "{color.purplishRed.100}",
               "type": "color"
             }
           }

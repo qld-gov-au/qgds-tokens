@@ -7,13 +7,13 @@ const jsonThemeOutputFileName = 'qld-maroon-theme.json';
 const jsonThemeOutputFilePath = path.resolve(jsonThemeOutputDir, jsonThemeOutputFileName);
 
 // test if input token exists
-const jsonPalettesOutputDir = 'tokens';
-const jsonPalettesOutputFileName = 'qld-maroon-palettes.json';
-const jsonPalettesOutputFilePath = path.resolve(jsonPalettesOutputDir, jsonPalettesOutputFileName);
+const jsonPaletteOutputDir = 'tokens';
+const jsonPaletteOutputFileName = 'qld-maroon-palette.json';
+const jsonPaletteOutputFilePath = path.resolve(jsonPaletteOutputDir, jsonPaletteOutputFileName);
 
 // test if combined ouput token exists
 const cssOutputDir = 'src/css/styles';
-const cssOutputFileName = 'qgds-qld-maroon-palettes.css';
+const cssOutputFileName = 'qgds-qld-maroon-palette.css';
 const cssOutputFilePath = path.resolve(cssOutputDir, cssOutputFileName);
 
 // test if input & output transformation is valid
@@ -23,13 +23,13 @@ const tokenTestObject = {
     "focus": {"json": `focus`, "css": `--theme-focus`},
     "shadows": {"json": `shadows`, "css": `--theme-shadows`},
   },
-  "palettes": {
-    "bright": {"json": `bright`, "css": `--palettes-bright`},
-    "tint": {"json": `tint`, "css": `--palettes-tint`},
-    "alt": {"json": `alt`, "css": `--palettes-alt`},
-    "bold": {"json": `bold`, "css": `--palettes-bold`},
-    "strong": {"json": `strong`, "css": `--palettes-strong`},
-    "dark": {"json": `dark`, "css": `--palettes-dark`},
+  "palette": {
+    "bright": {"json": `bright`, "css": `--palette-bright`},
+    "tint": {"json": `tint`, "css": `--palette-tint`},
+    "alt": {"json": `alt`, "css": `--palette-alt`},
+    "bold": {"json": `bold`, "css": `--palette-bold`},
+    "strong": {"json": `strong`, "css": `--palette-strong`},
+    "dark": {"json": `dark`, "css": `--palette-dark`},
   }
 };
 
@@ -44,29 +44,29 @@ describe('qld-maroon tests', () => {
   });
 
   it('sanity - contains at least one: palette-item in JSON file', async () => {
-    const file = await promises.readFile(jsonPalettesOutputFilePath, 'utf-8');
-    expect(file).toContain(`palettes`);
-    expect(file).toContain(tokenTestObject.palettes.bright.json);
-    expect(file).toContain(tokenTestObject.palettes.tint.json);
-    expect(file).toContain(tokenTestObject.palettes.alt.json);
-    expect(file).toContain(tokenTestObject.palettes.bold.json);
-    expect(file).toContain(tokenTestObject.palettes.strong.json);
-    expect(file).toContain(tokenTestObject.palettes.dark.json);
+    const file = await promises.readFile(jsonPaletteOutputFilePath, 'utf-8');
+    expect(file).toContain(`palette`);
+    expect(file).toContain(tokenTestObject.palette.bright.json);
+    expect(file).toContain(tokenTestObject.palette.tint.json);
+    expect(file).toContain(tokenTestObject.palette.alt.json);
+    expect(file).toContain(tokenTestObject.palette.bold.json);
+    expect(file).toContain(tokenTestObject.palette.strong.json);
+    expect(file).toContain(tokenTestObject.palette.dark.json);
   });
 
-  it('sanity - contains at least one: theme + palettes in CSS file', async () => {
+  it('sanity - contains at least one: theme + palette in CSS file', async () => {
     const file = await promises.readFile(cssOutputFilePath, 'utf-8');
     // theme tokens
     expect(file).toContain(tokenTestObject.theme.color.css);
     expect(file).toContain(tokenTestObject.theme.focus.css);
     expect(file).toContain(tokenTestObject.theme.shadows.css);
-    // palettes tokens
-    expect(file).toContain(tokenTestObject.palettes.bright.css);
-    expect(file).toContain(tokenTestObject.palettes.tint.css);
-    expect(file).toContain(tokenTestObject.palettes.alt.css);
-    expect(file).toContain(tokenTestObject.palettes.bold.css);
-    expect(file).toContain(tokenTestObject.palettes.strong.css);
-    expect(file).toContain(tokenTestObject.palettes.dark.css);
+    // palette tokens
+    expect(file).toContain(tokenTestObject.palette.bright.css);
+    expect(file).toContain(tokenTestObject.palette.tint.css);
+    expect(file).toContain(tokenTestObject.palette.alt.css);
+    expect(file).toContain(tokenTestObject.palette.bold.css);
+    expect(file).toContain(tokenTestObject.palette.strong.css);
+    expect(file).toContain(tokenTestObject.palette.dark.css);
   });
 
 });

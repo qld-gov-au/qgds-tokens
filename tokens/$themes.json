@@ -1,6 +1,6 @@
 [
   {
-    "name": "qld-default-palettes",
+    "name": "qld-default-palette",
     "selectedTokenSets": {
       "primitive": "source",
       "button": "source",
@@ -8,13 +8,13 @@
       "qgds": "source",
       "typography": "source",
       "qld-default-theme": "enabled",
-      "qld-default-palettes": "enabled"
+      "qld-default-palette": "enabled"
     },
     "group": "brand",
     "type": "other"
   },
   {
-    "name": "qld-maroon-palettes",
+    "name": "qld-maroon-palette",
     "selectedTokenSets": {
       "primitive": "source",
       "button": "source",
@@ -22,13 +22,13 @@
       "qgds": "source",
       "typography": "source",
       "qld-maroon-theme": "enabled",
-      "qld-maroon-palettes": "enabled"
+      "qld-maroon-palette": "enabled"
     },
     "group": "brand",
     "type": "other"
   },
   {
-    "name": "qld-high-contrast-palettes",
+    "name": "qld-high-contrast-palette",
     "selectedTokenSets": {
       "primitive": "source",
       "button": "source",
@@ -36,13 +36,13 @@
       "qgds": "source",
       "typography": "source",
       "qld-high-contrast-theme": "enabled",
-      "qld-high-contrast-palettes": "enabled"
+      "qld-high-contrast-palette": "enabled"
     },
     "group": "brand",
     "type": "other"
   },
   {
-    "name": "qld-corporate-palettes",
+    "name": "qld-corporate-palette",
     "selectedTokenSets": {
       "primitive": "source",
       "button": "source",
@@ -50,13 +50,13 @@
       "qgds": "source",
       "typography": "source",
       "qld-corporate-theme": "enabled",
-      "qld-corporate-palettes": "enabled"
+      "qld-corporate-palette": "enabled"
     },
     "group": "brand",
     "type": "other"
   },
   {
-    "name": "campaign-neon-palettes",
+    "name": "campaign-neon-palette",
     "selectedTokenSets": {
       "primitive": "source",
       "button": "source",
@@ -64,7 +64,7 @@
       "qgds": "source",
       "typography": "source",
       "campaign-neon-theme": "enabled",
-      "campaign-neon-palettes": "enabled"
+      "campaign-neon-palette": "enabled"
     },
     "group": "brand",
     "type": "other"
