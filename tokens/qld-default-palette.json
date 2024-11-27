@@ -314,6 +314,10 @@
               "value": "{color.victoriaBlue.500}",
               "type": "color"
             },
+            "textDecorationColor": {
+              "value": "rgba({palette.bright.action.link.default.color}, 0.8)",
+              "type": "textDecorationColor"
+            },
             "textDecorationLine": {
               "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
@@ -331,6 +335,10 @@
             "color": {
               "value": "{color.victoriaBlue.500}",
               "type": "color"
+            },
+            "textDecorationColor": {
+              "value": "rgba({palette.bright.action.link.hover.color}, 0.8)",
+              "type": "textDecorationColor"
             },
             "textDecorationLine": {
               "value": "{textDecoration.line.underline}",
@@ -350,6 +358,10 @@
               "value": "{color.victoriaBlue.500}",
               "type": "color"
             },
+            "textDecorationColor": {
+              "value": "rgba({palette.bright.action.link.active.color}, 0.8)",
+              "type": "textDecorationColor"
+            },
             "textDecorationLine": {
               "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
@@ -367,6 +379,10 @@
             "color": {
               "value": "{color.americanViolet.500}",
               "type": "color"
+            },
+            "textDecorationColor": {
+              "value": "rgba({palette.bright.action.link.visited.color}, 0.8)",
+              "type": "textDecorationColor"
             },
             "textDecorationLine": {
               "value": "{textDecoration.line.underline}",
@@ -756,6 +772,10 @@
               "value": "{color.victoriaBlue.500}",
               "type": "color"
             },
+            "textDecorationColor": {
+              "value": "rgba({palette.tint.action.link.default.color}, 0.8)",
+              "type": "textDecorationColor"
+            },
             "textDecorationLine": {
               "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
@@ -773,6 +793,10 @@
             "color": {
               "value": "{color.victoriaBlue.500}",
               "type": "color"
+            },
+            "textDecorationColor": {
+              "value": "rgba({palette.tint.action.link.hover.color}, 0.8)",
+              "type": "textDecorationColor"
             },
             "textDecorationLine": {
               "value": "{textDecoration.line.underline}",
@@ -792,6 +816,10 @@
               "value": "{color.victoriaBlue.500}",
               "type": "color"
             },
+            "textDecorationColor": {
+              "value": "rgba({palette.tint.action.link.active.color}, 0.8)",
+              "type": "textDecorationColor"
+            },
             "textDecorationLine": {
               "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
@@ -809,6 +837,10 @@
             "color": {
               "value": "{color.americanViolet.500}",
               "type": "color"
+            },
+            "textDecorationColor": {
+              "value": "rgba({palette.tint.action.link.visited.color}, 0.8)",
+              "type": "textDecorationColor"
             },
             "textDecorationLine": {
               "value": "{textDecoration.line.underline}",
@@ -1198,6 +1230,10 @@
               "value": "{color.victoriaBlue.500}",
               "type": "color"
             },
+            "textDecorationColor": {
+              "value": "rgba({palette.alt.action.link.default.color}, 0.8)",
+              "type": "textDecorationColor"
+            },
             "textDecorationLine": {
               "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
@@ -1215,6 +1251,10 @@
             "color": {
               "value": "{color.victoriaBlue.500}",
               "type": "color"
+            },
+            "textDecorationColor": {
+              "value": "rgba({palette.alt.action.link.hover.color}, 0.8)",
+              "type": "textDecorationColor"
             },
             "textDecorationLine": {
               "value": "{textDecoration.line.underline}",
@@ -1234,6 +1274,10 @@
               "value": "{color.victoriaBlue.500}",
               "type": "color"
             },
+            "textDecorationColor": {
+              "value": "rgba({palette.alt.action.link.active.color}, 0.8)",
+              "type": "textDecorationColor"
+            },
             "textDecorationLine": {
               "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
@@ -1251,6 +1295,10 @@
             "color": {
               "value": "{color.americanViolet.500}",
               "type": "color"
+            },
+            "textDecorationColor": {
+              "value": "rgba({palette.alt.action.link.visited.color}, 0.8)",
+              "type": "textDecorationColor"
             },
             "textDecorationLine": {
               "value": "{textDecoration.line.underline}",
@@ -1640,6 +1688,10 @@
               "value": "{color.white}",
               "type": "color"
             },
+            "textDecorationColor": {
+              "value": "rgba({palette.bold.action.link.default.color}, 0.8)",
+              "type": "textDecorationColor"
+            },
             "textDecorationLine": {
               "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
@@ -1657,6 +1709,10 @@
             "color": {
               "value": "{color.white}",
               "type": "color"
+            },
+            "textDecorationColor": {
+              "value": "rgba({palette.bold.action.link.hover.color}, 0.8)",
+              "type": "textDecorationColor"
             },
             "textDecorationLine": {
               "value": "{textDecoration.line.underline}",
@@ -1676,6 +1732,10 @@
               "value": "{color.white}",
               "type": "color"
             },
+            "textDecorationColor": {
+              "value": "rgba({palette.bold.action.link.active.color}, 0.8)",
+              "type": "textDecorationColor"
+            },
             "textDecorationLine": {
               "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
@@ -1693,6 +1753,10 @@
             "color": {
               "value": "{color.americanViolet.500}",
               "type": "color"
+            },
+            "textDecorationColor": {
+              "value": "rgba({palette.bold.action.link.visited.color}, 0.8)",
+              "type": "textDecorationColor"
             },
             "textDecorationLine": {
               "value": "{textDecoration.line.underline}",
@@ -2082,6 +2146,10 @@
               "value": "{color.white}",
               "type": "color"
             },
+            "textDecorationColor": {
+              "value": "rgba({palette.strong.action.link.default.color}, 0.8)",
+              "type": "textDecorationColor"
+            },
             "textDecorationLine": {
               "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
@@ -2099,6 +2167,10 @@
             "color": {
               "value": "{color.white}",
               "type": "color"
+            },
+            "textDecorationColor": {
+              "value": "rgba({palette.strong.action.link.hover.color}, 0.8)",
+              "type": "textDecorationColor"
             },
             "textDecorationLine": {
               "value": "{textDecoration.line.underline}",
@@ -2118,6 +2190,10 @@
               "value": "{color.white}",
               "type": "color"
             },
+            "textDecorationColor": {
+              "value": "rgba({palette.strong.action.link.active.color}, 0.8)",
+              "type": "textDecorationColor"
+            },
             "textDecorationLine": {
               "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
@@ -2135,6 +2211,10 @@
             "color": {
               "value": "{color.americanViolet.500}",
               "type": "color"
+            },
+            "textDecorationColor": {
+              "value": "rgba({palette.strong.action.link.visited.color}, 0.8)",
+              "type": "textDecorationColor"
             },
             "textDecorationLine": {
               "value": "{textDecoration.line.underline}",
@@ -2524,6 +2604,10 @@
               "value": "{color.white}",
               "type": "color"
             },
+            "textDecorationColor": {
+              "value": "rgba({palette.dark.action.link.default.color}, 0.8)",
+              "type": "textDecorationColor"
+            },
             "textDecorationLine": {
               "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
@@ -2541,6 +2625,10 @@
             "color": {
               "value": "{color.white}",
               "type": "color"
+            },
+            "textDecorationColor": {
+              "value": "rgba({palette.dark.action.link.hover.color}, 0.8)",
+              "type": "textDecorationColor"
             },
             "textDecorationLine": {
               "value": "{textDecoration.line.underline}",
@@ -2560,6 +2648,10 @@
               "value": "{color.white}",
               "type": "color"
             },
+            "textDecorationColor": {
+              "value": "rgba({palette.dark.action.link.active.color}, 0.8)",
+              "type": "textDecorationColor"
+            },
             "textDecorationLine": {
               "value": "{textDecoration.line.underline}",
               "type": "textDecorationLine"
@@ -2577,6 +2669,10 @@
             "color": {
               "value": "{color.americanViolet.500}",
               "type": "color"
+            },
+            "textDecorationColor": {
+              "value": "rgba({palette.dark.action.link.visited.color}, 0.8)",
+              "type": "textDecorationColor"
             },
             "textDecorationLine": {
               "value": "{textDecoration.line.underline}",
