@@ -1,5 +1,5 @@
-# Queensland Government Design System 
-# Design Tokens 
+# Queensland Government Design System
+# Design Tokens
 ## (qgds-tokens)
 *Style once, use everywhere.*
 >
@@ -9,9 +9,9 @@
 
 ### Using this repository:
 Run:
-```bash 
+```bash
     npm run build
-``` 
+```
 
 ### Verify outputs
 ```bash
@@ -33,7 +33,7 @@ https://docs.tokens.studio
 
 ## About Style Dictionary
 https://github.com/amzn/style-dictionary
- 
+
 ## About Style Dictionary Transforms for Tokens Studio
 https://github.com/tokens-studio/sd-transforms
 

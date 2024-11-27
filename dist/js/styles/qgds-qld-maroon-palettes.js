@@ -105,7 +105,8 @@ export const palettesBrightActionButtonSecondaryActiveTextDecoration = "none";
 export const palettesBrightActionButtonSecondaryActiveBorder = "#b80b4d";
 export const palettesBrightActionButtonSecondaryHoverBackground = "#ffffff";
 export const palettesBrightActionButtonSecondaryHoverText = "#b80b4d";
-export const palettesBrightActionButtonSecondaryHoverTextDecoration = "underline";
+export const palettesBrightActionButtonSecondaryHoverTextDecoration =
+  "underline";
 export const palettesBrightActionButtonSecondaryHoverBorder = "#b80b4d";
 export const palettesBrightActionButtonTertiaryDefaultBackground = "#ffffff";
 export const palettesBrightActionButtonTertiaryDefaultText = "#b80b4d";
@@ -117,7 +118,8 @@ export const palettesBrightActionButtonTertiaryActiveTextDecoration = "none";
 export const palettesBrightActionButtonTertiaryActiveBorder = "#ffffff";
 export const palettesBrightActionButtonTertiaryHoverBackground = "#ffffff";
 export const palettesBrightActionButtonTertiaryHoverText = "#b80b4d";
-export const palettesBrightActionButtonTertiaryHoverTextDecoration = "underline";
+export const palettesBrightActionButtonTertiaryHoverTextDecoration =
+  "underline";
 export const palettesBrightActionButtonTertiaryHoverBorder = "#ffffff";
 export const palettesBrightActionLinkDefaultColor = "#b80b4d";
 export const palettesBrightActionLinkDefaultTextDecorationLine = "underline";
@@ -477,7 +479,8 @@ export const palettesStrongActionButtonSecondaryActiveTextDecoration = "none";
 export const palettesStrongActionButtonSecondaryActiveBorder = "#ffffff";
 export const palettesStrongActionButtonSecondaryHoverBackground = "#000c19";
 export const palettesStrongActionButtonSecondaryHoverText = "#ffffff";
-export const palettesStrongActionButtonSecondaryHoverTextDecoration = "underline";
+export const palettesStrongActionButtonSecondaryHoverTextDecoration =
+  "underline";
 export const palettesStrongActionButtonSecondaryHoverBorder = "#ffffff";
 export const palettesStrongActionButtonTertiaryDefaultBackground = "#000c19";
 export const palettesStrongActionButtonTertiaryDefaultText = "#ffffff";
@@ -489,7 +492,8 @@ export const palettesStrongActionButtonTertiaryActiveTextDecoration = "none";
 export const palettesStrongActionButtonTertiaryActiveBorder = "#000c19";
 export const palettesStrongActionButtonTertiaryHoverBackground = "#000c19";
 export const palettesStrongActionButtonTertiaryHoverText = "#ffffff";
-export const palettesStrongActionButtonTertiaryHoverTextDecoration = "underline";
+export const palettesStrongActionButtonTertiaryHoverTextDecoration =
+  "underline";
 export const palettesStrongActionButtonTertiaryHoverBorder = "#000c19";
 export const palettesStrongActionLinkDefaultColor = "#ffffff";
 export const palettesStrongActionLinkDefaultTextDecorationLine = "underline";
