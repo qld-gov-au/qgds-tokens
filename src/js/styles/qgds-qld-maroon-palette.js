@@ -121,18 +121,26 @@ export const paletteBrightActionButtonTertiaryHoverText = "#b80b4d";
 export const paletteBrightActionButtonTertiaryHoverTextDecoration = "underline";
 export const paletteBrightActionButtonTertiaryHoverBorder = "#ffffff";
 export const paletteBrightActionLinkDefaultColor = "#b80b4d";
+export const paletteBrightActionLinkDefaultTextDecorationColor =
+  "rgba(#b80b4d, 0.8)";
 export const paletteBrightActionLinkDefaultTextDecorationLine = "underline";
 export const paletteBrightActionLinkDefaultTextDecorationThickness = "0.5px";
 export const paletteBrightActionLinkDefaultTextDecorationStyle = "solid";
 export const paletteBrightActionLinkHoverColor = "#b80b4d";
+export const paletteBrightActionLinkHoverTextDecorationColor =
+  "rgba(#b80b4d, 0.8)";
 export const paletteBrightActionLinkHoverTextDecorationLine = "underline";
 export const paletteBrightActionLinkHoverTextDecorationThickness = "2px";
 export const paletteBrightActionLinkHoverTextDecorationStyle = "solid";
 export const paletteBrightActionLinkActiveColor = "#b80b4d";
+export const paletteBrightActionLinkActiveTextDecorationColor =
+  "rgba(#b80b4d, 0.8)";
 export const paletteBrightActionLinkActiveTextDecorationLine = "underline";
 export const paletteBrightActionLinkActiveTextDecorationThickness = "2px";
 export const paletteBrightActionLinkActiveTextDecorationStyle = "solid";
 export const paletteBrightActionLinkVisitedColor = "#551a8b";
+export const paletteBrightActionLinkVisitedTextDecorationColor =
+  "rgba(#551a8b, 0.8)";
 export const paletteBrightActionLinkVisitedTextDecorationLine = "underline";
 export const paletteBrightActionLinkVisitedTextDecorationThickness = "2px";
 export const paletteBrightActionLinkVisitedTextDecorationStyle = "solid";
@@ -214,18 +222,26 @@ export const paletteTintActionButtonTertiaryHoverText = "#b80b4d";
 export const paletteTintActionButtonTertiaryHoverTextDecoration = "underline";
 export const paletteTintActionButtonTertiaryHoverBorder = "#fbe9ec";
 export const paletteTintActionLinkDefaultColor = "#b80b4d";
+export const paletteTintActionLinkDefaultTextDecorationColor =
+  "rgba(#b80b4d, 0.8)";
 export const paletteTintActionLinkDefaultTextDecorationLine = "underline";
 export const paletteTintActionLinkDefaultTextDecorationThickness = "0.5px";
 export const paletteTintActionLinkDefaultTextDecorationStyle = "solid";
 export const paletteTintActionLinkHoverColor = "#b80b4d";
+export const paletteTintActionLinkHoverTextDecorationColor =
+  "rgba(#b80b4d, 0.8)";
 export const paletteTintActionLinkHoverTextDecorationLine = "underline";
 export const paletteTintActionLinkHoverTextDecorationThickness = "2px";
 export const paletteTintActionLinkHoverTextDecorationStyle = "solid";
 export const paletteTintActionLinkActiveColor = "#b80b4d";
+export const paletteTintActionLinkActiveTextDecorationColor =
+  "rgba(#b80b4d, 0.8)";
 export const paletteTintActionLinkActiveTextDecorationLine = "underline";
 export const paletteTintActionLinkActiveTextDecorationThickness = "2px";
 export const paletteTintActionLinkActiveTextDecorationStyle = "solid";
 export const paletteTintActionLinkVisitedColor = "#551a8b";
+export const paletteTintActionLinkVisitedTextDecorationColor =
+  "rgba(#551a8b, 0.8)";
 export const paletteTintActionLinkVisitedTextDecorationLine = "underline";
 export const paletteTintActionLinkVisitedTextDecorationThickness = "2px";
 export const paletteTintActionLinkVisitedTextDecorationStyle = "solid";
@@ -307,18 +323,26 @@ export const paletteAltActionButtonTertiaryHoverText = "#b80b4d";
 export const paletteAltActionButtonTertiaryHoverTextDecoration = "underline";
 export const paletteAltActionButtonTertiaryHoverBorder = "#ebebeb";
 export const paletteAltActionLinkDefaultColor = "#b80b4d";
+export const paletteAltActionLinkDefaultTextDecorationColor =
+  "rgba(#b80b4d, 0.8)";
 export const paletteAltActionLinkDefaultTextDecorationLine = "underline";
 export const paletteAltActionLinkDefaultTextDecorationThickness = "0.5px";
 export const paletteAltActionLinkDefaultTextDecorationStyle = "solid";
 export const paletteAltActionLinkHoverColor = "#b80b4d";
+export const paletteAltActionLinkHoverTextDecorationColor =
+  "rgba(#b80b4d, 0.8)";
 export const paletteAltActionLinkHoverTextDecorationLine = "underline";
 export const paletteAltActionLinkHoverTextDecorationThickness = "2px";
 export const paletteAltActionLinkHoverTextDecorationStyle = "solid";
 export const paletteAltActionLinkActiveColor = "#b80b4d";
+export const paletteAltActionLinkActiveTextDecorationColor =
+  "rgba(#b80b4d, 0.8)";
 export const paletteAltActionLinkActiveTextDecorationLine = "underline";
 export const paletteAltActionLinkActiveTextDecorationThickness = "2px";
 export const paletteAltActionLinkActiveTextDecorationStyle = "solid";
 export const paletteAltActionLinkVisitedColor = "#551a8b";
+export const paletteAltActionLinkVisitedTextDecorationColor =
+  "rgba(#551a8b, 0.8)";
 export const paletteAltActionLinkVisitedTextDecorationLine = "underline";
 export const paletteAltActionLinkVisitedTextDecorationThickness = "2px";
 export const paletteAltActionLinkVisitedTextDecorationStyle = "solid";
@@ -400,18 +424,26 @@ export const paletteBoldActionButtonTertiaryHoverText = "#ffffff";
 export const paletteBoldActionButtonTertiaryHoverTextDecoration = "underline";
 export const paletteBoldActionButtonTertiaryHoverBorder = "#b80b4d";
 export const paletteBoldActionLinkDefaultColor = "#ffffff";
+export const paletteBoldActionLinkDefaultTextDecorationColor =
+  "rgba(#ffffff, 0.8)";
 export const paletteBoldActionLinkDefaultTextDecorationLine = "underline";
 export const paletteBoldActionLinkDefaultTextDecorationThickness = "0.5px";
 export const paletteBoldActionLinkDefaultTextDecorationStyle = "solid";
 export const paletteBoldActionLinkHoverColor = "#ffffff";
+export const paletteBoldActionLinkHoverTextDecorationColor =
+  "rgba(#ffffff, 0.8)";
 export const paletteBoldActionLinkHoverTextDecorationLine = "underline";
 export const paletteBoldActionLinkHoverTextDecorationThickness = "2px";
 export const paletteBoldActionLinkHoverTextDecorationStyle = "solid";
 export const paletteBoldActionLinkActiveColor = "#ffffff";
+export const paletteBoldActionLinkActiveTextDecorationColor =
+  "rgba(#ffffff, 0.8)";
 export const paletteBoldActionLinkActiveTextDecorationLine = "underline";
 export const paletteBoldActionLinkActiveTextDecorationThickness = "2px";
 export const paletteBoldActionLinkActiveTextDecorationStyle = "solid";
 export const paletteBoldActionLinkVisitedColor = "#551a8b";
+export const paletteBoldActionLinkVisitedTextDecorationColor =
+  "rgba(#551a8b, 0.8)";
 export const paletteBoldActionLinkVisitedTextDecorationLine = "underline";
 export const paletteBoldActionLinkVisitedTextDecorationThickness = "2px";
 export const paletteBoldActionLinkVisitedTextDecorationStyle = "solid";
@@ -494,18 +526,26 @@ export const paletteStrongActionButtonTertiaryHoverText = "#ffffff";
 export const paletteStrongActionButtonTertiaryHoverTextDecoration = "underline";
 export const paletteStrongActionButtonTertiaryHoverBorder = "#000c19";
 export const paletteStrongActionLinkDefaultColor = "#ffffff";
+export const paletteStrongActionLinkDefaultTextDecorationColor =
+  "rgba(#ffffff, 0.8)";
 export const paletteStrongActionLinkDefaultTextDecorationLine = "underline";
 export const paletteStrongActionLinkDefaultTextDecorationThickness = "0.5px";
 export const paletteStrongActionLinkDefaultTextDecorationStyle = "solid";
 export const paletteStrongActionLinkHoverColor = "#ffffff";
+export const paletteStrongActionLinkHoverTextDecorationColor =
+  "rgba(#ffffff, 0.8)";
 export const paletteStrongActionLinkHoverTextDecorationLine = "underline";
 export const paletteStrongActionLinkHoverTextDecorationThickness = "2px";
 export const paletteStrongActionLinkHoverTextDecorationStyle = "solid";
 export const paletteStrongActionLinkActiveColor = "#ffffff";
+export const paletteStrongActionLinkActiveTextDecorationColor =
+  "rgba(#ffffff, 0.8)";
 export const paletteStrongActionLinkActiveTextDecorationLine = "underline";
 export const paletteStrongActionLinkActiveTextDecorationThickness = "2px";
 export const paletteStrongActionLinkActiveTextDecorationStyle = "solid";
 export const paletteStrongActionLinkVisitedColor = "#551a8b";
+export const paletteStrongActionLinkVisitedTextDecorationColor =
+  "rgba(#551a8b, 0.8)";
 export const paletteStrongActionLinkVisitedTextDecorationLine = "underline";
 export const paletteStrongActionLinkVisitedTextDecorationThickness = "2px";
 export const paletteStrongActionLinkVisitedTextDecorationStyle = "solid";
@@ -587,18 +627,26 @@ export const paletteDarkActionButtonTertiaryHoverText = "#ffffff";
 export const paletteDarkActionButtonTertiaryHoverTextDecoration = "underline";
 export const paletteDarkActionButtonTertiaryHoverBorder = "#232323";
 export const paletteDarkActionLinkDefaultColor = "#ffffff";
+export const paletteDarkActionLinkDefaultTextDecorationColor =
+  "rgba(#ffffff, 0.8)";
 export const paletteDarkActionLinkDefaultTextDecorationLine = "underline";
 export const paletteDarkActionLinkDefaultTextDecorationThickness = "0.5px";
 export const paletteDarkActionLinkDefaultTextDecorationStyle = "solid";
 export const paletteDarkActionLinkHoverColor = "#ffffff";
+export const paletteDarkActionLinkHoverTextDecorationColor =
+  "rgba(#ffffff, 0.8)";
 export const paletteDarkActionLinkHoverTextDecorationLine = "underline";
 export const paletteDarkActionLinkHoverTextDecorationThickness = "2px";
 export const paletteDarkActionLinkHoverTextDecorationStyle = "solid";
 export const paletteDarkActionLinkActiveColor = "#ffffff";
+export const paletteDarkActionLinkActiveTextDecorationColor =
+  "rgba(#ffffff, 0.8)";
 export const paletteDarkActionLinkActiveTextDecorationLine = "underline";
 export const paletteDarkActionLinkActiveTextDecorationThickness = "2px";
 export const paletteDarkActionLinkActiveTextDecorationStyle = "solid";
 export const paletteDarkActionLinkVisitedColor = "#551a8b";
+export const paletteDarkActionLinkVisitedTextDecorationColor =
+  "rgba(#551a8b, 0.8)";
 export const paletteDarkActionLinkVisitedTextDecorationLine = "underline";
 export const paletteDarkActionLinkVisitedTextDecorationThickness = "2px";
 export const paletteDarkActionLinkVisitedTextDecorationStyle = "solid";
