@@ -46,7 +46,7 @@
         }
       },
       "action": {
-        "onBrights": {
+        "onLights": {
           "primary": {
             "value": "{color.purplishRed.500}",
             "type": "color"
@@ -60,7 +60,7 @@
             "type": "color"
           }
         },
-        "onBolds": {
+        "onDarks": {
           "primary": {
             "value": "{color.white}",
             "type": "color"
@@ -76,7 +76,7 @@
         }
       },
       "wording": {
-        "onBrights": {
+        "onLights": {
           "siteTitle": {
             "default": {
               "value": "{color.purplishRed.900}",
@@ -108,7 +108,7 @@
             }
           }
         },
-        "onBolds": {
+        "onDarks": {
           "siteTitle": {
             "default": {
               "value": "{color.white}",

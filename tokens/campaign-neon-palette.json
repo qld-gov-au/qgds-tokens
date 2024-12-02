@@ -70,31 +70,31 @@
       "typography": {
         "siteTitle": {
           "default": {
-            "value": "{theme.color.wording.onBrights.siteTitle.default}",
+            "value": "{theme.color.wording.onLights.siteTitle.default}",
             "type": "color"
           },
           "variant": {
-            "value": "{theme.color.wording.onBrights.siteTitle.variant}",
+            "value": "{theme.color.wording.onLights.siteTitle.variant}",
             "type": "color"
           }
         },
         "heading": {
           "default": {
-            "value": "{theme.color.wording.onBrights.heading.default}",
+            "value": "{theme.color.wording.onLights.heading.default}",
             "type": "color"
           },
           "variant": {
-            "value": "{theme.color.wording.onBrights.heading.variant}",
+            "value": "{theme.color.wording.onLights.heading.variant}",
             "type": "color"
           }
         },
         "body": {
           "default": {
-            "value": "{theme.color.wording.onBrights.body.default}",
+            "value": "{theme.color.wording.onLights.body.default}",
             "type": "color"
           },
           "variant": {
-            "value": "{theme.color.wording.onBrights.body.variant}",
+            "value": "{theme.color.wording.onLights.body.variant}",
             "type": "color"
           }
         }
@@ -528,31 +528,31 @@
       "typography": {
         "siteTitle": {
           "default": {
-            "value": "{theme.color.wording.onBrights.siteTitle.default}",
+            "value": "{theme.color.wording.onLights.siteTitle.default}",
             "type": "color"
           },
           "variant": {
-            "value": "{theme.color.wording.onBrights.siteTitle.variant}",
+            "value": "{theme.color.wording.onLights.siteTitle.variant}",
             "type": "color"
           }
         },
         "heading": {
           "default": {
-            "value": "{theme.color.wording.onBrights.heading.default}",
+            "value": "{theme.color.wording.onLights.heading.default}",
             "type": "color"
           },
           "variant": {
-            "value": "{theme.color.wording.onBrights.heading.variant}",
+            "value": "{theme.color.wording.onLights.heading.variant}",
             "type": "color"
           }
         },
         "body": {
           "default": {
-            "value": "{theme.color.wording.onBrights.body.default}",
+            "value": "{theme.color.wording.onLights.body.default}",
             "type": "color"
           },
           "variant": {
-            "value": "{theme.color.wording.onBrights.body.variant}",
+            "value": "{theme.color.wording.onLights.body.variant}",
             "type": "color"
           }
         }
@@ -986,31 +986,31 @@
       "typography": {
         "siteTitle": {
           "default": {
-            "value": "{theme.color.wording.onBrights.siteTitle.default}",
+            "value": "{theme.color.wording.onLights.siteTitle.default}",
             "type": "color"
           },
           "variant": {
-            "value": "{theme.color.wording.onBrights.siteTitle.variant}",
+            "value": "{theme.color.wording.onLights.siteTitle.variant}",
             "type": "color"
           }
         },
         "heading": {
           "default": {
-            "value": "{theme.color.wording.onBrights.heading.default}",
+            "value": "{theme.color.wording.onLights.heading.default}",
             "type": "color"
           },
           "variant": {
-            "value": "{theme.color.wording.onBrights.heading.variant}",
+            "value": "{theme.color.wording.onLights.heading.variant}",
             "type": "color"
           }
         },
         "body": {
           "default": {
-            "value": "{theme.color.wording.onBrights.body.default}",
+            "value": "{theme.color.wording.onLights.body.default}",
             "type": "color"
           },
           "variant": {
-            "value": "{theme.color.wording.onBrights.body.variant}",
+            "value": "{theme.color.wording.onLights.body.variant}",
             "type": "color"
           }
         }
@@ -1444,31 +1444,31 @@
       "typography": {
         "siteTitle": {
           "default": {
-            "value": "{theme.color.wording.onBolds.siteTitle.default}",
+            "value": "{theme.color.wording.onDarks.siteTitle.default}",
             "type": "color"
           },
           "variant": {
-            "value": "{theme.color.wording.onBolds.siteTitle.variant}",
+            "value": "{theme.color.wording.onDarks.siteTitle.variant}",
             "type": "color"
           }
         },
         "heading": {
           "default": {
-            "value": "{theme.color.wording.onBolds.heading.default}",
+            "value": "{theme.color.wording.onDarks.heading.default}",
             "type": "color"
           },
           "variant": {
-            "value": "{theme.color.wording.onBolds.heading.variant}",
+            "value": "{theme.color.wording.onDarks.heading.variant}",
             "type": "color"
           }
         },
         "body": {
           "default": {
-            "value": "{theme.color.wording.onBolds.body.default}",
+            "value": "{theme.color.wording.onDarks.body.default}",
             "type": "color"
           },
           "variant": {
-            "value": "{theme.color.wording.onBolds.body.variant}",
+            "value": "{theme.color.wording.onDarks.body.variant}",
             "type": "color"
           }
         }
@@ -1902,31 +1902,31 @@
       "typography": {
         "siteTitle": {
           "default": {
-            "value": "{theme.color.wording.onBolds.siteTitle.default}",
+            "value": "{theme.color.wording.onDarks.siteTitle.default}",
             "type": "color"
           },
           "variant": {
-            "value": "{theme.color.wording.onBolds.siteTitle.variant}",
+            "value": "{theme.color.wording.onDarks.siteTitle.variant}",
             "type": "color"
           }
         },
         "heading": {
           "default": {
-            "value": "{theme.color.wording.onBolds.heading.default}",
+            "value": "{theme.color.wording.onDarks.heading.default}",
             "type": "color"
           },
           "variant": {
-            "value": "{theme.color.wording.onBolds.heading.variant}",
+            "value": "{theme.color.wording.onDarks.heading.variant}",
             "type": "color"
           }
         },
         "body": {
           "default": {
-            "value": "{theme.color.wording.onBolds.body.default}",
+            "value": "{theme.color.wording.onDarks.body.default}",
             "type": "color"
           },
           "variant": {
-            "value": "{theme.color.wording.onBolds.body.variant}",
+            "value": "{theme.color.wording.onDarks.body.variant}",
             "type": "color"
           }
         }
@@ -2360,31 +2360,31 @@
       "typography": {
         "siteTitle": {
           "default": {
-            "value": "{theme.color.wording.onBolds.siteTitle.default}",
+            "value": "{theme.color.wording.onDarks.siteTitle.default}",
             "type": "color"
           },
           "variant": {
-            "value": "{theme.color.wording.onBolds.siteTitle.variant}",
+            "value": "{theme.color.wording.onDarks.siteTitle.variant}",
             "type": "color"
           }
         },
         "heading": {
           "default": {
-            "value": "{theme.color.wording.onBolds.heading.default}",
+            "value": "{theme.color.wording.onDarks.heading.default}",
             "type": "color"
           },
           "variant": {
-            "value": "{theme.color.wording.onBolds.heading.variant}",
+            "value": "{theme.color.wording.onDarks.heading.variant}",
             "type": "color"
           }
         },
         "body": {
           "default": {
-            "value": "{theme.color.wording.onBolds.body.default}",
+            "value": "{theme.color.wording.onDarks.body.default}",
             "type": "color"
           },
           "variant": {
-            "value": "{theme.color.wording.onBolds.body.variant}",
+            "value": "{theme.color.wording.onDarks.body.variant}",
             "type": "color"
           }
         }

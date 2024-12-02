@@ -46,7 +46,7 @@
         }
       },
       "action": {
-        "onBrights": {
+        "onLights": {
           "primary": {
             "default": {
               "color": {
@@ -112,7 +112,7 @@
             }
           }
         },
-        "onBolds": {
+        "onDarks": {
           "primary": {
             "default": {
               "color": {
@@ -180,7 +180,7 @@
         }
       },
       "wording": {
-        "onBrights": {
+        "onLights": {
           "siteTitle": {
             "default": {
               "value": "{color.victoriaBlue.900}",
@@ -212,7 +212,7 @@
             }
           }
         },
-        "onBolds": {
+        "onDarks": {
           "siteTitle": {
             "default": {
               "value": "{color.white}",
