@@ -48,30 +48,134 @@
       "action": {
         "onBrights": {
           "primary": {
-            "value": "{color.victoriaBlue.500}",
-            "type": "color"
+            "default": {
+              "color": {
+                "value": "{color.victoriaBlue.500}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.white}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "color": {
+                "value": "{color.victoriaBlue.600}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.white}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "color": {
+                "value": "{color.victoriaBlue.600}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.white}",
+                "type": "color"
+              }
+            }
           },
           "secondary": {
-            "value": "{color.zundaGreen.500}",
-            "type": "color"
-          },
-          "tertiary": {
-            "value": "{transparency.total}",
-            "type": "color"
+            "default": {
+              "color": {
+                "value": "{color.zundaGreen.500}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.victoriaBlue.500}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "color": {
+                "value": "{color.zundaGreen.600}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.victoriaBlue.500}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "color": {
+                "value": "{color.zundaGreen.600}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.victoriaBlue.500}",
+                "type": "color"
+              }
+            }
           }
         },
         "onBolds": {
           "primary": {
-            "value": "{color.zundaGreen.500}",
-            "type": "color"
+            "default": {
+              "color": {
+                "value": "{color.zundaGreen.500}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.victoriaBlue.900}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "color": {
+                "value": "{color.zundaGreen.600}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.victoriaBlue.900}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "color": {
+                "value": "{color.zundaGreen.600}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.victoriaBlue.900}",
+                "type": "color"
+              }
+            }
           },
           "secondary": {
-            "value": "{color.starYellow.500}",
-            "type": "color"
-          },
-          "tertiary": {
-            "value": "{transparency.total}",
-            "type": "color"
+            "default": {
+              "color": {
+                "value": "{color.starYellow.500}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.white}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "color": {
+                "value": "{color.starYellow.600}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.white}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "color": {
+                "value": "{color.starYellow.600}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.white}",
+                "type": "color"
+              }
+            }
           }
         }
       },
