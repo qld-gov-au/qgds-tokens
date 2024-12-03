@@ -236,23 +236,23 @@
     },
     "goshawkGrey": {
       "25": {
-        "value": "#EBEBEB",
+        "value": "#F5F5F5",
         "type": "color"
       },
       "50": {
-        "value": "#DDDDDD",
+        "value": "#E5E5E5",
         "type": "color"
       },
       "100": {
-        "value": "#BCBCBC",
+        "value": "#DDDDDD",
         "type": "color"
       },
       "200": {
-        "value": "#9C9C9C",
+        "value": "#B5B5B5",
         "type": "color"
       },
       "300": {
-        "value": "#7E7E7E",
+        "value": "#818181",
         "type": "color"
       },
       "400": {
