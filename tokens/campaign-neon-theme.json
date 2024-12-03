@@ -48,30 +48,134 @@
       "action": {
         "onLights": {
           "primary": {
-            "value": "{color.zeusPurple.500}",
-            "type": "color"
+            "default": {
+              "color": {
+                "value": "{color.zeusPurple.500}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.white}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "color": {
+                "value": "{color.zeusPurple.600}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.white}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "color": {
+                "value": "{color.zeusPurple.600}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.white}",
+                "type": "color"
+              }
+            }
           },
           "secondary": {
-            "value": "{color.zeusPurple.500}",
-            "type": "color"
-          },
-          "tertiary": {
-            "value": "{transparency.total}",
-            "type": "color"
+            "default": {
+              "color": {
+                "value": "{color.zeusPurple.500}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.fancyFuchsiaPink.700}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "color": {
+                "value": "{color.zeusPurple.600}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.fancyFuchsiaPink.700}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "color": {
+                "value": "{color.zeusPurple.600}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.fancyFuchsiaPink.700}",
+                "type": "color"
+              }
+            }
           }
         },
         "onDarks": {
           "primary": {
-            "value": "{color.white}",
-            "type": "color"
+            "default": {
+              "color": {
+                "value": "{color.white}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.tarnishedSilver.800}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "color": {
+                "value": "{color.grilledCheeseYellow.400}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.tarnishedSilver.800}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "color": {
+                "value": "{color.grilledCheeseYellow.400}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.tarnishedSilver.800}",
+                "type": "color"
+              }
+            }
           },
           "secondary": {
-            "value": "{color.white}",
-            "type": "color"
-          },
-          "tertiary": {
-            "value": "{transparency.total}",
-            "type": "color"
+            "default": {
+              "color": {
+                "value": "{color.white}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.white}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "color": {
+                "value": "{color.grilledCheeseYellow.400}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.white}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "color": {
+                "value": "{color.grilledCheeseYellow.400}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.white}",
+                "type": "color"
+              }
+            }
           }
         }
       },
