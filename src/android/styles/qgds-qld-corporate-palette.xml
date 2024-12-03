@@ -143,7 +143,7 @@
   <string name="paletteBrightActionLinkVisitedTextDecorationStyle">solid</string>
   <color name="paletteBrightActionPaginationDefaultBackground">#ffffff</color>
   <color name="paletteBrightActionPaginationDefaultText">#315870</color>
-  <color name="paletteBrightActionPaginationDefaultBorder">#dddddd</color>
+  <color name="paletteBrightActionPaginationDefaultBorder">#e5e5e5</color>
   <color name="paletteBrightActionPaginationActiveBackground">#315870</color>
   <color name="paletteBrightActionPaginationActiveText">#ffffff</color>
   <color name="paletteBrightActionPaginationActiveBorder">#315870</color>
@@ -152,7 +152,7 @@
   <color name="paletteBrightActionPaginationHoverBorder">#c48c33</color>
   <color name="paletteBrightActionPaginationVisitedBackground">#ffffff</color>
   <color name="paletteBrightActionPaginationVisitedText">#551a8b</color>
-  <color name="paletteBrightActionPaginationVisitedBorder">#dddddd</color>
+  <color name="paletteBrightActionPaginationVisitedBorder">#e5e5e5</color>
   <color name="paletteTintBackground">#e5eaed</color>
   <color name="paletteTintShade">#d3dce1</color>
   <string name="paletteTintFocusOutlineColor">#0085b3</string>
@@ -240,7 +240,7 @@
   <string name="paletteTintActionLinkVisitedTextDecorationStyle">solid</string>
   <color name="paletteTintActionPaginationDefaultBackground">#e5eaed</color>
   <color name="paletteTintActionPaginationDefaultText">#315870</color>
-  <color name="paletteTintActionPaginationDefaultBorder">#dddddd</color>
+  <color name="paletteTintActionPaginationDefaultBorder">#e5e5e5</color>
   <color name="paletteTintActionPaginationActiveBackground">#315870</color>
   <color name="paletteTintActionPaginationActiveText">#ffffff</color>
   <color name="paletteTintActionPaginationActiveBorder">#315870</color>
@@ -249,7 +249,7 @@
   <color name="paletteTintActionPaginationHoverBorder">#c48c33</color>
   <color name="paletteTintActionPaginationVisitedBackground">#e5eaed</color>
   <color name="paletteTintActionPaginationVisitedText">#551a8b</color>
-  <color name="paletteTintActionPaginationVisitedBorder">#dddddd</color>
+  <color name="paletteTintActionPaginationVisitedBorder">#e5e5e5</color>
   <color name="paletteAltBackground">#f9f3ec</color>
   <color name="paletteAltShade">#f6ecdf</color>
   <string name="paletteAltFocusOutlineColor">#0085b3</string>
@@ -337,7 +337,7 @@
   <string name="paletteAltActionLinkVisitedTextDecorationStyle">solid</string>
   <color name="paletteAltActionPaginationDefaultBackground">#f9f3ec</color>
   <color name="paletteAltActionPaginationDefaultText">#315870</color>
-  <color name="paletteAltActionPaginationDefaultBorder">#dddddd</color>
+  <color name="paletteAltActionPaginationDefaultBorder">#e5e5e5</color>
   <color name="paletteAltActionPaginationActiveBackground">#315870</color>
   <color name="paletteAltActionPaginationActiveText">#ffffff</color>
   <color name="paletteAltActionPaginationActiveBorder">#315870</color>
@@ -346,7 +346,7 @@
   <color name="paletteAltActionPaginationHoverBorder">#c48c33</color>
   <color name="paletteAltActionPaginationVisitedBackground">#f9f3ec</color>
   <color name="paletteAltActionPaginationVisitedText">#551a8b</color>
-  <color name="paletteAltActionPaginationVisitedBorder">#dddddd</color>
+  <color name="paletteAltActionPaginationVisitedBorder">#e5e5e5</color>
   <color name="paletteBoldBackground">#023a55</color>
   <color name="paletteBoldShade">#002c46</color>
   <string name="paletteBoldFocusOutlineColor">#a7e5ff</string>

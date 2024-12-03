@@ -14,8 +14,8 @@
   <color name="qgdsColorNeutralDarkOpacityLow">rgba(120, 121, 126, 0.1)</color>
   <color name="qgdsColorNeutralLightDefault">#e0e0e0</color>
   <color name="qgdsColorNeutralLightOpacityLow">rgba(224, 224, 224, 0.1)</color>
-  <color name="qgdsColorNeutralLighterDefault">#ebebeb</color>
-  <color name="qgdsColorNeutralLighterOpacityLow">rgba(235, 235, 235, 0.1)</color>
+  <color name="qgdsColorNeutralLighterDefault">#f5f5f5</color>
+  <color name="qgdsColorNeutralLighterOpacityLow">rgba(245, 245, 245, 0.1)</color>
   <color name="qgdsColorNeutralLightestDefault">#f5f5f5</color>
   <color name="qgdsColorNeutralLightestOpacityLow">rgba(245, 245, 245, 0.1)</color>
   <color name="qgdsColorNeutralWhiteDefault">#ffffff</color>

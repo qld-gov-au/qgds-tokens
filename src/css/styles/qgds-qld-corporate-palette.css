@@ -142,7 +142,7 @@
   --palette-bright-action-link-visited-text-decoration-style: solid;
   --palette-bright-action-pagination-default-background: #ffffff;
   --palette-bright-action-pagination-default-text: #315870;
-  --palette-bright-action-pagination-default-border: #dddddd;
+  --palette-bright-action-pagination-default-border: #e5e5e5;
   --palette-bright-action-pagination-active-background: #315870;
   --palette-bright-action-pagination-active-text: #ffffff;
   --palette-bright-action-pagination-active-border: #315870;
@@ -151,7 +151,7 @@
   --palette-bright-action-pagination-hover-border: #c48c33;
   --palette-bright-action-pagination-visited-background: #ffffff;
   --palette-bright-action-pagination-visited-text: #551a8b;
-  --palette-bright-action-pagination-visited-border: #dddddd;
+  --palette-bright-action-pagination-visited-border: #e5e5e5;
   --palette-tint-background: #e5eaed;
   --palette-tint-shade: #d3dce1;
   --palette-tint-focus-outline-color: #0085b3;
@@ -239,7 +239,7 @@
   --palette-tint-action-link-visited-text-decoration-style: solid;
   --palette-tint-action-pagination-default-background: #e5eaed;
   --palette-tint-action-pagination-default-text: #315870;
-  --palette-tint-action-pagination-default-border: #dddddd;
+  --palette-tint-action-pagination-default-border: #e5e5e5;
   --palette-tint-action-pagination-active-background: #315870;
   --palette-tint-action-pagination-active-text: #ffffff;
   --palette-tint-action-pagination-active-border: #315870;
@@ -248,7 +248,7 @@
   --palette-tint-action-pagination-hover-border: #c48c33;
   --palette-tint-action-pagination-visited-background: #e5eaed;
   --palette-tint-action-pagination-visited-text: #551a8b;
-  --palette-tint-action-pagination-visited-border: #dddddd;
+  --palette-tint-action-pagination-visited-border: #e5e5e5;
   --palette-alt-background: #f9f3ec;
   --palette-alt-shade: #f6ecdf;
   --palette-alt-focus-outline-color: #0085b3;
@@ -336,7 +336,7 @@
   --palette-alt-action-link-visited-text-decoration-style: solid;
   --palette-alt-action-pagination-default-background: #f9f3ec;
   --palette-alt-action-pagination-default-text: #315870;
-  --palette-alt-action-pagination-default-border: #dddddd;
+  --palette-alt-action-pagination-default-border: #e5e5e5;
   --palette-alt-action-pagination-active-background: #315870;
   --palette-alt-action-pagination-active-text: #ffffff;
   --palette-alt-action-pagination-active-border: #315870;
@@ -345,7 +345,7 @@
   --palette-alt-action-pagination-hover-border: #c48c33;
   --palette-alt-action-pagination-visited-background: #f9f3ec;
   --palette-alt-action-pagination-visited-text: #551a8b;
-  --palette-alt-action-pagination-visited-border: #dddddd;
+  --palette-alt-action-pagination-visited-border: #e5e5e5;
   --palette-bold-background: #023a55;
   --palette-bold-shade: #002c46;
   --palette-bold-focus-outline-color: #a7e5ff;
