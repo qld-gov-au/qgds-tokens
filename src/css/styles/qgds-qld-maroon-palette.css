@@ -86,8 +86,8 @@
   --palette-bright-line: #e5e5e5;
   --palette-bright-muted: #f5f5f5;
   --palette-bright-subtle: #eaeaea;
-  --palette-bright-accent-default: #b80b4d;
-  --palette-bright-accent-on-accent: #9a0037;
+  --palette-bright-accent-default: #9a0037;
+  --palette-bright-accent-on-accent: #7d0021;
   --palette-bright-typography-site-title-default: #430001;
   --palette-bright-typography-site-title-variant: #141414;
   --palette-bright-typography-heading-default: #430001;
@@ -97,11 +97,11 @@
   --palette-bright-action-main-nav-default-background: #f5f5f5;
   --palette-bright-action-main-nav-default-text: #444444;
   --palette-bright-action-main-nav-default-text-decoration: none;
-  --palette-bright-action-main-nav-default-accent: #b80b4d;
+  --palette-bright-action-main-nav-default-accent: #9a0037;
   --palette-bright-action-main-nav-hover-background: #eaeaea;
   --palette-bright-action-main-nav-hover-text: #09549f;
   --palette-bright-action-main-nav-hover-text-decoration: underline;
-  --palette-bright-action-main-nav-hover-accent: #9a0037;
+  --palette-bright-action-main-nav-hover-accent: #7d0021;
   --palette-bright-action-button-primary-default-background: #b80b4d;
   --palette-bright-action-button-primary-default-text: #ffffff;
   --palette-bright-action-button-primary-default-text-decoration: none;
@@ -171,8 +171,8 @@
   --palette-tint-line: #e5e5e5;
   --palette-tint-muted: #f5f5f5;
   --palette-tint-subtle: #eaeaea;
-  --palette-tint-accent-default: #b80b4d;
-  --palette-tint-accent-on-accent: #9a0037;
+  --palette-tint-accent-default: #9a0037;
+  --palette-tint-accent-on-accent: #7d0021;
   --palette-tint-typography-site-title-default: #430001;
   --palette-tint-typography-site-title-variant: #141414;
   --palette-tint-typography-heading-default: #430001;
@@ -182,11 +182,11 @@
   --palette-tint-action-main-nav-default-background: #f5f5f5;
   --palette-tint-action-main-nav-default-text: #444444;
   --palette-tint-action-main-nav-default-text-decoration: none;
-  --palette-tint-action-main-nav-default-accent: #b80b4d;
+  --palette-tint-action-main-nav-default-accent: #9a0037;
   --palette-tint-action-main-nav-hover-background: #eaeaea;
   --palette-tint-action-main-nav-hover-text: #09549f;
   --palette-tint-action-main-nav-hover-text-decoration: underline;
-  --palette-tint-action-main-nav-hover-accent: #9a0037;
+  --palette-tint-action-main-nav-hover-accent: #7d0021;
   --palette-tint-action-button-primary-default-background: #b80b4d;
   --palette-tint-action-button-primary-default-text: #ffffff;
   --palette-tint-action-button-primary-default-text-decoration: none;
@@ -256,8 +256,8 @@
   --palette-alt-line: #e5e5e5;
   --palette-alt-muted: #f5f5f5;
   --palette-alt-subtle: #eaeaea;
-  --palette-alt-accent-default: #b80b4d;
-  --palette-alt-accent-on-accent: #9a0037;
+  --palette-alt-accent-default: #9a0037;
+  --palette-alt-accent-on-accent: #7d0021;
   --palette-alt-typography-site-title-default: #430001;
   --palette-alt-typography-site-title-variant: #141414;
   --palette-alt-typography-heading-default: #430001;
@@ -267,11 +267,11 @@
   --palette-alt-action-main-nav-default-background: #f5f5f5;
   --palette-alt-action-main-nav-default-text: #444444;
   --palette-alt-action-main-nav-default-text-decoration: none;
-  --palette-alt-action-main-nav-default-accent: #b80b4d;
+  --palette-alt-action-main-nav-default-accent: #9a0037;
   --palette-alt-action-main-nav-hover-background: #eaeaea;
   --palette-alt-action-main-nav-hover-text: #09549f;
   --palette-alt-action-main-nav-hover-text-decoration: underline;
-  --palette-alt-action-main-nav-hover-accent: #9a0037;
+  --palette-alt-action-main-nav-hover-accent: #7d0021;
   --palette-alt-action-button-primary-default-background: #b80b4d;
   --palette-alt-action-button-primary-default-text: #ffffff;
   --palette-alt-action-button-primary-default-text-decoration: none;
@@ -341,7 +341,7 @@
   --palette-bold-line: #f0b8c0;
   --palette-bold-muted: #9a0037;
   --palette-bold-subtle: #b80b4d;
-  --palette-bold-accent-default: #b80b4d;
+  --palette-bold-accent-default: #9a0037;
   --palette-bold-accent-on-accent: #d87085;
   --palette-bold-typography-site-title-default: #ffffff;
   --palette-bold-typography-site-title-variant: #fafafa;
@@ -352,7 +352,7 @@
   --palette-bold-action-nav-main-default-background: #9a0037;
   --palette-bold-action-nav-main-default-text: #ffffff;
   --palette-bold-action-nav-main-default-text-decoration: none;
-  --palette-bold-action-nav-main-default-accent: #b80b4d;
+  --palette-bold-action-nav-main-default-accent: #9a0037;
   --palette-bold-action-nav-main-hover-background: #b80b4d;
   --palette-bold-action-nav-main-hover-text: #ffffff;
   --palette-bold-action-nav-main-hover-text-decoration: underline;
@@ -426,7 +426,7 @@
   --palette-strong-line: #f0b8c0;
   --palette-strong-muted: #9a0037;
   --palette-strong-subtle: #b80b4d;
-  --palette-strong-accent-default: #b80b4d;
+  --palette-strong-accent-default: #9a0037;
   --palette-strong-accent-on-accent: #d87085;
   --palette-strong-typography-site-title-default: #ffffff;
   --palette-strong-typography-site-title-variant: #fafafa;
@@ -437,7 +437,7 @@
   --palette-strong-action-nav-main-default-background: #9a0037;
   --palette-strong-action-nav-main-default-text: #ffffff;
   --palette-strong-action-nav-main-default-text-decoration: none;
-  --palette-strong-action-nav-main-default-accent: #b80b4d;
+  --palette-strong-action-nav-main-default-accent: #9a0037;
   --palette-strong-action-nav-main-hover-background: #b80b4d;
   --palette-strong-action-nav-main-hover-text: #ffffff;
   --palette-strong-action-nav-main-hover-text-decoration: underline;
@@ -511,7 +511,7 @@
   --palette-dark-line: #f0b8c0;
   --palette-dark-muted: #141414;
   --palette-dark-subtle: #444444;
-  --palette-dark-accent-default: #b80b4d;
+  --palette-dark-accent-default: #9a0037;
   --palette-dark-accent-on-accent: #d87085;
   --palette-dark-typography-site-title-default: #ffffff;
   --palette-dark-typography-site-title-variant: #fafafa;
@@ -522,7 +522,7 @@
   --palette-dark-action-nav-main-default-background: #141414;
   --palette-dark-action-nav-main-default-text: #ffffff;
   --palette-dark-action-nav-main-default-text-decoration: none;
-  --palette-dark-action-nav-main-default-accent: #b80b4d;
+  --palette-dark-action-nav-main-default-accent: #9a0037;
   --palette-dark-action-nav-main-hover-background: #444444;
   --palette-dark-action-nav-main-hover-text: #ffffff;
   --palette-dark-action-nav-main-hover-text-decoration: underline;

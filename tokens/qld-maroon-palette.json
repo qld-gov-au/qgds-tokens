@@ -59,11 +59,11 @@
       },
       "accent": {
         "default": {
-          "value": "{color.purplishRed.500}",
+          "value": "{color.purplishRed.600}",
           "type": "color"
         },
         "onAccent": {
-          "value": "{color.purplishRed.600}",
+          "value": "{color.purplishRed.700}",
           "type": "color"
         }
       },
@@ -461,11 +461,11 @@
       },
       "accent": {
         "default": {
-          "value": "{color.purplishRed.500}",
+          "value": "{color.purplishRed.600}",
           "type": "color"
         },
         "onAccent": {
-          "value": "{color.purplishRed.600}",
+          "value": "{color.purplishRed.700}",
           "type": "color"
         }
       },
@@ -863,11 +863,11 @@
       },
       "accent": {
         "default": {
-          "value": "{color.purplishRed.500}",
+          "value": "{color.purplishRed.600}",
           "type": "color"
         },
         "onAccent": {
-          "value": "{color.purplishRed.600}",
+          "value": "{color.purplishRed.700}",
           "type": "color"
         }
       },
@@ -1265,7 +1265,7 @@
       },
       "accent": {
         "default": {
-          "value": "{color.purplishRed.500}",
+          "value": "{color.purplishRed.600}",
           "type": "color"
         },
         "onAccent": {
@@ -1667,7 +1667,7 @@
       },
       "accent": {
         "default": {
-          "value": "{color.purplishRed.500}",
+          "value": "{color.purplishRed.600}",
           "type": "color"
         },
         "onAccent": {
@@ -2069,7 +2069,7 @@
       },
       "accent": {
         "default": {
-          "value": "{color.purplishRed.500}",
+          "value": "{color.purplishRed.600}",
           "type": "color"
         },
         "onAccent": {
