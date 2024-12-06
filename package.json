@@ -1,6 +1,6 @@
 {
   "name": "@qld-gov-au/qgds-tokens",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "This repository is configured to sync tokens via Figma.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
