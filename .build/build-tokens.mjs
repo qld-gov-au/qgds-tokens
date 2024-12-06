@@ -14,7 +14,7 @@ import { copyOriginalFile, emptyDir } from "./dir-and-files.mjs";
 
 register(StyleDictionary);
 
-// list of components that we have tokens for, assume the tokenset path for it is tokens/${comp}.tokens.json
+// list of components that we have tokens for, assume the tokenset path for it is tokens/${comp}.json
 const components = ["button", "card"];
 
 const directory = "src";
@@ -23,12 +23,12 @@ const finalDestIndex = "src/index.ts"
 const originalSrcGlobal = ".build/original/global.d.ts"
 const finalDestGlobal = "src/global.d.ts"
 
-async function beforeRun() {
+function beforeRun() {
   // clear
   emptyDir(directory);
 }
 
-async function afterRun() {
+function afterRun() {
   // copy index.ts and global.d.ts for dist
   copyOriginalFile(originalSrcIndex, finalDestIndex);
   copyOriginalFile(originalSrcGlobal, finalDestGlobal);

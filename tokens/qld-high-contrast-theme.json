@@ -46,40 +46,144 @@
         }
       },
       "action": {
-        "onBrights": {
+        "onLights": {
           "primary": {
-            "value": "{color.iridiumBlue.500}",
-            "type": "color"
+            "default": {
+              "color": {
+                "value": "{color.iridiumBlue.500}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.white}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "color": {
+                "value": "{color.iridiumBlue.700}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.white}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "color": {
+                "value": "{color.iridiumBlue.700}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.white}",
+                "type": "color"
+              }
+            }
           },
           "secondary": {
-            "value": "{color.iridiumBlue.500}",
-            "type": "color"
-          },
-          "tertiary": {
-            "value": "{transparency.total}",
-            "type": "color"
+            "default": {
+              "color": {
+                "value": "{color.iridiumBlue.500}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.iridiumBlue.500}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "color": {
+                "value": "{qgds.color.neutral.black.default}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.iridiumBlue.500}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "color": {
+                "value": "{qgds.color.neutral.black.default}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.iridiumBlue.500}",
+                "type": "color"
+              }
+            }
           }
         },
-        "onBolds": {
+        "onDarks": {
           "primary": {
-            "value": "{color.starYellow.500}",
-            "type": "color"
+            "default": {
+              "color": {
+                "value": "{color.starYellow.500}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{qgds.color.neutral.black.default}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "color": {
+                "value": "{color.starYellow.400}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{qgds.color.neutral.black.default}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "color": {
+                "value": "{color.starYellow.400}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{qgds.color.neutral.black.default}",
+                "type": "color"
+              }
+            }
           },
           "secondary": {
-            "value": "{color.starYellow.500}",
-            "type": "color"
-          },
-          "tertiary": {
-            "value": "{transparency.total}",
-            "type": "color"
+            "default": {
+              "color": {
+                "value": "{color.starYellow.500}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.starYellow.500}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "color": {
+                "value": "{color.starYellow.400}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.starYellow.500}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "color": {
+                "value": "{color.starYellow.400}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{color.starYellow.500}",
+                "type": "color"
+              }
+            }
           }
         }
       },
       "wording": {
-        "onBrights": {
+        "onLights": {
           "siteTitle": {
             "default": {
-              "value": "{qgds.color.neutral.white.default}",
+              "value": "{qgds.color.neutral.black.default}",
               "type": "color"
             },
             "variant": {
@@ -89,7 +193,7 @@
           },
           "heading": {
             "default": {
-              "value": "{qgds.color.neutral.white.default}",
+              "value": "{qgds.color.neutral.black.default}",
               "type": "color"
             },
             "variant": {
@@ -99,7 +203,7 @@
           },
           "body": {
             "default": {
-              "value": "{qgds.color.neutral.white.default}",
+              "value": "{qgds.color.neutral.black.default}",
               "type": "color"
             },
             "variant": {
@@ -108,34 +212,34 @@
             }
           }
         },
-        "onBolds": {
+        "onDarks": {
           "siteTitle": {
             "default": {
-              "value": "{color.white}",
+              "value": "{qgds.color.neutral.white.default}",
               "type": "color"
             },
             "variant": {
-              "value": "{color.stellarExplorerGrey.200}",
+              "value": "{color.goshawkGrey.200}",
               "type": "color"
             }
           },
           "heading": {
             "default": {
-              "value": "{color.white}",
+              "value": "{qgds.color.neutral.white.default}",
               "type": "color"
             },
             "variant": {
-              "value": "{color.stellarExplorerGrey.200}",
+              "value": "{color.goshawkGrey.200}",
               "type": "color"
             }
           },
           "body": {
             "default": {
-              "value": "{color.white}",
+              "value": "{qgds.color.neutral.white.default}",
               "type": "color"
             },
             "variant": {
-              "value": "{color.stellarExplorerGrey.200}",
+              "value": "{color.goshawkGrey.200}",
               "type": "color"
             }
           }

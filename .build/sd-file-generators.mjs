@@ -30,7 +30,7 @@ export const generateSemanticFiles = (components, theme, platform, fileExtension
     destination: `src/${platform}/styles/qgds-${theme.toLowerCase()}.${fileExtension}`,
   });
 
-  // not theme-specific outputs
+  // no theme-specific outputs
   filesArr.push({
     ...commonFileOptions[platform],
     filter: semanticFilter(components, false),
@@ -40,7 +40,7 @@ export const generateSemanticFiles = (components, theme, platform, fileExtension
   return filesArr;
 };
 
-// for each component (currently only button), filter those specific component tokens and output them
+// for each component (currently only button and card), filter those specific component tokens and output them
 // to the component folder where the component source code will live
 export const generateComponentFiles = (components, theme, platform, fileExtension) => {
   const filesArr = [];
@@ -53,7 +53,7 @@ export const generateComponentFiles = (components, theme, platform, fileExtensio
       destination: `src/${platform}/${comp}/${comp}-${theme.toLowerCase()}.${fileExtension}`,
     });
 
-    // not theme-specific outputs
+    // no theme-specific outputs
     filesArr.push({
       ...commonFileOptions[platform],
       filter: componentFilter(comp, false),

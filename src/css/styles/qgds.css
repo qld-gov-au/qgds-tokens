@@ -13,8 +13,8 @@
   --qgds-color-neutral-dark-opacity-low: rgba(120, 121, 126, 0.1);
   --qgds-color-neutral-light-default: #e0e0e0;
   --qgds-color-neutral-light-opacity-low: rgba(224, 224, 224, 0.1);
-  --qgds-color-neutral-lighter-default: #ebebeb;
-  --qgds-color-neutral-lighter-opacity-low: rgba(235, 235, 235, 0.1);
+  --qgds-color-neutral-lighter-default: #f5f5f5;
+  --qgds-color-neutral-lighter-opacity-low: rgba(245, 245, 245, 0.1);
   --qgds-color-neutral-lightest-default: #f5f5f5;
   --qgds-color-neutral-lightest-opacity-low: rgba(245, 245, 245, 0.1);
   --qgds-color-neutral-white-default: #ffffff;
@@ -86,7 +86,7 @@
   --typography-mobile-code-font-size: 12.8px;
   --typography-mobile-code-paragraph-spacing: 16;
   --typography-mobile-credit-font-family: 'Noto Sans';
-  --typography-mobile-credit-font-weight: Italic;
+  --typography-mobile-credit-font-weight: italic;
   --typography-mobile-credit-line-height: 1.5;
   --typography-mobile-credit-font-size: 12.8px;
   --typography-mobile-credit-paragraph-spacing: 16;
@@ -167,7 +167,7 @@
   --typography-desktop-code-font-size: 12.8px;
   --typography-desktop-code-paragraph-spacing: 16;
   --typography-desktop-credit-font-family: 'Noto Sans';
-  --typography-desktop-credit-font-weight: Italic;
+  --typography-desktop-credit-font-weight: italic;
   --typography-desktop-credit-line-height: 1.5;
   --typography-desktop-credit-font-size: 12.8px;
   --typography-desktop-credit-paragraph-spacing: 16;

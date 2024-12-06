@@ -60,11 +60,11 @@
   <color name="colorTarnishedSilver800">#2a2b2f</color>
   <color name="colorTarnishedSilver900">#131418</color>
   <color name="colorTarnishedSilver950">#030305</color>
-  <color name="colorGoshawkGrey25">#ebebeb</color>
-  <color name="colorGoshawkGrey50">#dddddd</color>
-  <color name="colorGoshawkGrey100">#bcbcbc</color>
-  <color name="colorGoshawkGrey200">#9c9c9c</color>
-  <color name="colorGoshawkGrey300">#7e7e7e</color>
+  <color name="colorGoshawkGrey25">#f5f5f5</color>
+  <color name="colorGoshawkGrey50">#e5e5e5</color>
+  <color name="colorGoshawkGrey100">#dddddd</color>
+  <color name="colorGoshawkGrey200">#b5b5b5</color>
+  <color name="colorGoshawkGrey300">#818181</color>
   <color name="colorGoshawkGrey400">#606060</color>
   <color name="colorGoshawkGrey500">#444444</color>
   <color name="colorGoshawkGrey600">#333333</color>
@@ -427,7 +427,7 @@
   <string name="paragraphSpacingMobileBody">16</string>
   <string name="paragraphSpacingMobileListItem">8</string>
   <string name="fontWeightRegular">400</string>
-  <string name="fontWeightItalic">Italic</string>
+  <string name="fontWeightItalic">italic</string>
   <string name="fontWeightSemibold">600</string>
   <string name="fontWeightBold">700</string>
   <dimen name="fontSizeDesktopXxxxl">47.7757px</dimen>
