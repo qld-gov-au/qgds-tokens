@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<!--
-  Do not edit directly, this file was auto-generated.
--->
-<resources>
-  <string name="cardBorderRadius">12</string>
-  <dimen name="cardPadding">16px</dimen>
-</resources>
