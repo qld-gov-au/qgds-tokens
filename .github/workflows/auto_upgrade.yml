@@ -56,12 +56,17 @@ jobs:
 
       - run: npm run test
 
+
       - name: Commit and push
         run: |
-          git commit -m"Auto Commit Updates Tokens" -a
-          #push current github actions branch
-          git push origin HEAD:refs/heads/${{ github.ref }}
-      
+          if [[ "$GITHUB_REF" == "${GITHUB_REF/refs\/heads\//}" ]]; then
+            branch=${GITHUB_REF#refs/heads/}
+            echo "branch: ${branch}"
+            git commit -m"Auto Commit Updates Tokens" -a
+            git push origin ${branch}
+          else
+            echo "Not a branch"
+          fi
 
       - uses: actions/upload-artifact@v4
         with:
