@@ -59,7 +59,7 @@ jobs:
 
       - name: Commit and push
         run: |
-          if [[ "$GITHUB_REF" == "${GITHUB_REF/refs\/heads\//}" ]]; then
+          if [[ "${GITHUB_REF}" == refs/heads/* ]]; then
             branch=${GITHUB_REF#refs/heads/}
             echo "branch: ${branch}"
             git commit -m"Auto Commit Updates Tokens" -a
