@@ -87,7 +87,7 @@
   <dimen name="typographyMobileCodeFontSize">12.8px</dimen>
   <string name="typographyMobileCodeParagraphSpacing">16</string>
   <string name="typographyMobileCreditFontFamily">'Noto Sans'</string>
-  <string name="typographyMobileCreditFontWeight">Italic</string>
+  <string name="typographyMobileCreditFontWeight">italic</string>
   <integer name="typographyMobileCreditLineHeight">1.5</integer>
   <dimen name="typographyMobileCreditFontSize">12.8px</dimen>
   <string name="typographyMobileCreditParagraphSpacing">16</string>
@@ -168,7 +168,7 @@
   <dimen name="typographyDesktopCodeFontSize">12.8px</dimen>
   <string name="typographyDesktopCodeParagraphSpacing">16</string>
   <string name="typographyDesktopCreditFontFamily">'Noto Sans'</string>
-  <string name="typographyDesktopCreditFontWeight">Italic</string>
+  <string name="typographyDesktopCreditFontWeight">italic</string>
   <integer name="typographyDesktopCreditLineHeight">1.5</integer>
   <dimen name="typographyDesktopCreditFontSize">12.8px</dimen>
   <string name="typographyDesktopCreditParagraphSpacing">16</string>

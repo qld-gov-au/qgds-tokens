@@ -87,8 +87,8 @@
   <color name="paletteBrightLine">#e5e5e5</color>
   <color name="paletteBrightMuted">#f5f5f5</color>
   <color name="paletteBrightSubtle">#eaeaea</color>
-  <color name="paletteBrightAccentDefault">#9a0037</color>
-  <color name="paletteBrightAccentOnAccent">#7d0021</color>
+  <color name="paletteBrightAccentDefault">#006b18</color>
+  <color name="paletteBrightAccentOnAccent">#005000</color>
   <color name="paletteBrightTypographySiteTitleDefault">#430001</color>
   <color name="paletteBrightTypographySiteTitleVariant">#141414</color>
   <color name="paletteBrightTypographyHeadingDefault">#430001</color>
@@ -98,11 +98,11 @@
   <color name="paletteBrightActionMainNavDefaultBackground">#f5f5f5</color>
   <color name="paletteBrightActionMainNavDefaultText">#444444</color>
   <string name="paletteBrightActionMainNavDefaultTextDecoration">none</string>
-  <string name="paletteBrightActionMainNavDefaultAccent">#9a0037</string>
+  <string name="paletteBrightActionMainNavDefaultAccent">#006b18</string>
   <color name="paletteBrightActionMainNavHoverBackground">#eaeaea</color>
   <color name="paletteBrightActionMainNavHoverText">#09549f</color>
   <string name="paletteBrightActionMainNavHoverTextDecoration">underline</string>
-  <string name="paletteBrightActionMainNavHoverAccent">#7d0021</string>
+  <string name="paletteBrightActionMainNavHoverAccent">#005000</string>
   <color name="paletteBrightActionButtonPrimaryDefaultBackground">#b80b4d</color>
   <color name="paletteBrightActionButtonPrimaryDefaultText">#ffffff</color>
   <string name="paletteBrightActionButtonPrimaryDefaultTextDecoration">none</string>
