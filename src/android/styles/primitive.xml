@@ -427,7 +427,7 @@
   <string name="paragraphSpacingMobileBody">16</string>
   <string name="paragraphSpacingMobileListItem">8</string>
   <string name="fontWeightRegular">400</string>
-  <string name="fontWeightItalic">italic</string>
+  <string name="fontWeightItalic">Italic</string>
   <string name="fontWeightSemibold">600</string>
   <string name="fontWeightBold">700</string>
   <dimen name="fontSizeDesktopXxxxl">47.7757px</dimen>
