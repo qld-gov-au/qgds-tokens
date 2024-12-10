@@ -59,11 +59,11 @@
       },
       "accent": {
         "default": {
-          "value": "{color.broccoliParadiseGreen.600}",
+          "value": "{color.purplishRed.600}",
           "type": "color"
         },
         "onAccent": {
-          "value": "{color.broccoliParadiseGreen.700}",
+          "value": "{color.purplishRed.700}",
           "type": "color"
         }
       },

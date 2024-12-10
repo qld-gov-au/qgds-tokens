@@ -86,8 +86,8 @@
   --palette-bright-line: #e5e5e5;
   --palette-bright-muted: #f5f5f5;
   --palette-bright-subtle: #eaeaea;
-  --palette-bright-accent-default: #006b18;
-  --palette-bright-accent-on-accent: #005000;
+  --palette-bright-accent-default: #9a0037;
+  --palette-bright-accent-on-accent: #7d0021;
   --palette-bright-typography-site-title-default: #430001;
   --palette-bright-typography-site-title-variant: #141414;
   --palette-bright-typography-heading-default: #430001;
@@ -97,11 +97,11 @@
   --palette-bright-action-main-nav-default-background: #f5f5f5;
   --palette-bright-action-main-nav-default-text: #444444;
   --palette-bright-action-main-nav-default-text-decoration: none;
-  --palette-bright-action-main-nav-default-accent: #006b18;
+  --palette-bright-action-main-nav-default-accent: #9a0037;
   --palette-bright-action-main-nav-hover-background: #eaeaea;
   --palette-bright-action-main-nav-hover-text: #09549f;
   --palette-bright-action-main-nav-hover-text-decoration: underline;
-  --palette-bright-action-main-nav-hover-accent: #005000;
+  --palette-bright-action-main-nav-hover-accent: #7d0021;
   --palette-bright-action-button-primary-default-background: #b80b4d;
   --palette-bright-action-button-primary-default-text: #ffffff;
   --palette-bright-action-button-primary-default-text-decoration: none;
