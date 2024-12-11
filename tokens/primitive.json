@@ -1796,80 +1796,158 @@
       "type": "fontWeight"
     }
   },
-  "fontSize": {
+  "fontSizeRaw": {
     "desktop": {
       "xxxxl": {
-        "value": "{fontSize.desktop.xxxl} * 1.2",
-        "type": "fontSize"
+        "value": "{fontSizeRaw.desktop.xxxl} * 1.2",
+        "type": "fontSizeRaw"
       },
       "xxxl": {
-        "value": "{fontSize.desktop.xxl} * 1.2",
-        "type": "fontSize"
+        "value": "{fontSizeRaw.desktop.xxl} * 1.2",
+        "type": "fontSizeRaw"
       },
       "xxl": {
-        "value": "{fontSize.desktop.xl} * 1.2",
-        "type": "fontSize"
+        "value": "{fontSizeRaw.desktop.xl} * 1.2",
+        "type": "fontSizeRaw"
       },
       "xl": {
-        "value": "{fontSize.desktop.lg} * 1.2",
-        "type": "fontSize"
+        "value": "{fontSizeRaw.desktop.lg} * 1.2",
+        "type": "fontSizeRaw"
       },
       "lg": {
-        "value": "{fontSize.desktop.md} * 1.2",
-        "type": "fontSize"
+        "value": "{fontSizeRaw.desktop.md} * 1.2",
+        "type": "fontSizeRaw"
       },
       "md": {
-        "value": "{fontSize.desktop.sm} * 1.2",
-        "type": "fontSize"
+        "value": "{fontSizeRaw.desktop.sm} * 1.2",
+        "type": "fontSizeRaw"
       },
       "sm": {
         "value": "16",
+        "type": "fontSizeRaw"
+      },
+      "xs": {
+        "value": "{fontSizeRaw.desktop.sm} * 0.8",
+        "type": "fontSizeRaw"
+      },
+      "xxs": {
+        "value": "{fontSizeRaw.desktop.xs} * 0.8",
+        "type": "fontSizeRaw"
+      }
+    },
+    "mobile": {
+      "xxxxl": {
+        "value": "{fontSizeRaw.mobile.xxxl} * 1.2",
+        "type": "fontSizeRaw"
+      },
+      "xxxl": {
+        "value": "{fontSizeRaw.mobile.xxl} * 1.2",
+        "type": "fontSizeRaw"
+      },
+      "xxl": {
+        "value": "{fontSizeRaw.mobile.xl} * 1.2",
+        "type": "fontSizeRaw"
+      },
+      "xl": {
+        "value": "{fontSizeRaw.mobile.lg} * 1.2",
+        "type": "fontSizeRaw"
+      },
+      "lg": {
+        "value": "{fontSizeRaw.mobile.md} * 1.2",
+        "type": "fontSizeRaw"
+      },
+      "md": {
+        "value": "{fontSizeRaw.mobile.sm}",
+        "type": "fontSizeRaw"
+      },
+      "sm": {
+        "value": "16",
+        "type": "fontSizeRaw"
+      },
+      "xs": {
+        "value": "{fontSizeRaw.mobile.sm} * 0.8",
+        "type": "fontSizeRaw"
+      },
+      "xxs": {
+        "value": "{fontSizeRaw.mobile.xs} * 0.8",
+        "type": "fontSizeRaw"
+      }
+    }
+  },
+  "fontSize": {
+    "desktop": {
+      "xxxxl": {
+        "value": "{fontSizeRaw.desktop.xxxxl}",
+        "type": "fontSize"
+      },
+      "xxxl": {
+        "value": "{fontSizeRaw.desktop.xxxl}",
+        "type": "fontSize"
+      },
+      "xxl": {
+        "value": "{fontSizeRaw.desktop.xxl}",
+        "type": "fontSize"
+      },
+      "xl": {
+        "value": "{fontSizeRaw.desktop.xl}",
+        "type": "fontSize"
+      },
+      "lg": {
+        "value": "{fontSizeRaw.desktop.lg}",
+        "type": "fontSize"
+      },
+      "md": {
+        "value": "{fontSizeRaw.desktop.md}",
+        "type": "fontSize"
+      },
+      "sm": {
+        "value": "{fontSizeRaw.desktop.sm}",
         "type": "fontSize"
       },
       "xs": {
-        "value": "{fontSize.desktop.sm} * 0.8",
+        "value": "{fontSizeRaw.desktop.xs}",
         "type": "fontSize"
       },
       "xxs": {
-        "value": "{fontSize.desktop.xs} * 0.8",
+        "value": "{fontSizeRaw.desktop.xxs}",
         "type": "fontSize"
       }
     },
     "mobile": {
       "xxxxl": {
-        "value": "{fontSize.mobile.xxxl} * 1.2",
+        "value": "{fontSizeRaw.mobile.xxxxl}",
         "type": "fontSize"
       },
       "xxxl": {
-        "value": "{fontSize.mobile.xxl} * 1.2",
+        "value": "{fontSizeRaw.mobile.xxxl}",
         "type": "fontSize"
       },
       "xxl": {
-        "value": "{fontSize.mobile.xl} * 1.2",
+        "value": "{fontSizeRaw.mobile.xxl}",
         "type": "fontSize"
       },
       "xl": {
-        "value": "{fontSize.mobile.lg} * 1.2",
+        "value": "{fontSizeRaw.mobile.xl}",
         "type": "fontSize"
       },
       "lg": {
-        "value": "{fontSize.mobile.md} * 1.2",
+        "value": "{fontSizeRaw.mobile.lg}",
         "type": "fontSize"
       },
       "md": {
-        "value": "{fontSize.mobile.sm}",
+        "value": "{fontSizeRaw.mobile.md}",
         "type": "fontSize"
       },
       "sm": {
-        "value": "16",
+        "value": "{fontSizeRaw.mobile.sm}",
         "type": "fontSize"
       },
       "xs": {
-        "value": "{fontSize.mobile.sm} * 0.8",
+        "value": "{fontSizeRaw.mobile.xs}",
         "type": "fontSize"
       },
       "xxs": {
-        "value": "{fontSize.mobile.xs} * 0.8",
+        "value": "{fontSizeRaw.mobile.xxs}",
         "type": "fontSize"
       }
     }
