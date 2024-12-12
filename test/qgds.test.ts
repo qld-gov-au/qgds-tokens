@@ -20,6 +20,8 @@ const cssOutputFilePath = path.resolve(cssOutputDir, cssOutputFileName);
 const tokenTestObject = {
   "qgds": {
     "color": {"json": `color`, "css": `--qgds-color`},
+    "fontSizeMap": {"json": `fontSizeMap`, "css": `--qgds-font-size-map`},
+    "mediaQuery": {"json": `mediaQuery`, "css": `--qgds-media-query`}
   },
   "typography": {
     "phone": {
@@ -53,6 +55,8 @@ describe('qgds tests', () => {
     const file = await promises.readFile(jsonQGDSOutputFilePath, 'utf-8');
     expect(file).toContain(`qgds`);
     expect(file).toContain(tokenTestObject.qgds.color.json);
+    expect(file).toContain(tokenTestObject.qgds.fontSizeMap.json);
+    expect(file).toContain(tokenTestObject.qgds.mediaQuery.json);
   });
 
   it('sanity - contains at least one: typography in JSON file', async () => {
@@ -82,6 +86,8 @@ describe('qgds tests', () => {
     const file = await promises.readFile(cssOutputFilePath, 'utf-8');
     // qgds tokens
     expect(file).toContain(tokenTestObject.qgds.color.css);
+    expect(file).toContain(tokenTestObject.qgds.fontSizeMap.css);
+    expect(file).toContain(tokenTestObject.qgds.mediaQuery.css);
     // typography tokens
     expect(file).toContain(tokenTestObject.typography.phone.h1.json);
     expect(file).toContain(tokenTestObject.typography.phone.h2.json);
