@@ -27,6 +27,7 @@
   <string name="qgdsFontSizeMapMobileXl">23.04</string>
   <string name="qgdsFontSizeMapMobileXxl">27.648</string>
   <string name="qgdsFontSizeMapMobileXxxl">33.1776</string>
+  <string name="qgdsFontSizeMapMobileXxxxl">39.8131</string>
   <string name="qgdsFontSizeMapDesktopXs">12.8</string>
   <string name="qgdsFontSizeMapDesktopSm">16</string>
   <string name="qgdsFontSizeMapDesktopMd">19.2</string>
@@ -34,6 +35,12 @@
   <string name="qgdsFontSizeMapDesktopXl">27.648</string>
   <string name="qgdsFontSizeMapDesktopXxl">33.1776</string>
   <string name="qgdsFontSizeMapDesktopXxxl">39.8131</string>
+  <string name="qgdsFontSizeMapDesktopXxxxl">47.7757</string>
+  <string name="qgdsMediaQuerySm">400px</string>
+  <string name="qgdsMediaQueryMd">699px</string>
+  <string name="qgdsMediaQueryLg">992px</string>
+  <string name="qgdsMediaQueryXl">1312px</string>
+  <string name="qgdsMediaQueryXxl">1599px</string>
   <string name="typographyMobileH1FontFamily">'Noto Sans'</string>
   <string name="typographyMobileH1FontWeight">600</string>
   <integer name="typographyMobileH1LineHeight">1.25</integer>

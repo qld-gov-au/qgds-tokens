@@ -26,6 +26,7 @@
   --qgds-font-size-map-mobile-xl: 23.04;
   --qgds-font-size-map-mobile-xxl: 27.648;
   --qgds-font-size-map-mobile-xxxl: 33.1776;
+  --qgds-font-size-map-mobile-xxxxl: 39.8131;
   --qgds-font-size-map-desktop-xs: 12.8;
   --qgds-font-size-map-desktop-sm: 16;
   --qgds-font-size-map-desktop-md: 19.2;
@@ -33,6 +34,12 @@
   --qgds-font-size-map-desktop-xl: 27.648;
   --qgds-font-size-map-desktop-xxl: 33.1776;
   --qgds-font-size-map-desktop-xxxl: 39.8131;
+  --qgds-font-size-map-desktop-xxxxl: 47.7757;
+  --qgds-media-query-sm: 400px;
+  --qgds-media-query-md: 699px;
+  --qgds-media-query-lg: 992px;
+  --qgds-media-query-xl: 1312px;
+  --qgds-media-query-xxl: 1599px;
   --typography-mobile-h1-font-family: 'Noto Sans';
   --typography-mobile-h1-font-weight: 600;
   --typography-mobile-h1-line-height: 1.25;
