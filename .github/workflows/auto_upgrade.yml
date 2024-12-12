@@ -62,8 +62,12 @@ jobs:
           if [[ "${GITHUB_REF}" == refs/heads/* ]]; then
             branch=${GITHUB_REF#refs/heads/}
             echo "branch: ${branch}"
-            git commit -m"Auto Commit Updates Tokens" -a
-            git push origin ${branch}
+            if [ -z "$(git status -s)" ] ; then
+              git commit -m"Auto Commit Updates Tokens" -a
+              git push origin ${branch}
+            else
+              echo "No changes, script exited"
+            fi
           else
             echo "Not a branch"
           fi

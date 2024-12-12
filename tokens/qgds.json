@@ -99,6 +99,35 @@
           }
         }
       }
+    },
+    "fontSizeMap": {
+      "mobile": {
+        "xs":   {"value": "{fontSizeRaw.mobile.xs}", "type": "fontSizeMap"},
+        "sm":   {"value": "{fontSizeRaw.mobile.sm}", "type": "fontSizeMap"},
+        "md":   {"value": "{fontSizeRaw.mobile.md}", "type": "fontSizeMap"},
+        "lg":   {"value": "{fontSizeRaw.mobile.lg}", "type": "fontSizeMap"},
+        "xl":   {"value": "{fontSizeRaw.mobile.xl}", "type": "fontSizeMap"},
+        "xxl":  {"value": "{fontSizeRaw.mobile.xxl}", "type": "fontSizeMap"},
+        "xxxl": {"value": "{fontSizeRaw.mobile.xxxl}", "type": "fontSizeMap"},
+        "xxxxl": {"value": "{fontSizeRaw.mobile.xxxxl}", "type": "fontSizeMap"}
+      },
+      "desktop": {
+        "xs":   {"value": "{fontSizeRaw.desktop.xs}", "type": "fontSizeMap"},
+        "sm":   {"value": "{fontSizeRaw.desktop.sm}", "type": "fontSizeMap"},
+        "md":   {"value": "{fontSizeRaw.desktop.md}", "type": "fontSizeMap"},
+        "lg":   {"value": "{fontSizeRaw.desktop.lg}", "type": "fontSizeMap"},
+        "xl":   {"value": "{fontSizeRaw.desktop.xl}", "type": "fontSizeMap"},
+        "xxl":  {"value": "{fontSizeRaw.desktop.xxl}", "type": "fontSizeMap"},
+        "xxxl": {"value": "{fontSizeRaw.desktop.xxxl}", "type": "fontSizeMap"},
+        "xxxxl": {"value": "{fontSizeRaw.desktop.xxxxl}", "type": "fontSizeMap"}
+      }
+    },
+    "mediaQuery": {
+        "sm":   {"value": "400px", "type": "mediaQuery"},
+        "md":   {"value": "699px", "type": "mediaQuery"},
+        "lg":   {"value": "992px", "type": "mediaQuery"},
+        "xl":   {"value": "1312px", "type": "mediaQuery"},
+        "xxl":   {"value": "1599px", "type": "mediaQuery"}
     }
   }
 }
