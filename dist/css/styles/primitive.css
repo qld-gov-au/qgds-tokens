@@ -416,7 +416,7 @@
   --line-height-body: 1.5;
   --line-height-no-space: 1;
   --letter-spacing-default: 0;
-  --letter-spacing-increased: 1.5em;
+  --letter-spacing-increased: 0.1em;
   --letter-spacing-decreased: -0.05em;
   --paragraph-spacing-desktop-heading: 24;
   --paragraph-spacing-desktop-body: 16;
