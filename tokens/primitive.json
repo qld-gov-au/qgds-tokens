@@ -1736,11 +1736,11 @@
       "type": "letterSpacing"
     },
     "increased": {
-      "value": "10%",
+      "value": "1%",
       "type": "letterSpacing"
     },
     "decreased": {
-      "value": "-5%",
+      "value": "-1%",
       "type": "letterSpacing"
     }
   },

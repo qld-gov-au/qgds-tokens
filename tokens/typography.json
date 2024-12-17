@@ -9,7 +9,7 @@
           "lineHeight": "{lineHeight.heading}",
           "fontSize": "{fontSize.mobile.xxxl}",
           "paragraphSpacing": "{paragraphSpacing.mobile.heading}",
-          "letterSpacing": "{letterSpacing.increased}"
+          "letterSpacing": "{letterSpacing.default}"
         }
       },
       "h2": {
