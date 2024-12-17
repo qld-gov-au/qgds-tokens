@@ -1736,7 +1736,7 @@
       "type": "letterSpacing"
     },
     "increased": {
-      "value": "150%",
+      "value": "10%",
       "type": "letterSpacing"
     },
     "decreased": {

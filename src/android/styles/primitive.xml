@@ -417,7 +417,7 @@
   <string name="lineHeightBody">1.5</string>
   <string name="lineHeightNoSpace">1</string>
   <string name="letterSpacingDefault">0</string>
-  <string name="letterSpacingIncreased">1.5em</string>
+  <string name="letterSpacingIncreased">0.1em</string>
   <string name="letterSpacingDecreased">-0.05em</string>
   <string name="paragraphSpacingDesktopHeading">24</string>
   <string name="paragraphSpacingDesktopBody">16</string>
