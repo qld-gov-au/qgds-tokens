@@ -33,6 +33,12 @@
   --border-radius-lg: 32;
   --border-radius-xl: 40;
   --border-radius-xxl: 64;
+  --border-width-none: 0;
+  --border-width-thin: 1px;
+  --border-width-default: 2px;
+  --border-width-medium: 3px;
+  --border-width-thick: 4px;
+  --border-width-extra-thick: 8px;
   --color-black: #000000;
   --color-white: #ffffff;
   --color-christmas-silver-25: #fcfcfc;
@@ -416,8 +422,8 @@
   --line-height-body: 1.5;
   --line-height-no-space: 1;
   --letter-spacing-default: 0;
-  --letter-spacing-increased: 0.1em;
-  --letter-spacing-decreased: -0.05em;
+  --letter-spacing-increased: 0.01em;
+  --letter-spacing-decreased: -0.01em;
   --paragraph-spacing-desktop-heading: 24;
   --paragraph-spacing-desktop-body: 16;
   --paragraph-spacing-desktop-list-item: 8;

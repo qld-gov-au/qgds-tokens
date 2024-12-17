@@ -34,6 +34,12 @@
   <string name="borderRadiusLg">32</string>
   <string name="borderRadiusXl">40</string>
   <string name="borderRadiusXxl">64</string>
+  <string name="borderWidthNone">0</string>
+  <string name="borderWidthThin">1px</string>
+  <string name="borderWidthDefault">2px</string>
+  <string name="borderWidthMedium">3px</string>
+  <string name="borderWidthThick">4px</string>
+  <string name="borderWidthExtraThick">8px</string>
   <color name="colorBlack">#000000</color>
   <color name="colorWhite">#ffffff</color>
   <color name="colorChristmasSilver25">#fcfcfc</color>
@@ -417,8 +423,8 @@
   <string name="lineHeightBody">1.5</string>
   <string name="lineHeightNoSpace">1</string>
   <string name="letterSpacingDefault">0</string>
-  <string name="letterSpacingIncreased">0.1em</string>
-  <string name="letterSpacingDecreased">-0.05em</string>
+  <string name="letterSpacingIncreased">0.01em</string>
+  <string name="letterSpacingDecreased">-0.01em</string>
   <string name="paragraphSpacingDesktopHeading">24</string>
   <string name="paragraphSpacingDesktopBody">16</string>
   <string name="paragraphSpacingDesktopListItem">8</string>

@@ -46,7 +46,7 @@
   <integer name="typographyMobileH1LineHeight">1.25</integer>
   <dimen name="typographyMobileH1FontSize">33.1776px</dimen>
   <string name="typographyMobileH1ParagraphSpacing">24</string>
-  <dimen name="typographyMobileH1LetterSpacing">0.1em</dimen>
+  <dimen name="typographyMobileH1LetterSpacing">0</dimen>
   <string name="typographyMobileH2FontFamily">'Noto Sans'</string>
   <string name="typographyMobileH2FontWeight">600</string>
   <integer name="typographyMobileH2LineHeight">1.25</integer>

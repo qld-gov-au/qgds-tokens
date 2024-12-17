@@ -125,6 +125,32 @@
       "type": "borderRadius"
     }
   },
+  "borderWidth": {
+    "none": {
+      "value": "0",
+      "type": "borderWidth"
+    },
+    "thin": {
+      "value": "1px",
+      "type": "borderWidth"
+    },
+    "default": {
+      "value": "2px",
+      "type": "borderWidth"
+    },
+    "medium": {
+      "value": "3px",
+      "type": "borderWidth"
+    },
+    "thick": {
+      "value": "4px",
+      "type": "borderWidth"
+    },
+    "extraThick": {
+      "value": "8px",
+      "type": "borderWidth"
+    }
+  },
   "color": {
     "black": {
       "value": "#000000",
