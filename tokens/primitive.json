@@ -2016,6 +2016,116 @@
         "value": "wavy",
         "type": "textDecorationsStyle"
       }
+    },
+    "offset": {
+      "behind": {
+        "value": "-4.8px",
+        "type": "textUnderlineOffset"
+      },
+      "none": {
+        "value": "auto",
+        "type": "textUnderlineOffset"
+      },
+      "near": {
+        "value": "4.8px",
+        "type": "textUnderlineOffset"
+      },
+      "far": {
+        "value": "9.6px",
+        "type": "textUnderlineOffset"
+      }
     }
+  },
+  "boxShadowOne": {
+    "value": [
+      {
+        "x": "0px",
+        "y": "1px",
+        "blur": "2px",
+        "spread": "0",
+        "color": "rgba({color.black}, 0.2)",
+        "type": "dropShadow"
+      },
+      {
+        "x": "0px",
+        "y": "1px",
+        "blur": "3px",
+        "spread": "1px",
+        "color": "rgba({color.black}, 0.1)",
+        "type": "dropShadow"
+      }
+    ],
+    "type": "boxShadow"
+  },
+  "boxShadowTwo": {
+    "value": [
+      {
+        "x": "0px",
+        "y": "1px",
+        "blur": "2px",
+        "spread": "0",
+        "color": "rgba({color.black}, 0.3)",
+        "type": "dropShadow"
+      },
+      {
+        "x": "0px",
+        "y": "2px",
+        "blur": "6px",
+        "spread": "2px",
+        "color": "rgba({color.black}, 0.15)",
+        "type": "dropShadow"
+      }
+    ],
+    "type": "boxShadow"
+  },
+  "boxShadowThree": {
+    "value": [
+      {
+        "x": "0px",
+        "y": "4px",
+        "blur": "8px",
+        "spread": "3px",
+        "color": "rgba({color.black}, 0.1)",
+        "type": "dropShadow"
+      },
+      {
+        "x": "0px",
+        "y": "1px",
+        "blur": "3px",
+        "spread": "0",
+        "color": "rgba({color.black}, 0.2)",
+        "type": "dropShadow"
+      }
+    ],
+    "type": "boxShadow"
+  },
+  "boxShadowFour": {
+    "value": [
+      {
+        "x": "7px",
+        "y": "6px",
+        "blur": "13px",
+        "spread": "0",
+        "color": "rgba({color.black}, 0.2)",
+        "type": "dropShadow"
+      },
+      {
+        "x": "0px",
+        "y": "2px",
+        "blur": "5px",
+        "spread": "0",
+        "color": "rgba({color.black}, 0.1)",
+        "type": "dropShadow"
+      },
+      {
+        "x": "0px",
+        "y": "13px",
+        "blur": "20px",
+        "spread": "0",
+        "color": "rgba({color.black}, 0.1)",
+        "type": "dropShadow"
+      }
+    ],
+    "type": "boxShadow"
   }
 }
