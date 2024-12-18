@@ -3,6 +3,6 @@
  */
 
 :root {
-  --button-border-radius: 32;
+  --button-border-radius: 32px;
   --button-border-width: 8px;
 }

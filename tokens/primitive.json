@@ -97,32 +97,58 @@
   },
   "borderRadius": {
     "none": {
-      "value": "{spacing.0}",
+      "value": "{spacing.0}px",
       "type": "borderRadius"
     },
     "xs": {
-      "value": "{spacing.1}",
+      "value": "{spacing.1}px",
       "type": "borderRadius"
     },
     "sm": {
-      "value": "{spacing.3}",
+      "value": "{spacing.3}px",
       "type": "borderRadius"
     },
     "md": {
-      "value": "{spacing.4}",
+      "value": "{spacing.4}px",
       "type": "borderRadius"
     },
     "lg": {
-      "value": "{spacing.7}",
+      "value": "{spacing.7}px",
       "type": "borderRadius"
     },
     "xl": {
-      "value": "{spacing.9}",
+      "value": "{spacing.9}px",
       "type": "borderRadius"
     },
     "xxl": {
-      "value": "{spacing.12}",
+      "value": "{spacing.12}px",
       "type": "borderRadius"
+    }
+  },
+  "borderWidth": {
+    "none": {
+      "value": "0",
+      "type": "borderWidth"
+    },
+    "thin": {
+      "value": "1px",
+      "type": "borderWidth"
+    },
+    "default": {
+      "value": "2px",
+      "type": "borderWidth"
+    },
+    "medium": {
+      "value": "3px",
+      "type": "borderWidth"
+    },
+    "thick": {
+      "value": "4px",
+      "type": "borderWidth"
+    },
+    "extraThick": {
+      "value": "8px",
+      "type": "borderWidth"
     }
   },
   "color": {
@@ -1736,11 +1762,11 @@
       "type": "letterSpacing"
     },
     "increased": {
-      "value": "150%",
+      "value": "1%",
       "type": "letterSpacing"
     },
     "decreased": {
-      "value": "-5%",
+      "value": "-1%",
       "type": "letterSpacing"
     }
   },
@@ -1990,6 +2016,116 @@
         "value": "wavy",
         "type": "textDecorationsStyle"
       }
+    },
+    "offset": {
+      "behind": {
+        "value": "-4.8px",
+        "type": "textUnderlineOffset"
+      },
+      "none": {
+        "value": "auto",
+        "type": "textUnderlineOffset"
+      },
+      "near": {
+        "value": "4.8px",
+        "type": "textUnderlineOffset"
+      },
+      "far": {
+        "value": "9.6px",
+        "type": "textUnderlineOffset"
+      }
     }
+  },
+  "boxShadowOne": {
+    "value": [
+      {
+        "x": "0px",
+        "y": "1px",
+        "blur": "2px",
+        "spread": "0",
+        "color": "rgba({color.black}, 0.2)",
+        "type": "dropShadow"
+      },
+      {
+        "x": "0px",
+        "y": "1px",
+        "blur": "3px",
+        "spread": "1px",
+        "color": "rgba({color.black}, 0.1)",
+        "type": "dropShadow"
+      }
+    ],
+    "type": "boxShadow"
+  },
+  "boxShadowTwo": {
+    "value": [
+      {
+        "x": "0px",
+        "y": "1px",
+        "blur": "2px",
+        "spread": "0",
+        "color": "rgba({color.black}, 0.3)",
+        "type": "dropShadow"
+      },
+      {
+        "x": "0px",
+        "y": "2px",
+        "blur": "6px",
+        "spread": "2px",
+        "color": "rgba({color.black}, 0.15)",
+        "type": "dropShadow"
+      }
+    ],
+    "type": "boxShadow"
+  },
+  "boxShadowThree": {
+    "value": [
+      {
+        "x": "0px",
+        "y": "4px",
+        "blur": "8px",
+        "spread": "3px",
+        "color": "rgba({color.black}, 0.1)",
+        "type": "dropShadow"
+      },
+      {
+        "x": "0px",
+        "y": "1px",
+        "blur": "3px",
+        "spread": "0",
+        "color": "rgba({color.black}, 0.2)",
+        "type": "dropShadow"
+      }
+    ],
+    "type": "boxShadow"
+  },
+  "boxShadowFour": {
+    "value": [
+      {
+        "x": "7px",
+        "y": "6px",
+        "blur": "13px",
+        "spread": "0",
+        "color": "rgba({color.black}, 0.2)",
+        "type": "dropShadow"
+      },
+      {
+        "x": "0px",
+        "y": "2px",
+        "blur": "5px",
+        "spread": "0",
+        "color": "rgba({color.black}, 0.1)",
+        "type": "dropShadow"
+      },
+      {
+        "x": "0px",
+        "y": "13px",
+        "blur": "20px",
+        "spread": "0",
+        "color": "rgba({color.black}, 0.1)",
+        "type": "dropShadow"
+      }
+    ],
+    "type": "boxShadow"
   }
 }

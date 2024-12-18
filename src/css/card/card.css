@@ -3,6 +3,6 @@
  */
 
 :root {
-  --card-border-radius: 12;
+  --card-border-radius: 12px;
   --card-padding: 16px;
 }
