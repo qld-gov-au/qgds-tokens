@@ -1667,11 +1667,11 @@
       },
       "accent": {
         "default": {
-          "value": "{color.purplishRed.600}",
+          "value": "{color.bumblebeeYellow.500}",
           "type": "color"
         },
         "onAccent": {
-          "value": "{color.purplishRed.300}",
+          "value": "{color.bumblebeeYellow.600}",
           "type": "color"
         }
       },
