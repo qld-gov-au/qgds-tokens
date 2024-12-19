@@ -426,8 +426,8 @@
   --palette-strong-line: #f0b8c0;
   --palette-strong-muted: #9a0037;
   --palette-strong-subtle: #b80b4d;
-  --palette-strong-accent-default: #9a0037;
-  --palette-strong-accent-on-accent: #d87085;
+  --palette-strong-accent-default: #ffcc2c;
+  --palette-strong-accent-on-accent: #cf9e00;
   --palette-strong-typography-site-title-default: #ffffff;
   --palette-strong-typography-site-title-variant: #fafafa;
   --palette-strong-typography-heading-default: #ffffff;
@@ -437,11 +437,11 @@
   --palette-strong-action-nav-main-default-background: #9a0037;
   --palette-strong-action-nav-main-default-text: #ffffff;
   --palette-strong-action-nav-main-default-text-decoration: none;
-  --palette-strong-action-nav-main-default-accent: #9a0037;
+  --palette-strong-action-nav-main-default-accent: #ffcc2c;
   --palette-strong-action-nav-main-hover-background: #b80b4d;
   --palette-strong-action-nav-main-hover-text: #ffffff;
   --palette-strong-action-nav-main-hover-text-decoration: underline;
-  --palette-strong-action-nav-main-hover-accent: #d87085;
+  --palette-strong-action-nav-main-hover-accent: #cf9e00;
   --palette-strong-action-button-primary-default-background: #ffffff;
   --palette-strong-action-button-primary-default-text: #430001;
   --palette-strong-action-button-primary-default-text-decoration: none;

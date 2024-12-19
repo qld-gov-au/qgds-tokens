@@ -396,8 +396,8 @@
   --palette-bold-action-link-active-text-decoration-line: underline;
   --palette-bold-action-link-active-text-decoration-thickness: 2px;
   --palette-bold-action-link-active-text-decoration-style: solid;
-  --palette-bold-action-link-visited-color: #551a8b;
-  --palette-bold-action-link-visited-text-decoration-color: rgba(#551a8b, 0.8);
+  --palette-bold-action-link-visited-color: #c2b3db;
+  --palette-bold-action-link-visited-text-decoration-color: rgba(#c2b3db, 0.8);
   --palette-bold-action-link-visited-text-decoration-line: underline;
   --palette-bold-action-link-visited-text-decoration-thickness: 2px;
   --palette-bold-action-link-visited-text-decoration-style: solid;
@@ -411,7 +411,7 @@
   --palette-bold-action-pagination-active-text: #ffffff;
   --palette-bold-action-pagination-active-border: #ffffff;
   --palette-bold-action-pagination-visited-background: #09549f;
-  --palette-bold-action-pagination-visited-text: #551a8b;
+  --palette-bold-action-pagination-visited-text: #c2b3db;
   --palette-bold-action-pagination-visited-border: #78b5ce;
   --palette-strong-background: #05325f;
   --palette-strong-shade: #002450;
@@ -481,8 +481,8 @@
   --palette-strong-action-link-active-text-decoration-line: underline;
   --palette-strong-action-link-active-text-decoration-thickness: 2px;
   --palette-strong-action-link-active-text-decoration-style: solid;
-  --palette-strong-action-link-visited-color: #551a8b;
-  --palette-strong-action-link-visited-text-decoration-color: rgba(#551a8b, 0.8);
+  --palette-strong-action-link-visited-color: #c2b3db;
+  --palette-strong-action-link-visited-text-decoration-color: rgba(#c2b3db, 0.8);
   --palette-strong-action-link-visited-text-decoration-line: underline;
   --palette-strong-action-link-visited-text-decoration-thickness: 2px;
   --palette-strong-action-link-visited-text-decoration-style: solid;
@@ -496,7 +496,7 @@
   --palette-strong-action-pagination-active-text: #ffffff;
   --palette-strong-action-pagination-active-border: #ffffff;
   --palette-strong-action-pagination-visited-background: #05325f;
-  --palette-strong-action-pagination-visited-text: #551a8b;
+  --palette-strong-action-pagination-visited-text: #c2b3db;
   --palette-strong-action-pagination-visited-border: #78b5ce;
   --palette-dark-background: #232323;
   --palette-dark-shade: #141414;
@@ -566,8 +566,8 @@
   --palette-dark-action-link-active-text-decoration-line: underline;
   --palette-dark-action-link-active-text-decoration-thickness: 2px;
   --palette-dark-action-link-active-text-decoration-style: solid;
-  --palette-dark-action-link-visited-color: #551a8b;
-  --palette-dark-action-link-visited-text-decoration-color: rgba(#551a8b, 0.8);
+  --palette-dark-action-link-visited-color: #c2b3db;
+  --palette-dark-action-link-visited-text-decoration-color: rgba(#c2b3db, 0.8);
   --palette-dark-action-link-visited-text-decoration-line: underline;
   --palette-dark-action-link-visited-text-decoration-thickness: 2px;
   --palette-dark-action-link-visited-text-decoration-style: solid;
@@ -581,6 +581,6 @@
   --palette-dark-action-pagination-active-text: #ffffff;
   --palette-dark-action-pagination-active-border: #ffffff;
   --palette-dark-action-pagination-visited-background: #232323;
-  --palette-dark-action-pagination-visited-text: #551a8b;
+  --palette-dark-action-pagination-visited-text: #c2b3db;
   --palette-dark-action-pagination-visited-border: #78b5ce;
 }

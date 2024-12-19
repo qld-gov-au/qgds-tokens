@@ -397,8 +397,8 @@
   <string name="paletteBoldActionLinkActiveTextDecorationLine">underline</string>
   <string name="paletteBoldActionLinkActiveTextDecorationThickness">2px</string>
   <string name="paletteBoldActionLinkActiveTextDecorationStyle">solid</string>
-  <color name="paletteBoldActionLinkVisitedColor">#551a8b</color>
-  <string name="paletteBoldActionLinkVisitedTextDecorationColor">rgba(#551a8b, 0.8)</string>
+  <color name="paletteBoldActionLinkVisitedColor">#c2b3db</color>
+  <string name="paletteBoldActionLinkVisitedTextDecorationColor">rgba(#c2b3db, 0.8)</string>
   <string name="paletteBoldActionLinkVisitedTextDecorationLine">underline</string>
   <string name="paletteBoldActionLinkVisitedTextDecorationThickness">2px</string>
   <string name="paletteBoldActionLinkVisitedTextDecorationStyle">solid</string>
@@ -412,7 +412,7 @@
   <color name="paletteBoldActionPaginationActiveText">#ffffff</color>
   <color name="paletteBoldActionPaginationActiveBorder">#ffffff</color>
   <color name="paletteBoldActionPaginationVisitedBackground">#09549f</color>
-  <color name="paletteBoldActionPaginationVisitedText">#551a8b</color>
+  <color name="paletteBoldActionPaginationVisitedText">#c2b3db</color>
   <color name="paletteBoldActionPaginationVisitedBorder">#78b5ce</color>
   <color name="paletteStrongBackground">#05325f</color>
   <color name="paletteStrongShade">#002450</color>
@@ -482,8 +482,8 @@
   <string name="paletteStrongActionLinkActiveTextDecorationLine">underline</string>
   <string name="paletteStrongActionLinkActiveTextDecorationThickness">2px</string>
   <string name="paletteStrongActionLinkActiveTextDecorationStyle">solid</string>
-  <color name="paletteStrongActionLinkVisitedColor">#551a8b</color>
-  <string name="paletteStrongActionLinkVisitedTextDecorationColor">rgba(#551a8b, 0.8)</string>
+  <color name="paletteStrongActionLinkVisitedColor">#c2b3db</color>
+  <string name="paletteStrongActionLinkVisitedTextDecorationColor">rgba(#c2b3db, 0.8)</string>
   <string name="paletteStrongActionLinkVisitedTextDecorationLine">underline</string>
   <string name="paletteStrongActionLinkVisitedTextDecorationThickness">2px</string>
   <string name="paletteStrongActionLinkVisitedTextDecorationStyle">solid</string>
@@ -497,7 +497,7 @@
   <color name="paletteStrongActionPaginationActiveText">#ffffff</color>
   <color name="paletteStrongActionPaginationActiveBorder">#ffffff</color>
   <color name="paletteStrongActionPaginationVisitedBackground">#05325f</color>
-  <color name="paletteStrongActionPaginationVisitedText">#551a8b</color>
+  <color name="paletteStrongActionPaginationVisitedText">#c2b3db</color>
   <color name="paletteStrongActionPaginationVisitedBorder">#78b5ce</color>
   <color name="paletteDarkBackground">#232323</color>
   <color name="paletteDarkShade">#141414</color>
@@ -567,8 +567,8 @@
   <string name="paletteDarkActionLinkActiveTextDecorationLine">underline</string>
   <string name="paletteDarkActionLinkActiveTextDecorationThickness">2px</string>
   <string name="paletteDarkActionLinkActiveTextDecorationStyle">solid</string>
-  <color name="paletteDarkActionLinkVisitedColor">#551a8b</color>
-  <string name="paletteDarkActionLinkVisitedTextDecorationColor">rgba(#551a8b, 0.8)</string>
+  <color name="paletteDarkActionLinkVisitedColor">#c2b3db</color>
+  <string name="paletteDarkActionLinkVisitedTextDecorationColor">rgba(#c2b3db, 0.8)</string>
   <string name="paletteDarkActionLinkVisitedTextDecorationLine">underline</string>
   <string name="paletteDarkActionLinkVisitedTextDecorationThickness">2px</string>
   <string name="paletteDarkActionLinkVisitedTextDecorationStyle">solid</string>
@@ -582,6 +582,6 @@
   <color name="paletteDarkActionPaginationActiveText">#ffffff</color>
   <color name="paletteDarkActionPaginationActiveBorder">#ffffff</color>
   <color name="paletteDarkActionPaginationVisitedBackground">#232323</color>
-  <color name="paletteDarkActionPaginationVisitedText">#551a8b</color>
+  <color name="paletteDarkActionPaginationVisitedText">#c2b3db</color>
   <color name="paletteDarkActionPaginationVisitedBorder">#78b5ce</color>
 </resources>
