@@ -443,8 +443,8 @@
   <string name="fontSizeRawDesktopLg">23.04</string>
   <string name="fontSizeRawDesktopMd">19.2</string>
   <string name="fontSizeRawDesktopSm">16</string>
-  <string name="fontSizeRawDesktopXs">12.8</string>
-  <string name="fontSizeRawDesktopXxs">10.24</string>
+  <string name="fontSizeRawDesktopXs">14</string>
+  <string name="fontSizeRawDesktopXxs">12</string>
   <string name="fontSizeRawMobileXxxxl">39.8131</string>
   <string name="fontSizeRawMobileXxxl">33.1776</string>
   <string name="fontSizeRawMobileXxl">27.648</string>
@@ -452,8 +452,8 @@
   <string name="fontSizeRawMobileLg">19.2</string>
   <string name="fontSizeRawMobileMd">16</string>
   <string name="fontSizeRawMobileSm">16</string>
-  <string name="fontSizeRawMobileXs">12.8</string>
-  <string name="fontSizeRawMobileXxs">10.24</string>
+  <string name="fontSizeRawMobileXs">14</string>
+  <string name="fontSizeRawMobileXxs">12</string>
   <dimen name="fontSizeDesktopXxxxl">47.7757px</dimen>
   <dimen name="fontSizeDesktopXxxl">39.8131px</dimen>
   <dimen name="fontSizeDesktopXxl">33.1776px</dimen>
@@ -461,8 +461,8 @@
   <dimen name="fontSizeDesktopLg">23.04px</dimen>
   <dimen name="fontSizeDesktopMd">19.2px</dimen>
   <dimen name="fontSizeDesktopSm">16px</dimen>
-  <dimen name="fontSizeDesktopXs">12.8px</dimen>
-  <dimen name="fontSizeDesktopXxs">10.24px</dimen>
+  <dimen name="fontSizeDesktopXs">14px</dimen>
+  <dimen name="fontSizeDesktopXxs">12px</dimen>
   <dimen name="fontSizeMobileXxxxl">39.8131px</dimen>
   <dimen name="fontSizeMobileXxxl">33.1776px</dimen>
   <dimen name="fontSizeMobileXxl">27.648px</dimen>
@@ -470,8 +470,8 @@
   <dimen name="fontSizeMobileLg">19.2px</dimen>
   <dimen name="fontSizeMobileMd">16px</dimen>
   <dimen name="fontSizeMobileSm">16px</dimen>
-  <dimen name="fontSizeMobileXs">12.8px</dimen>
-  <dimen name="fontSizeMobileXxs">10.24px</dimen>
+  <dimen name="fontSizeMobileXs">14px</dimen>
+  <dimen name="fontSizeMobileXxs">12px</dimen>
   <string name="textDecorationLineNone">none</string>
   <string name="textDecorationLineUnderline">underline</string>
   <string name="textDecorationLineOverline">overline</string>
