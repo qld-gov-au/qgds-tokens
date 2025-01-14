@@ -83,7 +83,7 @@
           "fontFamily": "{fontFamily.body}",
           "fontWeight": "{fontWeight.regular}",
           "lineHeight": "{lineHeight.body}",
-          "fontSize": "{fontSize.mobile.xs}",
+          "fontSize": "{fontSize.mobile.sm}",
           "paragraphSpacing": "{paragraphSpacing.mobile.body}"
         }
       },
@@ -93,7 +93,7 @@
           "fontFamily": "{fontFamily.body}",
           "fontWeight": "{fontWeight.regular}",
           "lineHeight": "{lineHeight.body}",
-          "fontSize": "{fontSize.mobile.xxs}",
+          "fontSize": "{fontSize.mobile.xs}",
           "paragraphSpacing": "{paragraphSpacing.mobile.body}"
         }
       },
@@ -241,7 +241,7 @@
           "fontFamily": "{fontFamily.body}",
           "fontWeight": "{fontWeight.regular}",
           "lineHeight": "{lineHeight.body}",
-          "fontSize": "{fontSize.desktop.xs}",
+          "fontSize": "{fontSize.desktop.sm}",
           "paragraphSpacing": "{paragraphSpacing.desktop.body}"
         }
       },
@@ -251,7 +251,7 @@
           "fontFamily": "{fontFamily.body}",
           "fontWeight": "{fontWeight.regular}",
           "lineHeight": "{lineHeight.body}",
-          "fontSize": "{fontSize.desktop.xxs}",
+          "fontSize": "{fontSize.desktop.xs}",
           "paragraphSpacing": "{paragraphSpacing.desktop.body}"
         }
       },
