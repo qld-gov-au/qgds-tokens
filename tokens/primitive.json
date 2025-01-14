@@ -1853,11 +1853,11 @@
         "type": "fontSizeRaw"
       },
       "xs": {
-        "value": "{fontSizeRaw.desktop.sm} * 0.8",
+        "value": "14",
         "type": "fontSizeRaw"
       },
       "xxs": {
-        "value": "{fontSizeRaw.desktop.xs} * 0.8",
+        "value": "12",
         "type": "fontSizeRaw"
       }
     },
@@ -1891,11 +1891,11 @@
         "type": "fontSizeRaw"
       },
       "xs": {
-        "value": "{fontSizeRaw.mobile.sm} * 0.8",
+        "value": "14",
         "type": "fontSizeRaw"
       },
       "xxs": {
-        "value": "{fontSizeRaw.mobile.xs} * 0.8",
+        "value": "12",
         "type": "fontSizeRaw"
       }
     }

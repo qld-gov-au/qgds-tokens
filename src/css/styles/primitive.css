@@ -442,8 +442,8 @@
   --font-size-raw-desktop-lg: 23.04;
   --font-size-raw-desktop-md: 19.2;
   --font-size-raw-desktop-sm: 16;
-  --font-size-raw-desktop-xs: 12.8;
-  --font-size-raw-desktop-xxs: 10.24;
+  --font-size-raw-desktop-xs: 14;
+  --font-size-raw-desktop-xxs: 12;
   --font-size-raw-mobile-xxxxl: 39.8131;
   --font-size-raw-mobile-xxxl: 33.1776;
   --font-size-raw-mobile-xxl: 27.648;
@@ -451,8 +451,8 @@
   --font-size-raw-mobile-lg: 19.2;
   --font-size-raw-mobile-md: 16;
   --font-size-raw-mobile-sm: 16;
-  --font-size-raw-mobile-xs: 12.8;
-  --font-size-raw-mobile-xxs: 10.24;
+  --font-size-raw-mobile-xs: 14;
+  --font-size-raw-mobile-xxs: 12;
   --font-size-desktop-xxxxl: 47.7757px;
   --font-size-desktop-xxxl: 39.8131px;
   --font-size-desktop-xxl: 33.1776px;
@@ -460,8 +460,8 @@
   --font-size-desktop-lg: 23.04px;
   --font-size-desktop-md: 19.2px;
   --font-size-desktop-sm: 16px;
-  --font-size-desktop-xs: 12.8px;
-  --font-size-desktop-xxs: 10.24px;
+  --font-size-desktop-xs: 14px;
+  --font-size-desktop-xxs: 12px;
   --font-size-mobile-xxxxl: 39.8131px;
   --font-size-mobile-xxxl: 33.1776px;
   --font-size-mobile-xxl: 27.648px;
@@ -469,8 +469,8 @@
   --font-size-mobile-lg: 19.2px;
   --font-size-mobile-md: 16px;
   --font-size-mobile-sm: 16px;
-  --font-size-mobile-xs: 12.8px;
-  --font-size-mobile-xxs: 10.24px;
+  --font-size-mobile-xs: 14px;
+  --font-size-mobile-xxs: 12px;
   --text-decoration-line-none: none;
   --text-decoration-line-underline: underline;
   --text-decoration-line-overline: overline;
