@@ -87,7 +87,7 @@
   <color name="paletteBrightLine">#d0d0d2</color>
   <color name="paletteBrightMuted">#f5f5f5</color>
   <color name="paletteBrightSubtle">#e7e8e8</color>
-  <color name="paletteBrightAccentDefault">#339d37</color>
+  <color name="paletteBrightAccentDefault">#ff0084</color>
   <color name="paletteBrightAccentOnAccent">#5d0061</color>
   <color name="paletteBrightTypographySiteTitleDefault">#232323</color>
   <color name="paletteBrightTypographySiteTitleVariant">#444444</color>
@@ -98,7 +98,7 @@
   <color name="paletteBrightActionNavMainDefaultBackground">#f5f5f5</color>
   <color name="paletteBrightActionNavMainDefaultText">#444444</color>
   <string name="paletteBrightActionNavMainDefaultTextDecoration">none</string>
-  <string name="paletteBrightActionNavMainDefaultAccent">#339d37</string>
+  <string name="paletteBrightActionNavMainDefaultAccent">#ff0084</string>
   <color name="paletteBrightActionNavMainHoverBackground">#e7e8e8</color>
   <color name="paletteBrightActionNavMainHoverText">#ae0047</color>
   <string name="paletteBrightActionNavMainHoverTextDecoration">underline</string>
