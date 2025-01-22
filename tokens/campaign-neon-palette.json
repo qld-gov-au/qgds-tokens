@@ -59,7 +59,7 @@
       },
       "accent": {
         "default": {
-          "value": "{color.bumblebeeYellow.600}",
+          "value": "{color.puttingGreen.500}",
           "type": "color"
         },
         "onAccent": {
