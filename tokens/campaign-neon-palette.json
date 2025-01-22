@@ -59,7 +59,7 @@
       },
       "accent": {
         "default": {
-          "value": "{color.puttingGreen.500}",
+          "value": "{color.fancyFuchsiaPink.500}",
           "type": "color"
         },
         "onAccent": {
