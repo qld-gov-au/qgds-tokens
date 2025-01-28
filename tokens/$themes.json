@@ -68,5 +68,35 @@
     },
     "group": "brand",
     "type": "other"
+  },
+  {
+    "name": "custom-partner-name-mythemeone-palette",
+    "selectedTokenSets": {
+      "primitive": "source",
+      "button": "source",
+      "card": "source",
+      "qgds": "source",
+      "typography": "source",
+      "custom-partner-name": "source",
+      "custom-partner-name-mythemeone-theme": "enabled",
+      "custom-partner-name-mythemeone-palette": "enabled"
+    },
+    "group": "brand",
+    "type": "other"
+  },
+  {
+    "name": "custom-partner-name-mythemetwo-palette",
+    "selectedTokenSets": {
+      "primitive": "source",
+      "button": "source",
+      "card": "source",
+      "qgds": "source",
+      "typography": "source",
+      "custom-partner-name": "source",
+      "custom-partner-name-mythemetwo-theme": "enabled",
+      "custom-partner-name-mythemetwo-palette": "enabled"
+    },
+    "group": "brand",
+    "type": "other"
   }
 ]
