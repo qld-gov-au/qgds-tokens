@@ -27,7 +27,7 @@ export const generateSemanticFiles = (components, theme, platform, fileExtension
   filesArr.push({
     ...commonFileOptions[platform],
     filter: semanticFilter(components, true),
-    destination: `src/${platform}/styles/qgds-${theme.toLowerCase()}.${fileExtension}`,
+    destination: `src/${platform}/styles/${theme.toLowerCase()}.${fileExtension}`,
   });
 
   // no theme-specific outputs
