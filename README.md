@@ -33,6 +33,17 @@ Run:
 ```
 All files you add/create into your forked version will be always safe from being overriden when you get latest from upstream (qgds-tokens).
 
+### What files should I look for or change when creating your custom theme
+Please add a reference of your new theme on $metadata.json and on $themes.json. Please see the example branch for more info: custom-tokens-and-themes-example
+
+### What to do after I create a custom theme
+Run:
+```bash
+    npm run build
+    npm run test
+    npm run build:package
+```
+You should see no errors.
 
 ### Using this repository:
 Run:
