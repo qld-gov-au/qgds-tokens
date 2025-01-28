@@ -40,7 +40,4 @@ https://github.com/tokens-studio/sd-transforms
 ## Publish system
 There is two publish subsystems, one is to npmjs and the other is to github repo package
 
-### Github package repository
- Still work in progress:
- * currently missing cleanup prior to publishing latest tag
- * needs to publish when a version is cut (including incrementing package.json version if not same)
+
