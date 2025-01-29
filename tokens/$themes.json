@@ -70,31 +70,61 @@
     "type": "other"
   },
   {
-    "name": "custom-partner-name-mythemeone-palette",
+    "name": "custom-education-main-palette",
     "selectedTokenSets": {
       "primitive": "source",
       "button": "source",
       "card": "source",
       "qgds": "source",
       "typography": "source",
-      "custom-partner-name": "source",
-      "custom-partner-name-mythemeone-theme": "enabled",
-      "custom-partner-name-mythemeone-palette": "enabled"
+      "custom-education": "source",
+      "custom-education-main-theme": "enabled",
+      "custom-education-main-palette": "enabled"
     },
     "group": "brand",
     "type": "other"
   },
   {
-    "name": "custom-partner-name-mythemetwo-palette",
+    "name": "custom-education-earlychildhood-palette",
     "selectedTokenSets": {
       "primitive": "source",
       "button": "source",
       "card": "source",
       "qgds": "source",
       "typography": "source",
-      "custom-partner-name": "source",
-      "custom-partner-name-mythemetwo-theme": "enabled",
-      "custom-partner-name-mythemetwo-palette": "enabled"
+      "custom-education": "source",
+      "custom-education-earlychildhood-theme": "enabled",
+      "custom-education-earlychildhood-palette": "enabled"
+    },
+    "group": "brand",
+    "type": "other"
+  },
+  {
+    "name": "custom-education-family-palette",
+    "selectedTokenSets": {
+      "primitive": "source",
+      "button": "source",
+      "card": "source",
+      "qgds": "source",
+      "typography": "source",
+      "custom-education": "source",
+      "custom-education-family-theme": "enabled",
+      "custom-education-family-palette": "enabled"
+    },
+    "group": "brand",
+    "type": "other"
+  },
+  {
+    "name": "custom-education-recycle-palette",
+    "selectedTokenSets": {
+      "primitive": "source",
+      "button": "source",
+      "card": "source",
+      "qgds": "source",
+      "typography": "source",
+      "custom-education": "source",
+      "custom-education-recycle-theme": "enabled",
+      "custom-education-recycle-palette": "enabled"
     },
     "group": "brand",
     "type": "other"
