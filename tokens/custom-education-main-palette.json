@@ -26,7 +26,7 @@
         }
       },
       "boundary": {
-        "value": "{color.zundaGreen.500}",
+        "value": "{custom.education.color.robinsEggBlue.500}",
         "type": "color"
       },
       "partition": {
@@ -38,11 +38,11 @@
         "type": "color"
       },
       "divider": {
-        "value": "{color.victoriaBlue.500}",
+        "value": "{custom.education.color.lagoonBlue.500}",
         "type": "color"
       },
       "fence": {
-        "value": "{color.zundaGreen.500}",
+        "value": "{custom.education.color.robinsEggBlue.500}",
         "type": "color"
       },
       "line": {
@@ -59,11 +59,11 @@
       },
       "accent": {
         "default": {
-          "value": "{color.zundaGreen.500}",
+          "value": "{custom.education.color.robinsEggBlue.500}",
           "type": "color"
         },
         "onAccent": {
-          "value": "{color.victoriaBlue.600}",
+          "value": "{custom.education.color.lagoonBlue.600}",
           "type": "color"
         }
       },
@@ -125,7 +125,7 @@
               "type": "color"
             },
             "text": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{custom.education.color.lagoonBlue.500}",
               "type": "color"
             },
             "textDecoration": {
@@ -255,7 +255,7 @@
         "link": {
           "default": {
             "color": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{custom.education.color.lagoonBlue.500}",
               "type": "color"
             },
             "textDecorationColor": {
@@ -277,7 +277,7 @@
           },
           "hover": {
             "color": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{custom.education.color.lagoonBlue.500}",
               "type": "color"
             },
             "textDecorationColor": {
@@ -299,7 +299,7 @@
           },
           "active": {
             "color": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{custom.education.color.lagoonBlue.500}",
               "type": "color"
             },
             "textDecorationColor": {
@@ -349,7 +349,7 @@
               "type": "color"
             },
             "text": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{custom.education.color.lagoonBlue.500}",
               "type": "color"
             },
             "border": {
@@ -363,17 +363,17 @@
               "type": "color"
             },
             "text": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{custom.education.color.lagoonBlue.500}",
               "type": "color"
             },
             "border": {
-              "value": "{color.zundaGreen.500}",
+              "value": "{custom.education.color.robinsEggBlue.500}",
               "type": "color"
             }
           },
           "active": {
             "background": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{custom.education.color.lagoonBlue.500}",
               "type": "color"
             },
             "text": {
@@ -381,7 +381,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{custom.education.color.lagoonBlue.500}",
               "type": "color"
             }
           },
@@ -404,11 +404,11 @@
     },
     "tint": {
       "background": {
-        "value": "{color.victoriaBlue.25}",
+        "value": "{custom.education.color.lagoonBlue.25}",
         "type": "color"
       },
       "shade": {
-        "value": "{color.victoriaBlue.50}",
+        "value": "{custom.education.color.lagoonBlue.50}",
         "type": "color"
       },
       "focus": {
@@ -419,7 +419,7 @@
       },
       "border": {
         "default": {
-          "value": "{color.victoriaBlue.100}",
+          "value": "{custom.education.color.lagoonBlue.100}",
           "type": "color"
         },
         "variant": {
@@ -428,7 +428,7 @@
         }
       },
       "boundary": {
-        "value": "{color.zundaGreen.500}",
+        "value": "{custom.education.color.robinsEggBlue.500}",
         "type": "color"
       },
       "partition": {
@@ -440,11 +440,11 @@
         "type": "color"
       },
       "divider": {
-        "value": "{color.victoriaBlue.500}",
+        "value": "{custom.education.color.lagoonBlue.500}",
         "type": "color"
       },
       "fence": {
-        "value": "{color.zundaGreen.500}",
+        "value": "{custom.education.color.robinsEggBlue.500}",
         "type": "color"
       },
       "line": {
@@ -461,11 +461,11 @@
       },
       "accent": {
         "default": {
-          "value": "{color.zundaGreen.500}",
+          "value": "{custom.education.color.robinsEggBlue.500}",
           "type": "color"
         },
         "onAccent": {
-          "value": "{color.victoriaBlue.600}",
+          "value": "{custom.education.color.lagoonBlue.600}",
           "type": "color"
         }
       },
@@ -527,7 +527,7 @@
               "type": "color"
             },
             "text": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{custom.education.color.lagoonBlue.500}",
               "type": "color"
             },
             "textDecoration": {
@@ -657,7 +657,7 @@
         "link": {
           "default": {
             "color": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{custom.education.color.lagoonBlue.500}",
               "type": "color"
             },
             "textDecorationColor": {
@@ -679,7 +679,7 @@
           },
           "hover": {
             "color": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{custom.education.color.lagoonBlue.500}",
               "type": "color"
             },
             "textDecorationColor": {
@@ -701,7 +701,7 @@
           },
           "active": {
             "color": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{custom.education.color.lagoonBlue.500}",
               "type": "color"
             },
             "textDecorationColor": {
@@ -751,7 +751,7 @@
               "type": "color"
             },
             "text": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{custom.education.color.lagoonBlue.500}",
               "type": "color"
             },
             "border": {
@@ -761,7 +761,7 @@
           },
           "active": {
             "background": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{custom.education.color.lagoonBlue.500}",
               "type": "color"
             },
             "text": {
@@ -769,7 +769,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{custom.education.color.lagoonBlue.500}",
               "type": "color"
             }
           },
@@ -779,11 +779,11 @@
               "type": "color"
             },
             "text": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{custom.education.color.lagoonBlue.500}",
               "type": "color"
             },
             "border": {
-              "value": "{color.zundaGreen.500}",
+              "value": "{custom.education.color.robinsEggBlue.500}",
               "type": "color"
             }
           },
@@ -830,7 +830,7 @@
         }
       },
       "boundary": {
-        "value": "{color.zundaGreen.500}",
+        "value": "{custom.education.color.robinsEggBlue.500}",
         "type": "color"
       },
       "partition": {
@@ -842,11 +842,11 @@
         "type": "color"
       },
       "divider": {
-        "value": "{color.victoriaBlue.500}",
+        "value": "{custom.education.color.lagoonBlue.500}",
         "type": "color"
       },
       "fence": {
-        "value": "{color.zundaGreen.500}",
+        "value": "{custom.education.color.robinsEggBlue.500}",
         "type": "color"
       },
       "line": {
@@ -863,11 +863,11 @@
       },
       "accent": {
         "default": {
-          "value": "{color.zundaGreen.500}",
+          "value": "{custom.education.color.robinsEggBlue.500}",
           "type": "color"
         },
         "onAccent": {
-          "value": "{color.victoriaBlue.600}",
+          "value": "{custom.education.color.lagoonBlue.600}",
           "type": "color"
         }
       },
@@ -929,7 +929,7 @@
               "type": "color"
             },
             "text": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{custom.education.color.lagoonBlue.500}",
               "type": "color"
             },
             "textDecoration": {
@@ -1059,7 +1059,7 @@
         "link": {
           "default": {
             "color": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{custom.education.color.lagoonBlue.500}",
               "type": "color"
             },
             "textDecorationColor": {
@@ -1081,7 +1081,7 @@
           },
           "hover": {
             "color": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{custom.education.color.lagoonBlue.500}",
               "type": "color"
             },
             "textDecorationColor": {
@@ -1103,7 +1103,7 @@
           },
           "active": {
             "color": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{custom.education.color.lagoonBlue.500}",
               "type": "color"
             },
             "textDecorationColor": {
@@ -1153,7 +1153,7 @@
               "type": "color"
             },
             "text": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{custom.education.color.lagoonBlue.500}",
               "type": "color"
             },
             "border": {
@@ -1167,17 +1167,17 @@
               "type": "color"
             },
             "text": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{custom.education.color.lagoonBlue.500}",
               "type": "color"
             },
             "border": {
-              "value": "{color.zundaGreen.500}",
+              "value": "{custom.education.color.robinsEggBlue.500}",
               "type": "color"
             }
           },
           "active": {
             "background": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{custom.education.color.lagoonBlue.500}",
               "type": "color"
             },
             "text": {
@@ -1185,7 +1185,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{color.victoriaBlue.500}",
+              "value": "{custom.education.color.lagoonBlue.500}",
               "type": "color"
             }
           },
@@ -1208,11 +1208,11 @@
     },
     "bold": {
       "background": {
-        "value": "{color.victoriaBlue.500}",
+        "value": "{custom.education.color.lagoonBlue.500}",
         "type": "color"
       },
       "shade": {
-        "value": "{color.victoriaBlue.600}",
+        "value": "{custom.education.color.lagoonBlue.600}",
         "type": "color"
       },
       "focus": {
@@ -1232,7 +1232,7 @@
         }
       },
       "boundary": {
-        "value": "{color.zundaGreen.500}",
+        "value": "{custom.education.color.robinsEggBlue.500}",
         "type": "color"
       },
       "partition": {
@@ -1244,11 +1244,11 @@
         "type": "color"
       },
       "divider": {
-        "value": "{color.victoriaBlue.500}",
+        "value": "{custom.education.color.lagoonBlue.500}",
         "type": "color"
       },
       "fence": {
-        "value": "{color.zundaGreen.500}",
+        "value": "{custom.education.color.robinsEggBlue.500}",
         "type": "color"
       },
       "line": {
@@ -1256,20 +1256,20 @@
         "type": "color"
       },
       "muted": {
-        "value": "{color.victoriaBlue.600}",
+        "value": "{custom.education.color.lagoonBlue.600}",
         "type": "color"
       },
       "subtle": {
-        "value": "{color.marineBlue.500}",
+        "value": "{custom.education.color.zodiacBlue.500}",
         "type": "color"
       },
       "accent": {
         "default": {
-          "value": "{color.zundaGreen.500}",
+          "value": "{custom.education.color.robinsEggBlue.500}",
           "type": "color"
         },
         "onAccent": {
-          "value": "{color.zundaGreen.300}",
+          "value": "{custom.education.color.robinsEggBlue.300}",
           "type": "color"
         }
       },
@@ -1573,7 +1573,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{color.zundaGreen.500}",
+              "value": "{custom.education.color.robinsEggBlue.500}",
               "type": "color"
             }
           },
@@ -1610,11 +1610,11 @@
     },
     "strong": {
       "background": {
-        "value": "{color.marineBlue.500}",
+        "value": "{custom.education.color.zodiacBlue.500}",
         "type": "color"
       },
       "shade": {
-        "value": "{color.marineBlue.600}",
+        "value": "{custom.education.color.zodiacBlue.600}",
         "type": "color"
       },
       "focus": {
@@ -1634,7 +1634,7 @@
         }
       },
       "boundary": {
-        "value": "{color.zundaGreen.500}",
+        "value": "{custom.education.color.robinsEggBlue.500}",
         "type": "color"
       },
       "partition": {
@@ -1646,11 +1646,11 @@
         "type": "color"
       },
       "divider": {
-        "value": "{color.victoriaBlue.500}",
+        "value": "{custom.education.color.lagoonBlue.500}",
         "type": "color"
       },
       "fence": {
-        "value": "{color.zundaGreen.500}",
+        "value": "{custom.education.color.robinsEggBlue.500}",
         "type": "color"
       },
       "line": {
@@ -1658,20 +1658,20 @@
         "type": "color"
       },
       "muted": {
-        "value": "{color.victoriaBlue.600}",
+        "value": "{custom.education.color.lagoonBlue.600}",
         "type": "color"
       },
       "subtle": {
-        "value": "{color.marineBlue.500}",
+        "value": "{custom.education.color.zodiacBlue.500}",
         "type": "color"
       },
       "accent": {
         "default": {
-          "value": "{color.zundaGreen.500}",
+          "value": "{custom.education.color.robinsEggBlue.500}",
           "type": "color"
         },
         "onAccent": {
-          "value": "{color.zundaGreen.300}",
+          "value": "{custom.education.color.robinsEggBlue.300}",
           "type": "color"
         }
       },
@@ -1975,7 +1975,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{color.zundaGreen.500}",
+              "value": "{custom.education.color.robinsEggBlue.500}",
               "type": "color"
             }
           },
@@ -2036,7 +2036,7 @@
         }
       },
       "boundary": {
-        "value": "{color.zundaGreen.500}",
+        "value": "{custom.education.color.robinsEggBlue.500}",
         "type": "color"
       },
       "partition": {
@@ -2048,11 +2048,11 @@
         "type": "color"
       },
       "divider": {
-        "value": "{color.victoriaBlue.500}",
+        "value": "{custom.education.color.lagoonBlue.500}",
         "type": "color"
       },
       "fence": {
-        "value": "{color.zundaGreen.500}",
+        "value": "{custom.education.color.robinsEggBlue.500}",
         "type": "color"
       },
       "line": {
@@ -2064,16 +2064,16 @@
         "type": "color"
       },
       "subtle": {
-        "value": "{color.marineBlue.500}",
+        "value": "{custom.education.color.zodiacBlue.500}",
         "type": "color"
       },
       "accent": {
         "default": {
-          "value": "{color.zundaGreen.500}",
+          "value": "{custom.education.color.robinsEggBlue.500}",
           "type": "color"
         },
         "onAccent": {
-          "value": "{color.zundaGreen.300}",
+          "value": "{custom.education.color.robinsEggBlue.300}",
           "type": "color"
         }
       },
@@ -2377,7 +2377,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{color.zundaGreen.500}",
+              "value": "{custom.education.color.robinsEggBlue.500}",
               "type": "color"
             }
           },

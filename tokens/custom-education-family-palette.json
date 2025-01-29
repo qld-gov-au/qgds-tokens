@@ -59,7 +59,7 @@
       },
       "accent": {
         "default": {
-          "value": "{custom.education.color.victoriaPurple.500}",
+          "value": "{color.serpentGreen.500}",
           "type": "color"
         },
         "onAccent": {
