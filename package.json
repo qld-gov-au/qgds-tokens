@@ -8,7 +8,7 @@
     "prepare": "npm run build:all",
     "build:all": "npm run build && npm run build:package",
     "build": "node .build/build-tokens.mjs",
-    "build:package": "tsc --build && copyfiles -u 1 src/android/**/*.xml src/css/**/*.css src/js/**/*.js src/scss/**/*.scss dist",
+    "build:package": "tsc --build && rm -r dist/android/* && rm -r dist/css/* && rm -r dist/js/* && rm -r dist/scss/* && copyfiles -u 1 src/android/**/*.xml src/css/**/*.css src/js/**/*.js src/scss/**/*.scss dist",
     "clean": "rimraf src dist",
     "ci": "npm run build && npm run test",
     "test": "jest /test"

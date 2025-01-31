@@ -13,7 +13,7 @@ const jsonPaletteOutputFilePath = path.resolve(jsonPaletteOutputDir, jsonPalette
 
 // test if combined ouput token exists
 const cssOutputDir = 'src/css/styles';
-const cssOutputFileName = 'qgds-qld-maroon-palette.css';
+const cssOutputFileName = 'qld-maroon-palette.css';
 const cssOutputFilePath = path.resolve(cssOutputDir, cssOutputFileName);
 
 // test if input & output transformation is valid
