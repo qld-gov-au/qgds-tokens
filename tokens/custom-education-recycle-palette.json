@@ -26,7 +26,7 @@
         }
       },
       "boundary": {
-        "value": "{custom.education.color.malachiteGreen.500}",
+        "value": "rgba({custom.education.color.mySpecialColor}, 1)",
         "type": "color"
       },
       "partition": {
@@ -38,11 +38,11 @@
         "type": "color"
       },
       "divider": {
-        "value": "{custom.education.color.malachiteGreen.700}",
+        "value": "{color.broccoliParadiseGreen.700}",
         "type": "color"
       },
       "fence": {
-        "value": "{custom.education.color.malachiteGreen.500}",
+        "value": "rgba({custom.education.color.mySpecialColor}, 1)",
         "type": "color"
       },
       "line": {
@@ -59,7 +59,7 @@
       },
       "accent": {
         "default": {
-          "value": "{custom.education.color.malachiteGreen.500}",
+          "value": "{custom.education.color.mySpecialColor}",
           "type": "color"
         },
         "onAccent": {
@@ -125,7 +125,7 @@
               "type": "color"
             },
             "text": {
-              "value": "{custom.education.color.malachiteGreen.700}",
+              "value": "{color.broccoliParadiseGreen.700}",
               "type": "color"
             },
             "textDecoration": {
@@ -202,7 +202,7 @@
                 "type": "color"
               },
               "text": {
-                "value": "{custom.education.color.malachiteGreen.700}",
+                "value": "{color.broccoliParadiseGreen.700}",
                 "type": "color"
               },
               "textDecoration": {
@@ -220,7 +220,7 @@
                 "type": "color"
               },
               "text": {
-                "value": "{custom.education.color.malachiteGreen.700}",
+                "value": "{color.broccoliParadiseGreen.700}",
                 "type": "color"
               },
               "textDecoration": {
@@ -238,7 +238,7 @@
                 "type": "color"
               },
               "text": {
-                "value": "{custom.education.color.malachiteGreen.700}",
+                "value": "{color.broccoliParadiseGreen.700}",
                 "type": "color"
               },
               "textDecoration": {
@@ -255,7 +255,7 @@
         "link": {
           "default": {
             "color": {
-              "value": "{custom.education.color.malachiteGreen.700}",
+              "value": "{color.broccoliParadiseGreen.700}",
               "type": "color"
             },
             "textDecorationColor": {
@@ -277,7 +277,7 @@
           },
           "hover": {
             "color": {
-              "value": "{custom.education.color.malachiteGreen.800}",
+              "value": "rgba({custom.education.color.mySpecialColor}, 1.3)",
               "type": "color"
             },
             "textDecorationColor": {
@@ -299,7 +299,7 @@
           },
           "active": {
             "color": {
-              "value": "{custom.education.color.malachiteGreen.800}",
+              "value": "rgba({custom.education.color.mySpecialColor}, 1.3)",
               "type": "color"
             },
             "textDecorationColor": {
@@ -349,7 +349,7 @@
               "type": "color"
             },
             "text": {
-              "value": "{custom.education.color.malachiteGreen.700}",
+              "value": "{color.broccoliParadiseGreen.700}",
               "type": "color"
             },
             "border": {
@@ -363,7 +363,7 @@
               "type": "color"
             },
             "text": {
-              "value": "{custom.education.color.malachiteGreen.700}",
+              "value": "{color.broccoliParadiseGreen.700}",
               "type": "color"
             },
             "border": {
@@ -428,7 +428,7 @@
         }
       },
       "boundary": {
-        "value": "{custom.education.color.malachiteGreen.500}",
+        "value": "rgba({custom.education.color.mySpecialColor}, 1)",
         "type": "color"
       },
       "partition": {
@@ -440,11 +440,11 @@
         "type": "color"
       },
       "divider": {
-        "value": "{custom.education.color.malachiteGreen.700}",
+        "value": "{color.broccoliParadiseGreen.700}",
         "type": "color"
       },
       "fence": {
-        "value": "{custom.education.color.malachiteGreen.500}",
+        "value": "rgba({custom.education.color.mySpecialColor}, 1)",
         "type": "color"
       },
       "line": {
@@ -461,7 +461,7 @@
       },
       "accent": {
         "default": {
-          "value": "{custom.education.color.malachiteGreen.500}",
+          "value": "rgba({custom.education.color.mySpecialColor}, 1)",
           "type": "color"
         },
         "onAccent": {
@@ -527,7 +527,7 @@
               "type": "color"
             },
             "text": {
-              "value": "{custom.education.color.malachiteGreen.700}",
+              "value": "{color.broccoliParadiseGreen.700}",
               "type": "color"
             },
             "textDecoration": {
@@ -604,7 +604,7 @@
                 "type": "color"
               },
               "text": {
-                "value": "{custom.education.color.malachiteGreen.700}",
+                "value": "{color.broccoliParadiseGreen.700}",
                 "type": "color"
               },
               "textDecoration": {
@@ -622,7 +622,7 @@
                 "type": "color"
               },
               "text": {
-                "value": "{custom.education.color.malachiteGreen.700}",
+                "value": "{color.broccoliParadiseGreen.700}",
                 "type": "color"
               },
               "textDecoration": {
@@ -640,7 +640,7 @@
                 "type": "color"
               },
               "text": {
-                "value": "{custom.education.color.malachiteGreen.700}",
+                "value": "{color.broccoliParadiseGreen.700}",
                 "type": "color"
               },
               "textDecoration": {
@@ -657,7 +657,7 @@
         "link": {
           "default": {
             "color": {
-              "value": "{custom.education.color.malachiteGreen.700}",
+              "value": "{color.broccoliParadiseGreen.700}",
               "type": "color"
             },
             "textDecorationColor": {
@@ -679,7 +679,7 @@
           },
           "hover": {
             "color": {
-              "value": "{custom.education.color.malachiteGreen.800}",
+              "value": "rgba({custom.education.color.mySpecialColor}, 1.3)",
               "type": "color"
             },
             "textDecorationColor": {
@@ -701,7 +701,7 @@
           },
           "active": {
             "color": {
-              "value": "{custom.education.color.malachiteGreen.800}",
+              "value": "rgba({custom.education.color.mySpecialColor}, 1.3)",
               "type": "color"
             },
             "textDecorationColor": {
@@ -751,7 +751,7 @@
               "type": "color"
             },
             "text": {
-              "value": "{custom.education.color.malachiteGreen.700}",
+              "value": "{color.broccoliParadiseGreen.700}",
               "type": "color"
             },
             "border": {
@@ -765,7 +765,7 @@
               "type": "color"
             },
             "text": {
-              "value": "{custom.education.color.malachiteGreen.700}",
+              "value": "{color.broccoliParadiseGreen.700}",
               "type": "color"
             },
             "border": {
@@ -830,7 +830,7 @@
         }
       },
       "boundary": {
-        "value": "{custom.education.color.malachiteGreen.500}",
+        "value": "rgba({custom.education.color.mySpecialColor}, 1)",
         "type": "color"
       },
       "partition": {
@@ -842,11 +842,11 @@
         "type": "color"
       },
       "divider": {
-        "value": "{custom.education.color.malachiteGreen.700}",
+        "value": "{color.broccoliParadiseGreen.700}",
         "type": "color"
       },
       "fence": {
-        "value": "{custom.education.color.malachiteGreen.500}",
+        "value": "rgba({custom.education.color.mySpecialColor}, 1)",
         "type": "color"
       },
       "line": {
@@ -863,7 +863,7 @@
       },
       "accent": {
         "default": {
-          "value": "{custom.education.color.malachiteGreen.500}",
+          "value": "rgba({custom.education.color.mySpecialColor}, 1)",
           "type": "color"
         },
         "onAccent": {
@@ -929,7 +929,7 @@
               "type": "color"
             },
             "text": {
-              "value": "{custom.education.color.malachiteGreen.700}",
+              "value": "{color.broccoliParadiseGreen.700}",
               "type": "color"
             },
             "textDecoration": {
@@ -1006,7 +1006,7 @@
                 "type": "color"
               },
               "text": {
-                "value": "{custom.education.color.malachiteGreen.700}",
+                "value": "{color.broccoliParadiseGreen.700}",
                 "type": "color"
               },
               "textDecoration": {
@@ -1024,7 +1024,7 @@
                 "type": "color"
               },
               "text": {
-                "value": "{custom.education.color.malachiteGreen.700}",
+                "value": "{color.broccoliParadiseGreen.700}",
                 "type": "color"
               },
               "textDecoration": {
@@ -1042,7 +1042,7 @@
                 "type": "color"
               },
               "text": {
-                "value": "{custom.education.color.malachiteGreen.700}",
+                "value": "{color.broccoliParadiseGreen.700}",
                 "type": "color"
               },
               "textDecoration": {
@@ -1059,7 +1059,7 @@
         "link": {
           "default": {
             "color": {
-              "value": "{custom.education.color.malachiteGreen.700}",
+              "value": "{color.broccoliParadiseGreen.700}",
               "type": "color"
             },
             "textDecorationColor": {
@@ -1081,7 +1081,7 @@
           },
           "hover": {
             "color": {
-              "value": "{custom.education.color.malachiteGreen.800}",
+              "value": "rgba({custom.education.color.mySpecialColor}, 1.3)",
               "type": "color"
             },
             "textDecorationColor": {
@@ -1103,7 +1103,7 @@
           },
           "active": {
             "color": {
-              "value": "{custom.education.color.malachiteGreen.800}",
+              "value": "rgba({custom.education.color.mySpecialColor}, 1.3)",
               "type": "color"
             },
             "textDecorationColor": {
@@ -1153,7 +1153,7 @@
               "type": "color"
             },
             "text": {
-              "value": "{custom.education.color.malachiteGreen.700}",
+              "value": "{color.broccoliParadiseGreen.700}",
               "type": "color"
             },
             "border": {
@@ -1167,7 +1167,7 @@
               "type": "color"
             },
             "text": {
-              "value": "{custom.education.color.malachiteGreen.700}",
+              "value": "{color.broccoliParadiseGreen.700}",
               "type": "color"
             },
             "border": {
@@ -1217,30 +1217,30 @@
       },
       "focus": {
         "outlineColor": {
-          "value": "{custom.education.color.malachiteGreen.100}",
+          "value": "rgba({custom.education.color.mySpecialColor}, 0.1)",
           "type": "outlineColor"
         }
       },
       "border": {
         "default": {
-          "value": "{custom.education.color.malachiteGreen.300}",
+          "value": "rgba({custom.education.color.mySpecialColor}, 0.3)",
           "type": "color"
         },
         "variant": {
-          "value": "{custom.education.color.malachiteGreen.200}",
+          "value": "rgba({custom.education.color.mySpecialColor}, 0.2)",
           "type": "color"
         }
       },
       "boundary": {
-        "value": "{custom.education.color.malachiteGreen.500}",
+        "value": "rgba({custom.education.color.mySpecialColor}, 1)",
         "type": "color"
       },
       "partition": {
-        "value": "{custom.education.color.malachiteGreen.200}",
+        "value": "rgba({custom.education.color.mySpecialColor}, 0.2)",
         "type": "color"
       },
       "separator": {
-        "value": "{custom.education.color.malachiteGreen.300}",
+        "value": "rgba({custom.education.color.mySpecialColor}, 0.3)",
         "type": "color"
       },
       "divider": {
@@ -1248,11 +1248,11 @@
         "type": "color"
       },
       "fence": {
-        "value": "{custom.education.color.malachiteGreen.500}",
+        "value": "rgba({custom.education.color.mySpecialColor}, 1)",
         "type": "color"
       },
       "line": {
-        "value": "{custom.education.color.malachiteGreen.200}",
+        "value": "rgba({custom.education.color.mySpecialColor}, 0.2)",
         "type": "color"
       },
       "muted": {
@@ -1265,11 +1265,11 @@
       },
       "accent": {
         "default": {
-          "value": "{custom.education.color.malachiteGreen.500}",
+          "value": "rgba({custom.education.color.mySpecialColor}, 1)",
           "type": "color"
         },
         "onAccent": {
-          "value": "{color.liliacViolet.500}",
+          "value": "{custom.education.color.malachiteGreen.500}",
           "type": "color"
         }
       },
@@ -1366,7 +1366,7 @@
             },
             "hover": {
               "background": {
-                "value": "{color.liliacViolet.500}",
+                "value": "{custom.education.color.malachiteGreen.500}",
                 "type": "color"
               },
               "text": {
@@ -1378,13 +1378,13 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.liliacViolet.500}",
+                "value": "{custom.education.color.malachiteGreen.500}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{color.liliacViolet.500}",
+                "value": "{custom.education.color.malachiteGreen.500}",
                 "type": "color"
               },
               "text": {
@@ -1396,7 +1396,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.liliacViolet.500}",
+                "value": "{custom.education.color.malachiteGreen.500}",
                 "type": "color"
               }
             }
@@ -1434,7 +1434,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.liliacViolet.500}",
+                "value": "{custom.education.color.malachiteGreen.500}",
                 "type": "color"
               }
             },
@@ -1452,7 +1452,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.liliacViolet.500}",
+                "value": "{custom.education.color.malachiteGreen.500}",
                 "type": "color"
               }
             }
@@ -1527,7 +1527,7 @@
           },
           "visited": {
             "color": {
-              "value": "{custom.education.color.malachiteGreen.100}",
+              "value": "rgba({custom.education.color.mySpecialColor}, 0.1)",
               "type": "color"
             },
             "textDecorationColor": {
@@ -1559,7 +1559,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{custom.education.color.malachiteGreen.300}",
+              "value": "rgba({custom.education.color.mySpecialColor}, 0.3)",
               "type": "color"
             }
           },
@@ -1601,7 +1601,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{custom.education.color.malachiteGreen.600}",
+              "value": "rgba({custom.education.color.mySpecialColor}, 1.1)",
               "type": "color"
             }
           }
@@ -1619,30 +1619,30 @@
       },
       "focus": {
         "outlineColor": {
-          "value": "{custom.education.color.malachiteGreen.100}",
+          "value": "rgba({custom.education.color.mySpecialColor}, 0.1)",
           "type": "outlineColor"
         }
       },
       "border": {
         "default": {
-          "value": "{custom.education.color.malachiteGreen.300}",
+          "value": "rgba({custom.education.color.mySpecialColor}, 0.3)",
           "type": "color"
         },
         "variant": {
-          "value": "{custom.education.color.malachiteGreen.200}",
+          "value": "rgba({custom.education.color.mySpecialColor}, 0.2)",
           "type": "color"
         }
       },
       "boundary": {
-        "value": "{custom.education.color.malachiteGreen.500}",
+        "value": "rgba({custom.education.color.mySpecialColor}, 1)",
         "type": "color"
       },
       "partition": {
-        "value": "{custom.education.color.malachiteGreen.200}",
+        "value": "rgba({custom.education.color.mySpecialColor}, 0.2)",
         "type": "color"
       },
       "separator": {
-        "value": "{custom.education.color.malachiteGreen.300}",
+        "value": "rgba({custom.education.color.mySpecialColor}, 0.3)",
         "type": "color"
       },
       "divider": {
@@ -1650,11 +1650,11 @@
         "type": "color"
       },
       "fence": {
-        "value": "{custom.education.color.malachiteGreen.500}",
+        "value": "rgba({custom.education.color.mySpecialColor}, 1)",
         "type": "color"
       },
       "line": {
-        "value": "{custom.education.color.malachiteGreen.200}",
+        "value": "rgba({custom.education.color.mySpecialColor}, 0.2)",
         "type": "color"
       },
       "muted": {
@@ -1667,11 +1667,11 @@
       },
       "accent": {
         "default": {
-          "value": "{custom.education.color.malachiteGreen.500}",
+          "value": "rgba({custom.education.color.mySpecialColor}, 1)",
           "type": "color"
         },
         "onAccent": {
-          "value": "{color.liliacViolet.500}",
+          "value": "{custom.education.color.malachiteGreen.500}",
           "type": "color"
         }
       },
@@ -1768,7 +1768,7 @@
             },
             "hover": {
               "background": {
-                "value": "{color.liliacViolet.500}",
+                "value": "{custom.education.color.malachiteGreen.500}",
                 "type": "color"
               },
               "text": {
@@ -1780,13 +1780,13 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.liliacViolet.500}",
+                "value": "{custom.education.color.malachiteGreen.500}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{color.liliacViolet.500}",
+                "value": "{custom.education.color.malachiteGreen.500}",
                 "type": "color"
               },
               "text": {
@@ -1798,7 +1798,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.liliacViolet.500}",
+                "value": "{custom.education.color.malachiteGreen.500}",
                 "type": "color"
               }
             }
@@ -1836,7 +1836,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.liliacViolet.500}",
+                "value": "{custom.education.color.malachiteGreen.500}",
                 "type": "color"
               }
             },
@@ -1854,7 +1854,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.liliacViolet.500}",
+                "value": "{custom.education.color.malachiteGreen.500}",
                 "type": "color"
               }
             }
@@ -1929,7 +1929,7 @@
           },
           "visited": {
             "color": {
-              "value": "{custom.education.color.malachiteGreen.100}",
+              "value": "rgba({custom.education.color.mySpecialColor}, 0.1)",
               "type": "color"
             },
             "textDecorationColor": {
@@ -1961,7 +1961,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{custom.education.color.malachiteGreen.300}",
+              "value": "rgba({custom.education.color.mySpecialColor}, 0.3)",
               "type": "color"
             }
           },
@@ -2003,7 +2003,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{custom.education.color.malachiteGreen.600}",
+              "value": "rgba({custom.education.color.mySpecialColor}, 1.1)",
               "type": "color"
             }
           }
@@ -2021,30 +2021,30 @@
       },
       "focus": {
         "outlineColor": {
-          "value": "{custom.education.color.malachiteGreen.100}",
+          "value": "rgba({custom.education.color.mySpecialColor}, 0.1)",
           "type": "outlineColor"
         }
       },
       "border": {
         "default": {
-          "value": "{custom.education.color.malachiteGreen.300}",
+          "value": "rgba({custom.education.color.mySpecialColor}, 0.3)",
           "type": "color"
         },
         "variant": {
-          "value": "{custom.education.color.malachiteGreen.200}",
+          "value": "rgba({custom.education.color.mySpecialColor}, 0.2)",
           "type": "color"
         }
       },
       "boundary": {
-        "value": "{custom.education.color.malachiteGreen.500}",
+        "value": "rgba({custom.education.color.mySpecialColor}, 1)",
         "type": "color"
       },
       "partition": {
-        "value": "{custom.education.color.malachiteGreen.200}",
+        "value": "rgba({custom.education.color.mySpecialColor}, 0.2)",
         "type": "color"
       },
       "separator": {
-        "value": "{custom.education.color.malachiteGreen.300}",
+        "value": "rgba({custom.education.color.mySpecialColor}, 0.3)",
         "type": "color"
       },
       "divider": {
@@ -2052,11 +2052,11 @@
         "type": "color"
       },
       "fence": {
-        "value": "{custom.education.color.malachiteGreen.500}",
+        "value": "rgba({custom.education.color.mySpecialColor}, 1)",
         "type": "color"
       },
       "line": {
-        "value": "{custom.education.color.malachiteGreen.200}",
+        "value": "rgba({custom.education.color.mySpecialColor}, 0.2)",
         "type": "color"
       },
       "muted": {
@@ -2069,11 +2069,11 @@
       },
       "accent": {
         "default": {
-          "value": "{custom.education.color.malachiteGreen.500}",
+          "value": "rgba({custom.education.color.mySpecialColor}, 1)",
           "type": "color"
         },
         "onAccent": {
-          "value": "{color.liliacViolet.500}",
+          "value": "{custom.education.color.malachiteGreen.500}",
           "type": "color"
         }
       },
@@ -2170,7 +2170,7 @@
             },
             "hover": {
               "background": {
-                "value": "{color.liliacViolet.500}",
+                "value": "{custom.education.color.malachiteGreen.500}",
                 "type": "color"
               },
               "text": {
@@ -2182,13 +2182,13 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.liliacViolet.500}",
+                "value": "{custom.education.color.malachiteGreen.500}",
                 "type": "color"
               }
             },
             "active": {
               "background": {
-                "value": "{color.liliacViolet.500}",
+                "value": "{custom.education.color.malachiteGreen.500}",
                 "type": "color"
               },
               "text": {
@@ -2200,7 +2200,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.liliacViolet.500}",
+                "value": "{custom.education.color.malachiteGreen.500}",
                 "type": "color"
               }
             }
@@ -2238,7 +2238,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.liliacViolet.500}",
+                "value": "{custom.education.color.malachiteGreen.500}",
                 "type": "color"
               }
             },
@@ -2256,7 +2256,7 @@
                 "type": "textDecoration"
               },
               "border": {
-                "value": "{color.liliacViolet.500}",
+                "value": "{custom.education.color.malachiteGreen.500}",
                 "type": "color"
               }
             }
@@ -2331,7 +2331,7 @@
           },
           "visited": {
             "color": {
-              "value": "{custom.education.color.malachiteGreen.100}",
+              "value": "rgba({custom.education.color.mySpecialColor}, 0.1)",
               "type": "color"
             },
             "textDecorationColor": {
@@ -2363,7 +2363,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{custom.education.color.malachiteGreen.300}",
+              "value": "rgba({custom.education.color.mySpecialColor}, 0.3)",
               "type": "color"
             }
           },
@@ -2405,7 +2405,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{custom.education.color.malachiteGreen.600}",
+              "value": "rgba({custom.education.color.mySpecialColor}, 1.1)",
               "type": "color"
             }
           }

@@ -11,11 +11,11 @@
           "type": "color"
         },
         "third": {
-          "value": "{custom.education.color.malachiteGreen.500}",
+          "value": "rgba({custom.education.color.mySpecialColor}, 1)",
           "type": "color"
         },
         "fourth": {
-          "value": "{color.liliacViolet.500}",
+          "value": "{custom.education.color.malachiteGreen.500}",
           "type": "color"
         }
       },
@@ -86,7 +86,7 @@
                 "type": "color"
               },
               "text": {
-                "value": "{custom.education.color.malachiteGreen.700}",
+                "value": "{color.broccoliParadiseGreen.700}",
                 "type": "color"
               }
             },
@@ -96,7 +96,7 @@
                 "type": "color"
               },
               "text": {
-                "value": "{custom.education.color.malachiteGreen.700}",
+                "value": "{color.broccoliParadiseGreen.700}",
                 "type": "color"
               }
             },
@@ -106,7 +106,7 @@
                 "type": "color"
               },
               "text": {
-                "value": "{custom.education.color.malachiteGreen.700}",
+                "value": "{color.broccoliParadiseGreen.700}",
                 "type": "color"
               }
             }
@@ -126,7 +126,7 @@
             },
             "hover": {
               "color": {
-                "value": "{color.liliacViolet.400}",
+                "value": "{custom.education.color.malachiteGreen.400}",
                 "type": "color"
               },
               "text": {
@@ -136,7 +136,7 @@
             },
             "active": {
               "color": {
-                "value": "{color.liliacViolet.400}",
+                "value": "{custom.education.color.malachiteGreen.400}",
                 "type": "color"
               },
               "text": {
@@ -158,7 +158,7 @@
             },
             "hover": {
               "color": {
-                "value": "{color.liliacViolet.400}",
+                "value": "{custom.education.color.malachiteGreen.400}",
                 "type": "color"
               },
               "text": {
@@ -168,7 +168,7 @@
             },
             "active": {
               "color": {
-                "value": "{color.liliacViolet.400}",
+                "value": "{custom.education.color.malachiteGreen.400}",
                 "type": "color"
               },
               "text": {
@@ -302,7 +302,7 @@
         },
         "alert": {
           "default": {
-            "value": "{custom.education.color.malachiteGreen.500}",
+            "value": "rgba({custom.education.color.mySpecialColor}, 1)",
             "type": "color"
           },
           "lightest": {
@@ -314,7 +314,7 @@
             "type": "color"
           },
           "darker": {
-            "value": "{custom.education.color.malachiteGreen.800}",
+            "value": "rgba({custom.education.color.mySpecialColor}, 1.3)",
             "type": "color"
           }
         }
