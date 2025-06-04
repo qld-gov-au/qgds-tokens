@@ -153,14 +153,14 @@
   },
   "color": {
     "black": {
-      "value": "#000000",
+      "value": "#00ff00",
       "type": "color"
     },
     "white": {
       "value": "#ffffff",
       "type": "color"
     },
-    "christmasSilver": {
+    "christmasSilverFox": {
       "25": {
         "value": "#FCFCFC",
         "type": "color"
