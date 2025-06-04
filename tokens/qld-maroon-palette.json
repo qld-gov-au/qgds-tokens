@@ -6,7 +6,7 @@
         "type": "color"
       },
       "shade": {
-        "value": "{color.christmasSilverFox.100}",
+        "value": "{color.christmasSilver.100}",
         "type": "color"
       },
       "focus": {
@@ -21,7 +21,7 @@
           "type": "color"
         },
         "variant": {
-          "value": "{color.christmasSilverFox.700}",
+          "value": "{color.christmasSilver.700}",
           "type": "color"
         }
       },
@@ -50,11 +50,11 @@
         "type": "color"
       },
       "muted": {
-        "value": "{color.christmasSilverFox.100}",
+        "value": "{color.christmasSilver.100}",
         "type": "color"
       },
       "subtle": {
-        "value": "{color.christmasSilverFox.300}",
+        "value": "{color.christmasSilver.300}",
         "type": "color"
       },
       "accent": {
@@ -452,11 +452,11 @@
         "type": "color"
       },
       "muted": {
-        "value": "{color.christmasSilverFox.100}",
+        "value": "{color.christmasSilver.100}",
         "type": "color"
       },
       "subtle": {
-        "value": "{color.christmasSilverFox.300}",
+        "value": "{color.christmasSilver.300}",
         "type": "color"
       },
       "accent": {
@@ -825,7 +825,7 @@
           "type": "color"
         },
         "variant": {
-          "value": "{color.christmasSilverFox.700}",
+          "value": "{color.christmasSilver.700}",
           "type": "color"
         }
       },
@@ -854,11 +854,11 @@
         "type": "color"
       },
       "muted": {
-        "value": "{color.christmasSilverFox.100}",
+        "value": "{color.christmasSilver.100}",
         "type": "color"
       },
       "subtle": {
-        "value": "{color.christmasSilverFox.300}",
+        "value": "{color.christmasSilver.300}",
         "type": "color"
       },
       "accent": {
@@ -1227,7 +1227,7 @@
           "type": "color"
         },
         "variant": {
-          "value": "{color.christmasSilverFox.700}",
+          "value": "{color.christmasSilver.700}",
           "type": "color"
         }
       },
@@ -1629,7 +1629,7 @@
           "type": "color"
         },
         "variant": {
-          "value": "{color.christmasSilverFox.700}",
+          "value": "{color.christmasSilver.700}",
           "type": "color"
         }
       },
@@ -1667,11 +1667,11 @@
       },
       "accent": {
         "default": {
-          "value": "{color.christmasSilverFox.600}",
+          "value": "{color.christmasSilver.600}",
           "type": "color"
         },
         "onAccent": {
-          "value": "{color.christmasSilverFox.700}",
+          "value": "{color.christmasSilver.700}",
           "type": "color"
         }
       },

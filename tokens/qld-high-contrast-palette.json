@@ -423,7 +423,7 @@
           "type": "color"
         },
         "variant": {
-          "value": "{color.christmasSilverFox.700}",
+          "value": "{color.christmasSilver.700}",
           "type": "color"
         }
       },
@@ -825,7 +825,7 @@
           "type": "color"
         },
         "variant": {
-          "value": "{color.christmasSilverFox.700}",
+          "value": "{color.christmasSilver.700}",
           "type": "color"
         }
       },
