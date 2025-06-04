@@ -1,16 +1,16 @@
 {
   "card": {
     "borderRadius": {
-      "value": "{borderRadius.sm}",
-      "type": "borderRadius"
+      "$type": "borderRadius",
+      "$value": "{borderRadius.sm}"
     },
     "background": {
-      "value": "{palette.bright.background}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{palette.bright.background}"
     },
     "padding": {
-      "value": "{dimension.md}",
-      "type": "dimension"
+      "$type": "dimension",
+      "$value": "{dimension.md}"
     }
   }
 }

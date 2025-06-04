@@ -2,100 +2,100 @@
   "palette": {
     "bright": {
       "background": {
-        "value": "{color.white}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.white}"
       },
       "shade": {
-        "value": "{color.goshawkGrey.50}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.goshawkGrey.50}"
       },
       "focus": {
         "outlineColor": {
-          "value": "{color.iridiumBlue.500}",
-          "type": "outlineColor"
+          "$type": "outlineColor",
+          "$value": "{color.iridiumBlue.500}"
         }
       },
       "border": {
         "default": {
-          "value": "{qgds.color.neutral.black.default}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{qgds.color.neutral.black.default}"
         },
         "variant": {
-          "value": "{qgds.color.neutral.black.default}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{qgds.color.neutral.black.default}"
         }
       },
       "boundary": {
-        "value": "{qgds.color.neutral.black.default}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{qgds.color.neutral.black.default}"
       },
       "partition": {
-        "value": "{qgds.color.neutral.black.default}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{qgds.color.neutral.black.default}"
       },
       "separator": {
-        "value": "{qgds.color.neutral.black.default}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{qgds.color.neutral.black.default}"
       },
       "divider": {
-        "value": "{color.iridiumBlue.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.iridiumBlue.500}"
       },
       "fence": {
-        "value": "{qgds.color.neutral.black.default}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{qgds.color.neutral.black.default}"
       },
       "line": {
-        "value": "{qgds.color.neutral.black.default}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{qgds.color.neutral.black.default}"
       },
       "muted": {
-        "value": "{qgds.color.neutral.lighter.default}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{qgds.color.neutral.lighter.default}"
       },
       "subtle": {
-        "value": "{qgds.color.neutral.white.default}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{qgds.color.neutral.white.default}"
       },
       "accent": {
         "default": {
-          "value": "{qgds.color.neutral.black.default}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{qgds.color.neutral.black.default}"
         },
         "onAccent": {
-          "value": "{color.iridiumBlue.600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.iridiumBlue.600}"
         }
       },
       "typography": {
         "siteTitle": {
           "default": {
-            "value": "{theme.color.wording.onLights.siteTitle.default}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onLights.siteTitle.default}"
           },
           "variant": {
-            "value": "{theme.color.wording.onLights.siteTitle.variant}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onLights.siteTitle.variant}"
           }
         },
         "heading": {
           "default": {
-            "value": "{theme.color.wording.onLights.heading.default}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onLights.heading.default}"
           },
           "variant": {
-            "value": "{theme.color.wording.onLights.heading.variant}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onLights.heading.variant}"
           }
         },
         "body": {
           "default": {
-            "value": "{theme.color.wording.onLights.body.default}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onLights.body.default}"
           },
           "variant": {
-            "value": "{theme.color.wording.onLights.body.variant}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onLights.body.variant}"
           }
         }
       },
@@ -103,38 +103,38 @@
         "navMain": {
           "default": {
             "background": {
-              "value": "{palette.bright.muted}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bright.muted}"
             },
             "text": {
-              "value": "{qgds.color.neutral.black.default}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{qgds.color.neutral.black.default}"
             },
             "textDecoration": {
-              "value": "{textDecoration.line.none}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{textDecoration.line.none}"
             },
             "accent": {
-              "value": "{palette.bright.accent.default}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.bright.accent.default}"
             }
           },
           "hover": {
             "background": {
-              "value": "{palette.bright.subtle}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bright.subtle}"
             },
             "text": {
-              "value": "{color.iridiumBlue.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.iridiumBlue.500}"
             },
             "textDecoration": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{textDecoration.line.underline}"
             },
             "accent": {
-              "value": "{palette.bright.accent.onAccent}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.bright.accent.onAccent}"
             }
           }
         },
@@ -142,112 +142,112 @@
           "primary": {
             "default": {
               "background": {
-                "value": "{theme.color.action.onLights.primary.default.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.default.color}"
               },
               "text": {
-                "value": "{theme.color.action.onLights.primary.default.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.default.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.none}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.none}"
               },
               "border": {
-                "value": "{theme.color.action.onLights.primary.default.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.default.color}"
               }
             },
             "hover": {
               "background": {
-                "value": "{theme.color.action.onLights.primary.hover.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.hover.color}"
               },
               "text": {
-                "value": "{theme.color.action.onLights.primary.hover.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.hover.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.underline}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.underline}"
               },
               "border": {
-                "value": "{theme.color.action.onLights.primary.hover.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.hover.color}"
               }
             },
             "active": {
               "background": {
-                "value": "{theme.color.action.onLights.primary.active.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.active.color}"
               },
               "text": {
-                "value": "{theme.color.action.onLights.primary.active.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.active.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.none}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.none}"
               },
               "border": {
-                "value": "{theme.color.action.onLights.primary.active.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.active.color}"
               }
             }
           },
           "secondary": {
             "default": {
               "background": {
-                "value": "{transparency.total}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{transparency.total}"
               },
               "text": {
-                "value": "{theme.color.action.onLights.secondary.default.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.secondary.default.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.none}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.none}"
               },
               "border": {
-                "value": "{theme.color.action.onLights.secondary.default.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.secondary.default.color}"
               }
             },
             "hover": {
               "background": {
-                "value": "{transparency.total}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{transparency.total}"
               },
               "text": {
-                "value": "{theme.color.action.onLights.secondary.hover.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.secondary.hover.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.underline}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.underline}"
               },
               "border": {
-                "value": "{theme.color.action.onLights.secondary.hover.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.secondary.hover.color}"
               }
             },
             "active": {
               "background": {
-                "value": "{transparency.total}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{transparency.total}"
               },
               "text": {
-                "value": "{theme.color.action.onLights.secondary.active.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.secondary.active.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.none}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.none}"
               },
               "border": {
-                "value": "{theme.color.action.onLights.secondary.active.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.secondary.active.color}"
               }
             }
           }
@@ -255,148 +255,148 @@
         "link": {
           "default": {
             "color": {
-              "value": "{color.iridiumBlue.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.iridiumBlue.500}"
             },
             "textDecorationColor": {
-              "value": "rgba({palette.bright.action.link.default.color}, 0.8)",
-              "type": "textDecorationColor"
+              "$type": "textDecorationColor",
+              "$value": "rgba({palette.bright.action.link.default.color}, 0.8)"
             },
             "textDecorationLine": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecorationLine"
+              "$type": "textDecorationLine",
+              "$value": "{textDecoration.line.underline}"
             },
             "textDecorationThickness": {
-              "value": "{textDecoration.thickness.thin}",
-              "type": "textDecorationThickness"
+              "$type": "textDecorationThickness",
+              "$value": "{textDecoration.thickness.thin}"
             },
             "textDecorationStyle": {
-              "value": "{textDecoration.style.solid}",
-              "type": "textDecorationStyle"
+              "$type": "textDecorationStyle",
+              "$value": "{textDecoration.style.solid}"
             }
           },
           "hover": {
             "color": {
-              "value": "{color.iridiumBlue.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.iridiumBlue.500}"
             },
             "textDecorationColor": {
-              "value": "rgba({palette.bright.action.link.hover.color}, 0.8)",
-              "type": "textDecorationColor"
+              "$type": "textDecorationColor",
+              "$value": "rgba({palette.bright.action.link.hover.color}, 0.8)"
             },
             "textDecorationLine": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecorationLine"
+              "$type": "textDecorationLine",
+              "$value": "{textDecoration.line.underline}"
             },
             "textDecorationThickness": {
-              "value": "{textDecoration.thickness.thick}",
-              "type": "textDecorationThickness"
+              "$type": "textDecorationThickness",
+              "$value": "{textDecoration.thickness.thick}"
             },
             "textDecorationStyle": {
-              "value": "{textDecoration.style.solid}",
-              "type": "textDecorationStyle"
+              "$type": "textDecorationStyle",
+              "$value": "{textDecoration.style.solid}"
             }
           },
           "active": {
             "color": {
-              "value": "{color.iridiumBlue.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.iridiumBlue.500}"
             },
             "textDecorationColor": {
-              "value": "rgba({palette.bright.action.link.active.color}, 0.8)",
-              "type": "textDecorationColor"
+              "$type": "textDecorationColor",
+              "$value": "rgba({palette.bright.action.link.active.color}, 0.8)"
             },
             "textDecorationLine": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecorationLine"
+              "$type": "textDecorationLine",
+              "$value": "{textDecoration.line.underline}"
             },
             "textDecorationThickness": {
-              "value": "{textDecoration.thickness.thick}",
-              "type": "textDecorationThickness"
+              "$type": "textDecorationThickness",
+              "$value": "{textDecoration.thickness.thick}"
             },
             "textDecorationStyle": {
-              "value": "{textDecoration.style.solid}",
-              "type": "textDecorationStyle"
+              "$type": "textDecorationStyle",
+              "$value": "{textDecoration.style.solid}"
             }
           },
           "visited": {
             "color": {
-              "value": "{color.sixteenMillionPink.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.sixteenMillionPink.500}"
             },
             "textDecorationColor": {
-              "value": "rgba({palette.bright.action.link.visited.color}, 0.8)",
-              "type": "textDecorationColor"
+              "$type": "textDecorationColor",
+              "$value": "rgba({palette.bright.action.link.visited.color}, 0.8)"
             },
             "textDecorationLine": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecorationLine"
+              "$type": "textDecorationLine",
+              "$value": "{textDecoration.line.underline}"
             },
             "textDecorationThickness": {
-              "value": "{textDecoration.thickness.thick}",
-              "type": "textDecorationThickness"
+              "$type": "textDecorationThickness",
+              "$value": "{textDecoration.thickness.thick}"
             },
             "textDecorationStyle": {
-              "value": "{textDecoration.style.solid}",
-              "type": "textDecorationStyle"
+              "$type": "textDecorationStyle",
+              "$value": "{textDecoration.style.solid}"
             }
           }
         },
         "pagination": {
           "default": {
             "background": {
-              "value": "{palette.bright.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bright.background}"
             },
             "text": {
-              "value": "{color.iridiumBlue.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.iridiumBlue.500}"
             },
             "border": {
-              "value": "{color.goshawkGrey.50}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.goshawkGrey.50}"
             }
           },
           "active": {
             "background": {
-              "value": "{color.iridiumBlue.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.iridiumBlue.500}"
             },
             "text": {
-              "value": "{color.white}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.white}"
             },
             "border": {
-              "value": "{color.iridiumBlue.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.iridiumBlue.500}"
             }
           },
           "hover": {
             "background": {
-              "value": "{palette.bright.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bright.background}"
             },
             "text": {
-              "value": "{color.iridiumBlue.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.iridiumBlue.500}"
             },
             "border": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             }
           },
           "visited": {
             "background": {
-              "value": "{palette.bright.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bright.background}"
             },
             "text": {
-              "value": "{color.sixteenMillionPink.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.sixteenMillionPink.500}"
             },
             "border": {
-              "value": "{color.goshawkGrey.50}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.goshawkGrey.50}"
             }
           }
         }
@@ -404,100 +404,100 @@
     },
     "tint": {
       "background": {
-        "value": "{color.white}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.white}"
       },
       "shade": {
-        "value": "{color.goshawkGrey.50}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.goshawkGrey.50}"
       },
       "focus": {
         "outlineColor": {
-          "value": "{color.danubeBlue.500}",
-          "type": "outlineColor"
+          "$type": "outlineColor",
+          "$value": "{color.danubeBlue.500}"
         }
       },
       "border": {
         "default": {
-          "value": "{qgds.color.neutral.black.default}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{qgds.color.neutral.black.default}"
         },
         "variant": {
-          "value": "{color.christmasSilver.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.christmasSilver.700}"
         }
       },
       "boundary": {
-        "value": "{color.starYellow.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.starYellow.500}"
       },
       "partition": {
-        "value": "{color.goshawkGrey.400}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.goshawkGrey.400}"
       },
       "separator": {
-        "value": "{color.goshawkGrey.50}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.goshawkGrey.50}"
       },
       "divider": {
-        "value": "{color.iridiumBlue.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.iridiumBlue.500}"
       },
       "fence": {
-        "value": "{color.starYellow.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.starYellow.500}"
       },
       "line": {
-        "value": "{color.goshawkGrey.50}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.goshawkGrey.50}"
       },
       "muted": {
-        "value": "{qgds.color.neutral.lighter.default}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{qgds.color.neutral.lighter.default}"
       },
       "subtle": {
-        "value": "{qgds.color.neutral.white.default}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{qgds.color.neutral.white.default}"
       },
       "accent": {
         "default": {
-          "value": "{qgds.color.neutral.black.default}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{qgds.color.neutral.black.default}"
         },
         "onAccent": {
-          "value": "{color.iridiumBlue.600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.iridiumBlue.600}"
         }
       },
       "typography": {
         "siteTitle": {
           "default": {
-            "value": "{theme.color.wording.onLights.siteTitle.default}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onLights.siteTitle.default}"
           },
           "variant": {
-            "value": "{theme.color.wording.onLights.siteTitle.variant}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onLights.siteTitle.variant}"
           }
         },
         "heading": {
           "default": {
-            "value": "{theme.color.wording.onLights.heading.default}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onLights.heading.default}"
           },
           "variant": {
-            "value": "{theme.color.wording.onLights.heading.variant}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onLights.heading.variant}"
           }
         },
         "body": {
           "default": {
-            "value": "{theme.color.wording.onLights.body.default}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onLights.body.default}"
           },
           "variant": {
-            "value": "{theme.color.wording.onLights.body.variant}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onLights.body.variant}"
           }
         }
       },
@@ -505,38 +505,38 @@
         "navMain": {
           "default": {
             "background": {
-              "value": "{palette.tint.muted}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.tint.muted}"
             },
             "text": {
-              "value": "{qgds.color.neutral.black.default}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{qgds.color.neutral.black.default}"
             },
             "textDecoration": {
-              "value": "{textDecoration.line.none}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{textDecoration.line.none}"
             },
             "accent": {
-              "value": "{palette.tint.accent.default}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.tint.accent.default}"
             }
           },
           "hover": {
             "background": {
-              "value": "{palette.tint.subtle}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.tint.subtle}"
             },
             "text": {
-              "value": "{color.iridiumBlue.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.iridiumBlue.500}"
             },
             "textDecoration": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{textDecoration.line.underline}"
             },
             "accent": {
-              "value": "{palette.tint.accent.onAccent}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.tint.accent.onAccent}"
             }
           }
         },
@@ -544,112 +544,112 @@
           "primary": {
             "default": {
               "background": {
-                "value": "{theme.color.action.onLights.primary.default.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.default.color}"
               },
               "text": {
-                "value": "{theme.color.action.onLights.primary.default.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.default.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.none}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.none}"
               },
               "border": {
-                "value": "{theme.color.action.onLights.primary.default.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.default.color}"
               }
             },
             "hover": {
               "background": {
-                "value": "{theme.color.action.onLights.primary.hover.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.hover.color}"
               },
               "text": {
-                "value": "{theme.color.action.onLights.primary.hover.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.hover.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.underline}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.underline}"
               },
               "border": {
-                "value": "{theme.color.action.onLights.primary.hover.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.hover.color}"
               }
             },
             "active": {
               "background": {
-                "value": "{theme.color.action.onLights.primary.active.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.active.color}"
               },
               "text": {
-                "value": "{theme.color.action.onLights.primary.active.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.active.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.none}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.none}"
               },
               "border": {
-                "value": "{theme.color.action.onLights.primary.active.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.active.color}"
               }
             }
           },
           "secondary": {
             "default": {
               "background": {
-                "value": "{transparency.total}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{transparency.total}"
               },
               "text": {
-                "value": "{theme.color.action.onLights.secondary.default.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.secondary.default.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.none}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.none}"
               },
               "border": {
-                "value": "{theme.color.action.onLights.secondary.default.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.secondary.default.color}"
               }
             },
             "hover": {
               "background": {
-                "value": "{transparency.total}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{transparency.total}"
               },
               "text": {
-                "value": "{theme.color.action.onLights.secondary.hover.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.secondary.hover.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.underline}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.underline}"
               },
               "border": {
-                "value": "{theme.color.action.onLights.secondary.hover.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.secondary.hover.color}"
               }
             },
             "active": {
               "background": {
-                "value": "{transparency.total}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{transparency.total}"
               },
               "text": {
-                "value": "{theme.color.action.onLights.secondary.active.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.secondary.active.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.none}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.none}"
               },
               "border": {
-                "value": "{theme.color.action.onLights.secondary.active.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.secondary.active.color}"
               }
             }
           }
@@ -657,148 +657,148 @@
         "link": {
           "default": {
             "color": {
-              "value": "{color.iridiumBlue.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.iridiumBlue.500}"
             },
             "textDecorationColor": {
-              "value": "rgba({palette.tint.action.link.default.color}, 0.8)",
-              "type": "textDecorationColor"
+              "$type": "textDecorationColor",
+              "$value": "rgba({palette.tint.action.link.default.color}, 0.8)"
             },
             "textDecorationLine": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecorationLine"
+              "$type": "textDecorationLine",
+              "$value": "{textDecoration.line.underline}"
             },
             "textDecorationThickness": {
-              "value": "{textDecoration.thickness.thin}",
-              "type": "textDecorationThickness"
+              "$type": "textDecorationThickness",
+              "$value": "{textDecoration.thickness.thin}"
             },
             "textDecorationStyle": {
-              "value": "{textDecoration.style.solid}",
-              "type": "textDecorationStyle"
+              "$type": "textDecorationStyle",
+              "$value": "{textDecoration.style.solid}"
             }
           },
           "hover": {
             "color": {
-              "value": "{color.iridiumBlue.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.iridiumBlue.500}"
             },
             "textDecorationColor": {
-              "value": "rgba({palette.tint.action.link.hover.color}, 0.8)",
-              "type": "textDecorationColor"
+              "$type": "textDecorationColor",
+              "$value": "rgba({palette.tint.action.link.hover.color}, 0.8)"
             },
             "textDecorationLine": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecorationLine"
+              "$type": "textDecorationLine",
+              "$value": "{textDecoration.line.underline}"
             },
             "textDecorationThickness": {
-              "value": "{textDecoration.thickness.thick}",
-              "type": "textDecorationThickness"
+              "$type": "textDecorationThickness",
+              "$value": "{textDecoration.thickness.thick}"
             },
             "textDecorationStyle": {
-              "value": "{textDecoration.style.solid}",
-              "type": "textDecorationStyle"
+              "$type": "textDecorationStyle",
+              "$value": "{textDecoration.style.solid}"
             }
           },
           "active": {
             "color": {
-              "value": "{color.iridiumBlue.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.iridiumBlue.500}"
             },
             "textDecorationColor": {
-              "value": "rgba({palette.tint.action.link.active.color}, 0.8)",
-              "type": "textDecorationColor"
+              "$type": "textDecorationColor",
+              "$value": "rgba({palette.tint.action.link.active.color}, 0.8)"
             },
             "textDecorationLine": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecorationLine"
+              "$type": "textDecorationLine",
+              "$value": "{textDecoration.line.underline}"
             },
             "textDecorationThickness": {
-              "value": "{textDecoration.thickness.thick}",
-              "type": "textDecorationThickness"
+              "$type": "textDecorationThickness",
+              "$value": "{textDecoration.thickness.thick}"
             },
             "textDecorationStyle": {
-              "value": "{textDecoration.style.solid}",
-              "type": "textDecorationStyle"
+              "$type": "textDecorationStyle",
+              "$value": "{textDecoration.style.solid}"
             }
           },
           "visited": {
             "color": {
-              "value": "{color.sixteenMillionPink.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.sixteenMillionPink.500}"
             },
             "textDecorationColor": {
-              "value": "rgba({palette.tint.action.link.visited.color}, 0.8)",
-              "type": "textDecorationColor"
+              "$type": "textDecorationColor",
+              "$value": "rgba({palette.tint.action.link.visited.color}, 0.8)"
             },
             "textDecorationLine": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecorationLine"
+              "$type": "textDecorationLine",
+              "$value": "{textDecoration.line.underline}"
             },
             "textDecorationThickness": {
-              "value": "{textDecoration.thickness.thick}",
-              "type": "textDecorationThickness"
+              "$type": "textDecorationThickness",
+              "$value": "{textDecoration.thickness.thick}"
             },
             "textDecorationStyle": {
-              "value": "{textDecoration.style.solid}",
-              "type": "textDecorationStyle"
+              "$type": "textDecorationStyle",
+              "$value": "{textDecoration.style.solid}"
             }
           }
         },
         "pagination": {
           "default": {
             "background": {
-              "value": "{palette.tint.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.tint.background}"
             },
             "text": {
-              "value": "{color.iridiumBlue.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.iridiumBlue.500}"
             },
             "border": {
-              "value": "{color.goshawkGrey.50}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.goshawkGrey.50}"
             }
           },
           "active": {
             "background": {
-              "value": "{color.iridiumBlue.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.iridiumBlue.500}"
             },
             "text": {
-              "value": "{color.white}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.white}"
             },
             "border": {
-              "value": "{color.iridiumBlue.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.iridiumBlue.500}"
             }
           },
           "hover": {
             "background": {
-              "value": "{palette.tint.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.tint.background}"
             },
             "text": {
-              "value": "{color.iridiumBlue.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.iridiumBlue.500}"
             },
             "border": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             }
           },
           "visited": {
             "background": {
-              "value": "{palette.tint.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.tint.background}"
             },
             "text": {
-              "value": "{color.sixteenMillionPink.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.sixteenMillionPink.500}"
             },
             "border": {
-              "value": "{color.goshawkGrey.50}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.goshawkGrey.50}"
             }
           }
         }
@@ -806,100 +806,100 @@
     },
     "alt": {
       "background": {
-        "value": "{color.white}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.white}"
       },
       "shade": {
-        "value": "{color.goshawkGrey.100}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.goshawkGrey.100}"
       },
       "focus": {
         "outlineColor": {
-          "value": "{color.danubeBlue.500}",
-          "type": "outlineColor"
+          "$type": "outlineColor",
+          "$value": "{color.danubeBlue.500}"
         }
       },
       "border": {
         "default": {
-          "value": "{qgds.color.neutral.black.default}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{qgds.color.neutral.black.default}"
         },
         "variant": {
-          "value": "{color.christmasSilver.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.christmasSilver.700}"
         }
       },
       "boundary": {
-        "value": "{color.starYellow.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.starYellow.500}"
       },
       "partition": {
-        "value": "{color.goshawkGrey.400}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.goshawkGrey.400}"
       },
       "separator": {
-        "value": "{color.goshawkGrey.50}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.goshawkGrey.50}"
       },
       "divider": {
-        "value": "{color.iridiumBlue.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.iridiumBlue.500}"
       },
       "fence": {
-        "value": "{color.starYellow.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.starYellow.500}"
       },
       "line": {
-        "value": "{color.goshawkGrey.50}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.goshawkGrey.50}"
       },
       "muted": {
-        "value": "{qgds.color.neutral.lighter.default}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{qgds.color.neutral.lighter.default}"
       },
       "subtle": {
-        "value": "{qgds.color.neutral.white.default}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{qgds.color.neutral.white.default}"
       },
       "accent": {
         "default": {
-          "value": "{qgds.color.neutral.black.default}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{qgds.color.neutral.black.default}"
         },
         "onAccent": {
-          "value": "{color.iridiumBlue.600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.iridiumBlue.600}"
         }
       },
       "typography": {
         "siteTitle": {
           "default": {
-            "value": "{theme.color.wording.onLights.siteTitle.default}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onLights.siteTitle.default}"
           },
           "variant": {
-            "value": "{theme.color.wording.onLights.siteTitle.variant}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onLights.siteTitle.variant}"
           }
         },
         "heading": {
           "default": {
-            "value": "{theme.color.wording.onLights.heading.default}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onLights.heading.default}"
           },
           "variant": {
-            "value": "{theme.color.wording.onLights.heading.variant}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onLights.heading.variant}"
           }
         },
         "body": {
           "default": {
-            "value": "{theme.color.wording.onLights.body.default}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onLights.body.default}"
           },
           "variant": {
-            "value": "{theme.color.wording.onLights.body.variant}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onLights.body.variant}"
           }
         }
       },
@@ -907,38 +907,38 @@
         "navMain": {
           "default": {
             "background": {
-              "value": "{palette.alt.muted}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.alt.muted}"
             },
             "text": {
-              "value": "{qgds.color.neutral.black.default}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{qgds.color.neutral.black.default}"
             },
             "textDecoration": {
-              "value": "{textDecoration.line.none}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{textDecoration.line.none}"
             },
             "accent": {
-              "value": "{palette.alt.accent.default}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.alt.accent.default}"
             }
           },
           "hover": {
             "background": {
-              "value": "{palette.alt.subtle}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.alt.subtle}"
             },
             "text": {
-              "value": "{color.iridiumBlue.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.iridiumBlue.500}"
             },
             "textDecoration": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{textDecoration.line.underline}"
             },
             "accent": {
-              "value": "{palette.alt.accent.onAccent}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.alt.accent.onAccent}"
             }
           }
         },
@@ -946,112 +946,112 @@
           "primary": {
             "default": {
               "background": {
-                "value": "{theme.color.action.onLights.primary.default.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.default.color}"
               },
               "text": {
-                "value": "{theme.color.action.onLights.primary.default.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.default.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.none}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.none}"
               },
               "border": {
-                "value": "{theme.color.action.onLights.primary.default.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.default.color}"
               }
             },
             "hover": {
               "background": {
-                "value": "{theme.color.action.onLights.primary.hover.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.hover.color}"
               },
               "text": {
-                "value": "{theme.color.action.onLights.primary.hover.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.hover.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.underline}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.underline}"
               },
               "border": {
-                "value": "{theme.color.action.onLights.primary.hover.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.hover.color}"
               }
             },
             "active": {
               "background": {
-                "value": "{theme.color.action.onLights.primary.active.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.active.color}"
               },
               "text": {
-                "value": "{theme.color.action.onLights.primary.active.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.active.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.none}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.none}"
               },
               "border": {
-                "value": "{theme.color.action.onLights.primary.active.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.primary.active.color}"
               }
             }
           },
           "secondary": {
             "default": {
               "background": {
-                "value": "{transparency.total}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{transparency.total}"
               },
               "text": {
-                "value": "{theme.color.action.onLights.secondary.default.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.secondary.default.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.none}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.none}"
               },
               "border": {
-                "value": "{theme.color.action.onLights.secondary.default.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.secondary.default.color}"
               }
             },
             "hover": {
               "background": {
-                "value": "{transparency.total}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{transparency.total}"
               },
               "text": {
-                "value": "{theme.color.action.onLights.secondary.hover.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.secondary.hover.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.underline}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.underline}"
               },
               "border": {
-                "value": "{theme.color.action.onLights.secondary.hover.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.secondary.hover.color}"
               }
             },
             "active": {
               "background": {
-                "value": "{transparency.total}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{transparency.total}"
               },
               "text": {
-                "value": "{theme.color.action.onLights.secondary.active.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.secondary.active.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.none}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.none}"
               },
               "border": {
-                "value": "{theme.color.action.onLights.secondary.active.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onLights.secondary.active.color}"
               }
             }
           }
@@ -1059,148 +1059,148 @@
         "link": {
           "default": {
             "color": {
-              "value": "{color.iridiumBlue.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.iridiumBlue.500}"
             },
             "textDecorationColor": {
-              "value": "rgba({palette.alt.action.link.default.color}, 0.8)",
-              "type": "textDecorationColor"
+              "$type": "textDecorationColor",
+              "$value": "rgba({palette.alt.action.link.default.color}, 0.8)"
             },
             "textDecorationLine": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecorationLine"
+              "$type": "textDecorationLine",
+              "$value": "{textDecoration.line.underline}"
             },
             "textDecorationThickness": {
-              "value": "{textDecoration.thickness.thin}",
-              "type": "textDecorationThickness"
+              "$type": "textDecorationThickness",
+              "$value": "{textDecoration.thickness.thin}"
             },
             "textDecorationStyle": {
-              "value": "{textDecoration.style.solid}",
-              "type": "textDecorationStyle"
+              "$type": "textDecorationStyle",
+              "$value": "{textDecoration.style.solid}"
             }
           },
           "hover": {
             "color": {
-              "value": "{color.iridiumBlue.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.iridiumBlue.500}"
             },
             "textDecorationColor": {
-              "value": "rgba({palette.alt.action.link.hover.color}, 0.8)",
-              "type": "textDecorationColor"
+              "$type": "textDecorationColor",
+              "$value": "rgba({palette.alt.action.link.hover.color}, 0.8)"
             },
             "textDecorationLine": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecorationLine"
+              "$type": "textDecorationLine",
+              "$value": "{textDecoration.line.underline}"
             },
             "textDecorationThickness": {
-              "value": "{textDecoration.thickness.thick}",
-              "type": "textDecorationThickness"
+              "$type": "textDecorationThickness",
+              "$value": "{textDecoration.thickness.thick}"
             },
             "textDecorationStyle": {
-              "value": "{textDecoration.style.solid}",
-              "type": "textDecorationStyle"
+              "$type": "textDecorationStyle",
+              "$value": "{textDecoration.style.solid}"
             }
           },
           "active": {
             "color": {
-              "value": "{color.iridiumBlue.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.iridiumBlue.500}"
             },
             "textDecorationColor": {
-              "value": "rgba({palette.alt.action.link.active.color}, 0.8)",
-              "type": "textDecorationColor"
+              "$type": "textDecorationColor",
+              "$value": "rgba({palette.alt.action.link.active.color}, 0.8)"
             },
             "textDecorationLine": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecorationLine"
+              "$type": "textDecorationLine",
+              "$value": "{textDecoration.line.underline}"
             },
             "textDecorationThickness": {
-              "value": "{textDecoration.thickness.thick}",
-              "type": "textDecorationThickness"
+              "$type": "textDecorationThickness",
+              "$value": "{textDecoration.thickness.thick}"
             },
             "textDecorationStyle": {
-              "value": "{textDecoration.style.solid}",
-              "type": "textDecorationStyle"
+              "$type": "textDecorationStyle",
+              "$value": "{textDecoration.style.solid}"
             }
           },
           "visited": {
             "color": {
-              "value": "{color.sixteenMillionPink.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.sixteenMillionPink.500}"
             },
             "textDecorationColor": {
-              "value": "rgba({palette.alt.action.link.visited.color}, 0.8)",
-              "type": "textDecorationColor"
+              "$type": "textDecorationColor",
+              "$value": "rgba({palette.alt.action.link.visited.color}, 0.8)"
             },
             "textDecorationLine": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecorationLine"
+              "$type": "textDecorationLine",
+              "$value": "{textDecoration.line.underline}"
             },
             "textDecorationThickness": {
-              "value": "{textDecoration.thickness.thick}",
-              "type": "textDecorationThickness"
+              "$type": "textDecorationThickness",
+              "$value": "{textDecoration.thickness.thick}"
             },
             "textDecorationStyle": {
-              "value": "{textDecoration.style.solid}",
-              "type": "textDecorationStyle"
+              "$type": "textDecorationStyle",
+              "$value": "{textDecoration.style.solid}"
             }
           }
         },
         "pagination": {
           "default": {
             "background": {
-              "value": "{palette.alt.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.alt.background}"
             },
             "text": {
-              "value": "{color.iridiumBlue.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.iridiumBlue.500}"
             },
             "border": {
-              "value": "{color.goshawkGrey.50}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.goshawkGrey.50}"
             }
           },
           "active": {
             "background": {
-              "value": "{color.iridiumBlue.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.iridiumBlue.500}"
             },
             "text": {
-              "value": "{color.white}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.white}"
             },
             "border": {
-              "value": "{color.iridiumBlue.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.iridiumBlue.500}"
             }
           },
           "hover": {
             "background": {
-              "value": "{palette.alt.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.alt.background}"
             },
             "text": {
-              "value": "{color.iridiumBlue.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.iridiumBlue.500}"
             },
             "border": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             }
           },
           "visited": {
             "background": {
-              "value": "{palette.alt.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.alt.background}"
             },
             "text": {
-              "value": "{color.sixteenMillionPink.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.sixteenMillionPink.500}"
             },
             "border": {
-              "value": "{color.goshawkGrey.50}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.goshawkGrey.50}"
             }
           }
         }
@@ -1208,100 +1208,100 @@
     },
     "bold": {
       "background": {
-        "value": "{color.stellarExplorerGrey.800}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.stellarExplorerGrey.800}"
       },
       "shade": {
-        "value": "{color.stellarExplorerGrey.950}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.stellarExplorerGrey.950}"
       },
       "focus": {
         "outlineColor": {
-          "value": "{color.iridiumBlue.100}",
-          "type": "outlineColor"
+          "$type": "outlineColor",
+          "$value": "{color.iridiumBlue.100}"
         }
       },
       "border": {
         "default": {
-          "value": "{qgds.color.neutral.white.default}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{qgds.color.neutral.white.default}"
         },
         "variant": {
-          "value": "{qgds.color.neutral.white.default}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{qgds.color.neutral.white.default}"
         }
       },
       "boundary": {
-        "value": "{qgds.color.neutral.white.default}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{qgds.color.neutral.white.default}"
       },
       "partition": {
-        "value": "{qgds.color.neutral.white.default}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{qgds.color.neutral.white.default}"
       },
       "separator": {
-        "value": "{qgds.color.neutral.white.default}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{qgds.color.neutral.white.default}"
       },
       "divider": {
-        "value": "{color.starYellow.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.starYellow.500}"
       },
       "fence": {
-        "value": "{qgds.color.neutral.white.default}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{qgds.color.neutral.white.default}"
       },
       "line": {
-        "value": "{qgds.color.neutral.white.default}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{qgds.color.neutral.white.default}"
       },
       "muted": {
-        "value": "{color.stellarExplorerGrey.950}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.stellarExplorerGrey.950}"
       },
       "subtle": {
-        "value": "{color.goshawkGrey.700}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.goshawkGrey.700}"
       },
       "accent": {
         "default": {
-          "value": "{qgds.color.neutral.white.default}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{qgds.color.neutral.white.default}"
         },
         "onAccent": {
-          "value": "{color.starYellow.400}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.starYellow.400}"
         }
       },
       "typography": {
         "siteTitle": {
           "default": {
-            "value": "{theme.color.wording.onDarks.siteTitle.default}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onDarks.siteTitle.default}"
           },
           "variant": {
-            "value": "{theme.color.wording.onDarks.siteTitle.variant}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onDarks.siteTitle.variant}"
           }
         },
         "heading": {
           "default": {
-            "value": "{theme.color.wording.onDarks.heading.default}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onDarks.heading.default}"
           },
           "variant": {
-            "value": "{theme.color.wording.onDarks.heading.variant}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onDarks.heading.variant}"
           }
         },
         "body": {
           "default": {
-            "value": "{theme.color.wording.onDarks.body.default}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onDarks.body.default}"
           },
           "variant": {
-            "value": "{theme.color.wording.onDarks.body.variant}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onDarks.body.variant}"
           }
         }
       },
@@ -1309,38 +1309,38 @@
         "navMain": {
           "default": {
             "background": {
-              "value": "{palette.bold.muted}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bold.muted}"
             },
             "text": {
-              "value": "{color.white}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.white}"
             },
             "textDecoration": {
-              "value": "{textDecoration.line.none}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{textDecoration.line.none}"
             },
             "accent": {
-              "value": "{palette.bold.accent.default}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.bold.accent.default}"
             }
           },
           "hover": {
             "background": {
-              "value": "{palette.bold.subtle}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bold.subtle}"
             },
             "text": {
-              "value": "{color.white}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.white}"
             },
             "textDecoration": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{textDecoration.line.underline}"
             },
             "accent": {
-              "value": "{palette.bold.accent.onAccent}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.bold.accent.onAccent}"
             }
           }
         },
@@ -1348,112 +1348,112 @@
           "primary": {
             "default": {
               "background": {
-                "value": "{theme.color.action.onDarks.primary.default.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.default.color}"
               },
               "text": {
-                "value": "{theme.color.action.onDarks.primary.default.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.default.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.none}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.none}"
               },
               "border": {
-                "value": "{theme.color.action.onDarks.primary.default.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.default.color}"
               }
             },
             "hover": {
               "background": {
-                "value": "{theme.color.action.onDarks.primary.hover.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.hover.color}"
               },
               "text": {
-                "value": "{theme.color.action.onDarks.primary.hover.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.hover.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.underline}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.underline}"
               },
               "border": {
-                "value": "{theme.color.action.onDarks.primary.hover.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.hover.color}"
               }
             },
             "active": {
               "background": {
-                "value": "{theme.color.action.onDarks.primary.active.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.active.color}"
               },
               "text": {
-                "value": "{theme.color.action.onDarks.primary.active.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.active.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.none}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.none}"
               },
               "border": {
-                "value": "{theme.color.action.onDarks.primary.active.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.active.color}"
               }
             }
           },
           "secondary": {
             "default": {
               "background": {
-                "value": "{transparency.total}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{transparency.total}"
               },
               "text": {
-                "value": "{theme.color.action.onDarks.secondary.default.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.secondary.default.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.none}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.none}"
               },
               "border": {
-                "value": "{theme.color.action.onDarks.secondary.default.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.secondary.default.color}"
               }
             },
             "hover": {
               "background": {
-                "value": "{transparency.total}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{transparency.total}"
               },
               "text": {
-                "value": "{theme.color.action.onDarks.secondary.hover.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.secondary.hover.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.underline}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.underline}"
               },
               "border": {
-                "value": "{theme.color.action.onDarks.secondary.hover.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.secondary.hover.color}"
               }
             },
             "active": {
               "background": {
-                "value": "{transparency.total}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{transparency.total}"
               },
               "text": {
-                "value": "{theme.color.action.onDarks.secondary.active.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.secondary.active.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.none}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.none}"
               },
               "border": {
-                "value": "{theme.color.action.onDarks.secondary.active.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.secondary.active.color}"
               }
             }
           }
@@ -1461,148 +1461,148 @@
         "link": {
           "default": {
             "color": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             },
             "textDecorationColor": {
-              "value": "rgba({palette.bold.action.link.default.color}, 0.8)",
-              "type": "textDecorationColor"
+              "$type": "textDecorationColor",
+              "$value": "rgba({palette.bold.action.link.default.color}, 0.8)"
             },
             "textDecorationLine": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecorationLine"
+              "$type": "textDecorationLine",
+              "$value": "{textDecoration.line.underline}"
             },
             "textDecorationThickness": {
-              "value": "{textDecoration.thickness.thin}",
-              "type": "textDecorationThickness"
+              "$type": "textDecorationThickness",
+              "$value": "{textDecoration.thickness.thin}"
             },
             "textDecorationStyle": {
-              "value": "{textDecoration.style.solid}",
-              "type": "textDecorationStyle"
+              "$type": "textDecorationStyle",
+              "$value": "{textDecoration.style.solid}"
             }
           },
           "hover": {
             "color": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             },
             "textDecorationColor": {
-              "value": "rgba({palette.bold.action.link.hover.color}, 0.8)",
-              "type": "textDecorationColor"
+              "$type": "textDecorationColor",
+              "$value": "rgba({palette.bold.action.link.hover.color}, 0.8)"
             },
             "textDecorationLine": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecorationLine"
+              "$type": "textDecorationLine",
+              "$value": "{textDecoration.line.underline}"
             },
             "textDecorationThickness": {
-              "value": "{textDecoration.thickness.thick}",
-              "type": "textDecorationThickness"
+              "$type": "textDecorationThickness",
+              "$value": "{textDecoration.thickness.thick}"
             },
             "textDecorationStyle": {
-              "value": "{textDecoration.style.solid}",
-              "type": "textDecorationStyle"
+              "$type": "textDecorationStyle",
+              "$value": "{textDecoration.style.solid}"
             }
           },
           "active": {
             "color": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             },
             "textDecorationColor": {
-              "value": "rgba({palette.bold.action.link.active.color}, 0.8)",
-              "type": "textDecorationColor"
+              "$type": "textDecorationColor",
+              "$value": "rgba({palette.bold.action.link.active.color}, 0.8)"
             },
             "textDecorationLine": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecorationLine"
+              "$type": "textDecorationLine",
+              "$value": "{textDecoration.line.underline}"
             },
             "textDecorationThickness": {
-              "value": "{textDecoration.thickness.thick}",
-              "type": "textDecorationThickness"
+              "$type": "textDecorationThickness",
+              "$value": "{textDecoration.thickness.thick}"
             },
             "textDecorationStyle": {
-              "value": "{textDecoration.style.solid}",
-              "type": "textDecorationStyle"
+              "$type": "textDecorationStyle",
+              "$value": "{textDecoration.style.solid}"
             }
           },
           "visited": {
             "color": {
-              "value": "{color.sixteenMillionPink.100}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.sixteenMillionPink.100}"
             },
             "textDecorationColor": {
-              "value": "rgba({palette.bold.action.link.visited.color}, 0.8)",
-              "type": "textDecorationColor"
+              "$type": "textDecorationColor",
+              "$value": "rgba({palette.bold.action.link.visited.color}, 0.8)"
             },
             "textDecorationLine": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecorationLine"
+              "$type": "textDecorationLine",
+              "$value": "{textDecoration.line.underline}"
             },
             "textDecorationThickness": {
-              "value": "{textDecoration.thickness.thick}",
-              "type": "textDecorationThickness"
+              "$type": "textDecorationThickness",
+              "$value": "{textDecoration.thickness.thick}"
             },
             "textDecorationStyle": {
-              "value": "{textDecoration.style.solid}",
-              "type": "textDecorationStyle"
+              "$type": "textDecorationStyle",
+              "$value": "{textDecoration.style.solid}"
             }
           }
         },
         "pagination": {
           "default": {
             "background": {
-              "value": "{palette.bold.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bold.background}"
             },
             "text": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             },
             "border": {
-              "value": "{color.freshAirBlue.600}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.freshAirBlue.600}"
             }
           },
           "active": {
             "background": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             },
             "text": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             },
             "border": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             }
           },
           "hover": {
             "background": {
-              "value": "{palette.bold.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bold.background}"
             },
             "text": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             },
             "border": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             }
           },
           "visited": {
             "background": {
-              "value": "{palette.bold.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bold.background}"
             },
             "text": {
-              "value": "{color.sixteenMillionPink.100}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.sixteenMillionPink.100}"
             },
             "border": {
-              "value": "{color.freshAirBlue.600}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.freshAirBlue.600}"
             }
           }
         }
@@ -1610,100 +1610,100 @@
     },
     "strong": {
       "background": {
-        "value": "{color.stellarExplorerGrey.800}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.stellarExplorerGrey.800}"
       },
       "shade": {
-        "value": "{color.stellarExplorerGrey.950}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.stellarExplorerGrey.950}"
       },
       "focus": {
         "outlineColor": {
-          "value": "{color.iridiumBlue.100}",
-          "type": "outlineColor"
+          "$type": "outlineColor",
+          "$value": "{color.iridiumBlue.100}"
         }
       },
       "border": {
         "default": {
-          "value": "{qgds.color.neutral.white.default}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{qgds.color.neutral.white.default}"
         },
         "variant": {
-          "value": "{qgds.color.neutral.white.default}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{qgds.color.neutral.white.default}"
         }
       },
       "boundary": {
-        "value": "{qgds.color.neutral.white.default}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{qgds.color.neutral.white.default}"
       },
       "partition": {
-        "value": "{qgds.color.neutral.white.default}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{qgds.color.neutral.white.default}"
       },
       "separator": {
-        "value": "{qgds.color.neutral.white.default}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{qgds.color.neutral.white.default}"
       },
       "divider": {
-        "value": "{color.starYellow.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.starYellow.500}"
       },
       "fence": {
-        "value": "{qgds.color.neutral.white.default}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{qgds.color.neutral.white.default}"
       },
       "line": {
-        "value": "{qgds.color.neutral.white.default}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{qgds.color.neutral.white.default}"
       },
       "muted": {
-        "value": "{color.stellarExplorerGrey.950}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.stellarExplorerGrey.950}"
       },
       "subtle": {
-        "value": "{color.goshawkGrey.700}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.goshawkGrey.700}"
       },
       "accent": {
         "default": {
-          "value": "{qgds.color.neutral.white.default}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{qgds.color.neutral.white.default}"
         },
         "onAccent": {
-          "value": "{color.starYellow.400}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.starYellow.400}"
         }
       },
       "typography": {
         "siteTitle": {
           "default": {
-            "value": "{theme.color.wording.onDarks.siteTitle.default}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onDarks.siteTitle.default}"
           },
           "variant": {
-            "value": "{theme.color.wording.onDarks.siteTitle.variant}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onDarks.siteTitle.variant}"
           }
         },
         "heading": {
           "default": {
-            "value": "{theme.color.wording.onDarks.heading.default}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onDarks.heading.default}"
           },
           "variant": {
-            "value": "{theme.color.wording.onDarks.heading.variant}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onDarks.heading.variant}"
           }
         },
         "body": {
           "default": {
-            "value": "{theme.color.wording.onDarks.body.default}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onDarks.body.default}"
           },
           "variant": {
-            "value": "{theme.color.wording.onDarks.body.variant}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onDarks.body.variant}"
           }
         }
       },
@@ -1711,38 +1711,38 @@
         "navMain": {
           "default": {
             "background": {
-              "value": "{palette.strong.muted}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.strong.muted}"
             },
             "text": {
-              "value": "{color.white}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.white}"
             },
             "textDecoration": {
-              "value": "{textDecoration.line.none}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{textDecoration.line.none}"
             },
             "accent": {
-              "value": "{palette.strong.accent.default}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.strong.accent.default}"
             }
           },
           "hover": {
             "background": {
-              "value": "{palette.strong.subtle}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.strong.subtle}"
             },
             "text": {
-              "value": "{color.white}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.white}"
             },
             "textDecoration": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{textDecoration.line.underline}"
             },
             "accent": {
-              "value": "{palette.strong.accent.onAccent}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.strong.accent.onAccent}"
             }
           }
         },
@@ -1750,112 +1750,112 @@
           "primary": {
             "default": {
               "background": {
-                "value": "{theme.color.action.onDarks.primary.default.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.default.color}"
               },
               "text": {
-                "value": "{theme.color.action.onDarks.primary.default.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.default.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.none}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.none}"
               },
               "border": {
-                "value": "{theme.color.action.onDarks.primary.default.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.default.color}"
               }
             },
             "hover": {
               "background": {
-                "value": "{theme.color.action.onDarks.primary.hover.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.hover.color}"
               },
               "text": {
-                "value": "{theme.color.action.onDarks.primary.hover.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.hover.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.underline}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.underline}"
               },
               "border": {
-                "value": "{theme.color.action.onDarks.primary.hover.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.hover.color}"
               }
             },
             "active": {
               "background": {
-                "value": "{theme.color.action.onDarks.primary.active.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.active.color}"
               },
               "text": {
-                "value": "{theme.color.action.onDarks.primary.active.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.active.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.none}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.none}"
               },
               "border": {
-                "value": "{theme.color.action.onDarks.primary.active.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.active.color}"
               }
             }
           },
           "secondary": {
             "default": {
               "background": {
-                "value": "{transparency.total}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{transparency.total}"
               },
               "text": {
-                "value": "{theme.color.action.onDarks.secondary.default.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.secondary.default.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.none}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.none}"
               },
               "border": {
-                "value": "{theme.color.action.onDarks.secondary.default.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.secondary.default.color}"
               }
             },
             "hover": {
               "background": {
-                "value": "{transparency.total}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{transparency.total}"
               },
               "text": {
-                "value": "{theme.color.action.onDarks.secondary.hover.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.secondary.hover.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.underline}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.underline}"
               },
               "border": {
-                "value": "{theme.color.action.onDarks.secondary.hover.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.secondary.hover.color}"
               }
             },
             "active": {
               "background": {
-                "value": "{transparency.total}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{transparency.total}"
               },
               "text": {
-                "value": "{theme.color.action.onDarks.secondary.active.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.secondary.active.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.none}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.none}"
               },
               "border": {
-                "value": "{theme.color.action.onDarks.secondary.active.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.secondary.active.color}"
               }
             }
           }
@@ -1863,148 +1863,148 @@
         "link": {
           "default": {
             "color": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             },
             "textDecorationColor": {
-              "value": "rgba({palette.strong.action.link.default.color}, 0.8)",
-              "type": "textDecorationColor"
+              "$type": "textDecorationColor",
+              "$value": "rgba({palette.strong.action.link.default.color}, 0.8)"
             },
             "textDecorationLine": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecorationLine"
+              "$type": "textDecorationLine",
+              "$value": "{textDecoration.line.underline}"
             },
             "textDecorationThickness": {
-              "value": "{textDecoration.thickness.thin}",
-              "type": "textDecorationThickness"
+              "$type": "textDecorationThickness",
+              "$value": "{textDecoration.thickness.thin}"
             },
             "textDecorationStyle": {
-              "value": "{textDecoration.style.solid}",
-              "type": "textDecorationStyle"
+              "$type": "textDecorationStyle",
+              "$value": "{textDecoration.style.solid}"
             }
           },
           "hover": {
             "color": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             },
             "textDecorationColor": {
-              "value": "rgba({palette.strong.action.link.hover.color}, 0.8)",
-              "type": "textDecorationColor"
+              "$type": "textDecorationColor",
+              "$value": "rgba({palette.strong.action.link.hover.color}, 0.8)"
             },
             "textDecorationLine": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecorationLine"
+              "$type": "textDecorationLine",
+              "$value": "{textDecoration.line.underline}"
             },
             "textDecorationThickness": {
-              "value": "{textDecoration.thickness.thick}",
-              "type": "textDecorationThickness"
+              "$type": "textDecorationThickness",
+              "$value": "{textDecoration.thickness.thick}"
             },
             "textDecorationStyle": {
-              "value": "{textDecoration.style.solid}",
-              "type": "textDecorationStyle"
+              "$type": "textDecorationStyle",
+              "$value": "{textDecoration.style.solid}"
             }
           },
           "active": {
             "color": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             },
             "textDecorationColor": {
-              "value": "rgba({palette.strong.action.link.active.color}, 0.8)",
-              "type": "textDecorationColor"
+              "$type": "textDecorationColor",
+              "$value": "rgba({palette.strong.action.link.active.color}, 0.8)"
             },
             "textDecorationLine": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecorationLine"
+              "$type": "textDecorationLine",
+              "$value": "{textDecoration.line.underline}"
             },
             "textDecorationThickness": {
-              "value": "{textDecoration.thickness.thick}",
-              "type": "textDecorationThickness"
+              "$type": "textDecorationThickness",
+              "$value": "{textDecoration.thickness.thick}"
             },
             "textDecorationStyle": {
-              "value": "{textDecoration.style.solid}",
-              "type": "textDecorationStyle"
+              "$type": "textDecorationStyle",
+              "$value": "{textDecoration.style.solid}"
             }
           },
           "visited": {
             "color": {
-              "value": "{color.sixteenMillionPink.100}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.sixteenMillionPink.100}"
             },
             "textDecorationColor": {
-              "value": "rgba({palette.strong.action.link.visited.color}, 0.8)",
-              "type": "textDecorationColor"
+              "$type": "textDecorationColor",
+              "$value": "rgba({palette.strong.action.link.visited.color}, 0.8)"
             },
             "textDecorationLine": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecorationLine"
+              "$type": "textDecorationLine",
+              "$value": "{textDecoration.line.underline}"
             },
             "textDecorationThickness": {
-              "value": "{textDecoration.thickness.thick}",
-              "type": "textDecorationThickness"
+              "$type": "textDecorationThickness",
+              "$value": "{textDecoration.thickness.thick}"
             },
             "textDecorationStyle": {
-              "value": "{textDecoration.style.solid}",
-              "type": "textDecorationStyle"
+              "$type": "textDecorationStyle",
+              "$value": "{textDecoration.style.solid}"
             }
           }
         },
         "pagination": {
           "default": {
             "background": {
-              "value": "{palette.strong.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.strong.background}"
             },
             "text": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             },
             "border": {
-              "value": "{color.freshAirBlue.600}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.freshAirBlue.600}"
             }
           },
           "active": {
             "background": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             },
             "text": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             },
             "border": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             }
           },
           "hover": {
             "background": {
-              "value": "{palette.strong.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.strong.background}"
             },
             "text": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             },
             "border": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             }
           },
           "visited": {
             "background": {
-              "value": "{palette.strong.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.strong.background}"
             },
             "text": {
-              "value": "{color.sixteenMillionPink.100}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.sixteenMillionPink.100}"
             },
             "border": {
-              "value": "{color.freshAirBlue.600}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.freshAirBlue.600}"
             }
           }
         }
@@ -2012,100 +2012,100 @@
     },
     "dark": {
       "background": {
-        "value": "{color.goshawkGrey.700}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.goshawkGrey.700}"
       },
       "shade": {
-        "value": "{color.goshawkGrey.950}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.goshawkGrey.950}"
       },
       "focus": {
         "outlineColor": {
-          "value": "{color.iridiumBlue.100}",
-          "type": "outlineColor"
+          "$type": "outlineColor",
+          "$value": "{color.iridiumBlue.100}"
         }
       },
       "border": {
         "default": {
-          "value": "{qgds.color.neutral.white.default}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{qgds.color.neutral.white.default}"
         },
         "variant": {
-          "value": "{qgds.color.neutral.white.default}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{qgds.color.neutral.white.default}"
         }
       },
       "boundary": {
-        "value": "{qgds.color.neutral.white.default}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{qgds.color.neutral.white.default}"
       },
       "partition": {
-        "value": "{qgds.color.neutral.white.default}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{qgds.color.neutral.white.default}"
       },
       "separator": {
-        "value": "{qgds.color.neutral.white.default}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{qgds.color.neutral.white.default}"
       },
       "divider": {
-        "value": "{color.starYellow.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.starYellow.500}"
       },
       "fence": {
-        "value": "{qgds.color.neutral.white.default}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{qgds.color.neutral.white.default}"
       },
       "line": {
-        "value": "{qgds.color.neutral.white.default}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{qgds.color.neutral.white.default}"
       },
       "muted": {
-        "value": "{color.stellarExplorerGrey.950}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.stellarExplorerGrey.950}"
       },
       "subtle": {
-        "value": "{color.goshawkGrey.700}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.goshawkGrey.700}"
       },
       "accent": {
         "default": {
-          "value": "{qgds.color.neutral.white.default}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{qgds.color.neutral.white.default}"
         },
         "onAccent": {
-          "value": "{color.starYellow.400}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.starYellow.400}"
         }
       },
       "typography": {
         "siteTitle": {
           "default": {
-            "value": "{theme.color.wording.onDarks.siteTitle.default}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onDarks.siteTitle.default}"
           },
           "variant": {
-            "value": "{theme.color.wording.onDarks.siteTitle.variant}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onDarks.siteTitle.variant}"
           }
         },
         "heading": {
           "default": {
-            "value": "{theme.color.wording.onDarks.heading.default}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onDarks.heading.default}"
           },
           "variant": {
-            "value": "{theme.color.wording.onDarks.heading.variant}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onDarks.heading.variant}"
           }
         },
         "body": {
           "default": {
-            "value": "{theme.color.wording.onDarks.body.default}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onDarks.body.default}"
           },
           "variant": {
-            "value": "{theme.color.wording.onDarks.body.variant}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{theme.color.wording.onDarks.body.variant}"
           }
         }
       },
@@ -2113,38 +2113,38 @@
         "navMain": {
           "default": {
             "background": {
-              "value": "{palette.dark.muted}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.dark.muted}"
             },
             "text": {
-              "value": "{color.white}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.white}"
             },
             "textDecoration": {
-              "value": "{textDecoration.line.none}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{textDecoration.line.none}"
             },
             "accent": {
-              "value": "{palette.dark.accent.default}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.dark.accent.default}"
             }
           },
           "hover": {
             "background": {
-              "value": "{palette.dark.subtle}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.dark.subtle}"
             },
             "text": {
-              "value": "{color.white}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.white}"
             },
             "textDecoration": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{textDecoration.line.underline}"
             },
             "accent": {
-              "value": "{palette.dark.accent.onAccent}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.dark.accent.onAccent}"
             }
           }
         },
@@ -2152,112 +2152,112 @@
           "primary": {
             "default": {
               "background": {
-                "value": "{theme.color.action.onDarks.primary.default.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.default.color}"
               },
               "text": {
-                "value": "{theme.color.action.onDarks.primary.default.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.default.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.none}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.none}"
               },
               "border": {
-                "value": "{theme.color.action.onDarks.primary.default.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.default.color}"
               }
             },
             "hover": {
               "background": {
-                "value": "{theme.color.action.onDarks.primary.hover.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.hover.color}"
               },
               "text": {
-                "value": "{theme.color.action.onDarks.primary.hover.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.hover.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.underline}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.underline}"
               },
               "border": {
-                "value": "{theme.color.action.onDarks.primary.hover.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.hover.color}"
               }
             },
             "active": {
               "background": {
-                "value": "{theme.color.action.onDarks.primary.active.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.active.color}"
               },
               "text": {
-                "value": "{theme.color.action.onDarks.primary.active.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.active.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.none}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.none}"
               },
               "border": {
-                "value": "{theme.color.action.onDarks.primary.active.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.primary.active.color}"
               }
             }
           },
           "secondary": {
             "default": {
               "background": {
-                "value": "{transparency.total}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{transparency.total}"
               },
               "text": {
-                "value": "{theme.color.action.onDarks.secondary.default.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.secondary.default.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.none}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.none}"
               },
               "border": {
-                "value": "{theme.color.action.onDarks.secondary.default.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.secondary.default.color}"
               }
             },
             "hover": {
               "background": {
-                "value": "{transparency.total}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{transparency.total}"
               },
               "text": {
-                "value": "{theme.color.action.onDarks.secondary.hover.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.secondary.hover.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.underline}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.underline}"
               },
               "border": {
-                "value": "{theme.color.action.onDarks.secondary.hover.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.secondary.hover.color}"
               }
             },
             "active": {
               "background": {
-                "value": "{transparency.total}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{transparency.total}"
               },
               "text": {
-                "value": "{theme.color.action.onDarks.secondary.active.text}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.secondary.active.text}"
               },
               "textDecoration": {
-                "value": "{textDecoration.line.none}",
-                "type": "textDecoration"
+                "$type": "textDecoration",
+                "$value": "{textDecoration.line.none}"
               },
               "border": {
-                "value": "{theme.color.action.onDarks.secondary.active.color}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{theme.color.action.onDarks.secondary.active.color}"
               }
             }
           }
@@ -2265,148 +2265,148 @@
         "link": {
           "default": {
             "color": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             },
             "textDecorationColor": {
-              "value": "rgba({palette.dark.action.link.default.color}, 0.8)",
-              "type": "textDecorationColor"
+              "$type": "textDecorationColor",
+              "$value": "rgba({palette.dark.action.link.default.color}, 0.8)"
             },
             "textDecorationLine": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecorationLine"
+              "$type": "textDecorationLine",
+              "$value": "{textDecoration.line.underline}"
             },
             "textDecorationThickness": {
-              "value": "{textDecoration.thickness.thin}",
-              "type": "textDecorationThickness"
+              "$type": "textDecorationThickness",
+              "$value": "{textDecoration.thickness.thin}"
             },
             "textDecorationStyle": {
-              "value": "{textDecoration.style.solid}",
-              "type": "textDecorationStyle"
+              "$type": "textDecorationStyle",
+              "$value": "{textDecoration.style.solid}"
             }
           },
           "hover": {
             "color": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             },
             "textDecorationColor": {
-              "value": "rgba({palette.dark.action.link.hover.color}, 0.8)",
-              "type": "textDecorationColor"
+              "$type": "textDecorationColor",
+              "$value": "rgba({palette.dark.action.link.hover.color}, 0.8)"
             },
             "textDecorationLine": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecorationLine"
+              "$type": "textDecorationLine",
+              "$value": "{textDecoration.line.underline}"
             },
             "textDecorationThickness": {
-              "value": "{textDecoration.thickness.thick}",
-              "type": "textDecorationThickness"
+              "$type": "textDecorationThickness",
+              "$value": "{textDecoration.thickness.thick}"
             },
             "textDecorationStyle": {
-              "value": "{textDecoration.style.solid}",
-              "type": "textDecorationStyle"
+              "$type": "textDecorationStyle",
+              "$value": "{textDecoration.style.solid}"
             }
           },
           "active": {
             "color": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             },
             "textDecorationColor": {
-              "value": "rgba({palette.dark.action.link.active.color}, 0.8)",
-              "type": "textDecorationColor"
+              "$type": "textDecorationColor",
+              "$value": "rgba({palette.dark.action.link.active.color}, 0.8)"
             },
             "textDecorationLine": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecorationLine"
+              "$type": "textDecorationLine",
+              "$value": "{textDecoration.line.underline}"
             },
             "textDecorationThickness": {
-              "value": "{textDecoration.thickness.thick}",
-              "type": "textDecorationThickness"
+              "$type": "textDecorationThickness",
+              "$value": "{textDecoration.thickness.thick}"
             },
             "textDecorationStyle": {
-              "value": "{textDecoration.style.solid}",
-              "type": "textDecorationStyle"
+              "$type": "textDecorationStyle",
+              "$value": "{textDecoration.style.solid}"
             }
           },
           "visited": {
             "color": {
-              "value": "{color.sixteenMillionPink.100}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.sixteenMillionPink.100}"
             },
             "textDecorationColor": {
-              "value": "rgba({palette.dark.action.link.visited.color}, 0.8)",
-              "type": "textDecorationColor"
+              "$type": "textDecorationColor",
+              "$value": "rgba({palette.dark.action.link.visited.color}, 0.8)"
             },
             "textDecorationLine": {
-              "value": "{textDecoration.line.underline}",
-              "type": "textDecorationLine"
+              "$type": "textDecorationLine",
+              "$value": "{textDecoration.line.underline}"
             },
             "textDecorationThickness": {
-              "value": "{textDecoration.thickness.thick}",
-              "type": "textDecorationThickness"
+              "$type": "textDecorationThickness",
+              "$value": "{textDecoration.thickness.thick}"
             },
             "textDecorationStyle": {
-              "value": "{textDecoration.style.solid}",
-              "type": "textDecorationStyle"
+              "$type": "textDecorationStyle",
+              "$value": "{textDecoration.style.solid}"
             }
           }
         },
         "pagination": {
           "default": {
             "background": {
-              "value": "{palette.dark.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.dark.background}"
             },
             "text": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             },
             "border": {
-              "value": "{color.freshAirBlue.600}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.freshAirBlue.600}"
             }
           },
           "active": {
             "background": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             },
             "text": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             },
             "border": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             }
           },
           "hover": {
             "background": {
-              "value": "{palette.strong.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.strong.background}"
             },
             "text": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             },
             "border": {
-              "value": "{color.starYellow.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.starYellow.500}"
             }
           },
           "visited": {
             "background": {
-              "value": "{palette.strong.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.strong.background}"
             },
             "text": {
-              "value": "{color.sixteenMillionPink.100}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.sixteenMillionPink.100}"
             },
             "border": {
-              "value": "{color.freshAirBlue.600}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.freshAirBlue.600}"
             }
           }
         }

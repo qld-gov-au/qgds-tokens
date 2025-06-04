@@ -3,46 +3,46 @@
     "color": {
       "brand": {
         "first": {
-          "value": "{color.zeusPurple.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.zeusPurple.500}"
         },
         "second": {
-          "value": "{color.tarnishedSilver.800}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.tarnishedSilver.800}"
         },
         "third": {
-          "value": "{color.fancyFuchsiaPink.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.fancyFuchsiaPink.500}"
         },
         "fourth": {
-          "value": "{color.grilledCheeseYellow.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.grilledCheeseYellow.500}"
         }
       },
       "background": {
         "bright": {
-          "value": "{color.white}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.white}"
         },
         "tint": {
-          "value": "{color.fancyFuchsiaPink.25}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.fancyFuchsiaPink.25}"
         },
         "alt": {
-          "value": "{color.goshawkGrey.25}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.goshawkGrey.25}"
         },
         "bold": {
-          "value": "{color.zeusPurple.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.zeusPurple.500}"
         },
         "strong": {
-          "value": "{color.tarnishedSilver.800}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.tarnishedSilver.800}"
         },
         "dark": {
-          "value": "{color.goshawkGrey.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.goshawkGrey.700}"
         }
       },
       "action": {
@@ -50,64 +50,64 @@
           "primary": {
             "default": {
               "color": {
-                "value": "{color.zeusPurple.500}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{color.zeusPurple.500}"
               },
               "text": {
-                "value": "{color.white}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{color.white}"
               }
             },
             "hover": {
               "color": {
-                "value": "{color.zeusPurple.600}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{color.zeusPurple.600}"
               },
               "text": {
-                "value": "{color.white}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{color.white}"
               }
             },
             "active": {
               "color": {
-                "value": "{color.zeusPurple.600}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{color.zeusPurple.600}"
               },
               "text": {
-                "value": "{color.white}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{color.white}"
               }
             }
           },
           "secondary": {
             "default": {
               "color": {
-                "value": "{color.zeusPurple.500}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{color.zeusPurple.500}"
               },
               "text": {
-                "value": "{color.fancyFuchsiaPink.700}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{color.fancyFuchsiaPink.700}"
               }
             },
             "hover": {
               "color": {
-                "value": "{color.zeusPurple.600}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{color.zeusPurple.600}"
               },
               "text": {
-                "value": "{color.fancyFuchsiaPink.700}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{color.fancyFuchsiaPink.700}"
               }
             },
             "active": {
               "color": {
-                "value": "{color.zeusPurple.600}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{color.zeusPurple.600}"
               },
               "text": {
-                "value": "{color.fancyFuchsiaPink.700}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{color.fancyFuchsiaPink.700}"
               }
             }
           }
@@ -116,64 +116,64 @@
           "primary": {
             "default": {
               "color": {
-                "value": "{color.white}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{color.white}"
               },
               "text": {
-                "value": "{color.tarnishedSilver.800}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{color.tarnishedSilver.800}"
               }
             },
             "hover": {
               "color": {
-                "value": "{color.grilledCheeseYellow.400}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{color.grilledCheeseYellow.400}"
               },
               "text": {
-                "value": "{color.tarnishedSilver.800}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{color.tarnishedSilver.800}"
               }
             },
             "active": {
               "color": {
-                "value": "{color.grilledCheeseYellow.400}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{color.grilledCheeseYellow.400}"
               },
               "text": {
-                "value": "{color.tarnishedSilver.800}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{color.tarnishedSilver.800}"
               }
             }
           },
           "secondary": {
             "default": {
               "color": {
-                "value": "{color.white}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{color.white}"
               },
               "text": {
-                "value": "{color.white}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{color.white}"
               }
             },
             "hover": {
               "color": {
-                "value": "{color.grilledCheeseYellow.400}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{color.grilledCheeseYellow.400}"
               },
               "text": {
-                "value": "{color.white}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{color.white}"
               }
             },
             "active": {
               "color": {
-                "value": "{color.grilledCheeseYellow.400}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{color.grilledCheeseYellow.400}"
               },
               "text": {
-                "value": "{color.white}",
-                "type": "color"
+                "$type": "color",
+                "$value": "{color.white}"
               }
             }
           }
@@ -183,64 +183,64 @@
         "onLights": {
           "siteTitle": {
             "default": {
-              "value": "{color.goshawkGrey.700}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.goshawkGrey.700}"
             },
             "variant": {
-              "value": "{color.goshawkGrey.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.goshawkGrey.500}"
             }
           },
           "heading": {
             "default": {
-              "value": "{color.zeusPurple.800}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.zeusPurple.800}"
             },
             "variant": {
-              "value": "{color.goshawkGrey.300}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.goshawkGrey.300}"
             }
           },
           "body": {
             "default": {
-              "value": "{color.goshawkGrey.700}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.goshawkGrey.700}"
             },
             "variant": {
-              "value": "{color.goshawkGrey.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.goshawkGrey.500}"
             }
           }
         },
         "onDarks": {
           "siteTitle": {
             "default": {
-              "value": "{color.white}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.white}"
             },
             "variant": {
-              "value": "{color.christmasSilver.50}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.christmasSilver.50}"
             }
           },
           "heading": {
             "default": {
-              "value": "{color.white}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.white}"
             },
             "variant": {
-              "value": "{color.christmasSilver.50}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.christmasSilver.50}"
             }
           },
           "body": {
             "default": {
-              "value": "{color.white}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.white}"
             },
             "variant": {
-              "value": "{color.zeusPurple.200}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{color.zeusPurple.200}"
             }
           }
         }
@@ -248,114 +248,114 @@
       "reserved": {
         "error": {
           "default": {
-            "value": "{color.crimsonRed.500}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{color.crimsonRed.500}"
           },
           "lightest": {
-            "value": "{color.crimsonRed.25}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{color.crimsonRed.25}"
           },
           "lighter": {
-            "value": "{color.crimsonRed.50}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{color.crimsonRed.50}"
           },
           "darker": {
-            "value": "{color.crimsonRed.800}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{color.crimsonRed.800}"
           }
         },
         "information": {
           "default": {
-            "value": "{color.danubeBlue.500}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{color.danubeBlue.500}"
           },
           "lightest": {
-            "value": "{color.danubeBlue.25}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{color.danubeBlue.25}"
           },
           "lighter": {
-            "value": "{color.danubeBlue.50}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{color.danubeBlue.50}"
           },
           "darker": {
-            "value": "{color.danubeBlue.800}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{color.danubeBlue.800}"
           }
         },
         "success": {
           "default": {
-            "value": "{color.zundaGreen.500}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{color.zundaGreen.500}"
           },
           "lightest": {
-            "value": "{color.zundaGreen.25}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{color.zundaGreen.25}"
           },
           "lighter": {
-            "value": "{color.zundaGreen.50}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{color.zundaGreen.50}"
           },
           "darker": {
-            "value": "{color.zundaGreen.800}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{color.zundaGreen.800}"
           }
         },
         "alert": {
           "default": {
-            "value": "{color.starYellow.500}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{color.starYellow.500}"
           },
           "lightest": {
-            "value": "{color.starYellow.25}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{color.starYellow.25}"
           },
           "lighter": {
-            "value": "{color.starYellow.50}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{color.starYellow.50}"
           },
           "darker": {
-            "value": "{color.starYellow.800}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{color.starYellow.800}"
           }
         }
       },
       "syntax": {
         "background": {
-          "value": "{color.goshawkGrey.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.goshawkGrey.700}"
         },
         "values": {
-          "value": "{color.zundaGreen.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.zundaGreen.500}"
         },
         "elements": {
-          "value": "{color.freshAirBlue.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.freshAirBlue.500}"
         },
         "properties": {
-          "value": "{color.zeusPurple.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.zeusPurple.500}"
         },
         "comments": {
-          "value": "{color.veilBlue.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.veilBlue.500}"
         }
       }
     },
     "focus": {
       "outlineWidth": {
-        "value": "{focus.outlineWidth}",
-        "type": "outlineWidth"
+        "$type": "outlineWidth",
+        "$value": "{focus.outlineWidth}"
       },
       "outlineStyle": {
-        "value": "{focus.outlineStyle}",
-        "type": "outlineStyle"
+        "$type": "outlineStyle",
+        "$value": "{focus.outlineStyle}"
       }
     },
     "shadows": {
       "default": {
-        "value": "{color.goshawkGrey.900}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.goshawkGrey.900}"
       }
     }
   }

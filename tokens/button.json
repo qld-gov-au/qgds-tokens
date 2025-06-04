@@ -5,112 +5,112 @@
         "primary": {
           "default": {
             "background": {
-              "value": "{palette.bright.action.button.primary.default.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bright.action.button.primary.default.background}"
             },
             "text": {
-              "value": "{palette.bright.action.button.primary.default.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bright.action.button.primary.default.text}"
             },
             "textDecoration": {
-              "value": "{palette.bright.action.button.primary.default.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.bright.action.button.primary.default.textDecoration}"
             },
             "border": {
-              "value": "{palette.bright.action.button.primary.default.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bright.action.button.primary.default.border}"
             }
           },
           "active": {
             "background": {
-              "value": "{palette.bright.action.button.primary.active.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bright.action.button.primary.active.background}"
             },
             "text": {
-              "value": "{palette.bright.action.button.primary.active.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bright.action.button.primary.active.text}"
             },
             "textDecoration": {
-              "value": "{palette.bright.action.button.primary.active.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.bright.action.button.primary.active.textDecoration}"
             },
             "border": {
-              "value": "{palette.bright.action.button.primary.active.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bright.action.button.primary.active.border}"
             }
           },
           "hover": {
             "background": {
-              "value": "{palette.bright.action.button.primary.hover.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bright.action.button.primary.hover.background}"
             },
             "text": {
-              "value": "{palette.bright.action.button.primary.hover.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bright.action.button.primary.hover.text}"
             },
             "textDecoration": {
-              "value": "{palette.bright.action.button.primary.hover.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.bright.action.button.primary.hover.textDecoration}"
             },
             "border": {
-              "value": "{palette.bright.action.button.primary.hover.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bright.action.button.primary.hover.border}"
             }
           }
         },
         "secondary": {
           "default": {
             "background": {
-              "value": "{palette.bright.action.button.secondary.default.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bright.action.button.secondary.default.background}"
             },
             "text": {
-              "value": "{palette.bright.action.button.secondary.default.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bright.action.button.secondary.default.text}"
             },
             "textDecoration": {
-              "value": "{palette.bright.action.button.secondary.default.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.bright.action.button.secondary.default.textDecoration}"
             },
             "border": {
-              "value": "{palette.bright.action.button.secondary.default.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bright.action.button.secondary.default.border}"
             }
           },
           "active": {
             "background": {
-              "value": "{palette.bright.action.button.secondary.active.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bright.action.button.secondary.active.background}"
             },
             "text": {
-              "value": "{palette.bright.action.button.secondary.active.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bright.action.button.secondary.active.text}"
             },
             "textDecoration": {
-              "value": "{palette.bright.action.button.secondary.active.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.bright.action.button.secondary.active.textDecoration}"
             },
             "border": {
-              "value": "{palette.bright.action.button.secondary.active.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bright.action.button.secondary.active.border}"
             }
           },
           "hover": {
             "background": {
-              "value": "{palette.bright.action.button.secondary.hover.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bright.action.button.secondary.hover.background}"
             },
             "text": {
-              "value": "{palette.bright.action.button.secondary.hover.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bright.action.button.secondary.hover.text}"
             },
             "textDecoration": {
-              "value": "{palette.bright.action.button.secondary.hover.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.bright.action.button.secondary.hover.textDecoration}"
             },
             "border": {
-              "value": "{palette.bright.action.button.secondary.hover.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bright.action.button.secondary.hover.border}"
             }
           }
         }
@@ -119,112 +119,112 @@
         "primary": {
           "default": {
             "background": {
-              "value": "{palette.tint.action.button.primary.default.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.tint.action.button.primary.default.background}"
             },
             "text": {
-              "value": "{palette.tint.action.button.primary.default.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.tint.action.button.primary.default.text}"
             },
             "textDecoration": {
-              "value": "{palette.tint.action.button.primary.default.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.tint.action.button.primary.default.textDecoration}"
             },
             "border": {
-              "value": "{palette.tint.action.button.primary.default.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.tint.action.button.primary.default.border}"
             }
           },
           "active": {
             "background": {
-              "value": "{palette.tint.action.button.primary.active.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.tint.action.button.primary.active.background}"
             },
             "text": {
-              "value": "{palette.tint.action.button.primary.active.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.tint.action.button.primary.active.text}"
             },
             "textDecoration": {
-              "value": "{palette.tint.action.button.primary.active.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.tint.action.button.primary.active.textDecoration}"
             },
             "border": {
-              "value": "{palette.tint.action.button.primary.active.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.tint.action.button.primary.active.border}"
             }
           },
           "hover": {
             "background": {
-              "value": "{palette.tint.action.button.primary.hover.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.tint.action.button.primary.hover.background}"
             },
             "text": {
-              "value": "{palette.tint.action.button.primary.hover.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.tint.action.button.primary.hover.text}"
             },
             "textDecoration": {
-              "value": "{palette.tint.action.button.primary.hover.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.tint.action.button.primary.hover.textDecoration}"
             },
             "border": {
-              "value": "{palette.tint.action.button.primary.hover.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.tint.action.button.primary.hover.border}"
             }
           }
         },
         "secondary": {
           "default": {
             "background": {
-              "value": "{palette.tint.action.button.secondary.default.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.tint.action.button.secondary.default.background}"
             },
             "text": {
-              "value": "{palette.tint.action.button.secondary.default.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.tint.action.button.secondary.default.text}"
             },
             "textDecoration": {
-              "value": "{palette.tint.action.button.secondary.default.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.tint.action.button.secondary.default.textDecoration}"
             },
             "border": {
-              "value": "{palette.tint.action.button.secondary.default.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.tint.action.button.secondary.default.border}"
             }
           },
           "active": {
             "background": {
-              "value": "{palette.tint.action.button.secondary.active.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.tint.action.button.secondary.active.background}"
             },
             "text": {
-              "value": "{palette.tint.action.button.secondary.active.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.tint.action.button.secondary.active.text}"
             },
             "textDecoration": {
-              "value": "{palette.tint.action.button.secondary.active.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.tint.action.button.secondary.active.textDecoration}"
             },
             "border": {
-              "value": "{palette.tint.action.button.secondary.active.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.tint.action.button.secondary.active.border}"
             }
           },
           "hover": {
             "background": {
-              "value": "{palette.tint.action.button.secondary.hover.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.tint.action.button.secondary.hover.background}"
             },
             "text": {
-              "value": "{palette.tint.action.button.secondary.hover.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.tint.action.button.secondary.hover.text}"
             },
             "textDecoration": {
-              "value": "{palette.tint.action.button.secondary.hover.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.tint.action.button.secondary.hover.textDecoration}"
             },
             "border": {
-              "value": "{palette.tint.action.button.secondary.hover.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.tint.action.button.secondary.hover.border}"
             }
           }
         }
@@ -233,112 +233,112 @@
         "primary": {
           "default": {
             "background": {
-              "value": "{palette.alt.action.button.primary.default.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.alt.action.button.primary.default.background}"
             },
             "text": {
-              "value": "{palette.alt.action.button.primary.default.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.alt.action.button.primary.default.text}"
             },
             "textDecoration": {
-              "value": "{palette.alt.action.button.primary.default.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.alt.action.button.primary.default.textDecoration}"
             },
             "border": {
-              "value": "{palette.alt.action.button.primary.default.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.alt.action.button.primary.default.border}"
             }
           },
           "active": {
             "background": {
-              "value": "{palette.alt.action.button.primary.active.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.alt.action.button.primary.active.background}"
             },
             "text": {
-              "value": "{palette.alt.action.button.primary.active.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.alt.action.button.primary.active.text}"
             },
             "textDecoration": {
-              "value": "{palette.alt.action.button.primary.active.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.alt.action.button.primary.active.textDecoration}"
             },
             "border": {
-              "value": "{palette.alt.action.button.primary.active.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.alt.action.button.primary.active.border}"
             }
           },
           "hover": {
             "background": {
-              "value": "{palette.alt.action.button.primary.hover.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.alt.action.button.primary.hover.background}"
             },
             "text": {
-              "value": "{palette.alt.action.button.primary.hover.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.alt.action.button.primary.hover.text}"
             },
             "textDecoration": {
-              "value": "{palette.alt.action.button.primary.hover.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.alt.action.button.primary.hover.textDecoration}"
             },
             "border": {
-              "value": "{palette.alt.action.button.primary.hover.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.alt.action.button.primary.hover.border}"
             }
           }
         },
         "secondary": {
           "default": {
             "background": {
-              "value": "{palette.alt.action.button.secondary.default.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.alt.action.button.secondary.default.background}"
             },
             "text": {
-              "value": "{palette.alt.action.button.secondary.default.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.alt.action.button.secondary.default.text}"
             },
             "textDecoration": {
-              "value": "{palette.alt.action.button.secondary.default.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.alt.action.button.secondary.default.textDecoration}"
             },
             "border": {
-              "value": "{palette.alt.action.button.secondary.default.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.alt.action.button.secondary.default.border}"
             }
           },
           "active": {
             "background": {
-              "value": "{palette.alt.action.button.secondary.active.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.alt.action.button.secondary.active.background}"
             },
             "text": {
-              "value": "{palette.alt.action.button.secondary.active.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.alt.action.button.secondary.active.text}"
             },
             "textDecoration": {
-              "value": "{palette.alt.action.button.secondary.active.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.alt.action.button.secondary.active.textDecoration}"
             },
             "border": {
-              "value": "{palette.alt.action.button.secondary.active.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.alt.action.button.secondary.active.border}"
             }
           },
           "hover": {
             "background": {
-              "value": "{palette.alt.action.button.secondary.hover.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.alt.action.button.secondary.hover.background}"
             },
             "text": {
-              "value": "{palette.alt.action.button.secondary.hover.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.alt.action.button.secondary.hover.text}"
             },
             "textDecoration": {
-              "value": "{palette.alt.action.button.secondary.hover.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.alt.action.button.secondary.hover.textDecoration}"
             },
             "border": {
-              "value": "{palette.alt.action.button.secondary.hover.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.alt.action.button.secondary.hover.border}"
             }
           }
         }
@@ -347,112 +347,112 @@
         "primary": {
           "default": {
             "background": {
-              "value": "{palette.bold.action.button.primary.default.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bold.action.button.primary.default.background}"
             },
             "text": {
-              "value": "{palette.bold.action.button.primary.default.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bold.action.button.primary.default.text}"
             },
             "textDecoration": {
-              "value": "{palette.bold.action.button.primary.default.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.bold.action.button.primary.default.textDecoration}"
             },
             "border": {
-              "value": "{palette.bold.action.button.primary.default.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bold.action.button.primary.default.border}"
             }
           },
           "active": {
             "background": {
-              "value": "{palette.bold.action.button.primary.active.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bold.action.button.primary.active.background}"
             },
             "text": {
-              "value": "{palette.bold.action.button.primary.active.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bold.action.button.primary.active.text}"
             },
             "textDecoration": {
-              "value": "{palette.bold.action.button.primary.active.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.bold.action.button.primary.active.textDecoration}"
             },
             "border": {
-              "value": "{palette.bold.action.button.primary.active.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bold.action.button.primary.active.border}"
             }
           },
           "hover": {
             "background": {
-              "value": "{palette.bold.action.button.primary.hover.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bold.action.button.primary.hover.background}"
             },
             "text": {
-              "value": "{palette.bold.action.button.primary.hover.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bold.action.button.primary.hover.text}"
             },
             "textDecoration": {
-              "value": "{palette.bold.action.button.primary.hover.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.bold.action.button.primary.hover.textDecoration}"
             },
             "border": {
-              "value": "{palette.bold.action.button.primary.hover.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bold.action.button.primary.hover.border}"
             }
           }
         },
         "secondary": {
           "default": {
             "background": {
-              "value": "{palette.bold.action.button.secondary.default.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bold.action.button.secondary.default.background}"
             },
             "text": {
-              "value": "{palette.bold.action.button.secondary.default.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bold.action.button.secondary.default.text}"
             },
             "textDecoration": {
-              "value": "{palette.bold.action.button.secondary.default.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.bold.action.button.secondary.default.textDecoration}"
             },
             "border": {
-              "value": "{palette.bold.action.button.secondary.default.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bold.action.button.secondary.default.border}"
             }
           },
           "active": {
             "background": {
-              "value": "{palette.bold.action.button.secondary.active.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bold.action.button.secondary.active.background}"
             },
             "text": {
-              "value": "{palette.bold.action.button.secondary.active.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bold.action.button.secondary.active.text}"
             },
             "textDecoration": {
-              "value": "{palette.bold.action.button.secondary.active.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.bold.action.button.secondary.active.textDecoration}"
             },
             "border": {
-              "value": "{palette.bold.action.button.secondary.active.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bold.action.button.secondary.active.border}"
             }
           },
           "hover": {
             "background": {
-              "value": "{palette.bold.action.button.secondary.hover.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bold.action.button.secondary.hover.background}"
             },
             "text": {
-              "value": "{palette.bold.action.button.secondary.hover.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bold.action.button.secondary.hover.text}"
             },
             "textDecoration": {
-              "value": "{palette.bold.action.button.secondary.hover.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.bold.action.button.secondary.hover.textDecoration}"
             },
             "border": {
-              "value": "{palette.bold.action.button.secondary.hover.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.bold.action.button.secondary.hover.border}"
             }
           }
         }
@@ -461,112 +461,112 @@
         "primary": {
           "default": {
             "background": {
-              "value": "{palette.strong.action.button.primary.default.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.strong.action.button.primary.default.background}"
             },
             "text": {
-              "value": "{palette.strong.action.button.primary.default.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.strong.action.button.primary.default.text}"
             },
             "textDecoration": {
-              "value": "{palette.strong.action.button.primary.default.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.strong.action.button.primary.default.textDecoration}"
             },
             "border": {
-              "value": "{palette.strong.action.button.primary.default.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.strong.action.button.primary.default.border}"
             }
           },
           "active": {
             "background": {
-              "value": "{palette.strong.action.button.primary.active.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.strong.action.button.primary.active.background}"
             },
             "text": {
-              "value": "{palette.strong.action.button.primary.active.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.strong.action.button.primary.active.text}"
             },
             "textDecoration": {
-              "value": "{palette.strong.action.button.primary.active.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.strong.action.button.primary.active.textDecoration}"
             },
             "border": {
-              "value": "{palette.strong.action.button.primary.active.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.strong.action.button.primary.active.border}"
             }
           },
           "hover": {
             "background": {
-              "value": "{palette.strong.action.button.primary.hover.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.strong.action.button.primary.hover.background}"
             },
             "text": {
-              "value": "{palette.strong.action.button.primary.hover.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.strong.action.button.primary.hover.text}"
             },
             "textDecoration": {
-              "value": "{palette.strong.action.button.primary.hover.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.strong.action.button.primary.hover.textDecoration}"
             },
             "border": {
-              "value": "{palette.strong.action.button.primary.hover.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.strong.action.button.primary.hover.border}"
             }
           }
         },
         "secondary": {
           "default": {
             "background": {
-              "value": "{palette.strong.action.button.secondary.default.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.strong.action.button.secondary.default.background}"
             },
             "text": {
-              "value": "{palette.strong.action.button.secondary.default.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.strong.action.button.secondary.default.text}"
             },
             "textDecoration": {
-              "value": "{palette.strong.action.button.secondary.default.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.strong.action.button.secondary.default.textDecoration}"
             },
             "border": {
-              "value": "{palette.strong.action.button.secondary.default.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.strong.action.button.secondary.default.border}"
             }
           },
           "active": {
             "background": {
-              "value": "{palette.strong.action.button.secondary.active.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.strong.action.button.secondary.active.background}"
             },
             "text": {
-              "value": "{palette.strong.action.button.secondary.active.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.strong.action.button.secondary.active.text}"
             },
             "textDecoration": {
-              "value": "{palette.strong.action.button.secondary.active.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.strong.action.button.secondary.active.textDecoration}"
             },
             "border": {
-              "value": "{palette.strong.action.button.secondary.active.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.strong.action.button.secondary.active.border}"
             }
           },
           "hover": {
             "background": {
-              "value": "{palette.strong.action.button.secondary.hover.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.strong.action.button.secondary.hover.background}"
             },
             "text": {
-              "value": "{palette.strong.action.button.secondary.hover.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.strong.action.button.secondary.hover.text}"
             },
             "textDecoration": {
-              "value": "{palette.strong.action.button.secondary.hover.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.strong.action.button.secondary.hover.textDecoration}"
             },
             "border": {
-              "value": "{palette.strong.action.button.secondary.hover.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.strong.action.button.secondary.hover.border}"
             }
           }
         }
@@ -575,124 +575,124 @@
         "primary": {
           "default": {
             "background": {
-              "value": "{palette.dark.action.button.primary.default.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.dark.action.button.primary.default.background}"
             },
             "text": {
-              "value": "{palette.dark.action.button.primary.default.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.dark.action.button.primary.default.text}"
             },
             "textDecoration": {
-              "value": "{palette.dark.action.button.primary.default.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.dark.action.button.primary.default.textDecoration}"
             },
             "border": {
-              "value": "{palette.dark.action.button.primary.default.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.dark.action.button.primary.default.border}"
             }
           },
           "active": {
             "background": {
-              "value": "{palette.dark.action.button.primary.active.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.dark.action.button.primary.active.background}"
             },
             "text": {
-              "value": "{palette.dark.action.button.primary.active.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.dark.action.button.primary.active.text}"
             },
             "textDecoration": {
-              "value": "{palette.dark.action.button.primary.active.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.dark.action.button.primary.active.textDecoration}"
             },
             "border": {
-              "value": "{palette.dark.action.button.primary.active.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.dark.action.button.primary.active.border}"
             }
           },
           "hover": {
             "background": {
-              "value": "{palette.dark.action.button.primary.hover.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.dark.action.button.primary.hover.background}"
             },
             "text": {
-              "value": "{palette.dark.action.button.primary.hover.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.dark.action.button.primary.hover.text}"
             },
             "textDecoration": {
-              "value": "{palette.dark.action.button.primary.hover.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.dark.action.button.primary.hover.textDecoration}"
             },
             "border": {
-              "value": "{palette.dark.action.button.primary.hover.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.dark.action.button.primary.hover.border}"
             }
           }
         },
         "secondary": {
           "default": {
             "background": {
-              "value": "{palette.dark.action.button.secondary.default.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.dark.action.button.secondary.default.background}"
             },
             "text": {
-              "value": "{palette.dark.action.button.secondary.default.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.dark.action.button.secondary.default.text}"
             },
             "textDecoration": {
-              "value": "{palette.dark.action.button.secondary.default.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.dark.action.button.secondary.default.textDecoration}"
             },
             "border": {
-              "value": "{palette.dark.action.button.secondary.default.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.dark.action.button.secondary.default.border}"
             }
           },
           "active": {
             "background": {
-              "value": "{palette.dark.action.button.secondary.active.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.dark.action.button.secondary.active.background}"
             },
             "text": {
-              "value": "{palette.dark.action.button.secondary.active.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.dark.action.button.secondary.active.text}"
             },
             "textDecoration": {
-              "value": "{palette.dark.action.button.secondary.active.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.dark.action.button.secondary.active.textDecoration}"
             },
             "border": {
-              "value": "{palette.dark.action.button.secondary.active.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.dark.action.button.secondary.active.border}"
             }
           },
           "hover": {
             "background": {
-              "value": "{palette.dark.action.button.secondary.hover.background}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.dark.action.button.secondary.hover.background}"
             },
             "text": {
-              "value": "{palette.dark.action.button.secondary.hover.text}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.dark.action.button.secondary.hover.text}"
             },
             "textDecoration": {
-              "value": "{palette.dark.action.button.secondary.hover.textDecoration}",
-              "type": "textDecoration"
+              "$type": "textDecoration",
+              "$value": "{palette.dark.action.button.secondary.hover.textDecoration}"
             },
             "border": {
-              "value": "{palette.dark.action.button.secondary.hover.border}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{palette.dark.action.button.secondary.hover.border}"
             }
           }
         }
       }
     },
     "borderRadius": {
-      "value": "{borderRadius.lg}",
-      "type": "borderRadius"
+      "$type": "borderRadius",
+      "$value": "{borderRadius.lg}"
     },
     "borderWidth": {
-      "value": "{dimension.sm}",
-      "type": "borderWidth"
+      "$type": "borderWidth",
+      "$value": "{dimension.sm}"
     }
   }
 }
