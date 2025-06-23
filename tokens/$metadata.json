@@ -29,6 +29,13 @@
     ".Space/Value",
     ".Breakpoint/Value",
     ".Icon/Mode 1",
-    ".Grid/Mode 1"
+    ".Grid/Mode 1",
+    "brand/qld-default-palette",
+    "brand/qld-maroon-palette",
+    "brand/qld-high-contrast-palette",
+    "brand/qld-corporate-palette",
+    "brand/campaign-neon-palette",
+    "Typography/Desktop",
+    "Typography/Mobile"
   ]
 }

@@ -1,0 +1,14 @@
+{
+  "Typography": {
+    "Heading XL": {
+      "Family": {
+        "$type": "text",
+        "$value": "Inter"
+      },
+      "Size": {
+        "$type": "number",
+        "$value": "{typescale-04}"
+      }
+    }
+  }
+}
