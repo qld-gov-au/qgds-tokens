@@ -1,0 +1,78 @@
+{
+  "Grid": {
+    "Gutter": {
+      "sm": {
+        "$type": "number",
+        "$value": "{Map.space-4 (16)}",
+        "$description": "Gutters for Grid Layout"
+      },
+      "md": {
+        "$type": "number",
+        "$value": "{Map.space-6 (24)}",
+        "$description": "Gutters for Grid Layout"
+      },
+      "lg": {
+        "$type": "number",
+        "$value": "{Map.space-7 (32)}",
+        "$description": "Gutters for Grid Layout"
+      },
+      "xl": {
+        "$type": "number",
+        "$value": "{Map.space-7 (32)}",
+        "$description": "Gutters for Grid Layout"
+      },
+      "Portal lg": {
+        "$type": "number",
+        "$value": "{Map.space-6 (24)}",
+        "$description": "Gutters for Grid Layout when using Vertical Nav/Portal sites"
+      },
+      "Portal xl": {
+        "$type": "number",
+        "$value": "{Map.space-7 (32)}",
+        "$description": "Gutters for Grid Layout when using Vertical Nav/Portal sites"
+      }
+    },
+    "Outer Margin": {
+      "xs": {
+        "$type": "number",
+        "$value": "{Map.space-4 (16)}",
+        "$description": "Outer margins for Grid Layout. Defined through inner padding on the .container-fluid class"
+      },
+      "sm": {
+        "$type": "number",
+        "$value": "{Map.space-4 (16)}",
+        "$description": "Outer margins for Grid Layout. Defined through inner padding on the .container-fluid class"
+      },
+      "md": {
+        "$type": "number",
+        "$value": "{Map.space-7 (32)}",
+        "$description": "Outer margins for Grid Layout. Defined through inner padding on the .container-fluid class"
+      },
+      "lg": {
+        "$type": "number",
+        "$value": "{Map.space-7 (32)}",
+        "$description": "Outer margins for Grid Layout. Defined through inner padding on the .container-fluid class"
+      },
+      "xl": {
+        "$type": "number",
+        "$value": "{Map.space-7 (32)}",
+        "$description": "Outer margins for Grid Layout. Defined through inner padding on the .container-fluid class"
+      },
+      "Portal lg": {
+        "$type": "number",
+        "$value": "{Map.space-10 (48)}",
+        "$description": "Outer margins for Grid Layout for portal sites. Defined through inner padding on the .container-fluid class. Is a calculation in code:  48  calc(48px + (100vw - 992px) * (128 - 48) / (1312 - 992));"
+      },
+      "Portal xl": {
+        "$type": "number",
+        "$value": "{Map.space-15 (128)}",
+        "$description": "Outer margins for Grid Layout for portal sites. Defined through inner padding on the .container-fluid class. Is a calculation in code: 128  calc(72px + (100vw - 1312px) *(128 - 72) / (1600 - 1312));"
+      }
+    },
+    "max-width": {
+      "$type": "number",
+      "$value": 1376,
+      "$description": "Maximum width for grid within viewport. Includes outer margin."
+    }
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "Light": {
+    "Background": {
+      "Background alt": {
+        "$type": "color",
+        "$value": "#e8e8e8",
+        "$description": "Alt background colour. Use as a contrasting background for visual interest."
+      },
+      "Background alt shade": {
+        "$type": "color",
+        "$value": "#e0e0e0",
+        "$description": "Darker shade of the Alt background. Used to slightly shade elements such as accordions and call outs on top of the Alt background."
+      },
+      "Background": {
+        "$type": "color",
+        "$value": "#eff4f9",
+        "$description": "Primary background colour when using light palette"
+      },
+      "Background shade": {
+        "$type": "color",
+        "$value": "#e5eef5",
+        "$description": "Darker shade of the light background. Used as fills for elements such as accordions and call outs on top of light backgrounds."
+      }
+    },
+    "Border": {
+      "Border alt": {
+        "$type": "color",
+        "$value": "#7a7a7a",
+        "$description": "Border colour for form borders on all light backgrounds. Must meet contrast ratio of 3:1 across all light backgrounds"
+      },
+      "Border": {
+        "$type": "color",
+        "$value": "#ccddee",
+        "$description": "Decorative border colour used on light backgrounds"
+      }
+    },
+    "Action": {
+      "Primary": {
+        "$type": "color",
+        "$value": "#09549f",
+        "$description": "Colour of primary actions / buttons used on a light themed container"
+      },
+      "Primary hover": {
+        "$type": "color",
+        "$value": "#003e7d",
+        "$description": "Hover colour for primary actions / buttons"
+      },
+      "Secondary": {
+        "$type": "color",
+        "$value": "#008635",
+        "$description": "Colour for secondary actions. Button border for secondary action buttons. Icon colour for icon actions."
+      },
+      "Secondary hover": {
+        "$type": "color",
+        "$value": "#005b23",
+        "$description": "Hover colour for secondary actions"
+      }
+    },
+    "Link": {
+      "Link on action": {
+        "$type": "color",
+        "$value": "#ffffff",
+        "$description": "Colour for text/icons on a primary action button"
+      },
+      "Link": {
+        "$type": "color",
+        "$value": "#09549f",
+        "$description": "Colour for hyperlink text"
+      },
+      "Visited": {
+        "$type": "color",
+        "$value": "#551a8b",
+        "$description": "Colour for visited links"
+      }
+    },
+    "Accent": {
+      "Accent": {
+        "$type": "color",
+        "$value": "#6bbe27",
+        "$description": "Brand accent colour, used for key highlights and content dividers. Purely decorative and do not require an accessibility check."
+      }
+    },
+    "Focus": {
+      "Focus": {
+        "$type": "color",
+        "$value": "#0085b3",
+        "$description": "Focus colour should be as consistent as possible and ideally not the same as any action colour. Focus colours must meet a contrast ratio of 3:1."
+      }
+    },
+    "Text": {
+      "Heading": {
+        "$type": "color",
+        "$value": "#04284c",
+        "$description": "Heading colours within text. These should be shades of your brand colour and if posisble different from primary action and link colours so the user does not interpret them as clickable."
+      },
+      "Text": {
+        "$type": "color",
+        "$value": "#414141",
+        "$description": "Text colours are indicated by the text icon. All text contrast must meet WCAG 2.0 Level AA conformance which means a contrast ration of 4.5:1"
+      },
+      "Lighter": {
+        "$type": "color",
+        "$value": "#636363",
+        "$description": "Lighter text used for inactive states, captions, and secondary information."
+      }
+    },
+    "Underline": {
+      "Default": {
+        "$type": "color",
+        "$value": "#3f7ab4",
+        "$description": "Default underline colour for underlining links to assist with accessibility and readability."
+      },
+      "Hover": {
+        "$type": "color",
+        "$value": "{Light.Link.Link}",
+        "$description": "Hover colour for link underline."
+      },
+      "Visited": {
+        "$type": "color",
+        "$value": "#8b63b0",
+        "$description": "Visited link underline colour for underlining links to assist with accessibility and readability."
+      },
+      "Visited hover": {
+        "$type": "color",
+        "$value": "{Light.Link.Visited}",
+        "$description": "Hover colour for visited link underline."
+      }
+    },
+    "Site title": {
+      "Site title": {
+        "$type": "color",
+        "$value": "#022a50",
+        "$description": "Colour for title of site in header component"
+      }
+    },
+    "UI": {
+      "Disabled": {
+        "$type": "color",
+        "$value": "#858585",
+        "$description": "Lighter text used for inactive states, captions, and secondary information."
+      }
+    }
+  },
+  "Dark": {
+    "Background": {
+      "Background": {
+        "$type": "color",
+        "$value": "#09549f",
+        "$description": "Primary background colour when using Dark palette"
+      },
+      "Background shade": {
+        "$type": "color",
+        "$value": "#04498f",
+        "$description": "Darker shade of the Primary Dark background. Used as fills for elements such as accordions and call outs on top of dark backgrounds."
+      },
+      "Background alt": {
+        "$type": "color",
+        "$value": "#05325f",
+        "$description": "Secondar background colour when using Dark palette"
+      },
+      "Background alt shade": {
+        "$type": "color",
+        "$value": "#052c53",
+        "$description": "Darker shade of the Secondary Dark background. Used as fills for elements such as accordions and call outs on top of dark backgrounds."
+      }
+    },
+    "Border": {
+      "Border": {
+        "$type": "color",
+        "$value": "#1d9ac6",
+        "$description": "Decorative border colour used on dark primary backgrounds"
+      },
+      "Border alt": {
+        "$type": "color",
+        "$value": "#09acfe",
+        "$description": "Border colour for form borders on all dark backgrounds. Must meet contrast ratio of 3:1 across all dark backgrounds"
+      }
+    },
+    "Action": {
+      "Primary": {
+        "$type": "color",
+        "$value": "#78ba00",
+        "$description": "Colour of primary actions / buttons used on a dark themed container"
+      },
+      "Primary hover": {
+        "$type": "color",
+        "$value": "#add33f",
+        "$description": "Hover colour for primary actions / buttons"
+      },
+      "Secondary": {
+        "$type": "color",
+        "$value": "#ffe500",
+        "$description": "Colour for secondary actions. Button border for secondary action buttons. Icon colour for icon actions."
+      },
+      "Secondary hover": {
+        "$type": "color",
+        "$value": "#ffef60",
+        "$description": "Hover colour for secondary actions"
+      }
+    },
+    "Link": {
+      "Link on action": {
+        "$type": "color",
+        "$value": "#121940",
+        "$description": "Colour for text/icons on a primary action button"
+      },
+      "Link": {
+        "$type": "color",
+        "$value": "#ffffff",
+        "$description": "Colour for hyperlink text when using dark palette"
+      },
+      "Visited": {
+        "$type": "color",
+        "$value": "#e1bbee",
+        "$description": "Colour for visited links when using dark palettes"
+      }
+    },
+    "Accent": {
+      "Accent": {
+        "$type": "color",
+        "$value": "#6bbe27",
+        "$description": "Brand accent colour, used for key highlights and content dividers. Purely decorative and do not require an accessibility check."
+      }
+    },
+    "Focus": {
+      "Focus": {
+        "$type": "color",
+        "$value": "#01b0e5",
+        "$description": "Focus colour should be as consistent as possible and ideally not the same as any action colour. Focus colours must meet a contrast ratio of 3:1."
+      }
+    },
+    "Text": {
+      "Heading": {
+        "$type": "color",
+        "$value": "#ffffff",
+        "$description": "Heading colours within text. These should be shades of your brand colour and if possible different from primary action and link colours so the user does not interpret them as clickable."
+      },
+      "Text": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "Lighter": {
+        "$type": "color",
+        "$value": "#deebf9",
+        "$description": "Lighter text used for inactive states, captions, and secondary information."
+      }
+    },
+    "Underline": {
+      "Default": {
+        "$type": "color",
+        "$value": "#b5cce2",
+        "$description": "Default underline colour for underlining links to assist with accessibility and readability."
+      },
+      "Hover": {
+        "$type": "color",
+        "$value": "{Dark.Link.Link}",
+        "$description": "Hover colour for link underline."
+      },
+      "Visited": {
+        "$type": "color",
+        "$value": "#e1c2ff",
+        "$description": "Visited link underline colour for underlining links to assist with accessibility and readability."
+      },
+      "Visited hover": {
+        "$type": "color",
+        "$value": "{Dark.Underline.Visited}",
+        "$description": "Hover colour for visited link underline."
+      }
+    },
+    "Site title": {
+      "Site title": {
+        "$type": "color",
+        "$value": "#ffffff",
+        "$description": "Colour for title of site in header component"
+      }
+    },
+    "UI": {
+      "Disabled": {
+        "$type": "color",
+        "$value": "#87abd3",
+        "$description": "Lighter text used for inactive states, captions, and secondary information."
+      }
+    }
+  }
+}

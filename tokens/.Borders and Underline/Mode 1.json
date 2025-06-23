@@ -1,0 +1,64 @@
+{
+  "Border width": {
+    "thin": {
+      "$type": "number",
+      "$value": 1
+    },
+    "default": {
+      "$type": "number",
+      "$value": 2
+    },
+    "medium": {
+      "$type": "number",
+      "$value": 3
+    },
+    "thick": {
+      "$type": "number",
+      "$value": 4
+    },
+    "extra-thick": {
+      "$type": "number",
+      "$value": 8
+    }
+  },
+  "Border radius": {
+    "xs": {
+      "$type": "number",
+      "$value": "{Map.space-1 (4)}"
+    },
+    "sm": {
+      "$type": "number",
+      "$value": "{Map.space-3 (12)}"
+    },
+    "md": {
+      "$type": "number",
+      "$value": "{Map.space-4 (16)}"
+    },
+    "lg": {
+      "$type": "number",
+      "$value": "{Map.space-7 (32)}"
+    },
+    "xl": {
+      "$type": "number",
+      "$value": "{Map.space-10 (48)}"
+    },
+    "xxl": {
+      "$type": "number",
+      "$value": "{Map.space-12 (64)}"
+    }
+  },
+  "Underline": {
+    "thickness-thin": {
+      "$type": "number",
+      "$value": 0.5
+    },
+    "thickness-thick": {
+      "$type": "number",
+      "$value": 2
+    },
+    "offset": {
+      "$type": "number",
+      "$value": 8
+    }
+  }
+}

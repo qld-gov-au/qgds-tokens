@@ -1,0 +1,27 @@
+{
+  "SM (Mobile)": {
+    "$type": "number",
+    "$value": 400,
+    "$description": "Mobile breakpoint 0-699"
+  },
+  "MD (Tab)": {
+    "$type": "number",
+    "$value": 699,
+    "$description": "Tablet breakpoint 699-992"
+  },
+  "LG (Desktop)": {
+    "$type": "number",
+    "$value": 992,
+    "$description": "Desktop breakpoint 992-1312"
+  },
+  "XL (Wide)": {
+    "$type": "number",
+    "$value": 1312,
+    "$description": "Wide breakpoint 1312-1599"
+  },
+  "XXL (Extra wide)": {
+    "$type": "number",
+    "$value": 1599,
+    "$description": "Extra wide above 1599"
+  }
+}

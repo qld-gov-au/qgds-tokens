@@ -14,6 +14,21 @@
     "qld-maroon-palette",
     "qld-maroon-theme",
     "qld-default-palette",
-    "qld-default-theme"
+    "qld-default-theme",
+    "Primitives/Primitives",
+    "QGDS Palette/Bright",
+    "QGDS Palette/Tint",
+    "QGDS Palette/Alt",
+    "QGDS Palette/Bold",
+    "QGDS Palette/Strong",
+    "QGDS Palette/Dark",
+    "QGDS Theme/QGDS Theme",
+    ".Color/Value",
+    ".Core/Mode 1",
+    ".Borders and Underline/Mode 1",
+    ".Space/Value",
+    ".Breakpoint/Value",
+    ".Icon/Mode 1",
+    ".Grid/Mode 1"
   ]
 }

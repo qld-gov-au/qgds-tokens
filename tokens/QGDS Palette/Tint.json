@@ -1,0 +1,292 @@
+{
+  "background": {
+    "$type": "color",
+    "$value": "{color.victoriaBlue.25}"
+  },
+  "shade": {
+    "$type": "color",
+    "$value": "{color.victoriaBlue.50}"
+  },
+  "border": {
+    "default": {
+      "$type": "color",
+      "$value": "{color.victoriaBlue.100}"
+    },
+    "variant": {
+      "$type": "color",
+      "$value": "{color.christmasSilver.700}"
+    }
+  },
+  "boundary": {
+    "$type": "color",
+    "$value": "{color.zundaGreen.500}"
+  },
+  "partition": {
+    "$type": "color",
+    "$value": "{color.goshawkGrey.400}"
+  },
+  "separator": {
+    "$type": "color",
+    "$value": "{color.goshawkGrey.50}"
+  },
+  "divider": {
+    "$type": "color",
+    "$value": "{color.victoriaBlue.500}"
+  },
+  "fence": {
+    "$type": "color",
+    "$value": "{color.zundaGreen.500}"
+  },
+  "line": {
+    "$type": "color",
+    "$value": "{color.goshawkGrey.50}"
+  },
+  "muted": {
+    "$type": "color",
+    "$value": "{color.christmasSilver.100}"
+  },
+  "subtle": {
+    "$type": "color",
+    "$value": "{color.christmasSilver.300}"
+  },
+  "accent": {
+    "default": {
+      "$type": "color",
+      "$value": "{color.zundaGreen.500}"
+    },
+    "onAccent": {
+      "$type": "color",
+      "$value": "{color.victoriaBlue.600}"
+    }
+  },
+  "typography": {
+    "siteTitle": {
+      "default": {
+        "$type": "color",
+        "$value": "#000043"
+      },
+      "variant": {
+        "$type": "color",
+        "$value": "#09549f"
+      }
+    },
+    "heading": {
+      "default": {
+        "$type": "color",
+        "$value": "#000043"
+      },
+      "variant": {
+        "$type": "color",
+        "$value": "#09549f"
+      }
+    },
+    "body": {
+      "default": {
+        "$type": "color",
+        "$value": "#444444"
+      },
+      "variant": {
+        "$type": "color",
+        "$value": "#606060"
+      }
+    }
+  },
+  "action": {
+    "navMain": {
+      "default": {
+        "background": {
+          "$type": "color",
+          "$value": "#f5f5f5"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{color.goshawkGrey.500}"
+        }
+      },
+      "hover": {
+        "background": {
+          "$type": "color",
+          "$value": "#eaeaea"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{color.victoriaBlue.500}"
+        }
+      }
+    },
+    "button": {
+      "primary": {
+        "default": {
+          "background": {
+            "$type": "color",
+            "$value": "#09549f"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "border": {
+            "$type": "color",
+            "$value": "#09549f"
+          }
+        },
+        "hover": {
+          "background": {
+            "$type": "color",
+            "$value": "#003e87"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "border": {
+            "$type": "color",
+            "$value": "#003e87"
+          }
+        },
+        "active": {
+          "background": {
+            "$type": "color",
+            "$value": "#003e87"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "border": {
+            "$type": "color",
+            "$value": "#003e87"
+          }
+        }
+      },
+      "secondary": {
+        "default": {
+          "background": {
+            "$type": "color",
+            "$value": "{transparency.total}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "#09549f"
+          },
+          "border": {
+            "$type": "color",
+            "$value": "#6bbe27"
+          }
+        },
+        "hover": {
+          "background": {
+            "$type": "color",
+            "$value": "{transparency.total}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "#09549f"
+          },
+          "border": {
+            "$type": "color",
+            "$value": "#469800"
+          }
+        },
+        "active": {
+          "background": {
+            "$type": "color",
+            "$value": "{transparency.total}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "#09549f"
+          },
+          "border": {
+            "$type": "color",
+            "$value": "#469800"
+          }
+        }
+      }
+    },
+    "link": {
+      "default": {
+        "color": {
+          "$type": "color",
+          "$value": "{color.victoriaBlue.500}"
+        }
+      },
+      "hover": {
+        "color": {
+          "$type": "color",
+          "$value": "{color.victoriaBlue.500}"
+        }
+      },
+      "active": {
+        "color": {
+          "$type": "color",
+          "$value": "{color.victoriaBlue.500}"
+        }
+      },
+      "visited": {
+        "color": {
+          "$type": "color",
+          "$value": "{color.americanViolet.500}"
+        }
+      }
+    },
+    "pagination": {
+      "default": {
+        "background": {
+          "$type": "color",
+          "$value": "#e7edf6"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{color.victoriaBlue.500}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{color.goshawkGrey.50}"
+        }
+      },
+      "active": {
+        "background": {
+          "$type": "color",
+          "$value": "{color.victoriaBlue.500}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{color.white}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{color.victoriaBlue.500}"
+        }
+      },
+      "hover": {
+        "background": {
+          "$type": "color",
+          "$value": "#e7edf6"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{color.victoriaBlue.500}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{color.zundaGreen.500}"
+        }
+      },
+      "visited": {
+        "background": {
+          "$type": "color",
+          "$value": "#e7edf6"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{color.americanViolet.500}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{color.goshawkGrey.50}"
+        }
+      }
+    }
+  }
+}
