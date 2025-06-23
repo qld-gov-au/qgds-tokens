@@ -3,9 +3,7 @@
     "id": ".color-value",
     "name": "Value",
     "group": ".Color",
-    "selectedTokenSets": {
-      ".Color/Value": "enabled"
-    },
+    "selectedTokenSets": {},
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
       "Light.Background.Background alt": "66c09ab76fdeb9ee71e9d1b3a2e7f0fe51e1ce90",
@@ -64,9 +62,7 @@
     "id": ".core-mode 1",
     "name": "Mode 1",
     "group": ".Core",
-    "selectedTokenSets": {
-      ".Core/Mode 1": "enabled"
-    },
+    "selectedTokenSets": {},
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
       "Neutral.Black": "f30e0a91ed6c82dad95124e7c51e9cbc12965057",
@@ -121,9 +117,7 @@
     "id": ".borders and underline-mode 1",
     "name": "Mode 1",
     "group": ".Borders and Underline",
-    "selectedTokenSets": {
-      ".Borders and Underline/Mode 1": "enabled"
-    },
+    "selectedTokenSets": {},
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
       "Border width.thin": "35c751081bbb58b85d3f7a1991f3e17631a8b461",
@@ -148,9 +142,7 @@
     "id": ".space-value",
     "name": "Value",
     "group": ".Space",
-    "selectedTokenSets": {
-      ".Space/Value": "enabled"
-    },
+    "selectedTokenSets": {},
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
       "Padding.Section mobile": "66e815e0040ddb0ae981e76fefdde6d583a0e91d",
@@ -206,9 +198,7 @@
     "id": ".breakpoint-value",
     "name": "Value",
     "group": ".Breakpoint",
-    "selectedTokenSets": {
-      ".Breakpoint/Value": "enabled"
-    },
+    "selectedTokenSets": {},
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
       "SM (Mobile)": "ca5cb8b24a58f312e76ffdf87066d49a32796f2d",
@@ -224,9 +214,7 @@
     "id": ".icon-mode 1",
     "name": "Mode 1",
     "group": ".Icon",
-    "selectedTokenSets": {
-      ".Icon/Mode 1": "enabled"
-    },
+    "selectedTokenSets": {},
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
       "Size.xs": "39d5a979af60058846607d9187b0c9678f8886a0",
@@ -244,9 +232,7 @@
     "id": ".grid-mode 1",
     "name": "Mode 1",
     "group": ".Grid",
-    "selectedTokenSets": {
-      ".Grid/Mode 1": "enabled"
-    },
+    "selectedTokenSets": {},
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
       "Grid.Gutter.sm": "f79b0b03e40f8de8ff7b6d617982af791c7b2696",
@@ -1302,8 +1288,7 @@
       "qgds": "source",
       "typography": "source",
       "qld-default-theme": "enabled",
-      "qld-default-palette": "enabled",
-      "brand/qld-default-palette": "enabled"
+      "qld-default-palette": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -1750,8 +1735,7 @@
       "qgds": "source",
       "typography": "source",
       "qld-maroon-theme": "enabled",
-      "qld-maroon-palette": "enabled",
-      "brand/qld-maroon-palette": "enabled"
+      "qld-maroon-palette": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -2198,8 +2182,7 @@
       "qgds": "source",
       "typography": "source",
       "qld-high-contrast-theme": "enabled",
-      "qld-high-contrast-palette": "enabled",
-      "brand/qld-high-contrast-palette": "enabled"
+      "qld-high-contrast-palette": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -2646,8 +2629,7 @@
       "qgds": "source",
       "typography": "source",
       "qld-corporate-theme": "enabled",
-      "qld-corporate-palette": "enabled",
-      "brand/qld-corporate-palette": "enabled"
+      "qld-corporate-palette": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -3094,8 +3076,7 @@
       "qgds": "source",
       "typography": "source",
       "campaign-neon-theme": "enabled",
-      "campaign-neon-palette": "enabled",
-      "brand/campaign-neon-palette": "enabled"
+      "campaign-neon-palette": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
