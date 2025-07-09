@@ -1,81 +1,156 @@
-# Queensland Government Design System
-# Design Tokens
-## (qgds-tokens)
-*Style once, use everywhere.*
->
-> "A Style Dictionary uses design tokens to define styles once and use those styles on any platform or language. It provides a single place to create and edit your styles, and exports these tokens to all the places you need." - Amazon
+# 🛠️ Queensland Government Design System - Design tokens
 
-## Setup:
+## 📖 On this page:
+- 🎨 [What are 'design tokens'](#what-are-design-tokens)
+- 🚀 [Getting started](#getting-started)
+  - 📦 [Install & build](#install--build)
+  - ✅ [Running tests](#run-tests)
+  - ⚙️ [Continuous integration](#continuous-integration)
+- 🧩 [Extending design tokens](#extending-design-tokens)
+  - ✏️ [Create your own theme](#create-your-own-theme)
+  - 📁 [Files to update](#files-to-update)
+  - 🛠️ [After creating a custom theme](#after-creating-a-custom-theme)
+- 🔄 [Tokens Studio integration](#tokens-studio-integration)
+- 📚 [Additional resources](#additional-resources)
+- 📦 [Publishing](#publishing)
 
-### Using this repository:
-Run:
+---
+
+<a id="what-are-design-tokens"></a>
+## 🎨 What are 'design tokens'?
+
+> “A Style Dictionary uses design tokens to define styles once and use those styles on any platform or language. It provides a single place to create and edit your styles, and exports these tokens to all the places you need.”  
+> — *Amazon*
+
+Design tokens are the single source of truth for your product’s visual style, they capture design decisions such as:
+
+- 🎨 **Colours** (primary, secondary, background, border)
+- 🔠 **Typography** (font families, weights, sizes, line heights)
+- 📐 **Spacing** (margins, paddings, gaps)
+- 🧱 **Components** (border radius, shadows, z-index)
+
+These tokens are used to ensure **consistency** across multiple platforms and UI libraries (web, iOS, Android, emails, PDFs, etc.) without duplicating style logic in each codebase.
+
+This repository implements **design tokens** using [Amazon’s Style Dictionary](https://github.com/amzn/style-dictionary), which compiles token definitions (stored in platform-agnostic JSON files) into platform-specific formats such as:
+
+- ✅ SCSS variables
+- ✅ CSS custom properties (`--tokens`)
+- ✅ JavaScript constants
+- ✅ JSON files for use in Figma, Storybook, or frontend frameworks
+
+### 🧠 Why Use Design Tokens?
+
+- 🔁 **Consistency**: One change updates all platforms
+- 🧩 **Scalability**: Add themes without rewriting UI
+- 🤝 **Collaboration**: Designers and developers share a common language
+- 🛡️ **Governance**: Enforce brand guidelines automatically
+
+This package serves as the **Queensland Government’s baseline design token system**, and is intended to be:
+
+- ✅ Extended per department/project
+- ✅ Versioned and built into pipelines
+- ✅ Source-controlled for audit and collaboration
+
+---
+
+<a id="getting-started"></a>
+## 🚀 Getting Started
+
+<a id="install--build"></a>
+### 📦 Install & Build
+
 ```bash
-    npm run build
+npm install
+npm run build
 ```
 
-### Verify outputs
+<a id="run-tests"></a>
+### ✅ Run Tests
+
 ```bash
-   npm run test
+npm run test
 ```
 
-### CI
+<a id="continuous-integration"></a>
+### ⚙️ Continuous Integration
+
 ```bash
-   npm run ci
+npm run ci
 ```
 
-## How to Extend Design Tokens? 
-### How can I create my own set of Design Tokens?
-You can create your own theme and extend all design tokens by forking this repo.
-After forking please look at the example custom tokens and custom themes on the branch called: custom-tokens-and-themes-example
-Run:
-```bash
-    git checkout custom-tokens-and-themes-example
-```
-All files you add/create into your forked version will be always safe from being overriden when you get latest from upstream (qgds-tokens).
+---
 
-### What files should I look for or change when creating your custom theme
-Please add a reference of your new theme on $metadata.json and on $themes.json. Please see the example branch for more info: custom-tokens-and-themes-example
+<a id="extending-design-tokens"></a>
+## 🧩 Extending Design Tokens
 
-### What to do after I create a custom theme
-Run:
-```bash
-    npm run build
-    npm run test
-    npm run build:package
-```
-You should see no errors.
+<a id="create-your-own-theme"></a>
+### ✏️ Create Your Own Theme
 
-### Using this repository:
-Run:
+You can fork this repository and create your own theme by extending the design tokens.
+
+1. **Fork this repo**
+2. **Switch to the example branch** for guidance:
+
 ```bash
-    npm run build
+git checkout custom-tokens-and-themes-example
 ```
 
-### Verify outputs
+Your forked files will remain untouched when pulling updates from the upstream repo.
+
+---
+
+<a id="files-to-update"></a>
+### 📁 Files to Update
+
+To register a custom theme, update the following:
+
+- `./$metadata.json`
+- `./$themes.json`
+
+📌 See the `custom-tokens-and-themes-example` branch for examples.
+
+---
+
+<a id="after-creating-a-custom-theme"></a>
+### 🛠️ After Creating a Custom Theme
+
+Run the following to validate:
+
 ```bash
-   npm run test
+npm run build
+npm run test
+npm run build:package
 ```
 
-### CI
-```bash
-   npm run ci
-```
+✅ You should see no errors.
 
-## The Usage of Tokens Studio
-Using Tokens Studio to update tokens directly from Figma is welcomed.
-Sometimes, Tokens Studio may change or add $metadata and $theme tokens that had already been defined.
-In case this happens, we've added *.original to assist you in reverting back to how build-tokens is expecting these files to be configured.
+---
 
-## About Tokens Sudio
-https://docs.tokens.studio
+<a id="tokens-studio-integration"></a>
+## 🔄 Tokens Studio Integration
 
-## About Style Dictionary
-https://github.com/amzn/style-dictionary
+Using [Tokens Studio](https://docs.tokens.studio) to update tokens directly from Figma is supported.
 
-## About Style Dictionary Transforms for Tokens Studio
-https://github.com/tokens-studio/sd-transforms
+> ⚠️ Sometimes Tokens Studio may overwrite or add `$metadata` or `$theme` tokens.  
+> To avoid issues, we preserve `.original` copies of expected formats for easy reversion.
 
-## Publish system
-There is two publish subsystems, one is to npmjs and the other is to github repo package
+---
 
+<a id="additional-resources"></a>
+## 📚 Additional Resources
 
+- 📘 [Style Dictionary Docs](https://github.com/amzn/style-dictionary)
+- 🔧 [Style Dictionary Transforms for Tokens Studio](https://github.com/tokens-studio/sd-transforms)
+
+---
+
+<a id="publishing"></a>
+## 📦 Publishing
+
+There are **two publish subsystems**:
+1. To [npmjs.com](https://www.npmjs.com/)
+2. To the GitHub repository package registry
+
+Ensure you are authenticated correctly before publishing.
+
+---
