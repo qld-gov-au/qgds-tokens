@@ -138,8 +138,8 @@ Using [Tokens Studio](https://docs.tokens.studio) to update tokens directly from
 
 <a id="additional-resources"></a>
 ## 📚 Additional Resources
-
-- 📘 [Style Dictionary Docs](https://github.com/amzn/style-dictionary)
+- 📘 [Token Studio Official Documentation](https://docs.tokens.studio)
+- 📘 [Style Dictionary Documentation](https://github.com/amzn/style-dictionary)
 - 🔧 [Style Dictionary Transforms for Tokens Studio](https://github.com/tokens-studio/sd-transforms)
 
 ---
