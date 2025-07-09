@@ -65,7 +65,7 @@ npm run build
 ```
 
 <a id="run-tests"></a>
-### ✅ Run tests
+### ✅ Running tests
 
 ```bash
 npm run test
@@ -115,7 +115,6 @@ To register a custom theme, update the following:
 ### 🛠️ After creating a custom theme
 
 Run the following to validate:
-
 ```bash
 npm run build
 npm run test
