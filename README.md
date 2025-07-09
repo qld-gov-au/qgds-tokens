@@ -38,7 +38,7 @@ This repository implements **design tokens** using [Amazon’s Style Dictionary]
 - ✅ JavaScript constants
 - ✅ JSON files for use in Figma, Storybook, or frontend frameworks
 
-### 🧠 Why Use Design Tokens?
+### 🧠 Why use Design Tokens?
 
 - 🔁 **Consistency**: One change updates all platforms
 - 🧩 **Scalability**: Add themes without rewriting UI
@@ -54,10 +54,10 @@ This package serves as the **Queensland Government’s baseline design token sys
 ---
 
 <a id="getting-started"></a>
-## 🚀 Getting Started
+## 🚀 Getting started
 
 <a id="install--build"></a>
-### 📦 Install & Build
+### 📦 Install & build
 
 ```bash
 npm install
@@ -65,14 +65,14 @@ npm run build
 ```
 
 <a id="run-tests"></a>
-### ✅ Run Tests
+### ✅ Run tests
 
 ```bash
 npm run test
 ```
 
 <a id="continuous-integration"></a>
-### ⚙️ Continuous Integration
+### ⚙️ Continuous integration
 
 ```bash
 npm run ci
@@ -84,7 +84,7 @@ npm run ci
 ## 🧩 Extending Design Tokens
 
 <a id="create-your-own-theme"></a>
-### ✏️ Create Your Own Theme
+### ✏️ Create your own theme
 
 You can fork this repository and create your own theme by extending the design tokens.
 
@@ -100,7 +100,7 @@ Your forked files will remain untouched when pulling updates from the upstream r
 ---
 
 <a id="files-to-update"></a>
-### 📁 Files to Update
+### 📁 Files to update
 
 To register a custom theme, update the following:
 
@@ -112,7 +112,7 @@ To register a custom theme, update the following:
 ---
 
 <a id="after-creating-a-custom-theme"></a>
-### 🛠️ After Creating a Custom Theme
+### 🛠️ After creating a custom theme
 
 Run the following to validate:
 
@@ -127,7 +127,7 @@ npm run build:package
 ---
 
 <a id="tokens-studio-integration"></a>
-## 🔄 Tokens Studio Integration
+## 🔄 Tokens Studio integration
 
 Using [Tokens Studio](https://docs.tokens.studio) to update tokens directly from Figma is supported.
 
@@ -137,7 +137,7 @@ Using [Tokens Studio](https://docs.tokens.studio) to update tokens directly from
 ---
 
 <a id="additional-resources"></a>
-## 📚 Additional Resources
+## 📚 Additional resources
 - 📘 [Token Studio Official Documentation](https://docs.tokens.studio)
 - 📘 [Style Dictionary Documentation](https://github.com/amzn/style-dictionary)
 - 🔧 [Style Dictionary Transforms for Tokens Studio](https://github.com/tokens-studio/sd-transforms)
