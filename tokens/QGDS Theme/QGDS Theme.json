@@ -1,7 +1,5 @@
 {
   "background": {
-    "$type": "color",
-    "$value": "{color.goshawkGrey.700}",
     "bright": {
       "$type": "color",
       "$value": "{color.white}"
@@ -25,7 +23,9 @@
     "dark": {
       "$type": "color",
       "$value": "{color.goshawkGrey.700}"
-    }
+    },
+    "$type": "color",
+    "$value": "{color.goshawkGrey.700}"
   },
   "shade": {
     "$type": "color",

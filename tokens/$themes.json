@@ -1251,9 +1251,7 @@
     "id": "typography-desktop",
     "name": "Desktop",
     "group": "Typography",
-    "selectedTokenSets": {
-      "Typography/Desktop": "enabled"
-    },
+    "selectedTokenSets": {},
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
       "Typography.Heading XL.Size": "0e0aa8eeca063acfd5e70730d71382d3e2fdbce0",
@@ -1266,9 +1264,7 @@
     "id": "typography-mobile",
     "name": "Mobile",
     "group": "Typography",
-    "selectedTokenSets": {
-      "Typography/Mobile": "enabled"
-    },
+    "selectedTokenSets": {},
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
       "Typography.Heading XL.Size": "0e0aa8eeca063acfd5e70730d71382d3e2fdbce0",
