@@ -5,31 +5,64 @@ name: Publish NPM  Package
 
 on:
   push:
+  #On versioned releases
     tags:
       - v*.*.*
-
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+    inputs:
+      force:
+        type: choice
+        description: Retry Publish Version
+        options:
+          - No
+          - Yes
 
 jobs:
   build:
+    if: github.repository == 'qld-gov-au/qgds-tokens' #lock npmjs deployment to single repo, alter if you change package.json
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    name: Test, Build
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+
+      - name: Use Node.js
+        uses: actions/setup-node@v6
         with:
-          node-version: 20
-      - run: npm ci
-      - run: npm test
+          node-version: 22
+          cache: 'npm'
+
+      - name: Install #run on lint step (Which is cached)
+        run: | # Install packages per package-lock.json only
+          npm ci
+
+      - name: Test
+        run: |
+          npm run test
 
   publish-npm:
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+      id-token: write # Required for OIDC
+    environment:
+      name: npmjs
+      url: https://www.npmjs.com/package/@qld-gov-au/qgds-tokens
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 22
           registry-url: https://registry.npmjs.org/
+          cache: 'npm'
+
       - run: npm ci
-      - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+
+      - name: Publish
+        run: |
+          npm publish --provenance --access=public
