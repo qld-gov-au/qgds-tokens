@@ -62,6 +62,10 @@ jobs:
           cache: 'npm'
           scope: '@qld-gov-au'
 
+      # Ensure npm 11.5.1 or later is installed
+      - name: Update npm
+        run: npm install -g npm@latest
+
       - run: npm ci
 
       - name: Publish
