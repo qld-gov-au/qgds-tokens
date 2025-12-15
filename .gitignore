@@ -5,4 +5,4 @@
 .DS_Store
 *.tokens.json.original
 IGNOREME.md
-dist/
+/dist
