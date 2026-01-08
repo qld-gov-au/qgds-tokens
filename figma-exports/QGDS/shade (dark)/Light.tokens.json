@@ -1,0 +1,2864 @@
+{
+  "Components": {
+    "Button": {
+      "Primary": {
+        "Background": {
+          "$type": "color",
+          "$value": "{Action.Primary}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105002:18416",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Background hover": {
+          "$type": "color",
+          "$value": "{Action.Primary hover}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105002:18417",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Background active": {
+          "$type": "color",
+          "$value": "{Action.Primary active}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105094:5181",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Border": {
+          "$type": "color",
+          "$value": "{Action.Primary}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105097:4835",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Border hover": {
+          "$type": "color",
+          "$value": "{Action.Primary hover}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105097:4836",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Border active": {
+          "$type": "color",
+          "$value": "{Action.Primary active}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105097:4837",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Label": {
+          "$type": "color",
+          "$value": "{Text.Title-inv}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105002:18418",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Label hover": {
+          "$type": "color",
+          "$value": "{Text.Title-inv}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105002:18419",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Label active": {
+          "$type": "color",
+          "$value": "{Text.Title}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105097:4833",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Icon": {
+          "$type": "color",
+          "$value": "{Components.Button.Primary.Label}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105002:18420",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Icon hover": {
+          "$type": "color",
+          "$value": "{Components.Button.Primary.Label hover}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105002:18421",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Icon active": {
+          "$type": "color",
+          "$value": "{Components.Button.Primary.Label active}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105094:5182",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        }
+      },
+      "Secondary": {
+        "Background": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0,
+              0
+            ],
+            "alpha": 0,
+            "hex": "#000000"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105101:4818",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Background hover": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0,
+              0
+            ],
+            "alpha": 0,
+            "hex": "#000000"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105101:4819",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Background active": {
+          "$type": "color",
+          "$value": "{Action.Primary active}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105101:4820",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Border": {
+          "$type": "color",
+          "$value": "{Action.Primary}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105101:4821",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Border hover": {
+          "$type": "color",
+          "$value": "{Action.Primary hover}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105101:4822",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Border active": {
+          "$type": "color",
+          "$value": "{Action.Primary active}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105101:4823",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Label": {
+          "$type": "color",
+          "$value": "{Action.Primary}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105101:4824",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Label hover": {
+          "$type": "color",
+          "$value": "{Action.Primary hover}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105101:4825",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Label active": {
+          "$type": "color",
+          "$value": "{Text.Title}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105101:4826",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Icon": {
+          "$type": "color",
+          "$value": "{Action.Secondary}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105101:4827",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Icon hover": {
+          "$type": "color",
+          "$value": "{Action.Secondary hover}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105101:4828",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Icon active": {
+          "$type": "color",
+          "$value": "{Components.Button.Secondary.Label active}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105101:4829",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        }
+      },
+      "Tertiary": {
+        "Background": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0,
+              0
+            ],
+            "alpha": 0,
+            "hex": "#000000"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105101:4830",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Background hover": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9607843160629272,
+              0.9607843160629272,
+              0.9607843160629272
+            ],
+            "alpha": 1,
+            "hex": "#F5F5F5"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105101:4831",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Background active": {
+          "$type": "color",
+          "$value": "{Action.Primary active}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105101:4832",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Border": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0,
+              0
+            ],
+            "alpha": 0,
+            "hex": "#000000"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105101:4833",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Border hover": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9607843160629272,
+              0.9607843160629272,
+              0.9607843160629272
+            ],
+            "alpha": 1,
+            "hex": "#F5F5F5"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105101:4834",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Border active": {
+          "$type": "color",
+          "$value": "{Action.Primary active}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105101:4835",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Label": {
+          "$type": "color",
+          "$value": "{Action.Primary}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105101:4836",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Label hover": {
+          "$type": "color",
+          "$value": "{Action.Primary hover}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105101:4837",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Label active": {
+          "$type": "color",
+          "$value": "{Text.Title}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105101:4838",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Icon": {
+          "$type": "color",
+          "$value": "{Action.Secondary}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105101:4839",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Icon hover": {
+          "$type": "color",
+          "$value": "{Action.Secondary hover}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105101:4840",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        },
+        "Icon active": {
+          "$type": "color",
+          "$value": "{Components.Button.Primary.Label active}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105101:4841",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.isOverride": true
+          }
+        }
+      }
+    }
+  },
+  "Background": {
+    "canvas": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:105052:35358",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__background"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "surface-01": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.3686274588108063,
+          0.7215686440467834
+        ],
+        "alpha": 1,
+        "hex": "#005EB8"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:105052:35356",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__background"
+        }
+      }
+    },
+    "surface-01-inv": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8901960849761963,
+          0.9058823585510254,
+          0.9176470637321472
+        ],
+        "alpha": 1,
+        "hex": "#E3E7EA"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:105052:35355",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__background"
+        }
+      }
+    },
+    "surface-alpha-01": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          0
+        ],
+        "alpha": 0.10000000149011612,
+        "hex": "#000000"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:105052:35354",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__background"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "surface-alpha-01-inv": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 0.15000000596046448,
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:105052:35357",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__background"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "bg-primary": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9019607901573181,
+          0.9647058844566345,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#E6F6FF"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:105052:35352",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__background"
+        }
+      }
+    },
+    "bg-primary-inv": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.24313725531101227,
+          0.5882353186607361
+        ],
+        "alpha": 1,
+        "hex": "#003E96"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:105052:35350",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__background"
+        }
+      }
+    },
+    "bg-secondary": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.24313725531101227,
+          0.5882353186607361
+        ],
+        "alpha": 1,
+        "hex": "#003E96"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:105052:35351",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-dark__background"
+        }
+      }
+    },
+    "bg-secondary-inv": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9019607901573181,
+          0.9647058844566345,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#E6F6FF"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:105052:35349",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-dark__background"
+        }
+      }
+    }
+  },
+  "Border": {
+    "Primary": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.38823530077934265,
+          0.6941176652908325,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#63B1FF"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:105088:39676",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__border--alt"
+        }
+      }
+    },
+    "Secondary": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.2549019753932953,
+          0.5607843399047852,
+          0.929411768913269
+        ],
+        "alpha": 1,
+        "hex": "#418FED"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:105092:3670",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__border--alt"
+        }
+      }
+    },
+    "Accent": {
+      "$type": "color",
+      "$value": "{Brand.Accent}",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:105089:3686",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__border--alt"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "Focus": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7764706015586853,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#C6FFFF"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11842",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__focus"
+        }
+      }
+    },
+    "Divider": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.2549019753932953,
+          0.5607843399047852,
+          0.929411768913269
+        ],
+        "alpha": 1,
+        "hex": "#418FED"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:105052:35384",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__border"
+        }
+      }
+    }
+  },
+  "Action": {
+    "Primary": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5176470875740051,
+          0.8274509906768799,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#84D3FF"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11864",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__action--primary"
+        }
+      }
+    },
+    "Primary hover": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6509804129600525,
+          0.9686274528503418,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#A6F7FF"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11852",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__action--primary-hover"
+        }
+      }
+    },
+    "Primary active": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9607843160629272,
+          0.9607843160629272,
+          0.9607843160629272
+        ],
+        "alpha": 1,
+        "hex": "#F5F5F5"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:105097:4825",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__action--primary-hover"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "Secondary": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5176470875740051,
+          0.8274509906768799,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#84D3FF"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11854",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__action--secondary"
+        }
+      }
+    },
+    "Secondary hover": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6509804129600525,
+          0.9686274528503418,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#A6F7FF"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11840",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__action--secondary-hover"
+        }
+      }
+    },
+    "Secondary active": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9607843160629272,
+          0.9607843160629272,
+          0.9607843160629272
+        ],
+        "alpha": 1,
+        "hex": "#F5F5F5"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:105097:4826",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__action--secondary-hover"
+        },
+        "com.figma.isOverride": true
+      }
+    }
+  },
+  "Text": {
+    "Title": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11860",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__heading"
+        }
+      }
+    },
+    "Title-inv": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          0.32549020648002625
+        ],
+        "alpha": 1,
+        "hex": "#000053"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11830",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-dark__heading"
+        }
+      }
+    },
+    "Body": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11836",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__text"
+        }
+      }
+    },
+    "Body-inv": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.2078431397676468,
+          0.2078431397676468,
+          0.2078431397676468
+        ],
+        "alpha": 1,
+        "hex": "#353535"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11829",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-dark__text"
+        }
+      }
+    },
+    "Caption": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8705882430076599,
+          0.9215686321258545,
+          0.9764705896377563
+        ],
+        "alpha": 1,
+        "hex": "#DEEBF9"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11850",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__text--lighter"
+        }
+      }
+    },
+    "Caption-inv": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.38823530077934265,
+          0.38823530077934265,
+          0.38823530077934265
+        ],
+        "alpha": 1,
+        "hex": "#636363"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11839",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-dark__text--lighter"
+        }
+      }
+    },
+    "Link": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11857",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__link"
+        }
+      }
+    },
+    "Link-inv": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.3686274588108063,
+          0.7215686440467834
+        ],
+        "alpha": 1,
+        "hex": "#005EB8"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11827",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-dark__link"
+        }
+      }
+    },
+    "Link Visited": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3333333432674408,
+          0.10196078568696976,
+          0.545098066329956
+        ],
+        "alpha": 1,
+        "hex": "#551A8B"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11846",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__link--visited"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "Link Visited-inv": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9490196108818054,
+          0.8039215803146362,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#F2CDFF"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11818",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-dark__link--visited"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "Link on action": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11855",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__link--on-action"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "Link on action-inv": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.10980392247438431,
+          0.21568627655506134
+        ],
+        "alpha": 1,
+        "hex": "#001C37"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11826",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-dark__link--on-action"
+        },
+        "com.figma.isOverride": true
+      }
+    }
+  },
+  "Brand": {
+    "Accent": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5176470875740051,
+          0.8274509906768799,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#84D3FF"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11847",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__design-accent"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "Primary": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.3686274588108063,
+          0.7215686440467834
+        ],
+        "alpha": 1,
+        "hex": "#005EB8"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:105097:4827",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.isOverride": true
+      }
+    },
+    "Secondary": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.11372549086809158,
+          0.45490196347236633
+        ],
+        "alpha": 1,
+        "hex": "#001D74"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:105097:4828",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.isOverride": true
+      }
+    }
+  },
+  "Site title": {
+    "Site title": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.3686274588108063,
+          0.7215686440467834
+        ],
+        "alpha": 1,
+        "hex": "#005EB8"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11863",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__site-title"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "Site title-inv": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11831",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-dark__site-title"
+        },
+        "com.figma.isOverride": true
+      }
+    }
+  },
+  "Underline": {
+    "Default": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.24705882370471954,
+          0.47843137383461,
+          0.7058823704719543
+        ],
+        "alpha": 1,
+        "hex": "#3F7AB4"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11853",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__underline"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "Default-inv": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7098039388656616,
+          0.800000011920929,
+          0.886274516582489
+        ],
+        "alpha": 1,
+        "hex": "#B5CCE2"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11822",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-dark__underline"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "Hover": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.3686274588108063,
+          0.7215686440467834
+        ],
+        "alpha": 1,
+        "hex": "#005EB8"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11849",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__underline--hover"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:0c0018300acd01af458cff8c7272dcf9e4b7a320/122073:351",
+          "targetVariableName": "Light/Link/Link",
+          "targetVariableSetId": "VariableCollectionId:402f1643f8753632ad61a105864d74e5c13e8d49/122073:342",
+          "targetVariableSetName": "Color"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "Hover-inv": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11821",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-dark__underline--hover"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:4ddc0183dc5937404c43525b7f73c67d273cf3b2/122073:327",
+          "targetVariableName": "Dark/Link/Link",
+          "targetVariableSetId": "VariableCollectionId:402f1643f8753632ad61a105864d74e5c13e8d49/122073:342",
+          "targetVariableSetName": "Color"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "Visited": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.545098066329956,
+          0.38823530077934265,
+          0.6901960968971252
+        ],
+        "alpha": 1,
+        "hex": "#8B63B0"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11862",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__underline--visited"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "Visited-inv": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7777777910232544,
+          0.6833333373069763,
+          0.8500000238418579
+        ],
+        "alpha": 1,
+        "hex": "#C6AED9"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11820",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-dark__underline--visited"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "Visited hover": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3333333432674408,
+          0.10196078568696976,
+          0.545098066329956
+        ],
+        "alpha": 1,
+        "hex": "#551A8B"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11833",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-light__underline--hover-visited"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:4f8ca86f74c5191bd3b74a43d30b6492363db3ae/122073:318",
+          "targetVariableName": "Light/Link/Visited",
+          "targetVariableSetId": "VariableCollectionId:402f1643f8753632ad61a105864d74e5c13e8d49/122073:342",
+          "targetVariableSetName": "Color"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "Visited hover-inv": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9490196108818054,
+          0.8039215803146362,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#F2CDFF"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11859",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-dark__underline--hover-visited"
+        },
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:e623fb436ef0acac9e9d874169bd452028ccaec4/122073:352",
+          "targetVariableName": "Dark/Link/Visited",
+          "targetVariableSetId": "VariableCollectionId:402f1643f8753632ad61a105864d74e5c13e8d49/122073:342",
+          "targetVariableSetName": "Color"
+        },
+        "com.figma.isOverride": true
+      }
+    }
+  },
+  "UI": {
+    "Disabled": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5215686559677124,
+          0.5215686559677124,
+          0.5215686559677124
+        ],
+        "alpha": 1,
+        "hex": "#858585"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11848",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-dark__text--lighter"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "Disabled-inv": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.529411792755127,
+          0.6705882549285889,
+          0.8274509906768799
+        ],
+        "alpha": 1,
+        "hex": "#87ABD3"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:104783:11819",
+        "com.figma.hiddenFromPublishing": true,
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "--QLD-color-dark__text--lighter"
+        },
+        "com.figma.isOverride": true
+      }
+    }
+  },
+  "System": {
+    "Brand": {
+      "Primary": {
+        "Blue": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0.3686274588108063,
+              0.7215686440467834
+            ],
+            "alpha": 1,
+            "hex": "#005EB8"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:104873:12122",
+            "com.figma.hiddenFromPublishing": true,
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "$QLD-color-brand--blue"
+            },
+            "com.figma.isOverride": true
+          }
+        },
+        "Dark blue": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0.11372549086809158,
+              0.45490196347236633
+            ],
+            "alpha": 1,
+            "hex": "#001D74"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:104873:12116",
+            "com.figma.hiddenFromPublishing": true,
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "$QLD-color-brand--darkblue"
+            },
+            "com.figma.isOverride": true
+          }
+        },
+        "Light blue": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.5176470875740051,
+              0.8274509906768799,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#84D3FF"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:104873:12115",
+            "com.figma.hiddenFromPublishing": true,
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "$QLD-color-brand--lightblue"
+            },
+            "com.figma.isOverride": true
+          }
+        },
+        "[to deprecate] Light green": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              0,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FF00FF"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:104873:12139",
+            "com.figma.hiddenFromPublishing": true,
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "$QLD-color-brand--lightgreen"
+            },
+            "com.figma.isOverride": true
+          }
+        }
+      },
+      "Secondary": {
+        "[to deprecate] Dark blue": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              0,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FF00FF"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:104873:12114",
+            "com.figma.hiddenFromPublishing": true,
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "$QLD-color-brand--darkgreen"
+            },
+            "com.figma.isOverride": true
+          }
+        },
+        "[to deprecate] Light blue": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              0,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FF00FF"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:104873:12135",
+            "com.figma.hiddenFromPublishing": true,
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "$QLD-color-brand--golden-yellow"
+            },
+            "com.figma.isOverride": true
+          }
+        }
+      },
+      "Other": {
+        "[to deprecate] Modern maroon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              0,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FF00FF"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:104873:12112",
+            "com.figma.hiddenFromPublishing": true,
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "$QLD-color-brand--modern-maroon"
+            },
+            "com.figma.isOverride": true
+          }
+        },
+        "Queensland maroon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.45098039507865906,
+              0.0941176488995552,
+              0.1725490242242813
+            ],
+            "alpha": 1,
+            "hex": "#73182C"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:104873:12111",
+            "com.figma.hiddenFromPublishing": true,
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "$QLD-color-brand--govmaroon"
+            },
+            "com.figma.isOverride": true
+          }
+        }
+      }
+    },
+    "Neutral": {
+      "Black": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.07450980693101883,
+            0.07058823853731155,
+            0.07058823853731155
+          ],
+          "alpha": 1,
+          "hex": "#131212"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12134",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-neutral--black"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Darkest": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.13333334028720856,
+            0.125490203499794,
+            0.125490203499794
+          ],
+          "alpha": 1,
+          "hex": "#222020"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12128",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-neutral--darkest"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Darker": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.2666666805744171,
+            0.2666666805744171,
+            0.2666666805744171
+          ],
+          "alpha": 1,
+          "hex": "#444444"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12146",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-neutral--darker"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.47058823704719543,
+            0.4745098054409027,
+            0.4941176474094391
+          ],
+          "alpha": 1,
+          "hex": "#78797E"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12127",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-neutral--dark"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Light": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8784313797950745,
+            0.8784313797950745,
+            0.8784313797950745
+          ],
+          "alpha": 1,
+          "hex": "#E0E0E0"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12126",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-neutral--light"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Lighter": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9215686321258545,
+            0.9215686321258545,
+            0.9215686321258545
+          ],
+          "alpha": 1,
+          "hex": "#EBEBEB"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12125",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-neutral--lighter"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Lightest": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9607843160629272,
+            0.9607843160629272,
+            0.9607843160629272
+          ],
+          "alpha": 1,
+          "hex": "#F5F5F5"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12123",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-neutral--lightest"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "White": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 1,
+          "hex": "#FFFFFF"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12124",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-neutral--white"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Opacity": {
+        "10% White": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 0.10000000149011612,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:104873:12130",
+            "com.figma.hiddenFromPublishing": true,
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "$QLD-color-neutral--white__opacity-10"
+            },
+            "com.figma.isOverride": true
+          }
+        },
+        "10% Neutral light": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8784313797950745,
+              0.8784313797950745,
+              0.8784313797950745
+            ],
+            "alpha": 0.10000000149011612,
+            "hex": "#E0E0E0"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:104873:12143",
+            "com.figma.hiddenFromPublishing": true,
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "$QLD-color-neutral--light__opactiy-10"
+            },
+            "com.figma.isOverride": true
+          }
+        },
+        "10% Neutral darkest": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.13333334028720856,
+              0.125490203499794,
+              0.125490203499794
+            ],
+            "alpha": 0.10000000149011612,
+            "hex": "#222020"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:104873:12119",
+            "com.figma.hiddenFromPublishing": true,
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "$QLD-color-neutral--darkest__opacity-10"
+            },
+            "com.figma.isOverride": true
+          }
+        },
+        "10% Neutral black": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.07450980693101883,
+              0.07058823853731155,
+              0.07058823853731155
+            ],
+            "alpha": 0.10000000149011612,
+            "hex": "#131212"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:104873:12118",
+            "com.figma.hiddenFromPublishing": true,
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "$QLD-color-neutral--black__opacity-10"
+            },
+            "com.figma.isOverride": true
+          }
+        }
+      }
+    },
+    "Status": {
+      "Error": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.886274516582489,
+            0.13725490868091583,
+            0.2235294133424759
+          ],
+          "alpha": 1,
+          "hex": "#E22339"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12141",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-status__error"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Error lighter": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9921568632125854,
+            0.9411764740943909,
+            0.9411764740943909
+          ],
+          "alpha": 1,
+          "hex": "#FDF0F0"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12131",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-status__error--lighter"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Error lightest": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            0.9647058844566345,
+            0.9647058844566345
+          ],
+          "alpha": 1,
+          "hex": "#FFF6F6"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12120",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-status__error--lightest"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Error darker": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.5411764979362488,
+            0.07058823853731155,
+            0.125490203499794
+          ],
+          "alpha": 1,
+          "hex": "#8A1220"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12113",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-status__error--darker"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Success": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.20000000298023224,
+            0.615686297416687,
+            0.21568627655506134
+          ],
+          "alpha": 1,
+          "hex": "#339D37"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12129",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-status__success"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Success lighter": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9490196108818054,
+            0.9803921580314636,
+            0.95686274766922
+          ],
+          "alpha": 1,
+          "hex": "#F2FAF4"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12117",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-status__success--lighter"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Success lightest": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9686274528503418,
+            0.9843137264251709,
+            0.9725490212440491
+          ],
+          "alpha": 1,
+          "hex": "#F7FBF8"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12144",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-status__success--lightest"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Success darker": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.03921568766236305,
+            0.4117647111415863,
+            0.05098039284348488
+          ],
+          "alpha": 1,
+          "hex": "#0A690D"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12105",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-status__success--darker"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Caution": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            0.800000011920929,
+            0.1725490242242813
+          ],
+          "alpha": 1,
+          "hex": "#FFCC2C"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12138",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-status__caution"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Caution lighter": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            0.9490196108818054,
+            0.7882353067398071
+          ],
+          "alpha": 1,
+          "hex": "#FFF2C9"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12148",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-status__caution--lighter"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Caution lightest": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            0.9803921580314636,
+            0.9176470637321472
+          ],
+          "alpha": 1,
+          "hex": "#FFFAEA"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12147",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-status__caution--lightest"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Caution darker": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.7019608020782471,
+            0.5333333611488342,
+            0
+          ],
+          "alpha": 1,
+          "hex": "#B38800"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12145",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-status__caution--dark"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Info": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0.5215686559677124,
+            0.7019608020782471
+          ],
+          "alpha": 1,
+          "hex": "#0085B3"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12142",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-status__info"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Info darker": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0.4156862795352936,
+            0.5607843399047852
+          ],
+          "alpha": 1,
+          "hex": "#006A8F"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12137",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-status__info--darker"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Info lighter": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8980392217636108,
+            0.9333333373069763,
+            0.9607843160629272
+          ],
+          "alpha": 1,
+          "hex": "#E5EEF5"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12136",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-status__info--lighter"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Info lightest": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9372549057006836,
+            0.95686274766922,
+            0.9764705896377563
+          ],
+          "alpha": 1,
+          "hex": "#EFF4F9"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12133",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-status__info--lightest"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Light underline": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 0.7200000286102295,
+          "hex": "#FFFFFF"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12132",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-status__light-underline"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Dark underline": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0117647061124444,
+            0.12941177189350128,
+            0.24705882370471954
+          ],
+          "alpha": 0.7200000286102295,
+          "hex": "#03213F"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12140",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-status__dark-underline"
+          },
+          "com.figma.isOverride": true
+        }
+      }
+    },
+    "Code": {
+      "Values": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.41960784792900085,
+            0.7450980544090271,
+            0.15294118225574493
+          ],
+          "alpha": 1,
+          "hex": "#6BBE27"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12110",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-code--green"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Elements": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.6549019813537598,
+            0.8980392217636108,
+            1
+          ],
+          "alpha": 1,
+          "hex": "#A7E5FF"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12108",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-code--light-blue"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Properties": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.7843137383460999,
+            0.5529412031173706,
+            0.9686274528503418
+          ],
+          "alpha": 1,
+          "hex": "#C88DF7"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12107",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-code--violet"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Comments": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.7529411911964417,
+            0.843137264251709,
+            0.9254902005195618
+          ],
+          "alpha": 1,
+          "hex": "#C0D7EC"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104873:12106",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "$QLD-color-code--muted"
+          },
+          "com.figma.isOverride": true
+        }
+      }
+    },
+    "Contained layout": {
+      "Background": {
+        "Light": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9098039269447327,
+              0.9333333373069763,
+              0.9411764740943909
+            ],
+            "alpha": 1,
+            "hex": "#E8EEF0"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:104873:12121",
+            "com.figma.hiddenFromPublishing": true,
+            "com.figma.scopes": [
+              "ALL_FILLS"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "$QLD-color-contained-layout__background"
+            },
+            "com.figma.isOverride": true
+          }
+        },
+        "Dark": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0.3686274588108063,
+              0.7215686440467834
+            ],
+            "alpha": 1,
+            "hex": "#005EB8"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:104873:12109",
+            "com.figma.hiddenFromPublishing": true,
+            "com.figma.scopes": [
+              "ALL_FILLS"
+            ],
+            "com.figma.codeSyntax": {
+              "WEB": "$QLD-color-contained-layout__background"
+            },
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:8fbed24e598141ef3a3f8583ffbce48f5bd6544c/122073:345",
+              "targetVariableName": "Dark/Background/Background",
+              "targetVariableSetId": "VariableCollectionId:402f1643f8753632ad61a105864d74e5c13e8d49/122073:342",
+              "targetVariableSetName": "Color"
+            },
+            "com.figma.isOverride": true
+          }
+        }
+      }
+    }
+  },
+  "_DEPRECATED": {
+    "Background": {
+      "Background": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9019607901573181,
+            0.9647058844566345,
+            1
+          ],
+          "alpha": 1,
+          "hex": "#E6F6FF"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104783:11824",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "--QLD-color-light__background"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Background-inv": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0.3686274588108063,
+            0.7215686440467834
+          ],
+          "alpha": 1,
+          "hex": "#005EB8"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104783:11837",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "--QLD-color-dark__background"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Background shade": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8078431487083435,
+            0.929411768913269,
+            1
+          ],
+          "alpha": 1,
+          "hex": "#CEEDFF"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104783:11828",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "--QLD-color-light__background--shade"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Background shade-inv": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0.24313725531101227,
+            0.5882353186607361
+          ],
+          "alpha": 1,
+          "hex": "#003E96"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104783:11835",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "--QLD-color-dark__background--shade"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Background alt": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8901960849761963,
+            0.9058823585510254,
+            0.9176470637321472
+          ],
+          "alpha": 1,
+          "hex": "#E3E7EA"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104783:11825",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "--QLD-color-light__background--alt"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Background alt-inv": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0.11372549086809158,
+            0.45490196347236633
+          ],
+          "alpha": 1,
+          "hex": "#001D74"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104783:11861",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "--QLD-color-dark__background--alt"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Background alt shade": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8392156958580017,
+            0.8627451062202454,
+            0.8784313797950745
+          ],
+          "alpha": 1,
+          "hex": "#D6DCE0"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104783:11817",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "--QLD-color-light__background--alt-shade"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "Background alt shade-inv": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0.027450980618596077,
+            0.3921568691730499
+          ],
+          "alpha": 1,
+          "hex": "#000764"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:104783:11851",
+          "com.figma.hiddenFromPublishing": true,
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "WEB": "--QLD-color-dark__background--alt-shade"
+          },
+          "com.figma.isOverride": true
+        }
+      }
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Light",
+    "com.figma.parentVariableSetId": "VariableCollectionId:102563:10329",
+    "com.figma.parentVariableSetName": "Color (Core)"
+  }
+}

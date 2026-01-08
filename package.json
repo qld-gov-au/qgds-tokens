@@ -7,13 +7,16 @@
   "scripts": {
     "prepare": "npm run build",
     "build": "ts-node src/main.ts",
+    "figma": "ts-node src/processFigmaExports.ts",
     "clean": "rimraf dist",
     "ci": "npm run build && npm run test",
     "test": "jest /test"
   },
   "devDependencies": {
+    "@types/adm-zip": "^0.5.7",
     "@types/jest": "^29.5.14",
     "@types/node": "^25.0.2",
+    "adm-zip": "^0.5.16",
     "copy-file": "^11.0.0",
     "copyfiles": "^2.4.1",
     "jest": "^30.2.0",
