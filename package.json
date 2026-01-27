@@ -10,7 +10,7 @@
     "figma": "ts-node src/processFigmaExports.ts",
     "clean": "rimraf dist",
     "ci": "npm run build && npm run test",
-    "test": "jest /test"
+    "test": "jest ./test/"
   },
   "devDependencies": {
     "@types/adm-zip": "^0.5.7",
