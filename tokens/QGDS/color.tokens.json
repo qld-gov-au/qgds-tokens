@@ -2380,6 +2380,25 @@
             ]
           }
         },
+        "White": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105509:11321",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          }
+        },
         "025": {
           "$type": "color",
           "$value": {
@@ -2415,6 +2434,25 @@
           "$extensions": {
             "com.figma.variableId": "VariableID:102760:28916",
             "com.figma.hiddenFromPublishing": true,
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          }
+        },
+        "Black": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0,
+              0
+            ],
+            "alpha": 1,
+            "hex": "#000000"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105509:11320",
             "com.figma.scopes": [
               "ALL_SCOPES"
             ]
@@ -2622,6 +2660,25 @@
             ]
           }
         },
+        "White": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105509:11324",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          }
+        },
         "025": {
           "$type": "color",
           "$value": {
@@ -2657,6 +2714,25 @@
           "$extensions": {
             "com.figma.variableId": "VariableID:102760:28933",
             "com.figma.hiddenFromPublishing": true,
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          }
+        },
+        "Black": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0,
+              0
+            ],
+            "alpha": 1,
+            "hex": "#000000"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105509:11325",
             "com.figma.scopes": [
               "ALL_SCOPES"
             ]
@@ -2864,6 +2940,25 @@
             ]
           }
         },
+        "White": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105509:11326",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          }
+        },
         "025": {
           "$type": "color",
           "$value": {
@@ -2899,6 +2994,25 @@
           "$extensions": {
             "com.figma.variableId": "VariableID:102760:28863",
             "com.figma.hiddenFromPublishing": true,
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          }
+        },
+        "Black": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0,
+              0
+            ],
+            "alpha": 1,
+            "hex": "#000000"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:105509:11327",
             "com.figma.scopes": [
               "ALL_SCOPES"
             ]
@@ -10969,7 +11083,7 @@
             }
           }
         },
-        "bg-primary": {
+        "Background Primary": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -10992,7 +11106,7 @@
             }
           }
         },
-        "bg-primary-inv": {
+        "Background Primary inverse": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -11015,7 +11129,7 @@
             }
           }
         },
-        "bg-secondary": {
+        "Background Secondary": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -11038,7 +11152,7 @@
             }
           }
         },
-        "bg-secondary-inv": {
+        "Background Secondary inverse": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -13757,7 +13871,7 @@
             "com.figma.isOverride": true
           }
         },
-        "bg-primary": {
+        "Background Primary": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -13780,7 +13894,7 @@
             }
           }
         },
-        "bg-primary-inv": {
+        "Background Primary inverse": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -13803,7 +13917,7 @@
             }
           }
         },
-        "bg-secondary": {
+        "Background Secondary": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -13826,7 +13940,7 @@
             }
           }
         },
-        "bg-secondary-inv": {
+        "Background Secondary inverse": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -16038,7 +16152,7 @@
       "$extensions": {
         "com.figma.modeName": "Light",
         "com.figma.parentVariableSetId": "VariableCollectionId:102563:10329",
-        "com.figma.parentVariableSetName": "Color (Core)"
+        "com.figma.parentVariableSetName": "Colour (Core)"
       }
     },
     "shade-alt": {
@@ -16135,13 +16249,12 @@
             },
             "Label active": {
               "$type": "color",
-              "$value": "{light.shade-alt.Text.Title}",
+              "$value": "{light.shade-alt.Text.Title-inv}",
               "$extensions": {
                 "com.figma.variableId": "VariableID:105097:4833",
                 "com.figma.scopes": [
                   "ALL_SCOPES"
-                ],
-                "com.figma.isOverride": true
+                ]
               }
             },
             "Icon": {
@@ -16287,13 +16400,12 @@
             },
             "Label active": {
               "$type": "color",
-              "$value": "{light.shade-alt.Text.Title}",
+              "$value": "{light.shade-alt.Text.Title-inv}",
               "$extensions": {
                 "com.figma.variableId": "VariableID:105101:4826",
                 "com.figma.scopes": [
                   "ALL_SCOPES"
-                ],
-                "com.figma.isOverride": true
+                ]
               }
             },
             "Icon": {
@@ -16621,7 +16733,7 @@
             "com.figma.isOverride": true
           }
         },
-        "bg-primary": {
+        "Background Primary": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -16644,7 +16756,7 @@
             }
           }
         },
-        "bg-primary-inv": {
+        "Background Primary inverse": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -16667,7 +16779,7 @@
             }
           }
         },
-        "bg-secondary": {
+        "Background Secondary": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -16690,7 +16802,7 @@
             }
           }
         },
-        "bg-secondary-inv": {
+        "Background Secondary inverse": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -18902,7 +19014,7 @@
       "$extensions": {
         "com.figma.modeName": "Light",
         "com.figma.parentVariableSetId": "VariableCollectionId:102563:10329",
-        "com.figma.parentVariableSetName": "Color (Core)"
+        "com.figma.parentVariableSetName": "Colour (Core)"
       }
     },
     "tint": {
@@ -19485,7 +19597,7 @@
             "com.figma.isOverride": true
           }
         },
-        "bg-primary": {
+        "Background Primary": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -19508,7 +19620,7 @@
             }
           }
         },
-        "bg-primary-inv": {
+        "Background Primary inverse": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -19531,7 +19643,7 @@
             }
           }
         },
-        "bg-secondary": {
+        "Background Secondary": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -19554,7 +19666,7 @@
             }
           }
         },
-        "bg-secondary-inv": {
+        "Background Secondary inverse": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -21780,7 +21892,7 @@
       "$extensions": {
         "com.figma.modeName": "Light",
         "com.figma.parentVariableSetId": "VariableCollectionId:102563:10329",
-        "com.figma.parentVariableSetName": "Color (Core)"
+        "com.figma.parentVariableSetName": "Colour (Core)"
       }
     },
     "tint-alt": {
@@ -22363,7 +22475,7 @@
             "com.figma.isOverride": true
           }
         },
-        "bg-primary": {
+        "Background Primary": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -22386,7 +22498,7 @@
             }
           }
         },
-        "bg-primary-inv": {
+        "Background Primary inverse": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -22409,7 +22521,7 @@
             }
           }
         },
-        "bg-secondary": {
+        "Background Secondary": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -22432,7 +22544,7 @@
             }
           }
         },
-        "bg-secondary-inv": {
+        "Background Secondary inverse": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -24658,7 +24770,7 @@
       "$extensions": {
         "com.figma.modeName": "Light",
         "com.figma.parentVariableSetId": "VariableCollectionId:102563:10329",
-        "com.figma.parentVariableSetName": "Color (Core)"
+        "com.figma.parentVariableSetName": "Colour (Core)"
       }
     }
   },
@@ -25474,7 +25586,7 @@
             }
           }
         },
-        "bg-primary": {
+        "Background Primary": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -25497,7 +25609,7 @@
             }
           }
         },
-        "bg-primary-inv": {
+        "Background Primary inverse": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -25520,7 +25632,7 @@
             }
           }
         },
-        "bg-secondary": {
+        "Background Secondary": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -25543,7 +25655,7 @@
             }
           }
         },
-        "bg-secondary-inv": {
+        "Background Secondary inverse": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -27688,7 +27800,7 @@
         }
       },
       "$extensions": {
-        "com.figma.modeName": "Dark"
+        "com.figma.modeName": "_Deprecated"
       }
     },
     "shade": {
@@ -28543,7 +28655,7 @@
             "com.figma.isOverride": true
           }
         },
-        "bg-primary": {
+        "Background Primary": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -28567,7 +28679,7 @@
             "com.figma.isOverride": true
           }
         },
-        "bg-primary-inv": {
+        "Background Primary inverse": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -28591,7 +28703,7 @@
             "com.figma.isOverride": true
           }
         },
-        "bg-secondary": {
+        "Background Secondary": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -28615,7 +28727,7 @@
             "com.figma.isOverride": true
           }
         },
-        "bg-secondary-inv": {
+        "Background Secondary inverse": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -30851,9 +30963,9 @@
         }
       },
       "$extensions": {
-        "com.figma.modeName": "Dark",
+        "com.figma.modeName": "_Deprecated",
         "com.figma.parentVariableSetId": "VariableCollectionId:102563:10329",
-        "com.figma.parentVariableSetName": "Color (Core)"
+        "com.figma.parentVariableSetName": "Colour (Core)"
       }
     },
     "shade-alt": {
@@ -31708,7 +31820,7 @@
             "com.figma.isOverride": true
           }
         },
-        "bg-primary": {
+        "Background Primary": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -31732,7 +31844,7 @@
             "com.figma.isOverride": true
           }
         },
-        "bg-primary-inv": {
+        "Background Primary inverse": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -31756,7 +31868,7 @@
             "com.figma.isOverride": true
           }
         },
-        "bg-secondary": {
+        "Background Secondary": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -31780,7 +31892,7 @@
             "com.figma.isOverride": true
           }
         },
-        "bg-secondary-inv": {
+        "Background Secondary inverse": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -34016,9 +34128,9 @@
         }
       },
       "$extensions": {
-        "com.figma.modeName": "Dark",
+        "com.figma.modeName": "_Deprecated",
         "com.figma.parentVariableSetId": "VariableCollectionId:102563:10329",
-        "com.figma.parentVariableSetName": "Color (Core)"
+        "com.figma.parentVariableSetName": "Colour (Core)"
       }
     },
     "tint": {
@@ -34873,7 +34985,7 @@
             "com.figma.isOverride": true
           }
         },
-        "bg-primary": {
+        "Background Primary": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -34897,7 +35009,7 @@
             "com.figma.isOverride": true
           }
         },
-        "bg-primary-inv": {
+        "Background Primary inverse": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -34921,7 +35033,7 @@
             "com.figma.isOverride": true
           }
         },
-        "bg-secondary": {
+        "Background Secondary": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -34945,7 +35057,7 @@
             "com.figma.isOverride": true
           }
         },
-        "bg-secondary-inv": {
+        "Background Secondary inverse": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -37181,9 +37293,9 @@
         }
       },
       "$extensions": {
-        "com.figma.modeName": "Dark",
+        "com.figma.modeName": "_Deprecated",
         "com.figma.parentVariableSetId": "VariableCollectionId:102563:10329",
-        "com.figma.parentVariableSetName": "Color (Core)"
+        "com.figma.parentVariableSetName": "Colour (Core)"
       }
     },
     "tint-alt": {
@@ -38038,7 +38150,7 @@
             "com.figma.isOverride": true
           }
         },
-        "bg-primary": {
+        "Background Primary": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -38062,7 +38174,7 @@
             "com.figma.isOverride": true
           }
         },
-        "bg-primary-inv": {
+        "Background Primary inverse": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -38086,7 +38198,7 @@
             "com.figma.isOverride": true
           }
         },
-        "bg-secondary": {
+        "Background Secondary": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -38110,7 +38222,7 @@
             "com.figma.isOverride": true
           }
         },
-        "bg-secondary-inv": {
+        "Background Secondary inverse": {
           "$type": "color",
           "$value": {
             "colorSpace": "srgb",
@@ -40346,9 +40458,9 @@
         }
       },
       "$extensions": {
-        "com.figma.modeName": "Dark",
+        "com.figma.modeName": "_Deprecated",
         "com.figma.parentVariableSetId": "VariableCollectionId:102563:10329",
-        "com.figma.parentVariableSetName": "Color (Core)"
+        "com.figma.parentVariableSetName": "Colour (Core)"
       }
     }
   }

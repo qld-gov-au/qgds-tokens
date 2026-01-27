@@ -18,7 +18,8 @@
             "com.figma.variableId": "VariableID:105002:18416",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Background hover": {
@@ -37,7 +38,8 @@
             "com.figma.variableId": "VariableID:105002:18417",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Background active": {
@@ -56,7 +58,8 @@
             "com.figma.variableId": "VariableID:105094:5181",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Border": {
@@ -75,7 +78,8 @@
             "com.figma.variableId": "VariableID:105097:4835",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Border hover": {
@@ -94,7 +98,8 @@
             "com.figma.variableId": "VariableID:105097:4836",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Border active": {
@@ -113,7 +118,8 @@
             "com.figma.variableId": "VariableID:105097:4837",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Label": {
@@ -132,7 +138,8 @@
             "com.figma.variableId": "VariableID:105002:18418",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Label hover": {
@@ -151,7 +158,8 @@
             "com.figma.variableId": "VariableID:105002:18419",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Label active": {
@@ -170,7 +178,8 @@
             "com.figma.variableId": "VariableID:105097:4833",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Icon": {
@@ -189,7 +198,8 @@
             "com.figma.variableId": "VariableID:105002:18420",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Icon hover": {
@@ -208,7 +218,8 @@
             "com.figma.variableId": "VariableID:105002:18421",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Icon active": {
@@ -227,7 +238,8 @@
             "com.figma.variableId": "VariableID:105094:5182",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         }
       },
@@ -248,7 +260,8 @@
             "com.figma.variableId": "VariableID:105101:4818",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Background hover": {
@@ -267,7 +280,8 @@
             "com.figma.variableId": "VariableID:105101:4819",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Background active": {
@@ -286,7 +300,8 @@
             "com.figma.variableId": "VariableID:105101:4820",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Border": {
@@ -305,7 +320,8 @@
             "com.figma.variableId": "VariableID:105101:4821",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Border hover": {
@@ -324,7 +340,8 @@
             "com.figma.variableId": "VariableID:105101:4822",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Border active": {
@@ -343,7 +360,8 @@
             "com.figma.variableId": "VariableID:105101:4823",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Label": {
@@ -362,7 +380,8 @@
             "com.figma.variableId": "VariableID:105101:4824",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Label hover": {
@@ -381,7 +400,8 @@
             "com.figma.variableId": "VariableID:105101:4825",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Label active": {
@@ -400,7 +420,8 @@
             "com.figma.variableId": "VariableID:105101:4826",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Icon": {
@@ -419,7 +440,8 @@
             "com.figma.variableId": "VariableID:105101:4827",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Icon hover": {
@@ -438,7 +460,8 @@
             "com.figma.variableId": "VariableID:105101:4828",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Icon active": {
@@ -457,7 +480,8 @@
             "com.figma.variableId": "VariableID:105101:4829",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         }
       },
@@ -478,7 +502,8 @@
             "com.figma.variableId": "VariableID:105101:4830",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Background hover": {
@@ -497,7 +522,8 @@
             "com.figma.variableId": "VariableID:105101:4831",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Background active": {
@@ -516,7 +542,8 @@
             "com.figma.variableId": "VariableID:105101:4832",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Border": {
@@ -535,7 +562,8 @@
             "com.figma.variableId": "VariableID:105101:4833",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Border hover": {
@@ -554,7 +582,8 @@
             "com.figma.variableId": "VariableID:105101:4834",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Border active": {
@@ -573,7 +602,8 @@
             "com.figma.variableId": "VariableID:105101:4835",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Label": {
@@ -592,7 +622,8 @@
             "com.figma.variableId": "VariableID:105101:4836",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Label hover": {
@@ -611,7 +642,8 @@
             "com.figma.variableId": "VariableID:105101:4837",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Label active": {
@@ -630,7 +662,8 @@
             "com.figma.variableId": "VariableID:105101:4838",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Icon": {
@@ -649,7 +682,8 @@
             "com.figma.variableId": "VariableID:105101:4839",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Icon hover": {
@@ -668,7 +702,8 @@
             "com.figma.variableId": "VariableID:105101:4840",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         },
         "Icon active": {
@@ -687,7 +722,8 @@
             "com.figma.variableId": "VariableID:105101:4841",
             "com.figma.scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "com.figma.isOverride": true
           }
         }
       }
@@ -714,7 +750,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__background"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "surface-01": {
@@ -737,7 +774,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__background"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "surface-01-inv": {
@@ -760,7 +798,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__background"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "surface-alpha-01": {
@@ -783,7 +822,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__background"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "surface-alpha-01-inv": {
@@ -806,10 +846,11 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__background"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
-    "bg-primary": {
+    "Background Primary": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -829,10 +870,11 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__background"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
-    "bg-primary-inv": {
+    "Background Primary inverse": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -852,10 +894,11 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__background"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
-    "bg-secondary": {
+    "Background Secondary": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -875,10 +918,11 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-dark__background"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
-    "bg-secondary-inv": {
+    "Background Secondary inverse": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -898,7 +942,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-dark__background"
-        }
+        },
+        "com.figma.isOverride": true
       }
     }
   },
@@ -923,7 +968,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__border--alt"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Secondary": {
@@ -946,7 +992,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__border--alt"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Accent": {
@@ -969,7 +1016,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__border--alt"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Focus": {
@@ -992,7 +1040,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__focus"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Divider": {
@@ -1015,7 +1064,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__border"
-        }
+        },
+        "com.figma.isOverride": true
       }
     }
   },
@@ -1040,7 +1090,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__action--primary"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Primary hover": {
@@ -1063,7 +1114,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__action--primary-hover"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Primary active": {
@@ -1086,7 +1138,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__action--primary-hover"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Secondary": {
@@ -1109,7 +1162,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__action--secondary"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Secondary hover": {
@@ -1132,7 +1186,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__action--secondary-hover"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Secondary active": {
@@ -1155,7 +1210,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__action--secondary-hover"
-        }
+        },
+        "com.figma.isOverride": true
       }
     }
   },
@@ -1179,7 +1235,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__heading"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Title-inv": {
@@ -1201,7 +1258,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-dark__heading"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Body": {
@@ -1223,7 +1281,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__text"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Body-inv": {
@@ -1245,7 +1304,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-dark__text"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Caption": {
@@ -1267,7 +1327,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__text--lighter"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Caption-inv": {
@@ -1289,7 +1350,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-dark__text--lighter"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Link": {
@@ -1311,7 +1373,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__link"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Link-inv": {
@@ -1333,7 +1396,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-dark__link"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Link Visited": {
@@ -1355,7 +1419,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__link--visited"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Link Visited-inv": {
@@ -1377,7 +1442,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-dark__link--visited"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Link on action": {
@@ -1399,7 +1465,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__link--on-action"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Link on action-inv": {
@@ -1421,7 +1488,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-dark__link--on-action"
-        }
+        },
+        "com.figma.isOverride": true
       }
     }
   },
@@ -1446,7 +1514,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__design-accent"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Primary": {
@@ -1465,7 +1534,8 @@
         "com.figma.variableId": "VariableID:105097:4827",
         "com.figma.scopes": [
           "ALL_SCOPES"
-        ]
+        ],
+        "com.figma.isOverride": true
       }
     },
     "Secondary": {
@@ -1484,7 +1554,8 @@
         "com.figma.variableId": "VariableID:105097:4828",
         "com.figma.scopes": [
           "ALL_SCOPES"
-        ]
+        ],
+        "com.figma.isOverride": true
       }
     }
   },
@@ -1509,7 +1580,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__site-title"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Site title-inv": {
@@ -1532,7 +1604,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-dark__site-title"
-        }
+        },
+        "com.figma.isOverride": true
       }
     }
   },
@@ -1557,7 +1630,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__underline"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Default-inv": {
@@ -1580,7 +1654,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-dark__underline"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Hover": {
@@ -1609,7 +1684,8 @@
           "targetVariableName": "Light/Link/Link",
           "targetVariableSetId": "VariableCollectionId:402f1643f8753632ad61a105864d74e5c13e8d49/122073:342",
           "targetVariableSetName": "Color"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Hover-inv": {
@@ -1638,7 +1714,8 @@
           "targetVariableName": "Dark/Link/Link",
           "targetVariableSetId": "VariableCollectionId:402f1643f8753632ad61a105864d74e5c13e8d49/122073:342",
           "targetVariableSetName": "Color"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Visited": {
@@ -1661,7 +1738,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-light__underline--visited"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Visited-inv": {
@@ -1684,7 +1762,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-dark__underline--visited"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Visited hover": {
@@ -1713,7 +1792,8 @@
           "targetVariableName": "Light/Link/Visited",
           "targetVariableSetId": "VariableCollectionId:402f1643f8753632ad61a105864d74e5c13e8d49/122073:342",
           "targetVariableSetName": "Color"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Visited hover-inv": {
@@ -1742,7 +1822,8 @@
           "targetVariableName": "Dark/Link/Visited",
           "targetVariableSetId": "VariableCollectionId:402f1643f8753632ad61a105864d74e5c13e8d49/122073:342",
           "targetVariableSetName": "Color"
-        }
+        },
+        "com.figma.isOverride": true
       }
     }
   },
@@ -1767,7 +1848,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-dark__text--lighter"
-        }
+        },
+        "com.figma.isOverride": true
       }
     },
     "Disabled-inv": {
@@ -1790,7 +1872,8 @@
         ],
         "com.figma.codeSyntax": {
           "WEB": "--QLD-color-dark__text--lighter"
-        }
+        },
+        "com.figma.isOverride": true
       }
     }
   },
@@ -1817,7 +1900,8 @@
             ],
             "com.figma.codeSyntax": {
               "WEB": "$QLD-color-brand--blue"
-            }
+            },
+            "com.figma.isOverride": true
           }
         },
         "Dark blue": {
@@ -1840,7 +1924,8 @@
             ],
             "com.figma.codeSyntax": {
               "WEB": "$QLD-color-brand--darkblue"
-            }
+            },
+            "com.figma.isOverride": true
           }
         },
         "Light blue": {
@@ -1863,7 +1948,8 @@
             ],
             "com.figma.codeSyntax": {
               "WEB": "$QLD-color-brand--lightblue"
-            }
+            },
+            "com.figma.isOverride": true
           }
         },
         "[to deprecate] Light green": {
@@ -1886,7 +1972,8 @@
             ],
             "com.figma.codeSyntax": {
               "WEB": "$QLD-color-brand--lightgreen"
-            }
+            },
+            "com.figma.isOverride": true
           }
         }
       },
@@ -1911,7 +1998,8 @@
             ],
             "com.figma.codeSyntax": {
               "WEB": "$QLD-color-brand--darkgreen"
-            }
+            },
+            "com.figma.isOverride": true
           }
         },
         "[to deprecate] Light blue": {
@@ -1934,7 +2022,8 @@
             ],
             "com.figma.codeSyntax": {
               "WEB": "$QLD-color-brand--golden-yellow"
-            }
+            },
+            "com.figma.isOverride": true
           }
         }
       },
@@ -1959,7 +2048,8 @@
             ],
             "com.figma.codeSyntax": {
               "WEB": "$QLD-color-brand--modern-maroon"
-            }
+            },
+            "com.figma.isOverride": true
           }
         },
         "Queensland maroon": {
@@ -1982,7 +2072,8 @@
             ],
             "com.figma.codeSyntax": {
               "WEB": "$QLD-color-brand--govmaroon"
-            }
+            },
+            "com.figma.isOverride": true
           }
         }
       }
@@ -2008,7 +2099,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-neutral--black"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Darkest": {
@@ -2031,7 +2123,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-neutral--darkest"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Darker": {
@@ -2054,7 +2147,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-neutral--darker"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Dark": {
@@ -2077,7 +2171,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-neutral--dark"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Light": {
@@ -2100,7 +2195,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-neutral--light"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Lighter": {
@@ -2123,7 +2219,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-neutral--lighter"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Lightest": {
@@ -2146,7 +2243,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-neutral--lightest"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "White": {
@@ -2169,7 +2267,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-neutral--white"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Opacity": {
@@ -2193,7 +2292,8 @@
             ],
             "com.figma.codeSyntax": {
               "WEB": "$QLD-color-neutral--white__opacity-10"
-            }
+            },
+            "com.figma.isOverride": true
           }
         },
         "10% Neutral light": {
@@ -2216,7 +2316,8 @@
             ],
             "com.figma.codeSyntax": {
               "WEB": "$QLD-color-neutral--light__opactiy-10"
-            }
+            },
+            "com.figma.isOverride": true
           }
         },
         "10% Neutral darkest": {
@@ -2239,7 +2340,8 @@
             ],
             "com.figma.codeSyntax": {
               "WEB": "$QLD-color-neutral--darkest__opacity-10"
-            }
+            },
+            "com.figma.isOverride": true
           }
         },
         "10% Neutral black": {
@@ -2262,7 +2364,8 @@
             ],
             "com.figma.codeSyntax": {
               "WEB": "$QLD-color-neutral--black__opacity-10"
-            }
+            },
+            "com.figma.isOverride": true
           }
         }
       }
@@ -2288,7 +2391,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-status__error"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Error lighter": {
@@ -2311,7 +2415,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-status__error--lighter"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Error lightest": {
@@ -2334,7 +2439,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-status__error--lightest"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Error darker": {
@@ -2357,7 +2463,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-status__error--darker"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Success": {
@@ -2380,7 +2487,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-status__success"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Success lighter": {
@@ -2403,7 +2511,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-status__success--lighter"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Success lightest": {
@@ -2426,7 +2535,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-status__success--lightest"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Success darker": {
@@ -2449,7 +2559,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-status__success--darker"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Caution": {
@@ -2472,7 +2583,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-status__caution"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Caution lighter": {
@@ -2495,7 +2607,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-status__caution--lighter"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Caution lightest": {
@@ -2518,7 +2631,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-status__caution--lightest"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Caution darker": {
@@ -2541,7 +2655,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-status__caution--dark"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Info": {
@@ -2564,7 +2679,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-status__info"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Info darker": {
@@ -2587,7 +2703,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-status__info--darker"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Info lighter": {
@@ -2610,7 +2727,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-status__info--lighter"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Info lightest": {
@@ -2633,7 +2751,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-status__info--lightest"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Light underline": {
@@ -2656,7 +2775,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-status__light-underline"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Dark underline": {
@@ -2679,7 +2799,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-status__dark-underline"
-          }
+          },
+          "com.figma.isOverride": true
         }
       }
     },
@@ -2704,7 +2825,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-code--green"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Elements": {
@@ -2727,7 +2849,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-code--light-blue"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Properties": {
@@ -2750,7 +2873,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-code--violet"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Comments": {
@@ -2773,7 +2897,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "$QLD-color-code--muted"
-          }
+          },
+          "com.figma.isOverride": true
         }
       }
     },
@@ -2799,7 +2924,8 @@
             ],
             "com.figma.codeSyntax": {
               "WEB": "$QLD-color-contained-layout__background"
-            }
+            },
+            "com.figma.isOverride": true
           }
         },
         "Dark": {
@@ -2828,7 +2954,8 @@
               "targetVariableName": "Dark/Background/Background",
               "targetVariableSetId": "VariableCollectionId:402f1643f8753632ad61a105864d74e5c13e8d49/122073:342",
               "targetVariableSetName": "Color"
-            }
+            },
+            "com.figma.isOverride": true
           }
         }
       }
@@ -2856,7 +2983,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "--QLD-color-light__background"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Background-inv": {
@@ -2879,7 +3007,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "--QLD-color-dark__background"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Background shade": {
@@ -2902,7 +3031,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "--QLD-color-light__background--shade"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Background shade-inv": {
@@ -2925,7 +3055,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "--QLD-color-dark__background--shade"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Background alt": {
@@ -2948,7 +3079,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "--QLD-color-light__background--alt"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Background alt-inv": {
@@ -2971,7 +3103,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "--QLD-color-dark__background--alt"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Background alt shade": {
@@ -2994,7 +3127,8 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "--QLD-color-light__background--alt-shade"
-          }
+          },
+          "com.figma.isOverride": true
         }
       },
       "Background alt shade-inv": {
@@ -3017,12 +3151,15 @@
           ],
           "com.figma.codeSyntax": {
             "WEB": "--QLD-color-dark__background--alt-shade"
-          }
+          },
+          "com.figma.isOverride": true
         }
       }
     }
   },
   "$extensions": {
-    "com.figma.modeName": "Dark"
+    "com.figma.modeName": "_Deprecated",
+    "com.figma.parentVariableSetId": "VariableCollectionId:102563:10329",
+    "com.figma.parentVariableSetName": "Colour (Core)"
   }
 }

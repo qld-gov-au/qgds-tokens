@@ -578,7 +578,7 @@
         "com.figma.isOverride": true
       }
     },
-    "bg-primary": {
+    "Background Primary": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -601,7 +601,7 @@
         }
       }
     },
-    "bg-primary-inv": {
+    "Background Primary inverse": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -624,7 +624,7 @@
         }
       }
     },
-    "bg-secondary": {
+    "Background Secondary": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -647,7 +647,7 @@
         }
       }
     },
-    "bg-secondary-inv": {
+    "Background Secondary inverse": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -2859,6 +2859,6 @@
   "$extensions": {
     "com.figma.modeName": "Light",
     "com.figma.parentVariableSetId": "VariableCollectionId:102563:10329",
-    "com.figma.parentVariableSetName": "Color (Core)"
+    "com.figma.parentVariableSetName": "Colour (Core)"
   }
 }

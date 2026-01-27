@@ -5,7 +5,7 @@ import path from "path";
 const figmaExportsPath = path.join(process.cwd(), "figma-exports");
 const buildPath = "./tokens";
 const paletteFolderNames = {
-  default: "Color (Core)",
+  default: "Colour (Core)",
   shade: "shade (dark)",
   "shade-alt": "shade alt (dark alt)",
   tint: "tint (light)",
@@ -13,7 +13,7 @@ const paletteFolderNames = {
 };
 const modeFileNames = {
   light: "Light.tokens.json",
-  dark: "Dark.tokens.json",
+  dark: "_Deprecated.tokens.json",
 };
 
 /**
@@ -85,10 +85,8 @@ function processFiles(themeFolder: string) {
             const m = v.match(/^\{\s*([^}]+?)\s*\}$/);
             if (m) {
               // the value is a token reference, update it with prefix.
-              console.log("Updating reference:", v);
               item[k] =
                 `{${typeof groupNames === "string" ? groupNames : groupNames.join(".")}.${m[1]}}`;
-              console.log("  to:", item[k]);
             }
           } else {
             traverse(v);

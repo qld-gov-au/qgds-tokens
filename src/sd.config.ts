@@ -1,47 +1,29 @@
-import type { Config, Tokens, File } from "style-dictionary";
+import type { Config } from "style-dictionary";
+import { formats } from "style-dictionary/enums";
+import { BUILD_PATH } from "./constants";
 
-const buildPath = "dist";
-
-function generateFilesByMode(modes: string[], extension: string): File[] {
-  console.log(modes);
-  return modes?.map((mode) => ({
-    // output the component tokens in the right folder and file e.g. components/button/button-vars.css
-    destination: `${mode}.${extension}`,
-    format: "scss/variables",
-    filter: (token) => token["$extensions"]["com.figma.modename"] === mode,
-  }));
+// getConfig to enable custom brand folder paths
+export function getStyleDictionaryConfig(brand: string): Config {
+  return {
+    source: [`tokens/${brand}/**/*.tokens.json`],
+    log: {
+      warnings: "error", // 'warn' | 'error' | 'disabled'
+      verbosity: "verbose", // 'default' | 'silent' | 'verbose'
+      errors: {
+        brokenReferences: "throw", // 'throw' | 'console'
+      },
+    },
+    platforms: {
+      scss: {
+        transformGroup: "custom/scss",
+        buildPath: `${BUILD_PATH}/scss/${brand}/`,
+        files: [
+          {
+            destination: `_tokens.scss`,
+            format: formats.scssVariables,
+          },
+        ],
+      },
+    },
+  };
 }
-
-export default <Config>{
-  source: ["figma-exports/Color/*.json"],
-  log: {
-    warnings: "error", // 'warn' | 'error' | 'disabled'
-    verbosity: "verbose", // 'default' | 'silent' | 'verbose'
-    errors: {
-      brokenReferences: "throw", // 'throw' | 'console'
-    },
-  },
-  platforms: {
-    scss: {
-      transformGroup: "scss",
-      transforms: ["name/kebab"],
-      buildPath: `${buildPath}/scss/`,
-      files: [...generateFilesByMode(["Core"], "scss")],
-    },
-    // css: {
-    //   transformGroup: "css",
-    //   buildPath: `${buildPath}/css/`,
-    //   files: [{ destination: "variables.css", format: "css/variables" }],
-    // },
-    // js: {
-    //   transformGroup: "js",
-    //   buildPath: `${buildPath}/js/`,
-    //   files: [{ destination: "variables.js", format: "javascript/es6" }],
-    // },
-    // json: {
-    //   transformGroup: "js",
-    //   buildPath: `${buildPath}/json/`,
-    //   files: [{ destination: "variables.json", format: "json/flat" }],
-    // },
-  },
-};
