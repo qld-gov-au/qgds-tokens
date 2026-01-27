@@ -19,11 +19,21 @@ export function getStyleDictionaryConfig(brand: string): Config {
         buildPath: `${BUILD_PATH}/scss/${brand}/`,
         files: [
           {
-            destination: `_tokens.scss`,
+            destination: `color.scss`,
             format: formats.scssVariables,
           },
         ],
       },
+      css: {
+        transformGroup: "custom/scss",
+        buildPath: `${BUILD_PATH}/css/${brand}/`,
+        files: [
+          {
+            destination: `color.css`,
+            format: formats.cssVariables,
+          },
+        ],
+      }
     },
   };
 }
