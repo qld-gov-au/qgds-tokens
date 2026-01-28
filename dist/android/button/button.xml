@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<!--
-  Do not edit directly, this file was auto-generated.
--->
-<resources>
-  <string name="buttonBorderRadius">32px</string>
-  <string name="buttonBorderWidth">8px</string>
-</resources>

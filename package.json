@@ -5,27 +5,27 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "prepare": "npm run build:all",
-    "build:all": "npm run build && npm run build:package",
-    "build": "node .build/build-tokens.mjs",
-    "build:package": "tsc --build && rm -r dist/android/* && rm -r dist/css/* && rm -r dist/js/* && rm -r dist/scss/* && copyfiles -u 1 src/android/**/*.xml src/css/**/*.css src/js/**/*.js src/scss/**/*.scss dist",
-    "clean": "rimraf src dist",
+    "prepare": "npm run build",
+    "build": "ts-node src/main.ts",
+    "figma": "ts-node src/processFigmaExports.ts",
+    "clean": "rimraf dist",
     "ci": "npm run build && npm run test",
-    "test": "jest /test"
+    "test": "jest ./test/"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@tokens-studio/sd-transforms": "^1.2.0",
-    "@types/jest": "^29.2.5",
+    "@types/adm-zip": "^0.5.7",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^25.0.2",
+    "adm-zip": "^0.5.16",
     "copy-file": "^11.0.0",
     "copyfiles": "^2.4.1",
-    "style-dictionary": "^4.0.1",
-    "jest": "^29.2.5",
-    "prettier": "^3.1.0",
+    "jest": "^30.2.0",
+    "prettier": "^3.7.4",
     "rimraf": "^5.0.7",
-    "ts-jest": "^29.2.5",
-    "typescript": "^5.5.3",
-    "typescript-plugin-css-modules": "^5.1.0"
+    "style-dictionary": "^5.1.1",
+    "ts-jest": "^29.4.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   },
   "keywords": [
     "queensland government",
