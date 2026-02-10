@@ -1,6 +1,7 @@
 # 🛠️ Queensland Government Design System - Design tokens
 
 ## 📖 On this page:
+
 - 🎨 [What are 'design tokens'](#what-are-design-tokens)
 - 🚀 [Getting started](#getting-started)
   - 📦 [Install & build](#install--build)
@@ -17,10 +18,11 @@
 ---
 
 <a id="what-are-design-tokens"></a>
+
 ## 🎨 What are 'design tokens'?
 
 > “A Style Dictionary uses design tokens to define styles once and use those styles on any platform or language. It provides a single place to create and edit your styles, and exports these tokens to all the places you need.”  
-> — *Amazon*
+> — _Amazon_
 
 Design tokens are the single source of truth for your product’s visual style, they capture design decisions such as:
 
@@ -54,9 +56,11 @@ This package serves as the **Queensland Government’s baseline design token sys
 ---
 
 <a id="getting-started"></a>
+
 ## 🚀 Getting started
 
 <a id="install--build"></a>
+
 ### 📦 Install & build
 
 ```bash
@@ -65,6 +69,7 @@ npm run build
 ```
 
 <a id="run-tests"></a>
+
 ### ✅ Running tests
 
 ```bash
@@ -72,6 +77,7 @@ npm run test
 ```
 
 <a id="continuous-integration"></a>
+
 ### ⚙️ Continuous integration
 
 ```bash
@@ -81,9 +87,11 @@ npm run ci
 ---
 
 <a id="extending-design-tokens"></a>
+
 ## 🧩 Extending Design Tokens
 
 <a id="create-your-own-theme"></a>
+
 ### ✏️ Create your own theme
 
 You can fork this repository and create your own theme by extending the design tokens.
@@ -100,6 +108,7 @@ Your forked files will remain untouched when pulling updates from the upstream r
 ---
 
 <a id="files-to-update"></a>
+
 ### 📁 Files to update
 
 To register a custom theme, update the following:
@@ -112,9 +121,11 @@ To register a custom theme, update the following:
 ---
 
 <a id="after-creating-a-custom-theme"></a>
+
 ### 🛠️ After creating a custom theme
 
 Run the following to validate:
+
 ```bash
 npm run build
 npm run test
@@ -125,28 +136,22 @@ npm run build:package
 
 ---
 
-<a id="tokens-studio-integration"></a>
-## 🔄 Tokens Studio integration
-
-Using [Tokens Studio](https://docs.tokens.studio) to update tokens directly from Figma is supported.
-
-> ⚠️ Sometimes Tokens Studio may overwrite or add `$metadata` or `$theme` tokens.  
-> To avoid issues, we preserve `.original` copies of expected formats for easy reversion.
-
----
-
 <a id="additional-resources"></a>
+
 ## 📚 Additional resources
-- 📘 [Token Studio Official Documentation](https://docs.tokens.studio)
+
 - 📘 [Style Dictionary Documentation](https://github.com/amzn/style-dictionary)
 - 🔧 [Style Dictionary Transforms for Tokens Studio](https://github.com/tokens-studio/sd-transforms)
+- ✅ [Sotec Solutions Online Design Token Validator](https://designtoken-validator.sotec-solutions.com/)
 
 ---
 
 <a id="publishing"></a>
+
 ## 📦 Publishing
 
 There are **two publish subsystems**:
+
 1. To [npmjs.com](https://www.npmjs.com/)
 2. To the GitHub repository package registry
 
