@@ -1,9 +1,22 @@
 import AdmZip from "adm-zip";
-import fs from "fs";
+import fs, { existsSync } from "fs";
 import path from "path";
+import {
+  FIGMA_EXPORT_TOKEN_PATHS,
+  TOKENS_BUILD_DIR,
+  FIGMA_EXPORTS_DIR,
+} from "./constants";
+import {
+  parseDesignTokens,
+  DesignTokenTree,
+  ConcreteDesignTokenTree,
+} from "@trufflehq/design-tokens-format-module";
+import { getNestedValue } from "./utils";
 
-const figmaExportsPath = path.join(process.cwd(), "figma-exports");
-const buildPath = "./tokens";
+// TODO: move these to constants.ts
+const figmaExportsDir = path.join(process.cwd(), FIGMA_EXPORTS_DIR);
+const tokensBuildDir = path.join(process.cwd(), TOKENS_BUILD_DIR);
+
 const paletteFolderNames = {
   default: "Colour (Core)",
   shade: "shade (dark)",
@@ -20,7 +33,7 @@ const modeFileNames = {
  * Recursively walk `folderPath` and extract any .zip files found.
  * @param {string} dir The path to the directory to process.
  */
-function unzipFiles(dir: string) {
+function unzipFiles(dir: string, deleteAfterUnzip = false) {
   if (!fs.existsSync(dir)) return;
 
   const entries = fs.readdirSync(dir, { withFileTypes: true });
@@ -28,7 +41,7 @@ function unzipFiles(dir: string) {
     const fullPath = path.join(dir, entry.name);
 
     if (entry.isDirectory()) {
-      unzipFiles(fullPath);
+      unzipFiles(fullPath, deleteAfterUnzip);
     } else if (
       entry.isFile() &&
       path.extname(entry.name).toLowerCase() === ".zip"
@@ -41,7 +54,7 @@ function unzipFiles(dir: string) {
       const zip = new AdmZip(zipPath);
       zip.extractAllTo(extractDir, true);
 
-      fs.rmSync(zipPath);
+      if (deleteAfterUnzip) fs.rmSync(zipPath);
     }
   }
 }
@@ -51,8 +64,8 @@ function unzipFiles(dir: string) {
  * structure, organizing by mode and palette, and updating references accordingly.
  * @param {string} themeFolder The name of the theme folder to process.
  */
-function processFiles(themeFolder: string) {
-  const figmaExports = path.join(figmaExportsPath, themeFolder);
+function processColorFiles(themeFolder: string) {
+  const figmaExports = path.join(figmaExportsDir, themeFolder);
 
   if (!fs.existsSync(figmaExports)) {
     throw new Error(`Theme folder does not exist: ${figmaExports}`);
@@ -130,7 +143,7 @@ function processFiles(themeFolder: string) {
 
   // ensure output dir exists and write file
   try {
-    const themeBuildPath = path.join(buildPath, themeFolder);
+    const themeBuildPath = path.join(TOKENS_BUILD_DIR, themeFolder);
     fs.rmSync(themeBuildPath, { force: true, recursive: true });
     fs.mkdirSync(themeBuildPath, { recursive: true });
 
@@ -142,5 +155,76 @@ function processFiles(themeFolder: string) {
   }
 }
 
-unzipFiles(figmaExportsPath);
-processFiles("QGDS");
+function processTokenFiles() {
+  // For each entry in FIGMA_EXPORT_TOKEN_PATH, copy the objects into a file named ${key}.tokens.json
+  let tokenFiles: { fileName: string; tokens: ConcreteDesignTokenTree }[] = [];
+
+  for (const [key, value] of Object.entries(FIGMA_EXPORT_TOKEN_PATHS)) {
+    const { sets, applyModesAs } = value;
+
+    sets.forEach((set) => {
+      const { collection } = set;
+      const paths = Array.isArray(set.paths) ? set.paths : [set.paths];
+
+      // Modes are organised into separated files
+      const modeFiles = fs.readdirSync(path.join(figmaExportsDir, collection));
+
+      // If only one mode, job is easy
+      const hasModes = modeFiles.length > 1;
+
+      modeFiles.forEach((file) => {
+        let tokens: ConcreteDesignTokenTree = {};
+
+        const tree = parseDesignTokens(
+          require(path.join(figmaExportsDir, collection, file)),
+        );
+
+        // Might need to change based on applyModesAs
+        const outFile = hasModes
+          ? `${key}.${file.replace(/\.tokens\.json$/, "")}.tokens.json`
+          : `${key}.tokens.json`;
+
+        paths.forEach((path) => {
+          try {
+            tokens = {
+              ...tokens,
+              ...getNestedValue(tree, path),
+            };
+          } catch (e) {
+            console.error(
+              `There was a problem writing path ${path} from ${collection}/${file} to file ${key}.tokens.json`,
+            );
+          }
+        });
+
+        // Add the collected tokens to tokenFiles, ready to be written.
+        tokenFiles = [
+          ...tokenFiles,
+          {
+            fileName: outFile,
+            tokens,
+          },
+        ];
+      });
+    });
+  }
+
+  console.log(tokenFiles);
+  // Loop through tokenFiles and write to disk
+  tokenFiles.forEach((obj) => {
+    const outPath = path.join(tokensBuildDir, obj.fileName);
+    try {
+      fs.writeFileSync(outPath, JSON.stringify(obj.tokens, null, 2), "utf-8");
+      console.log(`Wrote ${outPath}`);
+    } catch (e) {
+      console.error(`There was a problem writing ${outPath}`);
+      // swallow write errors for now
+    }
+  });
+}
+
+unzipFiles(figmaExportsDir, false);
+fs.rmSync(tokensBuildDir, { force: true, recursive: true });
+fs.mkdirSync(tokensBuildDir, { recursive: true });
+// processColorFiles("QGDS");
+processTokenFiles();
