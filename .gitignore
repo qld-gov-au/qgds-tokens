@@ -6,4 +6,5 @@
 *.tokens.json.original
 IGNOREME.md
 dist/
+.env
 TODO

@@ -4,4 +4,3 @@ export type FigmaColorTokenValue = {
     alpha: number,
     hex: string
 }
-

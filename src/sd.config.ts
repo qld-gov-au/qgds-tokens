@@ -1,7 +1,6 @@
 import type { Config } from "style-dictionary";
 import { formats } from "style-dictionary/enums";
 import { DIST_BUILD_DIR } from "./constants";
-import StyleDictionary from "style-dictionary";
 
 // getConfig to enable custom brand folder paths
 export function getStyleDictionaryColorsConfig(brand: string): Config {
