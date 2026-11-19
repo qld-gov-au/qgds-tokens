@@ -1,6 +1,5 @@
 {
-  "files": ["src/main.ts"],
-  "include": ["src/**/*.(ts|json|js)"],
+  "include": ["src/**/*.ts", "scripts/**/*.ts"],
   "compilerOptions": {
     "rootDir": "./",
     "target": "esnext",

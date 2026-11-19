@@ -19,10 +19,4 @@ export const FIGMA_EXPORT_TOKEN_PATHS: Record<string, FigmaExportTokenPath> = {
   space: {
     sets: [{ collection: "Base", paths: "Space" }],
   },
-  // typography: {
-  //   collections: [
-  //     { name: "Base", paths: "Text" },
-  //     { name: "Responsive", paths: ["Font Size", "Line Height"] },
-  //   ],
-  // },
 };

@@ -6,6 +6,7 @@
 - 🚀 [Getting started](#getting-started)
   - 📦 [Install & build](#install--build)
   - ✅ [Running tests](#run-tests)
+  - 🔄 [Fetching Figma variables](#fetching-figma-variables)
   - ⚙️ [Continuous integration](#continuous-integration)
 - 🧩 [Extending design tokens](#extending-design-tokens)
   - ✏️ [Create your own theme](#create-your-own-theme)
@@ -75,6 +76,26 @@ npm run build
 ```bash
 npm run test
 ```
+
+<a id="fetching-figma-variables"></a>
+
+### 🔄 Fetching Figma variables
+
+The local variables endpoint requires a Figma file key and an access token with
+`file_variables:read` permission. Copy `.env.example` to `.env` and replace its
+placeholder values, then run the fetch command:
+
+```bash
+cp .env.example .env
+# Edit .env and set FIGMA_FILE_KEY and FIGMA_ACCESS_TOKEN
+npm run figma:fetch
+```
+
+The command saves the unmodified API response to
+`figma-exports/figma-variables.local.json`. This local response file is ignored
+by Git. The `.env` file is also ignored; do not commit credentials or add them
+to source files. Environment variables already set in the process take
+precedence over values in `.env`.
 
 <a id="continuous-integration"></a>
 
