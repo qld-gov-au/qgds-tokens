@@ -1,6 +1,6 @@
 Done — Fetch local Figma variables: typed REST fetcher, validation, and focused tests.
 Done — Add a local sync command: read credentials from environment variables and save the raw response safely.
-Filter color collections: select Base, Theme, and Palette; exclude underscore-prefixed collections, path segments, and names.
+Done — Filter color collections: select Base, Theme, and Palette; exclude underscore-prefixed collections, path segments, and names.
 Normalize colors to DTCG: include all modes, preserve aliases, and apply lowercase, hyphenated qgds- token paths.
 Validate tokens: check aliases, cycles, modes, values, and naming collisions.
 Build CSS, SCSS, JavaScript, and JSON outputs with Style Dictionary.

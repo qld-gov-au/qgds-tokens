@@ -4,6 +4,8 @@ export const TOKENS_BUILD_DIR = "./tokens";
 
 export const FIGMA_EXPORTS_DIR = "./figma-exports";
 
+export const COLOR_COLLECTIONS = ["Base", "Theme", "Palette"] as const;
+
 export const BRANDS = ["QGDS"];
 
 export const REGEX_TOKEN_REFERENCE_VALUE = /^\{\s*([^}]+?)\s*\}$/;
