@@ -4,6 +4,8 @@ export const TOKENS_BUILD_DIR = "./tokens";
 
 export const FIGMA_EXPORTS_DIR = "./figma-exports";
 
+export const PIPELINE_LOGS_DIR = "./logs";
+
 export const COLOR_COLLECTIONS = ["Base", "Theme", "Palette"] as const;
 
 export const BRANDS = ["QGDS"];

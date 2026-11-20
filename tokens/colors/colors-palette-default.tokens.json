@@ -1,0 +1,362 @@
+{
+  "color-background-action-default": {
+    "$type": "color",
+    "$value": "{color-brand-secondary-05}",
+    "$description": "--QLD-color-[PALETTE]__action--primary"
+  },
+  "color-background-action-disabled": {
+    "$type": "color",
+    "$value": "{color-brand-neutral-07}",
+    "$extensions": {
+      "com.qld.gov.au.qgds-tokens": {
+        "figmaComposedColor": {
+          "opacityPercent": 10
+        }
+      }
+    }
+  },
+  "color-background-action-hover": {
+    "$type": "color",
+    "$value": "{color-brand-secondary-06}",
+    "$description": "Hover colour for primary actions / buttons"
+  },
+  "color-background-action-pressed": {
+    "$type": "color",
+    "$value": "{color-brand-neutral-02}"
+  },
+  "color-background-canvas": {
+    "$type": "color",
+    "$value": "{color-brand-neutral-01}",
+    "$description": "Primary background colour when using light palette"
+  },
+  "color-background-container-layer": {
+    "$type": "color",
+    "$value": "{color-brand-neutral-02}",
+    "$description": "Darker shade of the light background. Used as fills for elements such as accordions and call outs on top of light backgrounds."
+  },
+  "color-background-container-raised": {
+    "$type": "color",
+    "$value": "{color-brand-lightest}",
+    "$description": "Darker shade of the light background. Used as fills for elements such as accordions and call outs on top of light backgrounds.",
+    "$extensions": {
+      "com.qld.gov.au.qgds-tokens": {
+        "figmaComposedColor": {
+          "opacityPercent": 10
+        }
+      }
+    }
+  },
+  "color-background-container-resting": {
+    "$type": "color",
+    "$value": "{color-brand-neutral-01}",
+    "$description": "Primary background colour when using light palette"
+  },
+  "color-background-container-sunken": {
+    "$type": "color",
+    "$value": "{color-brand-neutral-07}",
+    "$extensions": {
+      "com.qld.gov.au.qgds-tokens": {
+        "figmaComposedColor": {
+          "opacityPercent": 10
+        }
+      }
+    }
+  },
+  "color-background-critical-intense": {
+    "$type": "color",
+    "$value": "{color-system-critical-05}"
+  },
+  "color-background-critical-medium": {
+    "$type": "color",
+    "$value": "{color-system-critical-02}"
+  },
+  "color-background-critical-strong": {
+    "$type": "color",
+    "$value": "{color-system-critical-04}"
+  },
+  "color-background-critical-subtle": {
+    "$type": "color",
+    "$value": "{color-system-critical-01}"
+  },
+  "color-background-info-intense": {
+    "$type": "color",
+    "$value": "{color-system-info-05}"
+  },
+  "color-background-info-medium": {
+    "$type": "color",
+    "$value": "{color-system-info-02}"
+  },
+  "color-background-info-strong": {
+    "$type": "color",
+    "$value": "{color-system-info-04}"
+  },
+  "color-background-info-subtle": {
+    "$type": "color",
+    "$value": "{color-system-info-01}"
+  },
+  "color-background-scrim": {
+    "$type": "color",
+    "$value": "{color-brand-darkest}",
+    "$extensions": {
+      "com.qld.gov.au.qgds-tokens": {
+        "figmaComposedColor": {
+          "opacityPercent": 40
+        }
+      }
+    }
+  },
+  "color-background-success-intense": {
+    "$type": "color",
+    "$value": "{color-system-success-04}"
+  },
+  "color-background-success-medium": {
+    "$type": "color",
+    "$value": "{color-system-success-02}"
+  },
+  "color-background-success-strong": {
+    "$type": "color",
+    "$value": "{color-system-success-03}"
+  },
+  "color-background-success-subtle": {
+    "$type": "color",
+    "$value": "{color-system-success-01}"
+  },
+  "color-background-warning-intense": {
+    "$type": "color",
+    "$value": "{color-system-warning-04}"
+  },
+  "color-background-warning-medium": {
+    "$type": "color",
+    "$value": "{color-system-warning-02}"
+  },
+  "color-background-warning-strong": {
+    "$type": "color",
+    "$value": "{color-system-warning-03}"
+  },
+  "color-background-warning-subtle": {
+    "$type": "color",
+    "$value": "{color-system-warning-01}"
+  },
+  "color-border-accent": {
+    "$type": "color",
+    "$value": "{color-brand-accent-03}",
+    "$description": "Brand accent colour, used for key highlights and content dividers. Purely decorative and do not require an accessibility check."
+  },
+  "color-border-action-default": {
+    "$type": "color",
+    "$value": "{color-brand-tertiary-03}",
+    "$description": "Colour for secondary actions. Button border for secondary action buttons. Icon colour for icon actions."
+  },
+  "color-border-action-disabled": {
+    "$type": "color",
+    "$value": "{color-brand-neutral-07}",
+    "$extensions": {
+      "com.qld.gov.au.qgds-tokens": {
+        "figmaComposedColor": {
+          "opacityPercent": 10
+        }
+      }
+    }
+  },
+  "color-border-action-hover": {
+    "$type": "color",
+    "$value": "{color-brand-tertiary-04}",
+    "$description": "Hover colour for secondary actions"
+  },
+  "color-border-action-pressed": {
+    "$type": "color",
+    "$value": "{color-brand-neutral-02}"
+  },
+  "color-border-critical": {
+    "$type": "color",
+    "$value": "{color-system-critical-05}"
+  },
+  "color-border-info": {
+    "$type": "color",
+    "$value": "{color-system-info-06}"
+  },
+  "color-border-inverse": {
+    "$type": "color",
+    "$value": "{color-brand-lightest}",
+    "$description": "Focus colour should be as consistent as possible and ideally not the same as any action colour. Focus colours must meet a contrast ratio of 3:1."
+  },
+  "color-border-strong": {
+    "$type": "color",
+    "$value": "{color-brand-neutral-06}",
+    "$description": "Border colour for form borders on all light backgrounds. Must meet contrast ratio of 3:1 across all light backgrounds"
+  },
+  "color-border-subtle": {
+    "$type": "color",
+    "$value": "{color-brand-neutral-04}",
+    "$description": "Decorative border colour used on light backgrounds"
+  },
+  "color-border-success": {
+    "$type": "color",
+    "$value": "{color-system-success-05}"
+  },
+  "color-border-warning": {
+    "$type": "color",
+    "$value": "{color-system-warning-05}"
+  },
+  "color-code-comment": {
+    "$type": "color",
+    "$value": "{color-brand-neutral-07}"
+  },
+  "color-code-element": {
+    "$type": "color",
+    "$value": "{color-system-info-05}"
+  },
+  "color-code-property": {
+    "$type": "color",
+    "$value": "{color-system-discovery-05}"
+  },
+  "color-code-value": {
+    "$type": "color",
+    "$value": "{color-system-success-05}"
+  },
+  "color-focus": {
+    "$type": "color",
+    "$value": "{color-brand-contrast-03}",
+    "$description": "Focus colour should be as consistent as possible and ideally not the same as any action colour. Focus colours must meet a contrast ratio of 3:1."
+  },
+  "color-icon-brand": {
+    "$type": "color",
+    "$value": "{color-brand-tertiary-03}"
+  },
+  "color-icon-critical": {
+    "$type": "color",
+    "$value": "{color-system-critical-05}"
+  },
+  "color-icon-info": {
+    "$type": "color",
+    "$value": "{color-system-info-05}"
+  },
+  "color-icon-inverse": {
+    "$type": "color",
+    "$value": "{color-brand-lightest}"
+  },
+  "color-icon-strong": {
+    "$type": "color",
+    "$value": "{color-brand-neutral-08}"
+  },
+  "color-icon-subtle": {
+    "$type": "color",
+    "$value": "{color-brand-neutral-06}"
+  },
+  "color-icon-success": {
+    "$type": "color",
+    "$value": "{color-system-success-05}"
+  },
+  "color-icon-warning": {
+    "$type": "color",
+    "$value": "{color-system-warning-05}"
+  },
+  "color-text-action-default": {
+    "$type": "color",
+    "$value": "{color-brand-secondary-05}",
+    "$description": "Colour for title of site in header component"
+  },
+  "color-text-action-disabled": {
+    "$type": "color",
+    "$value": "{color-brand-neutral-06}",
+    "$description": "Lighter text used for inactive states, captions, and secondary information."
+  },
+  "color-text-action-inverse-default": {
+    "$type": "color",
+    "$value": "{color-brand-neutral-01}",
+    "$description": "Heading colours within text. These should be shades of your brand colour and if posisble different from primary action and link colours so the user does not interpret them as clickable."
+  },
+  "color-text-action-neutral-default": {
+    "$type": "color",
+    "$value": "{color-brand-neutral-08}",
+    "$description": "Heading colours within text. These should be shades of your brand colour and if posisble different from primary action and link colours so the user does not interpret them as clickable."
+  },
+  "color-text-action-visited": {
+    "$type": "color",
+    "$value": "{color-system-discovery-05}",
+    "$description": "Colour for visited links"
+  },
+  "color-text-brand": {
+    "$type": "color",
+    "$value": "{color-brand-secondary-07}",
+    "$description": "Heading colours within text. These should be shades of your brand colour and if posisble different from primary action and link colours so the user does not interpret them as clickable."
+  },
+  "color-text-critical": {
+    "$type": "color",
+    "$value": "{color-system-critical-05}"
+  },
+  "color-text-info": {
+    "$type": "color",
+    "$value": "{color-system-info-06}"
+  },
+  "color-text-inverse": {
+    "$type": "color",
+    "$value": "{color-brand-neutral-01}"
+  },
+  "color-text-strong": {
+    "$type": "color",
+    "$value": "{color-brand-neutral-08}",
+    "$description": "Text colours are indicated by the text icon. All text contrast must meet WCAG 2.0 Level AA conformance which means a contrast ration of 4.5:1 "
+  },
+  "color-text-subtle": {
+    "$type": "color",
+    "$value": "{color-brand-neutral-07}",
+    "$description": "Lighter text used for inactive states, captions, and secondary information."
+  },
+  "color-text-success": {
+    "$type": "color",
+    "$value": "{color-system-success-05}"
+  },
+  "color-text-underline-action-default": {
+    "$type": "color",
+    "$value": "{color-brand-secondary-04}",
+    "$description": "Default underline colour for underlining links to assist with accessibility and readability."
+  },
+  "color-text-underline-action-disabled": {
+    "$type": "color",
+    "$value": "{color-brand-neutral-07}",
+    "$extensions": {
+      "com.qld.gov.au.qgds-tokens": {
+        "figmaComposedColor": {
+          "opacityPercent": 10
+        }
+      }
+    }
+  },
+  "color-text-underline-action-hover": {
+    "$type": "color",
+    "$value": "{color-brand-secondary-05}",
+    "$description": "Colour for title of site in header component"
+  },
+  "color-text-underline-action-inverse-default": {
+    "$type": "color",
+    "$value": "{color-brand-lightest}",
+    "$extensions": {
+      "com.qld.gov.au.qgds-tokens": {
+        "figmaComposedColor": {
+          "opacityPercent": 80
+        }
+      }
+    }
+  },
+  "color-text-underline-action-neutral-default": {
+    "$type": "color",
+    "$value": "{color-brand-darkest}",
+    "$extensions": {
+      "com.qld.gov.au.qgds-tokens": {
+        "figmaComposedColor": {
+          "opacityPercent": 60
+        }
+      }
+    }
+  },
+  "color-text-underline-action-visited": {
+    "$type": "color",
+    "$value": "{color-system-discovery-04}",
+    "$description": "Visited link underline colour for underlining links to assist with accessibility and readability."
+  },
+  "color-text-warning": {
+    "$type": "color",
+    "$value": "{color-system-warning-06}"
+  }
+}

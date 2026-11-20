@@ -9,6 +9,7 @@
     "build": "ts-node src/main.ts",
     "figma": "ts-node src/processFigmaExports.ts",
     "figma:fetch": "ts-node scripts/syncFigmaVariables.ts",
+    "figma:normalize": "ts-node scripts/normalizeFigmaColors.ts",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "clean": "rimraf dist",

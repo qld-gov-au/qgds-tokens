@@ -811,13 +811,13 @@ These are the resources I'd start with before writing much code.
 
 | Resource | Why it's useful |
 | --- | --- |
-| [Figma Variables REST API ](https://developers.figma.com/docs/rest-api/variables-endpoints/?utm_source=chatgpt.com) | Primary extraction API |
-| [Figma Plugin API ](https://developers.figma.com/docs/plugins/working-with-variables/?utm_source=chatgpt.com) | Alternative extraction method |
-| [Figma GitHub Actions example ](https://github.com/figma/variables-github-action-example?utm_source=chatgpt.com) | Reference automation implementation |
-| [TokensBrücke ](https://github.com/tokens-bruecke/figma-plugin?utm_source=chatgpt.com) | Ready-made exporter and CLI |
-| [DTCG specification ](https://www.designtokens.org/tr/2025.10/?utm_source=chatgpt.com) | Token interchange standard |
-| [Style Dictionary ](https://styledictionary.com/?utm_source=chatgpt.com) | Token transformation |
-| [Figma MCP ](https://developers.figma.com/docs/figma-mcp-server/?utm_source=chatgpt.com) | AI-assisted design-to-code |
+| [Figma Variables REST API ](https://developers.figma.com/docs/rest-api/variables-endpoints) | Primary extraction API |
+| [Figma Plugin API ](https://developers.figma.com/docs/plugins/working-with-variables) | Alternative extraction method |
+| [Figma GitHub Actions example ](https://github.com/figma/variables-github-action-example) | Reference automation implementation |
+| [TokensBrücke ](https://github.com/tokens-bruecke/figma-plugin) | Ready-made exporter and CLI |
+| [DTCG specification ](https://www.designtokens.org/tr/2025.10) | Token interchange standard |
+| [Style Dictionary ](https://styledictionary.com) | Token transformation |
+| [Figma MCP ](https://developers.figma.com/docs/figma-mcp-server) | AI-assisted design-to-code |
 
 ## My final recommendation
 

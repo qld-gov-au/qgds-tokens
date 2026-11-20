@@ -16,7 +16,7 @@ function isRecord(value: unknown): value is Record<string, unknown> {
  * @param value - Parsed API response to validate.
  * @returns Whether the response matches Figma's local-variables response type.
  */
-function isFigmaLocalVariablesResponse(
+export function isFigmaLocalVariablesResponse(
   value: unknown,
 ): value is GetLocalVariablesResponse {
   if (!isRecord(value) || value["status"] !== 200 || value["error"] !== false) {

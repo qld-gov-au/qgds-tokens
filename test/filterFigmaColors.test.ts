@@ -4,7 +4,10 @@ import type {
   LocalVariable,
   LocalVariableCollection,
 } from "@figma/rest-api-spec";
-import { filterFigmaColorVariables } from "../src/filterFigmaColors";
+import {
+  analyzeFigmaColorVariables,
+  filterFigmaColorVariables,
+} from "../src/filterFigmaColors";
 
 /**
  * Creates a minimal Figma variable collection fixture.
@@ -13,7 +16,11 @@ import { filterFigmaColorVariables } from "../src/filterFigmaColors";
  * @param name - Collection name.
  * @returns A local variable collection fixture.
  */
-function createCollection(id: string, name: string): LocalVariableCollection {
+function createCollection(
+  id: string,
+  name: string,
+  remote = false,
+): LocalVariableCollection {
   const modeId = `${id}-mode`;
   return {
     id,
@@ -21,7 +28,7 @@ function createCollection(id: string, name: string): LocalVariableCollection {
     key: `${id}-key`,
     modes: [{ modeId, name: "Default" }],
     defaultModeId: modeId,
-    remote: false,
+    remote,
     hiddenFromPublishing: false,
     variableIds: [],
   };
@@ -41,6 +48,7 @@ function createVariable(
   name: string,
   collectionId: string,
   resolvedType: LocalVariable["resolvedType"] = "COLOR",
+  remote = false,
 ): LocalVariable {
   return {
     id,
@@ -49,7 +57,7 @@ function createVariable(
     variableCollectionId: collectionId,
     resolvedType,
     valuesByMode: {},
-    remote: false,
+    remote,
     description: "",
     hiddenFromPublishing: false,
     scopes: [],
@@ -67,7 +75,9 @@ function createResponse(
   collections: Record<string, LocalVariableCollection> = {
     base: createCollection("base", "Base"),
     theme: createCollection("theme", "Theme"),
+    remoteTheme: createCollection("remote-theme", "Theme", true),
     palette: createCollection("palette", "Palette"),
+    remotePalette: createCollection("remote-palette", "Palette", true),
     other: createCollection("other", "Other"),
     archived: createCollection("archived", "_Archive"),
   },
@@ -84,10 +94,20 @@ function createResponse(
           "Text/Primary",
           "theme",
         ),
+        "remote-theme-color": createVariable(
+          "remote-theme-color",
+          "Text/Remote",
+          "remote-theme",
+        ),
         "palette-neutral": createVariable(
           "palette-neutral",
           "Neutral/500",
           "palette",
+        ),
+        "remote-palette-color": createVariable(
+          "remote-palette-color",
+          "Neutral/Remote",
+          "remote-palette",
         ),
         "other-color": createVariable("other-color", "Color", "other"),
         "archived-color": createVariable("archived-color", "Color", "archived"),
@@ -106,6 +126,13 @@ function createResponse(
           "Font Family",
           "base",
           "STRING",
+        ),
+        "remote-variable": createVariable(
+          "remote-variable",
+          "Brand/Remote",
+          "base",
+          "COLOR",
+          true,
         ),
       },
     },
@@ -131,7 +158,7 @@ describe("filterFigmaColorVariables", () => {
     expect(filtered.meta.variableCollections["base"]?.modes).toEqual([
       { modeId: "base-mode", name: "Default" },
     ]);
-    expect(Object.keys(response.meta.variables)).toHaveLength(8);
+    expect(Object.keys(response.meta.variables)).toHaveLength(11);
   });
 
   it("fails when a supported collection is missing", () => {
@@ -155,6 +182,67 @@ describe("filterFigmaColorVariables", () => {
 
     expect(() => filterFigmaColorVariables(response)).toThrow(
       'Expected exactly one Figma variable collection named "Base", found 2.',
+    );
+  });
+
+  it("excludes deleted variables and reports deleted and unresolved aliases", () => {
+    const response = createResponse();
+    const deleted = createVariable("deleted-color", "Brand/Deleted", "base");
+    deleted.deletedButReferenced = true;
+    response.meta.variables["deleted-color"] = deleted;
+
+    const aliased = response.meta.variables["base-blue"];
+    if (!aliased) {
+      throw new Error("Missing base color fixture.");
+    }
+    aliased.valuesByMode["base-mode"] = {
+      type: "VARIABLE_ALIAS",
+      id: "missing-target",
+    };
+
+    const analysis = analyzeFigmaColorVariables(response);
+    const filtered = filterFigmaColorVariables(response);
+
+    expect(analysis.excludedDeletedVariables).toBe(1);
+    expect(analysis.issues).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({
+          code: "deleted-but-referenced",
+          variableId: "deleted-color",
+        }),
+        expect.objectContaining({
+          code: "unresolved-alias-target",
+          variableId: "base-blue",
+          targetId: "missing-target",
+          modeName: "Default",
+        }),
+      ]),
+    );
+    expect(filtered.meta.variables["deleted-color"]).toBeUndefined();
+  });
+
+  it("counts composed color values without reporting them as issues", () => {
+    const response = createResponse();
+    const paletteColor = response.meta.variables["palette-neutral"];
+    if (!paletteColor) {
+      throw new Error("Missing palette color fixture.");
+    }
+    paletteColor.valuesByMode["palette-mode"] = {
+      color: { type: "VARIABLE_ALIAS", id: "base-blue" },
+      opacity: { type: "VARIABLE_ALIAS", id: "opacity-token" },
+    };
+
+    const analysis = analyzeFigmaColorVariables(response);
+
+    expect(analysis.composedColorValues).toBe(1);
+    expect(analysis.issues).not.toContainEqual(
+      expect.objectContaining({ code: "composed-color" }),
+    );
+    expect(analysis.issues).toContainEqual(
+      expect.objectContaining({
+        code: "unresolved-alias-target",
+        variableId: "palette-neutral",
+      }),
     );
   });
 });

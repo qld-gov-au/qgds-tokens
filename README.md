@@ -97,6 +97,27 @@ by Git. The `.env` file is also ignored; do not commit credentials or add them
 to source files. Environment variables already set in the process take
 precedence over values in `.env`.
 
+Normalize the saved response into one DTCG color document per collection mode:
+
+```bash
+npm run figma:normalize
+```
+
+Generated documents are written to `tokens/colors/`, for example
+`colors-base.tokens.json`, `colors-theme-light.tokens.json`, and
+`colors-palette-default.tokens.json`. Direct color aliases remain references.
+Composed colors retain their color reference and store Figma's opacity
+percentage in a QGDS DTCG extension for the later Style Dictionary build to
+apply after resolving the color reference. The command validates all mode
+combinations before writing output.
+
+A fetch starts a fresh structured JSON Lines log at
+`logs/figma-pipeline.jsonl`; normalization appends to it, keeping both stages
+together. The log records pipeline stages, counts, and warnings such as
+deleted-but-referenced variables and unresolved aliases. Composed color values
+are counted as informational data, not warnings. The log does not record access
+tokens or token values, and the `logs/` directory is ignored by Git.
+
 <a id="continuous-integration"></a>
 
 ### ⚙️ Continuous integration
