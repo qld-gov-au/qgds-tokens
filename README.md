@@ -104,8 +104,8 @@ npm run figma:normalize
 ```
 
 Generated documents are written to `tokens/colors/`, for example
-`colors-base.tokens.json`, `colors-theme-light.tokens.json`, and
-`colors-palette-default.tokens.json`. Direct color aliases remain references.
+`base.tokens.json`, `theme-light.tokens.json`, and `palette-default.tokens.json`.
+Direct color aliases remain references.
 Composed colors retain their color reference and store Figma's opacity
 percentage in a QGDS DTCG extension for the later Style Dictionary build to
 apply after resolving the color reference. The command validates all mode

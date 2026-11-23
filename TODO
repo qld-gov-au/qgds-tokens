@@ -4,6 +4,7 @@ Done — Filter color collections: select Base, Theme, and Palette; exclude unde
 Done — Normalize colors to DTCG: generated one DTCG token file per collection mode. Preserve direct aliases and composed-color references with Figma opacity metadata for Style Dictionary. Detect and report alias cycles, unresolved targets, and invalid component types instead of emitting invalid tokens.
 Validate tokens: check aliases, cycles, modes, values, and naming collisions.
 Build CSS, SCSS, JavaScript, and JSON outputs with Style Dictionary.
+Support Theme extended collection as custom theme.
 Prepare the qgds-tokens npm package and verify its packed contents.
 Add GitHub Actions CI for tests, validation, and builds.
 Add gated npm publishing after deciding on the release trigger.

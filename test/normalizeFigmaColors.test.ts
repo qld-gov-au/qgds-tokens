@@ -171,11 +171,11 @@ describe("normalizeFigmaColors", () => {
     );
 
     expect(files).toHaveLength(5);
-    expect(base?.fileName).toBe("colors-base.tokens.json");
-    expect(themeLight?.fileName).toBe("colors-theme-light.tokens.json");
-    expect(themeDark?.fileName).toBe("colors-theme-dark.tokens.json");
-    expect(paletteDefault?.fileName).toBe("colors-palette-default.tokens.json");
-    expect(paletteSoft?.fileName).toBe("colors-palette-soft.tokens.json");
+    expect(base?.fileName).toBe("base.tokens.json");
+    expect(themeLight?.fileName).toBe("theme-light.tokens.json");
+    expect(themeDark?.fileName).toBe("theme-dark.tokens.json");
+    expect(paletteDefault?.fileName).toBe("palette-default.tokens.json");
+    expect(paletteSoft?.fileName).toBe("palette-soft.tokens.json");
     expect(themeLight?.tokens["color-brand"]?.$value).toBe("{color-blue}");
     expect(themeDark?.tokens["color-brand"]?.$value).toBe("{color-green}");
     expect(paletteDefault?.tokens["color-overlay"]?.$value).toBe(

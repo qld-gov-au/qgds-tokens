@@ -647,7 +647,7 @@ export function normalizeFigmaColors(
             entry.name === "Base" && entry.collection.modes.length === 1
               ? ""
               : `-${toModeSlug(mode.name)}`;
-          const fileName = `colors-${collectionSlug}${modeSuffix}.tokens.json`;
+          const fileName = `${collectionSlug}${modeSuffix}.tokens.json`;
           const existingFile = outputFiles.get(fileName);
           if (
             existingFile &&
