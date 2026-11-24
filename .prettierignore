@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.build/
+figma-exports/
+test-old/
+Token Pipeline Splatterboard with Figma Variables and Style Dictionary.md

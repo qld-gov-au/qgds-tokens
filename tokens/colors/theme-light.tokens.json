@@ -1,0 +1,294 @@
+{
+  "color-brand-accent-01": {
+    "$type": "color",
+    "$value": "{color-chroma-blue-100}"
+  },
+  "color-brand-accent-02": {
+    "$type": "color",
+    "$value": "{color-chroma-blue-150}"
+  },
+  "color-brand-accent-03": {
+    "$type": "color",
+    "$value": "{color-chroma-blue-200}"
+  },
+  "color-brand-accent-04": {
+    "$type": "color",
+    "$value": "{color-chroma-blue-400}"
+  },
+  "color-brand-accent-05": {
+    "$type": "color",
+    "$value": "{color-chroma-blue-600}"
+  },
+  "color-brand-contrast-01": {
+    "$type": "color",
+    "$value": "{color-chroma-blue-025}"
+  },
+  "color-brand-contrast-02": {
+    "$type": "color",
+    "$value": "{color-chroma-blue-300}"
+  },
+  "color-brand-contrast-03": {
+    "$type": "color",
+    "$value": "{color-chroma-blue-700}"
+  },
+  "color-brand-darkest": {
+    "$type": "color",
+    "$value": "{color-grey-950}"
+  },
+  "color-brand-lightest": {
+    "$type": "color",
+    "$value": "{color-white}"
+  },
+  "color-brand-neutral-01": {
+    "$type": "color",
+    "$value": "{color-white}"
+  },
+  "color-brand-neutral-02": {
+    "$type": "color",
+    "$value": "{color-grey-cool-050}"
+  },
+  "color-brand-neutral-03": {
+    "$type": "color",
+    "$value": "{color-grey-cool-100}"
+  },
+  "color-brand-neutral-04": {
+    "$type": "color",
+    "$value": "{color-grey-cool-150}"
+  },
+  "color-brand-neutral-05": {
+    "$type": "color",
+    "$value": "{color-grey-cool-300}"
+  },
+  "color-brand-neutral-06": {
+    "$type": "color",
+    "$value": "{color-grey-cool-500}"
+  },
+  "color-brand-neutral-07": {
+    "$type": "color",
+    "$value": "{color-grey-cool-600}"
+  },
+  "color-brand-neutral-08": {
+    "$type": "color",
+    "$value": "{color-grey-cool-800}"
+  },
+  "color-brand-neutral-09": {
+    "$type": "color",
+    "$value": "{color-grey-cool-900}"
+  },
+  "color-brand-primary-01": {
+    "$type": "color",
+    "$value": "{color-chroma-blue-200}"
+  },
+  "color-brand-primary-02": {
+    "$type": "color",
+    "$value": "{color-chroma-blue-300}"
+  },
+  "color-brand-primary-03": {
+    "$type": "color",
+    "$value": "{color-chroma-blue-400}"
+  },
+  "color-brand-primary-04": {
+    "$type": "color",
+    "$value": "{color-chroma-blue-500}"
+  },
+  "color-brand-primary-05": {
+    "$type": "color",
+    "$value": "{color-chroma-blue-600}"
+  },
+  "color-brand-primary-06": {
+    "$type": "color",
+    "$value": "{color-chroma-blue-700}"
+  },
+  "color-brand-primary-07": {
+    "$type": "color",
+    "$value": "{color-chroma-blue-800}"
+  },
+  "color-brand-secondary-01": {
+    "$type": "color",
+    "$value": "{color-blue-050}"
+  },
+  "color-brand-secondary-02": {
+    "$type": "color",
+    "$value": "{color-blue-100}"
+  },
+  "color-brand-secondary-03": {
+    "$type": "color",
+    "$value": "{color-blue-150}"
+  },
+  "color-brand-secondary-04": {
+    "$type": "color",
+    "$value": "{color-blue-500}"
+  },
+  "color-brand-secondary-05": {
+    "$type": "color",
+    "$value": "{color-blue-600}"
+  },
+  "color-brand-secondary-06": {
+    "$type": "color",
+    "$value": "{color-blue-700}"
+  },
+  "color-brand-secondary-07": {
+    "$type": "color",
+    "$value": "{color-blue-900}"
+  },
+  "color-brand-tertiary-01": {
+    "$type": "color",
+    "$value": "{color-chroma-blue-100}"
+  },
+  "color-brand-tertiary-02": {
+    "$type": "color",
+    "$value": "{color-chroma-blue-150}"
+  },
+  "color-brand-tertiary-03": {
+    "$type": "color",
+    "$value": "{color-chroma-blue-400}"
+  },
+  "color-brand-tertiary-04": {
+    "$type": "color",
+    "$value": "{color-chroma-blue-600}"
+  },
+  "color-brand-tertiary-05": {
+    "$type": "color",
+    "$value": "{color-chroma-blue-700}"
+  },
+  "color-system-critical-01": {
+    "$type": "color",
+    "$value": "{color-red-025}"
+  },
+  "color-system-critical-02": {
+    "$type": "color",
+    "$value": "{color-red-050}"
+  },
+  "color-system-critical-03": {
+    "$type": "color",
+    "$value": "{color-red-300}"
+  },
+  "color-system-critical-04": {
+    "$type": "color",
+    "$value": "{color-red-500}"
+  },
+  "color-system-critical-05": {
+    "$type": "color",
+    "$value": "{color-red-600}"
+  },
+  "color-system-critical-06": {
+    "$type": "color",
+    "$value": "{color-red-700}"
+  },
+  "color-system-critical-07": {
+    "$type": "color",
+    "$value": "{color-red-800}"
+  },
+  "color-system-discovery-01": {
+    "$type": "color",
+    "$value": "{color-purple-050}"
+  },
+  "color-system-discovery-02": {
+    "$type": "color",
+    "$value": "{color-purple-150}"
+  },
+  "color-system-discovery-03": {
+    "$type": "color",
+    "$value": "{color-purple-250}"
+  },
+  "color-system-discovery-04": {
+    "$type": "color",
+    "$value": "{color-purple-500}"
+  },
+  "color-system-discovery-05": {
+    "$type": "color",
+    "$value": "{color-purple-700}"
+  },
+  "color-system-discovery-06": {
+    "$type": "color",
+    "$value": "{color-purple-800}"
+  },
+  "color-system-discovery-07": {
+    "$type": "color",
+    "$value": "{color-purple-900}"
+  },
+  "color-system-info-01": {
+    "$type": "color",
+    "$value": "{color-cyan-025}"
+  },
+  "color-system-info-02": {
+    "$type": "color",
+    "$value": "{color-cyan-100}"
+  },
+  "color-system-info-03": {
+    "$type": "color",
+    "$value": "{color-cyan-400}"
+  },
+  "color-system-info-04": {
+    "$type": "color",
+    "$value": "{color-cyan-500}"
+  },
+  "color-system-info-05": {
+    "$type": "color",
+    "$value": "{color-cyan-600}"
+  },
+  "color-system-info-06": {
+    "$type": "color",
+    "$value": "{color-cyan-700}"
+  },
+  "color-system-info-07": {
+    "$type": "color",
+    "$value": "{color-cyan-800}"
+  },
+  "color-system-success-01": {
+    "$type": "color",
+    "$value": "{color-green-025}"
+  },
+  "color-system-success-02": {
+    "$type": "color",
+    "$value": "{color-green-100}"
+  },
+  "color-system-success-03": {
+    "$type": "color",
+    "$value": "{color-green-500}"
+  },
+  "color-system-success-04": {
+    "$type": "color",
+    "$value": "{color-green-600}"
+  },
+  "color-system-success-05": {
+    "$type": "color",
+    "$value": "{color-green-700}"
+  },
+  "color-system-success-06": {
+    "$type": "color",
+    "$value": "{color-green-800}"
+  },
+  "color-system-success-07": {
+    "$type": "color",
+    "$value": "{color-green-900}"
+  },
+  "color-system-warning-01": {
+    "$type": "color",
+    "$value": "{color-yellow-050}"
+  },
+  "color-system-warning-02": {
+    "$type": "color",
+    "$value": "{color-yellow-150}"
+  },
+  "color-system-warning-03": {
+    "$type": "color",
+    "$value": "{color-yellow-400}"
+  },
+  "color-system-warning-04": {
+    "$type": "color",
+    "$value": "{color-yellow-500}"
+  },
+  "color-system-warning-05": {
+    "$type": "color",
+    "$value": "{color-yellow-700}"
+  },
+  "color-system-warning-06": {
+    "$type": "color",
+    "$value": "{color-yellow-750}"
+  },
+  "color-system-warning-07": {
+    "$type": "color",
+    "$value": "{color-yellow-850}"
+  }
+}

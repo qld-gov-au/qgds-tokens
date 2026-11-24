@@ -6,3 +6,6 @@
 *.tokens.json.original
 IGNOREME.md
 dist/
+.env
+/figma-exports/figma-variables.local.json
+/logs/

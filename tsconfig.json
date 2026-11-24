@@ -1,19 +1,16 @@
 {
-  "files": ["src/main.ts"],
-  "include": [
-    "src/**/**/*.tokens.css",
-    "src/**/**/*.tokens.scss",
-    "src/**/**/*.tokens.js",
-    "src/**/**/*.tokens.xml",
-    "src/global.d.ts"
-  ],
+  "include": ["src/**/*.ts", "scripts/**/*.ts", "test/**/*.ts"],
   "compilerOptions": {
+    "rootDir": "./",
     "target": "esnext",
     "module": "NodeNext",
     "declaration": true,
     "outDir": "./dist",
-    "noEmit": false,
+    "types": ["node"],
     "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noEmit": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
     "strictFunctionTypes": true,
@@ -29,9 +26,7 @@
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true,
-    "moduleResolution": "nodenext",
-    "esModuleInterop": true,
+    "moduleResolution": "NodeNext",
     "resolveJsonModule": true,
     "plugins": []
   }
